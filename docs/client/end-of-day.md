@@ -10,10 +10,9 @@ import TabItem from '@theme/TabItem';
 Day-end is irreversible and must be run by manager role.
 :::
 
-## Who this is for
-
-- Shift manager closing business day
-- Store owner supervising end-of-day controls
+:::info Who this is for
+Shift manager closing business day and store owner supervising end-of-day controls.
+:::
 
 ## Before you start
 

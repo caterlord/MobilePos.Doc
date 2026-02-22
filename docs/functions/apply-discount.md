@@ -6,9 +6,9 @@ title: Apply Discount
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-## Who this is for
-
-- Cashiers who need to adjust an order total before checkout.
+:::info Who this is for
+Cashiers who need to adjust an order total before checkout.
+:::
 
 ## Before you start
 

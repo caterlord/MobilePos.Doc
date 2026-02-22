@@ -2,9 +2,9 @@
 title: To Dine-In or To Takeaway
 ---
 
-## Who this is for
-
+:::info Who this is for
 Cashiers and shift managers who need to switch an order type between dine-in and takeaway.
+:::
 
 ## Before you start
 

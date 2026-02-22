@@ -104,6 +104,13 @@ Use `Tabs` only when there are truly different valid paths, such as:
 
 Do not use tabs for decorative formatting.
 
+For troubleshooting pages with many possible issues:
+
+- Do not use tabs as the primary issue container.
+- Use a top `Quick Symptom Index` table.
+- Use expandable `<details>` sections per issue (`symptom -> steps -> escalation`).
+- Keep each issue independently scannable and linkable by heading anchor.
+
 ## 7) UI Label and Fact Accuracy
 
 - Verify labels from source code and/or screenshots.

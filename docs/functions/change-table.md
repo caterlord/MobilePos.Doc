@@ -2,9 +2,9 @@
 title: Change Table
 ---
 
-## Who this is for
-
+:::info Who this is for
 Cashiers and shift managers who need to move an open order to another table.
+:::
 
 ## Before you start
 

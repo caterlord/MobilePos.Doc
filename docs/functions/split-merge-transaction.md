@@ -2,9 +2,9 @@
 title: Split or Merge Transaction
 ---
 
-## Who this is for
-
+:::info Who this is for
 Cashiers and shift managers who need to move items between transactions before payment.
+:::
 
 ## Before you start
 
