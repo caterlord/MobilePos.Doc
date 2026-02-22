@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "最新",
+    "description": "The label for version current"
+  },
+  "sidebar.manualSidebar.category.Getting Started": {
+    "message": "快速开始",
+    "description": "The label for category 'Getting Started' in sidebar 'manualSidebar'"
+  },
+  "sidebar.manualSidebar.category.Client (POS App)": {
+    "message": "Client（POS 应用）",
+    "description": "The label for category 'Client (POS App)' in sidebar 'manualSidebar'"
+  },
+  "sidebar.manualSidebar.category.HQ (Back Office, WIP)": {
+    "message": "HQ（后台，建设中）",
+    "description": "The label for category 'HQ (Back Office, WIP)' in sidebar 'manualSidebar'"
+  },
+  "sidebar.manualSidebar.category.Reference": {
+    "message": "参考",
+    "description": "The label for category 'Reference' in sidebar 'manualSidebar'"
+  }
+}

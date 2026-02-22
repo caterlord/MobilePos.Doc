@@ -1,0 +1,144 @@
+import {themes as prismThemes} from 'prism-react-renderer';
+import type {Config} from '@docusaurus/types';
+import type * as Preset from '@docusaurus/preset-classic';
+
+const config: Config = {
+  title: 'POS X1 User Manual',
+  tagline: 'POS client operations manual (HQ docs in progress)',
+  favicon: 'img/favicon.ico',
+
+  future: {
+    v4: true,
+  },
+
+  url: 'https://caterlord.github.io',
+  baseUrl: '/MobilePos.Doc/',
+
+  organizationName: 'caterlord',
+  projectName: 'MobilePos.Doc',
+
+  onBrokenLinks: 'throw',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh-HK', 'zh-CN'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        htmlLang: 'en-US',
+      },
+      'zh-HK': {
+        label: '繁體中文 (香港)',
+        htmlLang: 'zh-HK',
+      },
+      'zh-CN': {
+        label: '简体中文',
+        htmlLang: 'zh-CN',
+      },
+    },
+  },
+
+  presets: [
+    [
+      'classic',
+      {
+        docs: {
+          sidebarPath: './sidebars.ts',
+          editUrl: 'https://github.com/caterlord/MobilePos.Doc/tree/main/',
+        },
+        blog: false,
+        theme: {
+          customCss: './src/css/custom.css',
+        },
+      } satisfies Preset.Options,
+    ],
+  ],
+
+  themeConfig: {
+    image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      respectPrefersColorScheme: true,
+    },
+    navbar: {
+      title: 'POS X1 Manual',
+      logo: {
+        alt: 'POS X1 Logo',
+        src: 'img/logo.svg',
+      },
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'manualSidebar',
+          position: 'left',
+          label: 'User Manual',
+        },
+        {
+          href: 'https://github.com/caterlord/MobilePos',
+          label: 'Client Repo',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/caterlord/MobilePos.HQ',
+          label: 'HQ Repo',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/caterlord/MobilePos.Doc',
+          label: 'Docs Repo',
+          position: 'right',
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Manual',
+          items: [
+            {
+              label: 'Introduction',
+              to: '/docs/intro',
+            },
+            {
+              label: 'Client Operations',
+              to: '/docs/client/overview',
+            },
+            {
+              label: 'HQ (In Progress)',
+              to: '/docs/hq/overview',
+            },
+          ],
+        },
+        {
+          title: 'Source Repositories',
+          items: [
+            {
+              label: 'Client (MobilePos)',
+              href: 'https://github.com/caterlord/MobilePos',
+            },
+            {
+              label: 'HQ (MobilePos.HQ)',
+              href: 'https://github.com/caterlord/MobilePos.HQ',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright \u00A9 ${new Date().getFullYear()} POS X1. Built with Docusaurus.`,
+    },
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
+    },
+  } satisfies Preset.ThemeConfig,
+};
+
+export default config;

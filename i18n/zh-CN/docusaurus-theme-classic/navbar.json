@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "POS X1 用户手册",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "POS X1 标志",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.User Manual": {
+    "message": "用户手册",
+    "description": "Navbar item with label User Manual"
+  },
+  "item.label.Client Repo": {
+    "message": "Client 代码库",
+    "description": "Navbar item with label Client Repo"
+  },
+  "item.label.HQ Repo": {
+    "message": "HQ 代码库",
+    "description": "Navbar item with label HQ Repo"
+  },
+  "item.label.Docs Repo": {
+    "message": "文档代码库",
+    "description": "Navbar item with label Docs Repo"
+  }
+}
