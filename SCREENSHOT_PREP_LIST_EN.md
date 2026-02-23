@@ -46,3 +46,15 @@ Use these subfolders:
 | `client/cl-31-inventory-limited-item-tab.png` | `docs/client/inventory.md` | `Inventory` `Limited Item` tab with quota/remain |
 | `client/cl-32-reports-selector-and-print.png` | `docs/client/reports.md` | `Reports` screen with report selector, date picker, and `Print` |
 | `client/cl-33-info-page-version-debug-offline-export.png` | `docs/client/info.md` | `Info` screen showing app version, debug mode, offline status, and `Export Logs` |
+| `client/cl-34-devices-payments-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-payment-devices.md` | `Devices` `Payments` tab list with status + info/edit actions |
+| `client/cl-35-devices-input-devices-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-input-devices.md` | `Devices` `Input Devices` tab list with status + info/edit actions |
+| `client/cl-36-devices-x1-products-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-x1-products.md` | `Devices` `X1 Products` tab list with status + info/edit actions |
+| `functions/fn-printer-remove-confirm-dialog.png` | `docs/functions/manage-printers.md` | Remove printer confirmation dialog (`Are you sure you want to remove printer...`) |
+| `functions/fn-printer-spooler-manager-dialog.png` | `docs/functions/manage-printers.md` | Printer spooler manager main dialog with tabs/actions |
+| `functions/fn-printer-spooler-error-retry-actions.png` | `docs/functions/manage-printers.md` | Spooler `Error` tab with `Retry Selected` / `Retry All` |
+| `functions/fn-payment-octopus-v3-reader-dialog.png` | `docs/functions/configure-payment-devices.md` | Octopus V3 reader edit dialog (`API ID`, `API Token`, toggles) |
+| `functions/fn-payment-generic-device-dialog.png` | `docs/functions/configure-payment-devices.md` | Generic payment device edit dialog (`Connection`, `IP Address`, `Port`) |
+| `functions/fn-input-barcode-scanner-dialog.png` | `docs/functions/configure-input-devices.md` | Barcode/QR scanner edit dialog (`Connection`, `Scanner Preview`, `Camera`) |
+| `functions/fn-x1-customer-display-host-dialog.png` | `docs/functions/configure-x1-products.md` | `Customer Display Host` dialog (host details + pairing QR) |
+| `functions/fn-x1-pickup-display-dialog.png` | `docs/functions/configure-x1-products.md` | `Pickup Display` device dialog (controller mode + pairing) |
+| `functions/fn-x1-express-checkout-kiosk-dialog.png` | `docs/functions/configure-x1-products.md` | `Express Checkout Kiosks` pairing dialog |

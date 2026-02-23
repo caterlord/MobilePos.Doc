@@ -16,6 +16,7 @@ Store manager or setup owner preparing a terminal for first use.
 - HQ login (`Email address or UserName` and `Password`)
 - Correct brand/shop assignment in HQ
 - Active subscription for the selected product type
+- Language defaults to `English` until you choose another language
 
 ## Steps
 
@@ -29,6 +30,10 @@ Store manager or setup owner preparing a terminal for first use.
 
 :::note Step list shown in the wizard
 `Select language` -> `Login with HQ` -> `Select Brand and Shop` -> `Select Product Type` -> `Select Mode` -> `Review your Settings` -> `Downloading your settings`
+:::
+
+:::tip Language behavior in v1.6.5+
+Your selected setup language is applied immediately during the wizard, including step titles and button text.
 :::
 
 ## What you should see
@@ -69,6 +74,10 @@ Stop setup and verify subscription in HQ first.
 
 :::warning Cannot continue from `Login with HQ`
 Check HQ credentials and internet connectivity, then retry.
+:::
+
+:::note Setup language looks wrong
+Go back to `Select language`, choose the language again, and continue.
 :::
 
 :::note Download step is stuck

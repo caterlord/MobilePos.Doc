@@ -15,6 +15,11 @@ Managers and authorized staff performing operational controls.
 
 `More Tools` is the manager operations hub.
 
+:::note Scope boundary
+`More Tools` is for manager operational controls (`Day-end`, `Pay In / Pay Out`, drawer/queue tools).
+For hardware/device setup and printer troubleshooting, use `Devices`.
+:::
+
 ## Available tools
 
 - `Open Drawer`

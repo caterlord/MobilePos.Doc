@@ -22,10 +22,23 @@ const normalizeBaseUrl = (value: string): string => {
     : `${withLeadingSlash}/`;
 };
 
+const normalizeDocsRouteBasePath = (value: string): string => {
+  const trimmed = value.trim();
+  if (trimmed === '' || trimmed === '/') {
+    return '/';
+  }
+
+  return trimmed.replace(/^\/+|\/+$/g, '');
+};
+
 const siteUrl = resolveEnv('DOCS_SITE_URL', 'https://caterlord.github.io');
 const siteBaseUrl = normalizeBaseUrl(
-  resolveEnv('DOCS_BASE_URL', '/MobilePos.Doc/'),
+  resolveEnv('DOCS_BASE_URL', '/'),
 );
+const docsRouteBasePath = normalizeDocsRouteBasePath(
+  resolveEnv('DOCS_ROUTE_BASE_PATH', '/'),
+);
+const docsPathPrefix = docsRouteBasePath === '/' ? '' : `/${docsRouteBasePath}`;
 
 const config: Config = {
   title: 'POS X1 User Manual',
@@ -75,6 +88,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/caterlord/MobilePos.Doc/tree/main/',
+          routeBasePath: docsRouteBasePath,
         },
         blog: false,
         theme: {
@@ -131,15 +145,15 @@ const config: Config = {
           items: [
             {
               label: 'Introduction',
-              to: '/docs/intro',
+              to: `${docsPathPrefix}/intro`,
             },
             {
               label: 'Client Operations',
-              to: '/docs/client/overview',
+              to: `${docsPathPrefix}/client/overview`,
             },
             {
               label: 'HQ (In Progress)',
-              to: '/docs/hq/overview',
+              to: `${docsPathPrefix}/hq/overview`,
             },
           ],
         },

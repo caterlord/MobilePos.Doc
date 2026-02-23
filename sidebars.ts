@@ -72,9 +72,18 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Devices and More Tools',
+          label: 'Devices',
           items: [
-            'functions/add-printer',
+            'functions/manage-printers',
+            'functions/configure-payment-devices',
+            'functions/configure-input-devices',
+            'functions/configure-x1-products',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'More Tools',
+          items: [
             'functions/pay-in-pay-out',
             'functions/day-end',
           ],

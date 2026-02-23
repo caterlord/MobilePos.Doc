@@ -34,6 +34,11 @@ Day-end is irreversible and should be performed by manager role only.
   </TabItem>
 </Tabs>
 
+:::tip Selected-day behavior in v1.6.5+
+The report now uses the selected business date correctly.  
+If that date was already day-ended, the app blocks duplicate processing.
+:::
+
 ## What you should see
 
 ![Day-end dialog](/img/manual/en/client/cl-24-day-end-dialog.png)
@@ -45,7 +50,12 @@ Day-end is irreversible and should be performed by manager role only.
 Re-check business date and unresolved transactions before retrying.
 :::
 
+:::warning `Day-end has already been processed for the selected day`
+Choose another date or review the existing day-end report for that day.
+:::
+
 ## When to ask admin
 
 - Business date appears incorrect
 - Day-end validation remains blocked after manager check
+- Day-end result for selected date is inconsistent with expected turnover

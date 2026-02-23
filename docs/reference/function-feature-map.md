@@ -30,7 +30,7 @@ For one-function-per-page reading, use [Function Guides Overview](../functions/o
 | Checkout | Amount, split by amount, deposit, split by item, remarks, payment method selection | [Checkout and Payments](../client/checkout-and-payments), [Function: Take Payment](../functions/take-payment) |
 | Payment Recovery | Retry logic, cancellation guardrails, escalation data | [Payment Errors and Retry](../client/payment-errors-and-retry), [Troubleshooting](./troubleshooting) |
 | Completed Transaction | Void, return, reopen, modify payment, reprint receipt | [Refunds and Voids](../client/refunds-and-voids), [Function: Void vs Return](../functions/void-vs-return) |
-| Devices | Printer add/edit/delete, info/status, test print, spooler | [Screen Guide: Devices](../client/devices), [Function: Add Printer](../functions/add-printer), [Troubleshooting](./troubleshooting) |
+| Devices | Printer add/edit/delete, info/status, test print, spooler, payment/input/X1 device configuration | [Screen Guide: Devices](../client/devices), [Function: Manage Printers](../functions/manage-printers), [Function: Configure Payment Devices](../functions/configure-payment-devices), [Function: Configure Input Devices](../functions/configure-input-devices), [Function: Configure X1 Products](../functions/configure-x1-products), [Troubleshooting](./troubleshooting) |
 | Reports | Report selection, date filters, print output | [Screen Guide: Reports](../client/reports) |
 | Settings | Language, POS code, cash register code, operation toggles | [Screen Guide: Settings](../client/settings), [Troubleshooting](./troubleshooting) |
 | Info | Version, debug mode, offline reactivation, log export | [Screen Guide: Info](../client/info) |

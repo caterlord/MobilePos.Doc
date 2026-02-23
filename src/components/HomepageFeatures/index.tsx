@@ -17,21 +17,21 @@ const featureList: FeatureItem[] = [
     title: 'Client POS Operations',
     description:
       'Cashier and in-store workflows: start shift, sales, payment handling, void/refund, and end of day.',
-    to: '/docs/client/overview',
+    to: '/client/overview',
     cta: 'Open Client Docs',
   },
   {
     title: 'Multilingual Manual',
     description:
       'The manual is configured for English, zh-HK, and zh-CN with a locale switcher in the top bar.',
-    to: '/docs/intro',
+    to: '/intro',
     cta: 'View Language Setup',
   },
   {
     title: 'HQ Back Office (WIP)',
     description:
       'HQ documentation is reserved while HQ features are still evolving. Client docs are the first release focus.',
-    to: '/docs/hq/overview',
+    to: '/hq/overview',
     cta: 'Check HQ Status',
   },
 ];

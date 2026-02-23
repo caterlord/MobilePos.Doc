@@ -141,11 +141,14 @@ Escalate to manager/admin when:
 1. Re-check business date/time.
 2. Confirm no active/pending transactions remain.
 3. Retry with manager account.
+4. If you see `Day-end has already been processed for the selected day`, do not retry the same date.
+5. Select another date, or review the existing report for that date.
 
 Escalate to admin when:
 
 1. Business date appears incorrect.
 2. Day-end validation remains blocked.
+3. Selected-date turnover/report output is inconsistent after successful day-end.
 
 </details>
 

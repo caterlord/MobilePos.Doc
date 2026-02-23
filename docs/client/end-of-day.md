@@ -40,6 +40,11 @@ Shift manager closing business day and store owner supervising end-of-day contro
   </TabItem>
 </Tabs>
 
+:::tip Selected-day behavior in v1.6.5+
+`Day-end selected day` now closes and writes turnover using the date you selected.  
+If that date was already processed, POS blocks running day-end again for the same date.
+:::
+
 ## What you should see
 
 ![More Tools page](/img/manual/en/client/cl-23-manager-tools-page.png)
@@ -51,6 +56,10 @@ Shift manager closing business day and store owner supervising end-of-day contro
 
 :::warning No pending business day / validation blocked
 Re-check business date and unresolved transactions, then retry once.
+:::
+
+:::warning `Day-end has already been processed for the selected day`
+This date is already closed. Select another date, or verify the existing report instead of re-running day-end.
 :::
 
 :::note Warning prompt appears
