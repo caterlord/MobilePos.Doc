@@ -215,7 +215,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright \u00A9 ${new Date().getFullYear()} POS X1. Built with Docusaurus.`,
+      copyright: `Copyright \u00A9 ${new Date().getFullYear()} Everyware Limited.`,
     },
     prism: {
       theme: prismThemes.github,
