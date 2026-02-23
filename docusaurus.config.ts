@@ -2,6 +2,31 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+const resolveEnv = (name: string, fallback: string): string => {
+  const value = process.env[name];
+  if (!value || value.trim().length === 0) {
+    return fallback;
+  }
+
+  return value.trim();
+};
+
+const normalizeBaseUrl = (value: string): string => {
+  if (value === '/') {
+    return '/';
+  }
+
+  const withLeadingSlash = value.startsWith('/') ? value : `/${value}`;
+  return withLeadingSlash.endsWith('/')
+    ? withLeadingSlash
+    : `${withLeadingSlash}/`;
+};
+
+const siteUrl = resolveEnv('DOCS_SITE_URL', 'https://caterlord.github.io');
+const siteBaseUrl = normalizeBaseUrl(
+  resolveEnv('DOCS_BASE_URL', '/MobilePos.Doc/'),
+);
+
 const config: Config = {
   title: 'POS X1 User Manual',
   tagline: 'POS client operations manual (HQ docs in progress)',
@@ -11,8 +36,8 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://caterlord.github.io',
-  baseUrl: '/MobilePos.Doc/',
+  url: siteUrl,
+  baseUrl: siteBaseUrl,
 
   organizationName: 'caterlord',
   projectName: 'MobilePos.Doc',
