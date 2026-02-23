@@ -2,9 +2,18 @@ name: Docs CI
 
 on:
   pull_request:
-  push:
-    branches:
-      - main
+    paths:
+      - "docs/**"
+      - "src/**"
+      - "static/**"
+      - "i18n/**"
+      - "blog/**"
+      - "docusaurus.config.ts"
+      - "sidebars.ts"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/docs-ci.yml"
+      - ".github/workflows/azure-static-web-apps-pos-x1-docs.yml"
 
 jobs:
   build:
