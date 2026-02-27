@@ -33,7 +33,7 @@ For one-function-per-page reading, use [Function Guides Overview](../functions/o
 | Devices | Printer add/edit/delete, info/status, test print, spooler, payment/input/X1 device configuration | [Screen Guide: Devices](../client/devices), [Function: Manage Printers](../functions/manage-printers), [Function: Configure Payment Devices](../functions/configure-payment-devices), [Function: Configure Input Devices](../functions/configure-input-devices), [Function: Configure X1 Products](../functions/configure-x1-products), [Troubleshooting](./troubleshooting) |
 | Reports | Report selection, date filters, print output | [Screen Guide: Reports](../client/reports) |
 | Settings | Language, POS code, cash register code, operation toggles | [Screen Guide: Settings](../client/settings), [Troubleshooting](./troubleshooting) |
-| Info | Version, debug mode, offline reactivation, log export | [Screen Guide: Info](../client/info) |
+| Info | Version, debug mode, offline reactivation, log export/upload/remove | [Screen Guide: Info](../client/info) |
 | More Tools | Open drawer, day-end, pay in/out, queue controller | [Screen Guide: More Tools](../client/more-tools), [Function: Day-end](../functions/day-end), [Function: Pay In / Pay Out](../functions/pay-in-pay-out) |
 
 ## Function Scope by Role

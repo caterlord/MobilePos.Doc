@@ -46,6 +46,9 @@ Use these subfolders:
 | `client/cl-31-inventory-limited-item-tab.png` | `docs/client/inventory.md` | `Inventory` `Limited Item` tab with quota/remain |
 | `client/cl-32-reports-selector-and-print.png` | `docs/client/reports.md` | `Reports` screen with report selector, date picker, and `Print` |
 | `client/cl-33-info-page-version-debug-offline-export.png` | `docs/client/info.md` | `Info` screen showing app version, debug mode, offline status, and `Export Logs` |
+| `client/cl-37-ordering-table-view-toggle-floorplan-tablelist.png` | `docs/client/sales-flow.md` | Table screen showing the new round view toggle button for `Floor Plan` / `Table List` (v1.6.6+) |
+| `client/cl-38-info-log-file-selection-export-upload-remove.png` | `docs/client/info.md` | `Select Log Files` dialog showing selected files and all actions: `Export`, `Upload`, `Remove` |
+| `client/cl-39-info-log-upload-success-message.png` | `docs/client/info.md` | Success message after uploading logs (`Logs uploaded to ...`) |
 | `client/cl-34-devices-payments-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-payment-devices.md` | `Devices` `Payments` tab list with status + info/edit actions |
 | `client/cl-35-devices-input-devices-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-input-devices.md` | `Devices` `Input Devices` tab list with status + info/edit actions |
 | `client/cl-36-devices-x1-products-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-x1-products.md` | `Devices` `X1 Products` tab list with status + info/edit actions |

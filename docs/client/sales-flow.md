@@ -42,6 +42,19 @@ Cashiers taking orders before payment.
 - Quantity and line totals update after each item selection
 - `Send` and `Checkout` actions are available
 
+## Table screen view toggle (v1.6.6+)
+
+When `Floor Plan Mode` is enabled in `Settings`, Dine-In table screen now has a round toggle button at the lower-right area:
+
+- Grid icon: switch to `Table List`
+- Map icon: switch to `Floor Plan`
+
+This lets staff switch layout quickly without leaving the ordering flow.
+
+:::note Screenshot pending
+Needed file: `client/cl-37-ordering-table-view-toggle-floorplan-tablelist.png`
+:::
+
 ## Function menu (when needed)
 
 Tap the three-dot function button to open:

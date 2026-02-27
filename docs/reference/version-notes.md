@@ -5,6 +5,18 @@ title: Version Notes
 
 This page tracks manual changes by release/update batch.
 
+## 2026-02-27 (v1.6.6 Alignment)
+
+### Updated
+
+- `Sales Flow`: added `Floor Plan`/`Table List` toggle behavior on table screen (`v1.6.6+`).
+- `Info`: updated log workflow to match current app actions: `Export`, `Upload`, and `Remove` selected log files.
+- `Info`: clarified support path expectations for local export vs cloud upload.
+
+### Screenshot updates
+
+- Added new pending captures for table view toggle and updated log picker/upload UI states.
+
 ## 2026-02-22 (v1.6.5 Alignment)
 
 ### Updated
