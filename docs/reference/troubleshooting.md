@@ -29,6 +29,8 @@ For payment and financial actions, do not retry repeatedly when result is unclea
 Keep transaction number, terminal POS code, timestamp, and the exact on-screen message.
 :::
 
+For log handling and retention expectations, see [Data Retention and Storage](./data-retention-and-storage).
+
 ## Issues by Symptom
 
 ### Login fails

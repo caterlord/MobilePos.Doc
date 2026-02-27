@@ -5,6 +5,16 @@ title: Version Notes
 
 This page tracks manual changes by release/update batch.
 
+## 2026-02-27 (Data Retention Guide Added)
+
+### Added
+
+- New reference page: `Data Retention and Storage` with end-user guidance on local logs, media cache, local database persistence, and support uploads.
+
+### Updated
+
+- `Info`, `Troubleshooting`, and `Function and Feature Map` now link to the retention guide for faster policy lookup.
+
 ## 2026-02-27 (v1.6.6 Alignment)
 
 ### Updated

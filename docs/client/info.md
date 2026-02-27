@@ -18,6 +18,8 @@ Managers/admin staff checking app health and support data.
 
 Use `Info` for app diagnostics and support actions.
 
+Policy reference: [Data Retention and Storage](../reference/data-retention-and-storage)
+
 ## What you can do
 
 - Check app version and update status
