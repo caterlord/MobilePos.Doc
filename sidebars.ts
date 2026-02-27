@@ -100,8 +100,9 @@ const sidebars: SidebarsConfig = {
       label: 'Reference',
       items: [
         'reference/function-feature-map',
-        'reference/terminology',
         'reference/troubleshooting',
+        'reference/data-retention-and-storage',
+        'reference/terminology',
         'reference/version-notes',
       ],
     },
