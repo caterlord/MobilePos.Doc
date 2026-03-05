@@ -31,6 +31,13 @@ Build and maintain the online user manual for **POS X1** using Docusaurus.
 - Add explicit prerequisites at the top of operational pages.
 - Use real UI labels from product code (avoid paraphrased button names).
 - Prefer screenshots/GIFs under `static/img/` with stable names.
+- During release updates, treat the latest released app behavior as baseline documentation behavior.
+
+### Version-Note Lifecycle Rule (Must Follow)
+- Temporary version callouts in operational pages (for example `v1.6.6+`) are allowed only for newly introduced behavior.
+- On later releases, if that behavior is now normal baseline, remove the version-specific label and merge the content into standard instructions.
+- Keep release history in `docs/reference/version-notes.md`, not in long-lived operational callouts.
+- Only keep version-scoped notes inside operational pages when multiple active app versions are intentionally supported at the same time.
 
 ## User-First Writing Standard (Must Follow)
 

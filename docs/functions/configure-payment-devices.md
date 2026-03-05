@@ -34,6 +34,20 @@ Manager or authorized staff configuring payment terminals in `Devices` -> `Payme
 ## Common edit dialogs
 
 <Tabs>
+  <TabItem value="linkly-eftpos" label="Linkly EFTPOS Terminal">
+Typical fields and actions:
+
+- `Environment` (`Production` / `Sandbox`)
+- `Username`
+- `Password`
+- `Pair Code`
+- `Pair` / `Unpair`
+- `POS Name`, `POS Version`, `POS ID`, `POS Vendor ID`
+
+After successful pairing, save the settings and confirm the device remains available in the `Payments` tab.
+
+> Screenshot pending: `functions/fn-payment-linkly-terminal-dialog.png`
+  </TabItem>
   <TabItem value="octopus-v3" label="Octopus V3 Reader">
 Typical fields include `IP Address`, `Port`, `API ID`, `API Token`, and Octopus toggles.
 

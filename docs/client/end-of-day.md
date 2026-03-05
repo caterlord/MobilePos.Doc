@@ -40,7 +40,7 @@ Shift manager closing business day and store owner supervising end-of-day contro
   </TabItem>
 </Tabs>
 
-:::tip Selected-day behavior in v1.6.5+
+:::tip Selected-day behavior
 `Day-end selected day` now closes and writes turnover using the date you selected.  
 If that date was already processed, POS blocks running day-end again for the same date.
 :::

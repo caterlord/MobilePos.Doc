@@ -45,6 +45,10 @@ Cashiers collecting payment, plus managers handling special payment cases.
   </TabItem>
 </Tabs>
 
+:::tip Split By Item with unsent items
+You can start `Split By Item` checkout even when some order lines are not yet sent.
+:::
+
 ## What you should see
 
 ![Checkout Amount tab](/img/manual/en/client/cl-12-checkout-amount-tab.png)

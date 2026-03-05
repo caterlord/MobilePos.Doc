@@ -32,7 +32,7 @@ Store manager or setup owner preparing a terminal for first use.
 `Select language` -> `Login with HQ` -> `Select Brand and Shop` -> `Select Product Type` -> `Select Mode` -> `Review your Settings` -> `Downloading your settings`
 :::
 
-:::tip Language behavior in v1.6.5+
+:::tip Language behavior during setup
 Your selected setup language is applied immediately during the wizard, including step titles and button text.
 :::
 

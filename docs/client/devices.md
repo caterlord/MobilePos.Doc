@@ -41,7 +41,7 @@ Use this tab for printer lifecycle and queue actions:
   <TabItem value="payments" label="Payments">
 Use this tab for payment terminal status/configuration:
 
-`Info`, edit payment device settings, and unavailable marker (`!`) when a device is not available.
+`Info`, edit payment device settings (including Linkly EFTPOS terminal pairing/setup), and unavailable marker (`!`) when a device is not available.
   </TabItem>
   <TabItem value="input" label="Input Devices">
 Use this tab for scanner/input settings:

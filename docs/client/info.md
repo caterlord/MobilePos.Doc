@@ -26,11 +26,11 @@ Policy reference: [Data Retention and Storage](../reference/data-retention-and-s
 - Toggle debug mode (`Enabled` / `Disabled`)
 - Check offline mode status and tap `Reactivate now` when available
 - Open log file picker for support data
-- `Export` selected logs to local folder/downloads
+- `Export` selected logs to local folder/downloads (including Octopus logs when available)
 - `Upload` selected logs to cloud support path
 - `Remove` selected logs from the device
 
-## Export or upload logs (v1.6.6+)
+## Export or upload logs
 
 <Tabs>
   <TabItem value="export" label="Export logs (local file)">

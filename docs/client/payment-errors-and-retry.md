@@ -15,6 +15,7 @@ Resolve payment failures safely and avoid duplicate charges.
 - If an Octopus-linked discount exists, payment must use Octopus.
 - Checkout locks while payment is processing.
 - Some third-party payments become locked after successful authorization.
+- For EFTPOS terminal payments (for example Linkly), follow terminal prompts and wait for POS result before retrying.
 
 ## Retry Workflow
 

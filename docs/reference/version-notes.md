@@ -5,6 +5,20 @@ title: Version Notes
 
 This page tracks manual changes by release/update batch.
 
+## 2026-03-05 (v1.7.0 Alignment)
+
+### Updated
+
+- `Configure Payment Devices`: added `Linkly EFTPOS Terminal` setup flow (pairing and save checklist).
+- `Devices`: clarified `Payments` tab includes Linkly EFTPOS terminal setup.
+- `Checkout and Payments`: clarified `Split By Item` can proceed even with unsent lines.
+- `Payment Errors and Retry`: added EFTPOS terminal handling note (wait for terminal/POS result before retrying).
+- `Info`: clarified log export includes Octopus logs when available.
+
+### Writing cleanup
+
+- Removed older release-specific version labels from operational tips/headings (for example `v1.6.5+`, `v1.6.6+`) and merged behavior into normal baseline instructions.
+
 ## 2026-02-27 (Data Retention Guide Added)
 
 ### Added
@@ -19,7 +33,7 @@ This page tracks manual changes by release/update batch.
 
 ### Updated
 
-- `Sales Flow`: added `Floor Plan`/`Table List` toggle behavior on table screen (`v1.6.6+`).
+- `Sales Flow`: added `Floor Plan`/`Table List` toggle behavior on table screen.
 - `Info`: updated log workflow to match current app actions: `Export`, `Upload`, and `Remove` selected log files.
 - `Info`: clarified support path expectations for local export vs cloud upload.
 

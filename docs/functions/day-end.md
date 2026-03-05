@@ -34,7 +34,7 @@ Day-end is irreversible and should be performed by manager role only.
   </TabItem>
 </Tabs>
 
-:::tip Selected-day behavior in v1.6.5+
+:::tip Selected-day behavior
 The report now uses the selected business date correctly.  
 If that date was already day-ended, the app blocks duplicate processing.
 :::

@@ -42,7 +42,7 @@ Cashiers taking orders before payment.
 - Quantity and line totals update after each item selection
 - `Send` and `Checkout` actions are available
 
-## Table screen view toggle (v1.6.6+)
+## Table screen view toggle
 
 When `Floor Plan Mode` is enabled in `Settings`, Dine-In table screen now has a round toggle button at the lower-right area:
 
