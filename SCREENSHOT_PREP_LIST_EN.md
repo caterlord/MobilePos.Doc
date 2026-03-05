@@ -19,6 +19,7 @@ Use these subfolders:
 | Filename (relative to `static/img/manual/en/`) | Document placement | What to capture |
 |---|---|---|
 | `getting-started/gs-step5-select-mode.png` | `docs/getting-started/first-time-initialization.md` | Setup wizard Step 5: `Select Mode` with selected mode and `Next` |
+| `getting-started/gs-10-login-quick-language-switch.png` | `docs/getting-started/access-and-navigation.md`, `docs/functions/sign-in.md` | Login screen with quick language switch button (`EN` / `繁` / `简`) visible |
 | `client/cl-04-devices-pos-code-required.png` | `docs/client/start-shift.md`, `docs/reference/troubleshooting.md` | Actual `POS Code is required` warning/state |
 | `client/cl-13-checkout-payment-methods-more.png` | `docs/client/checkout-and-payments.md` | Checkout payment methods list including `More` |
 | `client/cl-17-payment-failed-dialog.png` | `docs/client/payment-errors-and-retry.md` | Real payment failed prompt/message |
@@ -49,6 +50,8 @@ Use these subfolders:
 | `client/cl-37-ordering-table-view-toggle-floorplan-tablelist.png` | `docs/client/sales-flow.md` | Table screen showing the round view toggle button for `Floor Plan` / `Table List` |
 | `client/cl-38-info-log-file-selection-export-upload-remove.png` | `docs/client/info.md` | `Select Log Files` dialog showing selected files and all actions: `Export`, `Upload`, `Remove` |
 | `client/cl-39-info-log-upload-success-message.png` | `docs/client/info.md` | Success message after uploading logs (`Logs uploaded to ...`) |
+| `client/cl-40-settings-language-configuration-grid.png` | `docs/client/settings.md` | `Settings` -> `General` language configuration grid with `Item Mapping` and `Login Quick Switch` columns |
+| `client/cl-41-order-item-name-language-mapping.png` | `docs/client/sales-flow.md` | Ordering screen showing item names after language/mapping change (`Main` / `Alt`) |
 | `client/cl-34-devices-payments-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-payment-devices.md` | `Devices` `Payments` tab list with status + info/edit actions |
 | `client/cl-35-devices-input-devices-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-input-devices.md` | `Devices` `Input Devices` tab list with status + info/edit actions |
 | `client/cl-36-devices-x1-products-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-x1-products.md` | `Devices` `X1 Products` tab list with status + info/edit actions |

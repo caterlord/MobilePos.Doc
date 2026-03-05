@@ -15,3 +15,5 @@ title: Terminology
 | Pay In / Pay Out | Cash drawer in/out recording action |
 | Day-end | Business-day closing process from Manager Tools |
 | POS Code | Terminal code required for many device/config operations |
+| Item Mapping (`Main` / `Alt`) | Which item-name source is shown for each language |
+| Login Quick Switch | Language button on login screen for fast language cycling |

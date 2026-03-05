@@ -41,6 +41,11 @@ Cashiers taking orders before payment.
 ![Order list with items](/img/manual/en/client/cl-07-order-list-with-items.png)
 - Quantity and line totals update after each item selection
 - `Send` and `Checkout` actions are available
+- Item names follow your current language and item-name mapping (`Main` / `Alt`) from `Settings`
+
+:::note Screenshot pending
+Needed file: `client/cl-41-order-item-name-language-mapping.png`
+:::
 
 ## Table screen view toggle
 

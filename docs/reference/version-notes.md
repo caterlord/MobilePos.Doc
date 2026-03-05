@@ -5,6 +5,19 @@ title: Version Notes
 
 This page tracks manual changes by release/update batch.
 
+## 2026-03-05 (v1.7.1 Alignment)
+
+### Updated
+
+- `Settings`: documented redesigned language configuration layout and task flows.
+- `Access and Navigation` + `Sign In`: added login quick language switch guidance.
+- `Sales Flow`: clarified item names follow selected language and item mapping (`Main` / `Alt`).
+- `Function and Feature Map` + `Terminology`: added language/item-mapping/quick-switch references.
+
+### Writing cleanup
+
+- Re-checked operational pages for stale version-specific notice boxes and kept release history only in this page.
+
 ## 2026-03-05 (v1.7.0 Alignment)
 
 ### Updated

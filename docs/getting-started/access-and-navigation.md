@@ -21,12 +21,18 @@ You will see:
 
 - Current shop name
 - Home icon (switch shop)
+- Optional quick language-switch button (`EN` / `繁` / `简`) when enabled by manager
 - PIN keypad
 - `SIGN IN` login button
 
 ## Steps
 
 <Tabs>
+  <TabItem value="quick-language-switch" label="Quick language switch (if shown)">
+1. Tap the round language button (`EN` / `繁` / `简`) on login screen.
+2. Confirm screen text changes to the next enabled language.
+3. Continue normal sign in.
+  </TabItem>
   <TabItem value="sign-in" label="Sign in">
 1. Enter PIN (or scan card if configured).
 2. Tap `SIGN IN`.
@@ -48,6 +54,10 @@ You will see:
 
 ![Login PIN screen](/img/manual/en/getting-started/gs-06-login-passcode-screen.png)
 ![Login with roster flyout](/img/manual/en/getting-started/gs-07-login-roster-flyout.png)
+
+:::note Screenshot pending
+Needed file: `getting-started/gs-10-login-quick-language-switch.png`
+:::
 
 ## If something goes wrong
 

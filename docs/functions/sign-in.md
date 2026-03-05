@@ -14,9 +14,10 @@ All front-line staff.
 
 ## Steps
 
-1. On login screen, tap PIN numbers.
-2. Confirm PIN is entered correctly.
-3. Tap `SIGN IN`.
+1. (Optional) Tap the language quick-switch button (`EN` / `繁` / `简`) if you need to change login language.
+2. On login screen, tap PIN numbers.
+3. Confirm PIN is entered correctly.
+4. Tap `SIGN IN`.
 
 ## What you should see
 

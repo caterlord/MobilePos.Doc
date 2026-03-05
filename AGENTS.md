@@ -39,6 +39,14 @@ Build and maintain the online user manual for **POS X1** using Docusaurus.
 - Keep release history in `docs/reference/version-notes.md`, not in long-lived operational callouts.
 - Only keep version-scoped notes inside operational pages when multiple active app versions are intentionally supported at the same time.
 
+### Release Update Checklist (Must Follow)
+1. Review release notes and source diff for user-visible changes only.
+2. Update operational pages to latest baseline behavior.
+3. Convert older version-tagged info boxes into normal instructions when no longer new.
+4. Keep date/version history only in `docs/reference/version-notes.md`.
+5. Search for stale version tags (`vX.Y.Z`, `vX.Y+`) and remove from operational docs unless explicitly needed for mixed-version operations.
+6. If screenshots are newly required, update `SCREENSHOT_PREP_LIST_EN.md` in the same change.
+
 ## User-First Writing Standard (Must Follow)
 
 ### Primary Readers
