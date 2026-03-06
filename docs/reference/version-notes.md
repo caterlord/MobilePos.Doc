@@ -5,6 +5,18 @@ title: Version Notes
 
 This page tracks manual changes by release/update batch.
 
+## 2026-03-06 (v1.7.2 Alignment)
+
+### Updated
+
+- `Settings`: added `System` -> `Number` guidance for `Rounding Method`, `Decimal Places`, and `Round For Cash Only`.
+- `Checkout and Payments`: clarified cash-only rounding behavior and expected real-time refresh of `Rounding` totals during checkout changes.
+- `Payment Errors and Retry`: clarified expected table unlock behavior when leaving checkout through back/navigation and added cash-only rounding rule context.
+
+### Writing cleanup
+
+- Re-checked operational pages for stale version-specific info boxes; no additional old version callouts required conversion in this release batch.
+
 ## 2026-03-05 (v1.7.1 Alignment)
 
 ### Updated

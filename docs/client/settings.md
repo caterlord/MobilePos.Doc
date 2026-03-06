@@ -40,8 +40,11 @@ Includes language configuration, `POS Code`, `Cash Register Code`, and base floo
   <TabItem value="operation" label="Operation">
 Includes order/payment behavior toggles and service workflow controls.
   </TabItem>
+  <TabItem value="system" label="System">
+Includes `Number` controls such as `Rounding Method`, `Decimal Places`, and `Round For Cash Only`.
+  </TabItem>
   <TabItem value="other" label="Other sections">
-Other store-config sections may include system/report/printing/platform options depending on build and setup.
+Other store-config sections may include report/printing/platform options depending on build and setup.
   </TabItem>
 </Tabs>
 
@@ -68,6 +71,17 @@ Other store-config sections may include system/report/printing/platform options 
   </TabItem>
 </Tabs>
 
+## Common rounding tasks
+
+1. Tap `Settings` -> `System`.
+2. In `Number`, select `Rounding Method` (`None`, `Round Up`, `Round Down`, or `Round to Nearest 5 cents`).
+3. Set `Decimal Places` when that field is shown.
+4. Turn `Round For Cash Only` on when rounding should apply only to cash payments.
+5. Tap `Save`.
+6. Open `Checkout` and confirm totals behave as expected for cash and non-cash methods.
+
+If `Rounding Method` is `Round to Nearest 5 cents`, `Decimal Places` is hidden.
+
 ## Steps
 
 1. Tap `Settings`.
@@ -79,6 +93,9 @@ Other store-config sections may include system/report/printing/platform options 
 ## What you should see
 
 ![Settings General with Language and POS Code](/img/manual/en/client/cl-05-settings-general-language-poscode.png)
+
+- `Language Configuration` grid with `Item Mapping` and `Login Quick Switch`
+- `System` -> `Number` with `Rounding Method`, `Decimal Places` (when shown), and `Round For Cash Only`
 
 :::note Screenshot pending
 Needed file: `client/cl-40-settings-language-configuration-grid.png`

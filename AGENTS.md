@@ -39,6 +39,12 @@ Build and maintain the online user manual for **POS X1** using Docusaurus.
 - Keep release history in `docs/reference/version-notes.md`, not in long-lived operational callouts.
 - Only keep version-scoped notes inside operational pages when multiple active app versions are intentionally supported at the same time.
 
+### Baseline Merge Rule For New Releases (Must Follow)
+- On every new app release, review operational pages for old version-specific info boxes/callouts.
+- If the noted behavior is now standard in the latest release baseline, remove the version label and merge that guidance into the normal page steps/content.
+- Do not keep outdated version labels in long-lived operational instructions.
+- Keep release history and version timing details only in `docs/reference/version-notes.md`.
+
 ### Release Update Checklist (Must Follow)
 1. Review release notes and source diff for user-visible changes only.
 2. Update operational pages to latest baseline behavior.

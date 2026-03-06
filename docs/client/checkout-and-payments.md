@@ -15,6 +15,7 @@ Cashiers collecting payment, plus managers handling special payment cases.
 - Order is ready for payment
 - Customer confirms how they want to pay
 - You are on checkout screen
+- You know whether `Round For Cash Only` is enabled in `Settings` -> `System`
 
 ## Choose the right payment mode
 
@@ -49,12 +50,17 @@ Cashiers collecting payment, plus managers handling special payment cases.
 You can start `Split By Item` checkout even when some order lines are not yet sent.
 :::
 
+:::note Cash-only rounding behavior
+When `Round For Cash Only` is enabled, rounding is applied only when cash is part of the current checkout payment.
+:::
+
 ## What you should see
 
 ![Checkout Amount tab](/img/manual/en/client/cl-12-checkout-amount-tab.png)
 ![Checkout Split By Amount](/img/manual/en/client/cl-14-checkout-split-by-amount.png)
 ![Checkout Deposit tab](/img/manual/en/client/cl-15-checkout-deposit-tab.png)
 ![Checkout Split By Item](/img/manual/en/client/cl-16-checkout-split-by-item.png)
+- `Rounding` and total values refresh after modifier/discount changes during checkout
 
 ## If something goes wrong
 
@@ -64,6 +70,10 @@ Do not force-close the app while payment is processing.
 
 :::tip Payment failed
 Retry once only if status is clearly failed/cancelled. If still failing, switch method by store policy.
+:::
+
+:::note Table remains locked after leaving checkout
+Leave checkout and reopen the order once. If table remains locked, escalate with table code and timestamp.
 :::
 
 ## When to ask manager/admin
