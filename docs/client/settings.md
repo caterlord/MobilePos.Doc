@@ -16,7 +16,7 @@ Managers/admin-level users maintaining terminal configuration.
 
 ## What this screen is for
 
-Use `Settings` to maintain terminal behavior, language/POS code, and operation rules.
+Use `Settings` to maintain terminal behavior, language/POS code, printing, integrations, and operation rules.
 
 ## Language configuration
 
@@ -35,7 +35,7 @@ If one source is blank for an item, POS falls back to the other available name.
 
 <Tabs>
   <TabItem value="general" label="General">
-Includes language configuration, `POS Code`, `Cash Register Code`, and base floor/order toggles.
+Includes language configuration (`Item Mapping`, `Login Quick Switch`) and required codes (`POS Code`, `Cash Register Code`).
   </TabItem>
   <TabItem value="operation" label="Operation">
 Includes order/payment behavior toggles and service workflow controls.
@@ -43,8 +43,14 @@ Includes order/payment behavior toggles and service workflow controls.
   <TabItem value="system" label="System">
 Includes `Number` controls such as `Rounding Method`, `Decimal Places`, and `Round For Cash Only`.
   </TabItem>
-  <TabItem value="other" label="Other sections">
-Other store-config sections may include report/printing/platform options depending on build and setup.
+  <TabItem value="printing" label="Printing">
+Includes `Mapping`, `Setting`, and `Template` tabs for printer routing and print output behavior.
+  </TabItem>
+  <TabItem value="platforms" label="Third Party Platform + ODO">
+Includes enabled third-party integrations and ODO controls such as `Channel Mapping`.
+  </TabItem>
+  <TabItem value="report" label="Report">
+Includes report-related output settings (for example report print quantity).
   </TabItem>
 </Tabs>
 
@@ -82,6 +88,35 @@ Other store-config sections may include report/printing/platform options dependi
 
 If `Rounding Method` is `Round to Nearest 5 cents`, `Decimal Places` is hidden.
 
+## Restore settings from backup
+
+1. Tap `Settings`.
+2. Tap `Restore` in the bottom action bar.
+3. Select the backup entry you want to apply.
+4. Confirm restore completes.
+5. Review key settings and tap `Save`.
+
+Restore now covers more configuration areas in current builds, so verify critical items after restore:
+
+- Printer routing and print settings
+- Customer display and terminal behavior settings
+- Integration-related settings
+
+## Common print language override task
+
+1. Tap `Settings` -> `Printing`.
+2. Open `Template`.
+3. Select the target print template.
+4. Set `Language` to the required print language (or keep `Follow System`).
+5. Tap `Save`.
+6. Print a test receipt/slip and confirm output language.
+
+## Integration and channel visibility behavior
+
+- In `Third Party Platform`, only enabled integrations are shown.
+- In `ODO` -> `Channel Mapping`, only mapped channels are shown.
+- If the terminal is offline, channel mapping shows an online-only hint and mapping rows are unavailable.
+
 ## Steps
 
 1. Tap `Settings`.
@@ -96,6 +131,8 @@ If `Rounding Method` is `Round to Nearest 5 cents`, `Decimal Places` is hidden.
 
 - `Language Configuration` grid with `Item Mapping` and `Login Quick Switch`
 - `System` -> `Number` with `Rounding Method`, `Decimal Places` (when shown), and `Round For Cash Only`
+- `Printing` with `Mapping`, `Setting`, and `Template` tabs
+- `Restore` action at the bottom of settings
 
 :::note Screenshot pending
 Needed file: `client/cl-40-settings-language-configuration-grid.png`

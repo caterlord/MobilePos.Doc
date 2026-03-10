@@ -5,6 +5,17 @@ title: Version Notes
 
 This page tracks manual changes by release/update batch.
 
+## 2026-03-10 (v1.7.3 Alignment)
+
+### Updated
+
+- `Settings`: expanded to cover current section layout (`General`, `Operation`, `System`, `Printing`, `Third Party Platform`, `ODO`, `Report`), restore-from-backup flow, print language override in `Printing` -> `Template`, and mapped/enabled filtering behavior.
+- `Function and Feature Map`: updated `Settings` scope to include restore action, print language override, enabled-only integrations list, and mapped-only ODO channel mapping list.
+
+### Writing cleanup
+
+- Re-checked operational pages for stale version-specific callouts and kept release history in this page only.
+
 ## 2026-03-06 (v1.7.2 Alignment)
 
 ### Updated
