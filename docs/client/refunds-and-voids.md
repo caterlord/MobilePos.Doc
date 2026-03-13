@@ -22,9 +22,10 @@ Shift managers and authorized staff handling post-order corrections.
   <TabItem value="void" label="Void in-progress txn">
 1. Open the in-progress order.
 2. Tap function menu (three dots).
-3. Tap `Void Txn`.
-4. Confirm `Confirm to void the Txn?`.
-5. Complete required reason selection.
+3. In `Select Function`, tap `Void Txn`.
+4. If `Void Txn` is on another page, tap `Previous` or `Next`.
+5. Confirm `Confirm to void the Txn?`.
+6. Complete required reason selection.
   </TabItem>
   <TabItem value="return" label="Return completed txn">
 1. Open `Orders Overview` and select completed transaction.

@@ -17,12 +17,13 @@ Cashiers who attach a customer membership to the current order.
 
 1. Open the target order in `Ordering`.
 2. Tap the function menu (three dots).
-3. Tap `Member Login`.
-4. If `Select Member Provider` appears, select the correct provider for the customer.
-5. Scan the member QR/barcode, or enter the member ID in the input dialog.
-6. Tap `Confirm` if you entered the ID manually.
-7. Review the `Member Details` shown on screen.
-8. Tap `OK` to return to the order.
+3. In `Select Function`, tap `Member Login`.
+4. If `Member Login` is on another page, tap `Previous` or `Next`.
+5. If `Select Member Provider` appears, select the correct provider for the customer.
+6. Scan the member QR/barcode, or enter the member ID in the input dialog.
+7. Tap `Confirm` if you entered the ID manually.
+8. Review the `Member Details` shown on screen.
+9. Tap `OK` to return to the order.
 
 ## What you should see
 

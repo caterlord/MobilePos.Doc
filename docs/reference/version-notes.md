@@ -5,6 +5,24 @@ title: Version Notes
 
 This page tracks manual changes by release/update batch.
 
+## 2026-03-13 (v1.7.4 Alignment)
+
+### Updated
+
+- `Sales Flow`: documented paged `Select Function` behavior, added `Order Remark`, and clarified where the saved order remark appears for editing.
+- `Checkout and Payments`: documented paged `Payment Methods` selection from `More` and current `Payment Remark` / `Deposit Remark` entry points.
+- Function-menu guides (`Apply Discount`, `Apply Service Charge`, `Member Login`, `Split or Merge Transaction`, `To Dine-In or To Takeaway`, `Void vs Return`, `Refunds and Voids`): updated entry steps to match the paged `Select Function` dialog.
+- `Change Table`: documented the selector dialog toggle between `Table List` and `Floor Plan`, plus `Show Split` / `Hide Split` behavior.
+- `Function and Feature Map`: updated ordering and checkout scope for selector pagination and remark flows.
+
+### Screenshot updates
+
+- Added pending captures for function selector pagination, order remark display/edit, checkout payment remark edit button, and change-table dialog view toggle.
+
+### Writing cleanup
+
+- Re-checked operational pages for stale version-specific callouts and kept release history in this page only.
+
 ## 2026-03-10 (v1.7.3 Alignment)
 
 ### Updated

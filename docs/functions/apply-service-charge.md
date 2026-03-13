@@ -22,16 +22,18 @@ Cashiers who need to add or remove service charge before checkout.
   <TabItem value="apply-service-charge" label="Apply Service Charge">
 1. Open the target order in `Ordering`.
 2. Tap the function button.
-3. Tap `Apply Service Charge`.
-4. Select the service charge option.
-5. Confirm the service charge.
+3. In `Select Function`, tap `Apply Service Charge`.
+4. If `Apply Service Charge` is on another page, tap `Previous` or `Next`.
+5. Select the service charge option.
+6. Confirm the service charge.
   </TabItem>
   <TabItem value="cancel-service-charge" label="Cancel Service Charge">
 1. Open the target order in `Ordering`.
 2. Tap the function button.
-3. Tap `Cancel Service Charge`.
-4. Select the service charge you want to remove.
-5. Confirm the cancellation.
+3. In `Select Function`, tap `Cancel Service Charge`.
+4. If `Cancel Service Charge` is on another page, tap `Previous` or `Next`.
+5. Select the service charge you want to remove.
+6. Confirm the cancellation.
   </TabItem>
 </Tabs>
 

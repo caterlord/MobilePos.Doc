@@ -18,12 +18,13 @@ Cashiers and shift managers who need to move items between transactions before p
 ## Steps
 
 1. Tap function menu (three dots).
-2. Tap `Split / Merge Txn`.
-3. Tap the target table in `Select Table`.
-4. Tap an item on the source side to select it.
-5. Tap `>` to move one selected item, or tap `All` to move all items.
-6. Tap `Confirm`.
-7. Open the target transaction and verify moved items.
+2. In `Select Function`, tap `Split / Merge Txn`.
+3. If `Split / Merge Txn` is on another page, tap `Previous` or `Next`.
+4. Tap the target table in `Select Table`.
+5. Tap an item on the source side to select it.
+6. Tap `>` to move one selected item, or tap `All` to move all items.
+7. Tap `Confirm`.
+8. Open the target transaction and verify moved items.
 
 ## What you should see
 

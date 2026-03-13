@@ -52,9 +52,13 @@ Use these subfolders:
 | `client/cl-39-info-log-upload-success-message.png` | `docs/client/info.md` | Success message after uploading logs (`Logs uploaded to ...`) |
 | `client/cl-40-settings-language-configuration-grid.png` | `docs/client/settings.md` | `Settings` -> `General` language configuration grid with `Item Mapping` and `Login Quick Switch` columns |
 | `client/cl-41-order-item-name-language-mapping.png` | `docs/client/sales-flow.md` | Ordering screen showing item names after language/mapping change (`Main` / `Alt`) |
+| `client/cl-42-select-function-dialog-pagination.png` | `docs/client/sales-flow.md` | `Select Function` dialog showing multiple pages with `Previous` and `Next` tiles |
+| `client/cl-43-order-remark-display-edit.png` | `docs/client/sales-flow.md` | Order screen showing saved order remark under the header with the pencil edit button |
+| `client/cl-44-checkout-payment-remark-edit-button.png` | `docs/client/checkout-and-payments.md` | Checkout `Paid` summary area showing the edit button for `Payment Remark` |
 | `client/cl-34-devices-payments-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-payment-devices.md` | `Devices` `Payments` tab list with status + info/edit actions |
 | `client/cl-35-devices-input-devices-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-input-devices.md` | `Devices` `Input Devices` tab list with status + info/edit actions |
 | `client/cl-36-devices-x1-products-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-x1-products.md` | `Devices` `X1 Products` tab list with status + info/edit actions |
+| `functions/fn-change-table-view-toggle-floorplan-tablelist.png` | `docs/functions/change-table.md` | `Change Table` dialog showing the lower-right view toggle for `Floor Plan` / `Table List` |
 | `functions/fn-printer-remove-confirm-dialog.png` | `docs/functions/manage-printers.md` | Remove printer confirmation dialog (`Are you sure you want to remove printer...`) |
 | `functions/fn-printer-spooler-manager-dialog.png` | `docs/functions/manage-printers.md` | Printer spooler manager main dialog with tabs/actions |
 | `functions/fn-printer-spooler-error-retry-actions.png` | `docs/functions/manage-printers.md` | Spooler `Error` tab with `Retry Selected` / `Retry All` |

@@ -16,9 +16,10 @@ Cashiers and shift managers who need to switch an order type between dine-in and
 ## Steps
 
 1. Tap function menu (three dots).
-2. Tap `To Dine-In` or `To Takeaway` based on the current order type.
-3. Check that the order type changes on the screen.
-4. Tap `Send` to save the updated order.
+2. In `Select Function`, tap `To Dine-In` or `To Takeaway` based on the current order type.
+3. If the switch option is on another page, tap `Previous` or `Next`.
+4. Check that the order type changes on the screen.
+5. Tap `Send` to save the updated order.
 
 ## What you should see
 

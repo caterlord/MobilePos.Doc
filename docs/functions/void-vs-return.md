@@ -16,8 +16,9 @@ Use `Void` for in-progress transactions. Use `Return` for completed transactions
   <TabItem value="void" label="Void">
 1. Open in-progress order.
 2. Tap function menu.
-3. Tap `Void Txn`.
-4. Confirm prompt.
+3. In `Select Function`, tap `Void Txn`.
+4. If `Void Txn` is on another page, tap `Previous` or `Next`.
+5. Confirm prompt.
   </TabItem>
   <TabItem value="return" label="Return">
 1. Open completed transaction.

@@ -23,8 +23,10 @@ Cashiers collecting payment, plus managers handling special payment cases.
   <TabItem value="amount" label="Amount (single/normal)">
 1. Stay on `Amount`.
 2. Select payment method.
-3. Enter amount, then tap `Pay`.
-4. Confirm payment line updates correctly.
+3. If the method is not visible, tap `More`, then choose it in `Payment Methods`.
+4. If `Payment Methods` shows many choices, tap `Previous` or `Next` to move between pages.
+5. Enter amount, then tap `Pay`.
+6. Confirm payment line updates correctly.
   </TabItem>
   <TabItem value="split-amount" label="Split By Amount">
 1. Tap `Split By Amount`.
@@ -54,6 +56,18 @@ You can start `Split By Item` checkout even when some order lines are not yet se
 When `Round For Cash Only` is enabled, rounding is applied only when cash is part of the current checkout payment.
 :::
 
+## Add remarks when required
+
+1. Select the payment method you will use.
+2. Tap the edit button beside `Paid` to enter `Payment Remark`.
+3. Enter the remark, then confirm before you finish payment.
+4. For `Deposit`, tap `Deposit Remark` before `Pay`.
+5. Confirm the remark is saved before you complete checkout.
+
+:::note Screenshot pending
+Needed file: `client/cl-44-checkout-payment-remark-edit-button.png`
+:::
+
 ## What you should see
 
 ![Checkout Amount tab](/img/manual/en/client/cl-12-checkout-amount-tab.png)
@@ -61,6 +75,7 @@ When `Round For Cash Only` is enabled, rounding is applied only when cash is par
 ![Checkout Deposit tab](/img/manual/en/client/cl-15-checkout-deposit-tab.png)
 ![Checkout Split By Item](/img/manual/en/client/cl-16-checkout-split-by-item.png)
 - `Rounding` and total values refresh after modifier/discount changes during checkout
+- The `Paid` summary area shows an edit button for `Payment Remark`
 
 ## If something goes wrong
 

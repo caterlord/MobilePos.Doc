@@ -62,13 +62,18 @@ Needed file: `client/cl-37-ordering-table-view-toggle-floorplan-tablelist.png`
 
 ## Function menu (when needed)
 
-Tap the three-dot function button to open:
+Tap the three-dot function button to open `Select Function`.
+
+If you have many functions configured, `Select Function` may show `Previous` and `Next` tiles so you can move between pages.
+
+Tap the three-dot function button to access:
 
 - `Apply Discount`
 - `Cancel Discount`
 - `Apply Service Charge`
 - `Cancel Service Charge`
 - `Change Table`
+- `Order Remark`
 - `To Dine-In` / `To Takeaway`
 - `Split / Merge Txn`
 - `Void Txn`
@@ -89,6 +94,23 @@ Use these detailed guides:
 ![Apply Discount dialog](/img/manual/en/client/cl-09-apply-discount-dialog.png)
 ![Apply Service Charge dialog](/img/manual/en/client/cl-10-apply-service-charge-dialog.png)
 ![Order action buttons: Send / Link ODO / Checkout](/img/manual/en/client/cl-11-order-send-close-checkout.png)
+
+## Add an order remark
+
+1. Tap the three-dot function button.
+2. In `Select Function`, tap `Order Remark`.
+3. If `Order Remark` is on another page, tap `Previous` or `Next`.
+4. Enter the remark, then confirm.
+5. Check the remark appears under the order header.
+6. Tap the pencil icon beside the remark if you need to edit it again.
+
+:::note Screenshot pending
+Needed file: `client/cl-42-select-function-dialog-pagination.png`
+:::
+
+:::note Screenshot pending
+Needed file: `client/cl-43-order-remark-display-edit.png`
+:::
 
 ## If something goes wrong
 

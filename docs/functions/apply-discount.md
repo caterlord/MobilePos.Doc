@@ -22,16 +22,18 @@ Cashiers who need to adjust an order total before checkout.
   <TabItem value="apply-discount" label="Apply Discount">
 1. Open the target order in `Ordering`.
 2. Tap the function button.
-3. Tap `Apply Discount`.
-4. Select the discount from the list.
-5. Confirm the discount.
+3. In `Select Function`, tap `Apply Discount`.
+4. If `Apply Discount` is on another page, tap `Previous` or `Next`.
+5. Select the discount from the list.
+6. Confirm the discount.
   </TabItem>
   <TabItem value="cancel-discount" label="Cancel Discount">
 1. Open the target order in `Ordering`.
 2. Tap the function button.
-3. Tap `Cancel Discount`.
-4. Select the discount you want to remove.
-5. Confirm the cancellation.
+3. In `Select Function`, tap `Cancel Discount`.
+4. If `Cancel Discount` is on another page, tap `Previous` or `Next`.
+5. Select the discount you want to remove.
+6. Confirm the cancellation.
   </TabItem>
 </Tabs>
 
