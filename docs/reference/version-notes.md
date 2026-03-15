@@ -5,6 +5,23 @@ title: Version Notes
 
 This page tracks manual changes by release/update batch.
 
+## 2026-03-15 (v1.7.5 Review)
+
+### Reviewed
+
+- Checked `v1.7.5` release notes and source diff for user-facing changes.
+- Re-checked dialog-driven workflows that use popup titles, input prompts, selection lists, date/time pickers, loading dialogs, and the paged `Select Function` dialog.
+
+### Outcome
+
+- No operational instruction changes were required for this release.
+- No UI labels, button names, or user steps changed from the `v1.7.4` baseline.
+- Existing screenshots and pending screenshot requests remain valid for documentation purposes.
+
+### Writing cleanup
+
+- Re-checked operational pages for stale version-specific callouts and kept release history in this page only.
+
 ## 2026-03-13 (v1.7.4 Alignment)
 
 ### Updated
