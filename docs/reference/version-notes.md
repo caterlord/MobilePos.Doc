@@ -5,6 +5,23 @@ title: Version Notes
 
 This page tracks manual changes by release/update batch.
 
+## 2026-03-24 (v1.7.6 Alignment)
+
+### Updated
+
+- `Sales Flow`: added takeaway `Order Contact` availability in the function menu and clarified that saved contact details appear under the takeaway order header.
+- New function guide: `Order Contact` for saving customer `Name` and `Phone` on takeaway orders.
+- `Settings`: documented `Printing` -> `Setting` toggles for `Show Order Contact On Receipt` and `Show Order Contact On Kitchen Output`, plus the `Customer Contact` row in receipt template font settings.
+- `Function and Feature Map`: updated ordering and settings scope for takeaway contact capture and printing controls.
+
+### Screenshot updates
+
+- Added pending captures for takeaway order contact entry/result and printing order-contact toggles.
+
+### Writing cleanup
+
+- Re-checked operational pages for stale version-specific callouts and kept release history in this page only.
+
 ## 2026-03-15 (v1.7.5 Review)
 
 ### Reviewed

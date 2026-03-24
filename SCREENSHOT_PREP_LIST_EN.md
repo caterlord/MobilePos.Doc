@@ -18,7 +18,6 @@ Use these subfolders:
 
 | Filename (relative to `static/img/manual/en/`) | Document placement | What to capture |
 |---|---|---|
-| `getting-started/gs-step5-select-mode.png` | `docs/getting-started/first-time-initialization.md` | Setup wizard Step 5: `Select Mode` with selected mode and `Next` |
 | `getting-started/gs-10-login-quick-language-switch.png` | `docs/getting-started/access-and-navigation.md`, `docs/functions/sign-in.md` | Login screen with quick language switch button (`EN` / `繁` / `简`) visible |
 | `client/cl-04-devices-pos-code-required.png` | `docs/client/start-shift.md`, `docs/reference/troubleshooting.md` | Actual `POS Code is required` warning/state |
 | `client/cl-13-checkout-payment-methods-more.png` | `docs/client/checkout-and-payments.md` | Checkout payment methods list including `More` |
@@ -55,10 +54,13 @@ Use these subfolders:
 | `client/cl-42-select-function-dialog-pagination.png` | `docs/client/sales-flow.md` | `Select Function` dialog showing multiple pages with `Previous` and `Next` tiles |
 | `client/cl-43-order-remark-display-edit.png` | `docs/client/sales-flow.md` | Order screen showing saved order remark under the header with the pencil edit button |
 | `client/cl-44-checkout-payment-remark-edit-button.png` | `docs/client/checkout-and-payments.md` | Checkout `Paid` summary area showing the edit button for `Payment Remark` |
+| `client/cl-45-settings-print-order-contact-toggles.png` | `docs/client/settings.md` | `Settings` -> `Printing` -> `Setting` showing `Show Order Contact On Receipt` and `Show Order Contact On Kitchen Output` |
 | `client/cl-34-devices-payments-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-payment-devices.md` | `Devices` `Payments` tab list with status + info/edit actions |
 | `client/cl-35-devices-input-devices-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-input-devices.md` | `Devices` `Input Devices` tab list with status + info/edit actions |
 | `client/cl-36-devices-x1-products-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-x1-products.md` | `Devices` `X1 Products` tab list with status + info/edit actions |
 | `functions/fn-change-table-view-toggle-floorplan-tablelist.png` | `docs/functions/change-table.md` | `Change Table` dialog showing the lower-right view toggle for `Floor Plan` / `Table List` |
+| `functions/fn-order-contact-function-menu.png` | `docs/functions/order-contact.md` | `Select Function` dialog showing `Order Contact` on a takeaway order |
+| `functions/fn-order-contact-dialog-result.png` | `docs/functions/order-contact.md` | `Order Contact` dialog and the saved name/phone shown under the takeaway order header |
 | `functions/fn-printer-remove-confirm-dialog.png` | `docs/functions/manage-printers.md` | Remove printer confirmation dialog (`Are you sure you want to remove printer...`) |
 | `functions/fn-printer-spooler-manager-dialog.png` | `docs/functions/manage-printers.md` | Printer spooler manager main dialog with tabs/actions |
 | `functions/fn-printer-spooler-error-retry-actions.png` | `docs/functions/manage-printers.md` | Spooler `Error` tab with `Retry Selected` / `Retry All` |

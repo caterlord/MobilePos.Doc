@@ -55,6 +55,7 @@ const sidebars: SidebarsConfig = {
             'functions/apply-discount',
             'functions/apply-service-charge',
             'functions/change-table',
+            'functions/order-contact',
             'functions/to-dine-in-to-takeaway',
             'functions/split-merge-transaction',
             'functions/member-login',

@@ -35,6 +35,10 @@ Cashiers taking orders before payment.
   </TabItem>
 </Tabs>
 
+:::note Takeaway contact details
+If you need the customer name or phone number on takeaway printouts, use `Order Contact` from the function menu. See [Function guide](../functions/order-contact).
+:::
+
 ## What you should see
 
 ![Order page item selector](/img/manual/en/client/cl-06-order-page-item-selector.png)
@@ -42,6 +46,7 @@ Cashiers taking orders before payment.
 - Quantity and line totals update after each item selection
 - `Send` and `Checkout` actions are available
 - Item names follow your current language and item-name mapping (`Main` / `Alt`) from `Settings`
+- On takeaway orders, saved customer contact details appear under the order header
 
 :::note Screenshot pending
 Needed file: `client/cl-41-order-item-name-language-mapping.png`
@@ -73,6 +78,7 @@ Tap the three-dot function button to access:
 - `Apply Service Charge`
 - `Cancel Service Charge`
 - `Change Table`
+- `Order Contact`
 - `Order Remark`
 - `To Dine-In` / `To Takeaway`
 - `Split / Merge Txn`
@@ -85,6 +91,7 @@ Use these detailed guides:
 - `Apply Discount`: [Function guide](../functions/apply-discount)
 - `Apply Service Charge`: [Function guide](../functions/apply-service-charge)
 - `Change Table`: [Function guide](../functions/change-table)
+- `Order Contact`: [Function guide](../functions/order-contact)
 - `To Dine-In` / `To Takeaway`: [Function guide](../functions/to-dine-in-to-takeaway)
 - `Split / Merge Txn`: [Function guide](../functions/split-merge-transaction)
 - `Member Login`: [Function guide](../functions/member-login)

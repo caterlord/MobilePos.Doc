@@ -111,6 +111,19 @@ Restore now covers more configuration areas in current builds, so verify critica
 5. Tap `Save`.
 6. Print a test receipt/slip and confirm output language.
 
+## Common takeaway contact print task
+
+1. Tap `Settings` -> `Printing`.
+2. Open `Setting`.
+3. In `Receipt`, turn `Show Order Contact On Receipt` on or off.
+4. In `Kitchen Slip`, turn `Show Order Contact On Kitchen Output` on or off.
+5. Tap `Save`.
+6. Print a takeaway receipt or kitchen slip and confirm the contact details show only where your store expects them.
+
+:::note
+If you need to adjust receipt font size for this section, open `Template` and review the `Customer Contact` row in the receipt font settings.
+:::
+
 ## Integration and channel visibility behavior
 
 - In `Third Party Platform`, only enabled integrations are shown.
@@ -132,10 +145,16 @@ Restore now covers more configuration areas in current builds, so verify critica
 - `Language Configuration` grid with `Item Mapping` and `Login Quick Switch`
 - `System` -> `Number` with `Rounding Method`, `Decimal Places` (when shown), and `Round For Cash Only`
 - `Printing` with `Mapping`, `Setting`, and `Template` tabs
+- `Printing` -> `Setting` includes `Show Order Contact On Receipt` and `Show Order Contact On Kitchen Output`
+- `Printing` -> `Template` receipt font settings include `Customer Contact`
 - `Restore` action at the bottom of settings
 
 :::note Screenshot pending
 Needed file: `client/cl-40-settings-language-configuration-grid.png`
+:::
+
+:::note Screenshot pending
+Needed file: `client/cl-45-settings-print-order-contact-toggles.png`
 :::
 
 ## If something goes wrong

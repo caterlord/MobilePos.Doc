@@ -42,12 +42,9 @@ Your selected setup language is applied immediately during the wizard, including
 ![Step 2 - Login with HQ](/img/manual/en/getting-started/initialize-step1-hq-login.png)
 ![Step 3 - Select Brand and Shop](/img/manual/en/getting-started/gs-02-initialize-step2-brand-shop.png)
 ![Step 4 - Select Product Type](/img/manual/en/getting-started/gs-03-initialize-step3-product-type.png)
+![Step 5 - Select Mode](/img/manual/en/getting-started/gs-step5-select-mode.png)
 ![Step 6 - Review your Settings](/img/manual/en/getting-started/gs-04-initialize-step5-review-settings.png)
 ![Step 7 - Downloading your settings](/img/manual/en/getting-started/gs-05-initialize-step6-downloading.png)
-
-:::note Screenshot pending
-Step 5 (`Select Mode`) screenshot: `getting-started/gs-step5-select-mode.png`
-:::
 
 ## After setup
 
