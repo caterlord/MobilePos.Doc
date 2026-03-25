@@ -325,5 +325,45 @@
   "theme.tags.tagsPageTitle": {
     "message": "標籤",
     "description": "The title of the tag list page"
+  },
+  "theme.SearchBar.label": {
+    "message": "搜尋",
+    "description": "The label for the local search bar"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "查看全部結果",
+    "description": "The label to see all local search results"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "找不到任何文件",
+    "description": "The text shown when local search has no results"
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "查看「{context}」內的全部結果",
+    "description": "The label to see all local search results within the current context"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "查看「{context}」以外的全部結果",
+    "description": "The label to see all local search results outside the current context"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "「{query}」的搜尋結果",
+    "description": "The title of the local search page when results exist"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "搜尋文件",
+    "description": "The title of the local search page before a query is entered"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "共找到 {count} 篇文件",
+    "description": "Pluralized label for local search result count"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "找不到任何文件",
+    "description": "The text shown when the local search page has no results"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "所有位置",
+    "description": "The label for searching across every context"
   }
 }

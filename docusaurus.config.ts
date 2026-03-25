@@ -142,6 +142,24 @@ const config: Config = {
     ],
   ],
 
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath,
+        docsDir: ['docs'],
+        language: ['en', 'zh'],
+        hashed: 'filename',
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        searchBarPosition: 'right',
+      },
+    ],
+  ],
+
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
@@ -173,6 +191,10 @@ const config: Config = {
         {
           href: 'https://github.com/caterlord/MobilePos.Doc',
           label: 'Docs Repo',
+          position: 'right',
+        },
+        {
+          type: 'search',
           position: 'right',
         },
         {
