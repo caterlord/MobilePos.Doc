@@ -179,21 +179,6 @@ const config: Config = {
           label: 'User Manual',
         },
         {
-          href: 'https://github.com/caterlord/MobilePos',
-          label: 'Client Repo',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/caterlord/MobilePos.HQ',
-          label: 'HQ Repo',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/caterlord/MobilePos.Doc',
-          label: 'Docs Repo',
-          position: 'right',
-        },
-        {
           type: 'search',
           position: 'right',
         },
@@ -220,19 +205,6 @@ const config: Config = {
             {
               label: 'HQ (In Progress)',
               to: `${docsPathPrefix}/hq/overview`,
-            },
-          ],
-        },
-        {
-          title: 'Source Repositories',
-          items: [
-            {
-              label: 'Client (MobilePos)',
-              href: 'https://github.com/caterlord/MobilePos',
-            },
-            {
-              label: 'HQ (MobilePos.HQ)',
-              href: 'https://github.com/caterlord/MobilePos.HQ',
             },
           ],
         },
