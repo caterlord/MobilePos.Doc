@@ -5,6 +5,21 @@ title: Version Notes
 
 This page tracks manual changes by release/update batch.
 
+## 2026-03-25 (Issue #82 Settings Mode Guidance)
+
+### Updated
+
+- `Settings`: added operational guidance for switching between `Restaurant` and `Quick Order` terminal modes, including the related `General` settings that control table-first vs direct-order flow.
+- `Function and Feature Map`: updated `Settings` scope to include terminal mode and quick-order related general toggles.
+
+### Screenshot updates
+
+- Added pending captures for `Operation` -> `Terminal` mode selection and the related `General` order-mode toggles.
+
+### Writing cleanup
+
+- Re-checked the settings guide against current UI labels and kept the new mode guidance in the settings screen guide instead of scattering version-specific notes elsewhere.
+
 ## 2026-03-24 (v1.7.6 Alignment)
 
 ### Updated

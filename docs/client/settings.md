@@ -16,7 +16,7 @@ Managers/admin-level users maintaining terminal configuration.
 
 ## What this screen is for
 
-Use `Settings` to maintain terminal behavior, language/POS code, printing, integrations, and operation rules.
+Use `Settings` to maintain terminal behavior, service mode, language/POS code, printing, integrations, and operation rules.
 
 ## Language configuration
 
@@ -38,7 +38,7 @@ If one source is blank for an item, POS falls back to the other available name.
 Includes language configuration (`Item Mapping`, `Login Quick Switch`) and required codes (`POS Code`, `Cash Register Code`).
   </TabItem>
   <TabItem value="operation" label="Operation">
-Includes order/payment behavior toggles and service workflow controls.
+Includes `Terminal` mode plus order/payment behavior toggles and service workflow controls.
   </TabItem>
   <TabItem value="system" label="System">
 Includes `Number` controls such as `Rounding Method`, `Decimal Places`, and `Round For Cash Only`.
@@ -76,6 +76,40 @@ Includes report-related output settings (for example report print quantity).
 4. Return to login screen and confirm the language quick-switch button appears.
   </TabItem>
 </Tabs>
+
+## Switch terminal mode
+
+<Tabs>
+  <TabItem value="restaurant" label="Restaurant">
+1. Tap `Settings` -> `Operation`.
+2. In `Terminal`, set `Mode` to `Restaurant`.
+3. Tap `Settings` -> `General`.
+4. Turn `Enable Dine In Auto Open Order` off.
+5. Turn `Enable Takeaway Auto Open Order` off.
+6. Turn `Enable Floor Plan Mode` on if your store uses floor-plan table view.
+7. Tap `Save`.
+8. Return to `Ordering` and confirm staff must choose a table or takeaway order before adding items.
+  </TabItem>
+  <TabItem value="quick-order" label="Quick Order">
+1. Tap `Settings` -> `Operation`.
+2. In `Terminal`, set `Mode` to `Quick Order`.
+3. Tap `Settings` -> `General`.
+4. Turn `Enable Dine In Auto Open Order` on.
+5. Turn `Enable Takeaway Auto Open Order` on.
+6. Turn `Enable Default Takeaway Mode` on if takeaway should open first. Leave it off if dine-in should open first.
+7. Turn `Enable Dine In Auto Assign Table Code` and `Enable Takeaway Auto Assign Table Code` on if you want POS to rotate counters automatically for new quick orders.
+8. Tap `Save`.
+9. Return to `Ordering` and confirm POS opens a new order directly instead of asking staff to pick a table first.
+  </TabItem>
+</Tabs>
+
+:::note Related settings
+`Enable Dine In Auto Assign Table Code` and `Enable Takeaway Auto Assign Table Code` only appear after the matching auto-open setting is turned on.
+:::
+
+:::tip Quick-order tools
+`Reset Table Counters` in `More Tools` is used with Quick Order mode when your store uses the rotating quick-order counters.
+:::
 
 ## Common rounding tasks
 
@@ -143,6 +177,8 @@ If you need to adjust receipt font size for this section, open `Template` and re
 ![Settings General with Language and POS Code](/img/manual/en/client/cl-05-settings-general-language-poscode.png)
 
 - `Language Configuration` grid with `Item Mapping` and `Login Quick Switch`
+- `Operation` -> `Terminal` includes `Mode` with `Restaurant` and `Quick Order`
+- `General` includes the auto-open and auto-assign settings that control table-first vs direct-order flow
 - `System` -> `Number` with `Rounding Method`, `Decimal Places` (when shown), and `Round For Cash Only`
 - `Printing` with `Mapping`, `Setting`, and `Template` tabs
 - `Printing` -> `Setting` includes `Show Order Contact On Receipt` and `Show Order Contact On Kitchen Output`
@@ -155,6 +191,10 @@ Needed file: `client/cl-40-settings-language-configuration-grid.png`
 
 :::note Screenshot pending
 Needed file: `client/cl-45-settings-print-order-contact-toggles.png`
+:::
+
+:::note Screenshot pending
+Needed files: `client/cl-46-settings-operation-terminal-mode.png`, `client/cl-47-settings-general-order-mode-toggles.png`
 :::
 
 ## If something goes wrong
