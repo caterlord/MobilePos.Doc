@@ -14,6 +14,7 @@ Day-end is irreversible and should be performed by manager role only.
 
 - All active orders are resolved
 - No payment is left in uncertain state
+- `Settings` -> `Report` is set to print the day-end sections your store needs
 
 ## Steps
 
@@ -39,6 +40,11 @@ The report now uses the selected business date correctly.
 If that date was already day-ended, the app blocks duplicate processing.
 :::
 
+:::note Printed report content
+The printed day-end report follows `Settings` -> `Report` -> `Daily Report Sections`.
+If a section is missing from the printout, review that setting before the next business day closes.
+:::
+
 ## What you should see
 
 ![Day-end dialog](/img/manual/en/client/cl-24-day-end-dialog.png)
@@ -52,6 +58,10 @@ Re-check business date and unresolved transactions before retrying.
 
 :::warning `Day-end has already been processed for the selected day`
 Choose another date or review the existing day-end report for that day.
+:::
+
+:::warning Printed report is missing sections
+Review `Settings` -> `Report`, especially `Daily Report Sections` and `Show advanced sections`, then apply the corrected setup for the next day-end.
 :::
 
 ## When to ask admin

@@ -50,7 +50,7 @@ Includes `Mapping`, `Setting`, and `Template` tabs for printer routing and print
 Includes enabled third-party integrations and ODO controls such as `Channel Mapping`.
   </TabItem>
   <TabItem value="report" label="Report">
-Includes report-related output settings (for example report print quantity).
+Includes report-related output settings such as `Print Qty` and `Daily Report Sections`.
   </TabItem>
 </Tabs>
 
@@ -145,6 +145,14 @@ Restore now covers more configuration areas in current builds, so verify critica
 5. Tap `Save`.
 6. Print a test receipt/slip and confirm output language.
 
+## Common receipt auto print task
+
+1. Tap `Settings` -> `Printing`.
+2. Open `Setting`.
+3. In `Receipt`, turn `Auto Print Receipt` on if receipts should print automatically after successful checkout. Turn it off if staff should decide manually when to print.
+4. Tap `Save`.
+5. Complete a normal checkout and confirm receipt printing matches your store policy.
+
 ## Common takeaway contact print task
 
 1. Tap `Settings` -> `Printing`.
@@ -156,6 +164,20 @@ Restore now covers more configuration areas in current builds, so verify critica
 
 :::note
 If you need to adjust receipt font size for this section, open `Template` and review the `Customer Contact` row in the receipt font settings.
+:::
+
+## Common day-end report section task
+
+1. Tap `Settings` -> `Report`.
+2. Set `Print Qty` if your store needs more than one printed copy.
+3. In `Daily Report Sections`, turn `Summary`, `Cash Movement`, `Sales Breakdown`, and `Payment Breakdown` on or off based on what managers should print at close.
+4. Turn `Show advanced sections` on if you need to control parts inside those sections.
+5. In `Advanced Sections`, turn specific parts such as `Open Amount`, `Pay In`, `Pay Out`, `Cash Difference`, `Close Amount`, `Audit`, `Cashier Summary`, `Department Sales`, or `Payment Tips` on or off.
+6. Tap `Save`.
+7. Run a day-end report and confirm only the required sections are printed.
+
+:::note
+Advanced section toggles only apply when the matching parent section stays on.
 :::
 
 ## Integration and channel visibility behavior
@@ -181,8 +203,10 @@ If you need to adjust receipt font size for this section, open `Template` and re
 - `General` includes the auto-open and auto-assign settings that control table-first vs direct-order flow
 - `System` -> `Number` with `Rounding Method`, `Decimal Places` (when shown), and `Round For Cash Only`
 - `Printing` with `Mapping`, `Setting`, and `Template` tabs
+- `Printing` -> `Setting` includes `Auto Print Receipt`
 - `Printing` -> `Setting` includes `Show Order Contact On Receipt` and `Show Order Contact On Kitchen Output`
 - `Printing` -> `Template` receipt font settings include `Customer Contact`
+- `Report` includes `Print Qty`, `Daily Report Sections`, and `Show advanced sections`
 - `Restore` action at the bottom of settings
 
 :::note Screenshot pending
@@ -195,6 +219,10 @@ Needed file: `client/cl-45-settings-print-order-contact-toggles.png`
 
 :::note Screenshot pending
 Needed files: `client/cl-46-settings-operation-terminal-mode.png`, `client/cl-47-settings-general-order-mode-toggles.png`
+:::
+
+:::note Screenshot pending
+Needed files: `client/cl-48-settings-print-auto-print-receipt.png`, `client/cl-49-settings-report-day-end-sections.png`
 :::
 
 ## If something goes wrong

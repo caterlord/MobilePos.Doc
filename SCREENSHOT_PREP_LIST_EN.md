@@ -57,6 +57,8 @@ Use these subfolders:
 | `client/cl-45-settings-print-order-contact-toggles.png` | `docs/client/settings.md` | `Settings` -> `Printing` -> `Setting` showing `Show Order Contact On Receipt` and `Show Order Contact On Kitchen Output` |
 | `client/cl-46-settings-operation-terminal-mode.png` | `docs/client/settings.md` | `Settings` -> `Operation` -> `Terminal` showing `Mode` with `Restaurant` and `Quick Order` |
 | `client/cl-47-settings-general-order-mode-toggles.png` | `docs/client/settings.md` | `Settings` -> `General` showing `Enable Dine In Auto Open Order`, `Enable Takeaway Auto Open Order`, `Enable Default Takeaway Mode`, and auto-assign options |
+| `client/cl-48-settings-print-auto-print-receipt.png` | `docs/client/settings.md` | `Settings` -> `Printing` -> `Setting` showing `Auto Print Receipt` in the `Receipt` section |
+| `client/cl-49-settings-report-day-end-sections.png` | `docs/client/settings.md` | `Settings` -> `Report` showing `Print Qty`, `Daily Report Sections`, and `Show advanced sections` |
 | `client/cl-34-devices-payments-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-payment-devices.md` | `Devices` `Payments` tab list with status + info/edit actions |
 | `client/cl-35-devices-input-devices-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-input-devices.md` | `Devices` `Input Devices` tab list with status + info/edit actions |
 | `client/cl-36-devices-x1-products-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-x1-products.md` | `Devices` `X1 Products` tab list with status + info/edit actions |

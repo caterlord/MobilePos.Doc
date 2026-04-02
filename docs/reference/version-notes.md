@@ -5,6 +5,27 @@ title: Version Notes
 
 This page tracks manual changes by release/update batch.
 
+## 2026-04-02 (v1.7.7 Alignment)
+
+### Updated
+
+- `Settings`: documented `Printing` -> `Setting` -> `Auto Print Receipt`.
+- `Settings`: documented `Report` -> `Daily Report Sections`, `Show advanced sections`, and the related day-end report content controls.
+- `Day-end` (`client` and `functions`): clarified that printed day-end content follows the `Report` settings.
+- `Function and Feature Map`: updated `Settings` scope for receipt auto-print and configurable day-end report sections.
+
+### Screenshot updates
+
+- Added pending captures for the new receipt auto-print toggle and the `Report` day-end section settings.
+
+### Reviewed
+
+- Checked the new manual price `±` button in the number input dialog against current manual coverage. No existing operator page currently teaches that dialog, so no standalone page change was required in this release batch.
+
+### Writing cleanup
+
+- Re-checked operational pages for stale version-specific callouts and kept release history in this page only.
+
 ## 2026-03-25 (Issue #82 Settings Mode Guidance)
 
 ### Updated
