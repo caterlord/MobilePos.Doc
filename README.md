@@ -1,4 +1,4 @@
-# POS X1 User Manual
+# POS User Manual
 
 Online documentation site for POS X1, built with Docusaurus.
 

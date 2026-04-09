@@ -1,7 +1,7 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
-  manualSidebar: [
+  posSidebar: [
     'intro',
     {
       type: 'category',
@@ -93,11 +93,6 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'HQ (Back Office, WIP)',
-      items: ['hq/overview'],
-    },
-    {
-      type: 'category',
       label: 'Reference',
       items: [
         'reference/function-feature-map',
@@ -107,6 +102,98 @@ const sidebars: SidebarsConfig = {
         'reference/version-notes',
       ],
     },
+  ],
+  hqSidebar: [
+    'hq/overview',
+    {
+      type: 'category',
+      label: 'Getting Started',
+      items: [
+        'hq/dashboard',
+        'hq/account-and-profile',
+        'hq/organization',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Core Settings',
+      items: [
+        {
+          type: 'category',
+          label: 'Store Settings',
+          items: [
+            'hq/store-settings/general-info',
+            'hq/store-settings/workday-schedule',
+            'hq/store-settings/system-parameters',
+            'hq/store-settings/tables-and-floorplan',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'POS Settings',
+          items: [
+            'hq/pos-settings/payment-methods',
+            'hq/pos-settings/tax-and-surcharge',
+            'hq/pos-settings/pos-users',
+            'hq/pos-settings/departments',
+            'hq/pos-settings/function-reasons',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Menu & Catalog Management',
+      items: [
+        'hq/menu-catalog/menu-items',
+        'hq/menu-catalog/categories',
+        'hq/menu-catalog/pos-menus',
+        'hq/menu-catalog/modifiers',
+        'hq/menu-catalog/promotions',
+        'hq/menu-catalog/discounts',
+        'hq/menu-catalog/meal-sets',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Online Ordering',
+      items: [
+        'hq/online-ordering/overview',
+        'hq/online-ordering/categories-and-items',
+        'hq/online-ordering/call-to-action',
+        'hq/online-ordering/menus-and-combinations',
+        'hq/online-ordering/general-settings',
+        'hq/online-ordering/channel-mapping',
+        'hq/online-ordering/ui-translations',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Reports & Analytics',
+      items: [
+        'hq/reports/sales-reports',
+        'hq/reports/operations-reports',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Ecosystem & Integrations',
+      items: [
+        'hq/integrations/partner-settings',
+        'hq/integrations/device-settings',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Marketplace',
+      items: [
+        'hq/marketplace/catalog',
+        'hq/marketplace/billing-and-subscriptions',
+      ],
+    },
+  ],
+  mcpSidebar: [
+    'mcp/overview',
   ],
 };
 

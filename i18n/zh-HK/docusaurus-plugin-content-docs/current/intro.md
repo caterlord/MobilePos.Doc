@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: POS X1 User Manual
+title: POS User Manual
 ---
 
 This site documents daily operations for **POS X1**.

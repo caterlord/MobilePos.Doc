@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: POS X1 User Manual
+title: POS User Manual
 ---
 
 This manual is for the **POS X1 Client app** used by store teams.

@@ -41,8 +41,8 @@ const docsRouteBasePath = normalizeDocsRouteBasePath(
 const docsPathPrefix = docsRouteBasePath === '/' ? '' : `/${docsRouteBasePath}`;
 
 const config: Config = {
-  title: 'POS X1 User Manual',
-  tagline: 'POS client operations manual (HQ docs in progress)',
+  title: 'X1 Documentations',
+  tagline: 'X1 platform operations manual',
   favicon: 'img/favicon.ico',
   headTags: [
     {
@@ -166,7 +166,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'POS X1 Manual',
+      title: 'X1 Documentations',
       logo: {
         alt: 'POS X1 Logo',
         src: 'img/logo.svg',
@@ -174,9 +174,21 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'manualSidebar',
+          sidebarId: 'posSidebar',
           position: 'left',
-          label: 'User Manual',
+          label: 'POS User Manual',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'hqSidebar',
+          position: 'left',
+          label: 'HQ User Manual',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'mcpSidebar',
+          position: 'left',
+          label: 'MCP User Manual',
         },
         {
           type: 'search',
@@ -205,6 +217,10 @@ const config: Config = {
             {
               label: 'HQ (In Progress)',
               to: `${docsPathPrefix}/hq/overview`,
+            },
+            {
+              label: 'MCP (Agent Platform)',
+              to: `${docsPathPrefix}/mcp/overview`,
             },
           ],
         },

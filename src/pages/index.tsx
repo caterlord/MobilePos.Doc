@@ -20,7 +20,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className="button button--primary button--lg" to="/intro">
-            Open User Manual
+            Open POS User Manual
           </Link>
           <Link className="button button--secondary button--lg" to="https://github.com/caterlord/MobilePos.Doc">
             View Docs Repository
@@ -35,7 +35,7 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
 
   return (
-    <Layout title={siteConfig.title} description="POS X1 client operations manual with multilingual support">
+    <Layout title={siteConfig.title} description="X1 platform documentation and user manuals">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
