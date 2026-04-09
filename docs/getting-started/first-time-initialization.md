@@ -66,8 +66,12 @@ Your selected setup language is applied immediately during the wizard, including
 ## If something goes wrong
 
 :::warning `No Available Subscription`
-Stop setup and verify subscription in HQ first.
+Stop setup. Ask manager/admin to verify the shop subscription in HQ before you continue. When reporting the issue, share this screen so they can see the exact setup state.
 :::
+
+![`No Available Subscription` during first-time initialization](/img/manual/en/getting-started/gs-10-initialize-no-available-subscription.png)
+
+*This screen shows that the selected shop does not currently have an available subscription for the POS setup.*
 
 :::warning Cannot continue from `Login with HQ`
 Check HQ credentials and internet connectivity, then retry.
@@ -84,5 +88,5 @@ Use `Retry` only when a setup item fails. Use `Reset` only if you need full rest
 ## When to ask manager/admin
 
 - HQ account or shop assignment is incorrect
-- Subscription is missing or expired
+- You see `No Available Subscription`
 - Setup cannot complete after a clean retry
