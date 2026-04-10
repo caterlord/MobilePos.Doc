@@ -51,7 +51,7 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="no-sync" label="未出現同步提示">
 1. 終端機會回到一般登入流程。
-2. 工作人員可以登入並開始班次。
+2. 工作人員可以登入並開班。
   </TabItem>
   <TabItem value="sync-required" label="出現同步提示">
 1. 選擇同步天數（`1`、`3`、`5` 或 `7`）。

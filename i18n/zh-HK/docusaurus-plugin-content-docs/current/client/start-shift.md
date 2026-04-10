@@ -1,13 +1,13 @@
 ---
 sidebar_position: 2
-title: 開始班次
+title: 開班
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 :::info[適用對象]
-在接單前準備終端的收銀員和更班經理。
+在接第一張訂單前準備終端的收銀員和班次經理。
 :::
 
 ## 開始前
@@ -18,7 +18,7 @@ import TabItem from '@theme/TabItem';
 
 ## 步驟
 
-1. 輸入您的 PIN，然後按 `SIGN IN`。
+1. 輸入您的 PIN，然後按 `登入`。
 2. 從左側選單開啟 `Devices`。
 3. 前往 `Printer` 分頁。
 4. 在已啟用的印表機上按 `Test Print`。
@@ -26,13 +26,13 @@ import TabItem from '@theme/TabItem';
 6. 返回 `Ordering`。
 
 <Tabs>
-  <TabItem value="with-roster" label="有輪班表">
-1. 在登入畫面按輪班表按鈕。
-2. 按 `Clock In`。
+  <TabItem value="with-roster" label="有出勤">
+1. 在登入畫面按 `出勤`。
+2. 按 `上班打卡`。
 3. 繼續正常登入。
   </TabItem>
-  <TabItem value="without-roster" label="沒有輪班表">
-1. 如果沒有顯示輪班表選項，請直接繼續正常登入。
+  <TabItem value="without-roster" label="沒有出勤">
+1. 如果沒有顯示 `出勤`，請直接繼續正常登入。
 2. 不需要額外操作。
   </TabItem>
 </Tabs>
@@ -64,4 +64,4 @@ import TabItem from '@theme/TabItem';
 
 - 您無法編輯設定（`POS Code`、系統欄位）
 - 印表機在本地檢查後仍然失敗
-- 登入 / 訂閱警告阻止開始班次
+- 登入 / 訂閱警告阻止開班

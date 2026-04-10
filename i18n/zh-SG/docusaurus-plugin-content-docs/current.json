@@ -8,7 +8,7 @@
     "description": "The label for category 'Start Here' in sidebar 'posSidebar'"
   },
   "sidebar.posSidebar.category.Run a Shift": {
-    "message": "管理班次",
+    "message": "当班作业",
     "description": "The label for category 'Run a Shift' in sidebar 'posSidebar'"
   },
   "sidebar.posSidebar.category.Screen Guides": {

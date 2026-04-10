@@ -90,7 +90,7 @@ Need files: `client/cl-34-devices-payments-tab-list.png`, `client/cl-35-devices-
 
 ## 相關指南
 
-- [開始班次](./start-shift)
+- [開班](./start-shift)
 - [Function: 管理印表機](../functions/manage-printers)
 - [Function: 設定付款裝置](../functions/configure-payment-devices)
 - [Function: 設定輸入裝置](../functions/configure-input-devices)

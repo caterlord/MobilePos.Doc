@@ -459,7 +459,7 @@
     "description": "Quick Start link on the POS manual card"
   },
   "homepage.manual.pos.link.startShift": {
-    "message": "开始班次",
+    "message": "开班",
     "description": "Start Shift link on the POS manual card"
   },
   "homepage.manual.pos.link.checkout": {
