@@ -28,7 +28,7 @@ title: 功能与特性索引
 | 库存 | 售罄与限量品项控制 | [页面指南：库存](../client/inventory) |
 | 订单功能 | 应用/取消折扣、应用/取消服务费、改桌、订单联系人、订单备注、拆分/合并交易、作废交易、收支记录、会员登录、分页式 `Select Function` 对话框 | [销售流程](../client/sales-flow), [功能：订单联系人](../functions/order-contact), [退货与作废](../client/refunds-and-voids) |
 | 结账 | 金额、按金额分单、订金、按品项分单、付款方式选择（包括从 `More` 打开的分页式 `Payment Methods`）、付款备注、订金备注 | [结账与付款](../client/checkout-and-payments), [功能：收款](../functions/take-payment) |
-| 付款恢复 | 重试逻辑、取消保护规则、升级回报数据 | [付款错误与重试](../client/payment-errors-and-retry), [故障排查](./troubleshooting) |
+| 付款恢复 | 重试逻辑、取消保护规则、回报资料 | [付款错误与重试](../client/payment-errors-and-retry), [故障排查](./troubleshooting) |
 | 已完成交易 | 作废、退货、重新打开、修改付款、重印收据 | [退货与作废](../client/refunds-and-voids), [功能：作废与退货](../functions/void-vs-return) |
 | 设备 | 打印机新增/编辑/删除、信息/状态、测试打印、队列、付款/输入/X1 设备配置（包括 Linkly EFTPOS 配对） | [页面指南：设备](../client/devices), [功能：管理打印机](../functions/manage-printers), [功能：配置付款设备](../functions/configure-payment-devices), [功能：配置输入设备](../functions/configure-input-devices), [功能：配置 X1 产品](../functions/configure-x1-products), [故障排查](./troubleshooting) |
 | 报表 | 报表选择、日期筛选、打印输出 | [页面指南：报表](../client/reports) |
@@ -44,7 +44,7 @@ title: 功能与特性索引
 | 修改终端设置（`POS Code`、系统级配置） | 否 | 是 |
 | 需要审批的作废/退货操作 | 通常受限 | 是 |
 | 执行日结 | 否 | 是 |
-| 事件升级和最终决策 | 否 | 是 |
+| 事件转交与最终决定 | 否 | 是 |
 
 实际边界请参阅 [角色与权限](../getting-started/roles-and-permissions)。
 

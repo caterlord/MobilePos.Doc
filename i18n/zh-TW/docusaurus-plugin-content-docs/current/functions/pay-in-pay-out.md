@@ -38,7 +38,7 @@ title: 代收 / 代支
 - 如果出現 `No active business day. Please try again later.`，先停止並檢查營業日狀態
 - 如果出現 `No Pay In reasons are available` 或 `No Pay Out reasons are available`，表示原因設定不足
 - 如果出現 `Amount must be greater than zero`，請輸入大於 0 的金額
-- 如果出現 `Unable to save Pay In / Pay Out record`，請先重試一次，確認網路後再升級
+- 如果出現 `Unable to save Pay In / Pay Out record`，請先重試一次，確認網路後再交由經理／管理員處理
 
 ## 何時要找經理／管理員
 

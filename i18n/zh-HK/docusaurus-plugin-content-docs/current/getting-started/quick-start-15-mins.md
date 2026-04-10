@@ -41,11 +41,11 @@ title: 快速開始（15 分鐘）
 
 參考: `client/checkout-and-payments`
 
-## 13 到 15 分鐘: 基本恢復與升級處理
+## 13 到 15 分鐘: 基本恢復與交由經理處理
 
 1. 如果付款失敗，請先確認狀態，然後只重試一次。
 2. 在閘道處理期間不要強制關閉應用程式。
-3. 如需作廢、退回、日結或設定變更，請升級給經理處理。
+3. 如需作廢、退回、日結或設定變更，請交由經理處理。
 
 參考: `client/payment-errors-and-retry`, `getting-started/roles-and-permissions`
 

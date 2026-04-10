@@ -28,7 +28,7 @@ title: 功能與特性地圖
 | Inventory | 售完與限量品項控制 | [畫面指南：Inventory](../client/inventory) |
 | 訂單功能 | 套用／取消折扣、套用／取消服務費、變更桌台、訂單聯絡人、訂單備註、分拆／合併交易、作廢交易、現金收付、會員登入、分頁式 `Select Function` 對話框 | [Sales Flow](../client/sales-flow), [Function: 訂單聯絡人](../functions/order-contact), [Refunds and Voids](../client/refunds-and-voids) |
 | Checkout | `Amount`、以金額分拆、訂金、依品項分拆、付款方式選擇（包含從 `More` 開啟的分頁式 `Payment Methods`）、付款備註、訂金備註 | [Checkout and Payments](../client/checkout-and-payments), [Function: Take Payment](../functions/take-payment) |
-| 付款恢復 | 重試邏輯、取消保護原則、升級資料 | [Payment Errors and Retry](../client/payment-errors-and-retry), [Troubleshooting](./troubleshooting) |
+| 付款恢復 | 重試邏輯、取消保護原則、回報資料 | [Payment Errors and Retry](../client/payment-errors-and-retry), [Troubleshooting](./troubleshooting) |
 | 已完成交易 | 作廢、退回、重新開啟、修改付款、重印收據 | [Refunds and Voids](../client/refunds-and-voids), [Function: Void vs Return](../functions/void-vs-return) |
 | 裝置 | 印表機新增／編輯／刪除、資訊／狀態、測試列印、spooler、付款／輸入／X1 裝置設定（包含 Linkly EFTPOS 配對） | [畫面指南：裝置](../client/devices), [Function: Manage Printers](../functions/manage-printers), [Function: Configure Payment Devices](../functions/configure-payment-devices), [Function: Configure Input Devices](../functions/configure-input-devices), [Function: Configure X1 Products](../functions/configure-x1-products), [Troubleshooting](./troubleshooting) |
 | 報表 | 報表選擇、日期篩選、列印輸出 | [畫面指南：報表](../client/reports) |
@@ -44,7 +44,7 @@ title: 功能與特性地圖
 | 變更終端機設定（`POS Code`、系統層級設定） | 否 | 是 |
 | 作廢／退回等需核准的操作 | 通常受限 | 是 |
 | 日-end execution | 否 | Yes |
-| 事件升級與最終決策 | 否 | 是 |
+| 事件轉交與最終決定 | 否 | 是 |
 
 實際權限邊界請參考 [角色與權限](../getting-started/roles-and-permissions)。
 
