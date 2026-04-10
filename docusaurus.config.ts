@@ -11,6 +11,15 @@ const resolveEnv = (name: string, fallback: string): string => {
   return value.trim();
 };
 
+const resolveOptionalEnv = (name: string): string | undefined => {
+  const value = process.env[name];
+  if (!value || value.trim().length === 0) {
+    return undefined;
+  }
+
+  return value.trim();
+};
+
 const normalizeBaseUrl = (value: string): string => {
   if (value === '/') {
     return '/';
@@ -39,6 +48,32 @@ const docsRouteBasePath = normalizeDocsRouteBasePath(
   resolveEnv('DOCS_ROUTE_BASE_PATH', '/'),
 );
 const docsPathPrefix = docsRouteBasePath === '/' ? '' : `/${docsRouteBasePath}`;
+const algoliaAppId = resolveEnv('DOCSEARCH_APP_ID', '88K552D32K');
+const algoliaApiKey = resolveEnv(
+  'DOCSEARCH_API_KEY',
+  '1a1aaa88f21aea54a0609c4e9536cfd3',
+);
+const algoliaIndexName = resolveEnv(
+  'DOCSEARCH_INDEX_NAME',
+  'X1 Documentations',
+);
+const algoliaAskAiAssistantId = resolveOptionalEnv(
+  'DOCSEARCH_ASK_AI_ASSISTANT_ID',
+);
+const hasAlgoliaDocSearch =
+  Boolean(algoliaAppId) &&
+  Boolean(algoliaApiKey) &&
+  Boolean(algoliaIndexName);
+const tlumaConfig = {
+  source: 'caterlord/mobilepos.doc',
+  theme: 'auto',
+  brandColor: 'blue',
+  button: 'bottom-right',
+  welcomePulse: true,
+  edgePadding: '1rem',
+  autoOpen: false,
+  desktopFullscreenByDefault: false,
+} as const;
 
 const config: Config = {
   title: 'X1 Documentations',
@@ -86,6 +121,24 @@ const config: Config = {
         rel: 'shortcut icon',
         href: 'img/icon.ico',
       },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'algolia-site-verification',
+        content: '8953743DC16FA7EF',
+      },
+    },
+    {
+      tagName: 'script',
+      attributes: {},
+      innerHTML: `window.tlumaConfig = ${JSON.stringify(tlumaConfig)};`,
+    },
+  ],
+  scripts: [
+    {
+      src: 'https://tluma.ai/widget.js',
+      async: true,
     },
   ],
 
@@ -156,26 +209,44 @@ const config: Config = {
     ],
   ],
 
-  themes: [
-    [
-      '@easyops-cn/docusaurus-search-local',
-      {
-        indexDocs: true,
-        indexBlog: false,
-        indexPages: false,
-        docsRouteBasePath,
-        docsDir: ['docs'],
-        language: ['en', 'zh'],
-        hashed: 'filename',
-        highlightSearchTermsOnTargetPage: true,
-        explicitSearchResultPath: true,
-        searchBarPosition: 'right',
-      },
-    ],
-  ],
+  themes: hasAlgoliaDocSearch
+    ? []
+    : [
+        [
+          '@easyops-cn/docusaurus-search-local',
+          {
+            indexDocs: true,
+            indexBlog: false,
+            indexPages: false,
+            docsRouteBasePath,
+            docsDir: ['docs'],
+            language: ['en', 'zh'],
+            hashed: 'filename',
+            highlightSearchTermsOnTargetPage: true,
+            explicitSearchResultPath: true,
+            searchBarPosition: 'right',
+          },
+        ],
+      ],
 
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
+    ...(hasAlgoliaDocSearch
+      ? {
+          algolia: {
+            appId: algoliaAppId!,
+            apiKey: algoliaApiKey!,
+            indexName: algoliaIndexName!,
+            contextualSearch: true,
+            searchPagePath: 'search',
+            ...(algoliaAskAiAssistantId
+              ? {
+                  askAi: algoliaAskAiAssistantId,
+                }
+              : {}),
+          },
+        }
+      : {}),
     colorMode: {
       respectPrefersColorScheme: true,
     },
