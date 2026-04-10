@@ -8,7 +8,7 @@ This repository contains the manuals for:
 - HQ back-office administration
 - MCP integration guidance
 
-Live site: `https://caterlord.github.io/MobilePos.Doc/`
+Live site: `https://docs.x1.tech/`
 
 ## What Is In This Repository
 
