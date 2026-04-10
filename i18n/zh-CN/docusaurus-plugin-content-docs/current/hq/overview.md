@@ -1,26 +1,26 @@
 ---
 sidebar_position: 1
-title: HQ Overview (Work In Progress)
+title: HQ User Manual
 ---
 
-HQ documentation is intentionally minimal at this stage while HQ features are still evolving.
+This section explains how to use X1 HQ for store setup, menu maintenance, reporting, integrations, and related back-office tasks.
 
-## Current Status
+## How to Use This Manual
 
-- HQ user manual pages are under active preparation.
-- Client POS documentation is the current authoring priority.
+1. Start with scope and safe-change guidance before editing shared settings.
+2. Use the section overview pages to choose the correct HQ area.
+3. Follow the detailed task page for the setting or workflow you need.
 
-## Planned HQ Sections
+## Main Sections
 
-1. Catalog management
-2. Pricing and promotions
-3. Reports and analytics
-4. User and role administration
+1. Store settings
+2. POS settings
+3. Menu and catalog
+4. Online ordering
+5. Reports
+6. Integrations
+7. Marketplace
 
-## Source Repository
+## Documentation Note
 
-- `https://github.com/caterlord/MobilePos.HQ`
-
-## Maintainer Note
-
-Add detailed HQ workflows only after UI and behavior are stable enough for user training.
+Use the latest confirmed product behavior and current UI labels when updating HQ pages.

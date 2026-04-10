@@ -232,7 +232,7 @@ Examples:
 
 For HQ navigation labels, verify against:
 
-- `/Users/michaelyung/RiderProjects/ewhq-new/frontend-hq-portal/src/config/routeConfig.ts`
+- the HQ frontend route configuration
 - related page components and locale strings in the HQ frontend
 
 Do not rely on memory for page names.

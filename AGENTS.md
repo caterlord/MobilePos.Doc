@@ -4,12 +4,8 @@
 Build and maintain the online user manual for **POS X1** using Docusaurus.
 
 ## Product Scope
-- Client POS application source:
-  - Git: `https://github.com/caterlord/MobilePos`
-  - Local: `/Users/michaelyung/RiderProjects/MobilePos`
-- HQ back office source:
-  - Git: `https://github.com/caterlord/MobilePos.HQ`
-  - Local: `/Users/michaelyung/RiderProjects/ewhq-new`
+- Product behavior may be verified against companion application codebases when access is available.
+- Do not commit local machine paths, private repository URLs, or environment-specific internal references.
 
 ## Documentation Structure
 - `docs/getting-started/`: onboarding, login, roles, navigation

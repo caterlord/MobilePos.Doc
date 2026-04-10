@@ -1,0 +1,59 @@
+name: Documentation bug report
+description: Report incorrect steps, outdated UI labels, broken links, or other documentation defects.
+title: "[Docs bug]: "
+labels:
+  - type:documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form when the documentation is wrong, outdated, incomplete, or broken.
+  - type: dropdown
+    id: manual_area
+    attributes:
+      label: Manual area
+      description: Which manual is affected?
+      options:
+        - POS User Manual
+        - HQ User Manual
+        - MCP User Manual
+        - Landing page / site navigation
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: page_url
+    attributes:
+      label: Page URL
+      description: Paste the page URL if you have it.
+      placeholder: https://caterlord.github.io/MobilePos.Doc/...
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Describe the issue as clearly as possible.
+      placeholder: The page says to click X, but the current UI shows Y.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should the page say instead?
+      description: If you know the correct wording or flow, add it here.
+      placeholder: The instructions should say...
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or screenshots
+      description: Add screenshots, copied UI labels, or other supporting details.
+      placeholder: Screenshot, exact button label, error text, or other evidence.
+  - type: dropdown
+    id: impact
+    attributes:
+      label: How much does this affect readers?
+      options:
+        - Blocks the task completely
+        - Causes confusion but there is a workaround
+        - Minor wording or formatting issue
+    validations:
+      required: true

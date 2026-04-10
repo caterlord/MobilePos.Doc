@@ -19,8 +19,9 @@ Current focus is the **Client POS application** (store operations).
 
 When any user flow is unclear, confirm behavior against:
 
-- Client source: `https://github.com/caterlord/MobilePos`
-- HQ source: `https://github.com/caterlord/MobilePos.HQ`
+- latest released product behavior
+- confirmed UI labels shown in the product
+- validated documentation updates in this repository
 
 ## Documentation Status
 

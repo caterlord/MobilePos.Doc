@@ -5,8 +5,8 @@ title: POS User Manual
 
 This manual is for the **POS X1 Client app** used by store teams.
 
-This English draft is written from the current `MobilePos` client source and UI labels.
-Focus is cashier and manager operations in the Client app. HQ pages remain work in progress.
+This English draft is written from confirmed product behavior and current UI labels.
+Focus is cashier and manager operations in the Client app.
 
 ## Scope
 
@@ -19,8 +19,9 @@ Focus is cashier and manager operations in the Client app. HQ pages remain work 
 
 ## Source of Truth
 
-- Client source: `https://github.com/caterlord/MobilePos`
-- HQ source: `https://github.com/caterlord/MobilePos.HQ`
+- latest released product behavior
+- confirmed UI labels shown in the product
+- validated documentation updates in this repository
 
 ## How to Read
 

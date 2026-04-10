@@ -3,10 +3,6 @@
     "message": "手册",
     "description": "The title of the footer links column with title=Manual in the footer"
   },
-  "link.title.Source Repositories": {
-    "message": "源码仓库",
-    "description": "The title of the footer links column with title=Source Repositories in the footer"
-  },
   "link.item.label.Introduction": {
     "message": "简介",
     "description": "The label of footer link with label=Introduction linking to /docs/intro"
@@ -15,17 +11,13 @@
     "message": "Client 操作",
     "description": "The label of footer link with label=Client Operations linking to /docs/client/overview"
   },
-  "link.item.label.HQ (In Progress)": {
-    "message": "HQ（建设中）",
-    "description": "The label of footer link with label=HQ (In Progress) linking to /docs/hq/overview"
+  "link.item.label.HQ Operations": {
+    "message": "HQ 操作",
+    "description": "The label of footer link with label=HQ Operations linking to /docs/hq/overview"
   },
-  "link.item.label.Client (MobilePos)": {
-    "message": "Client（MobilePos）",
-    "description": "The label of footer link with label=Client (MobilePos) linking to https://github.com/caterlord/MobilePos"
-  },
-  "link.item.label.HQ (MobilePos.HQ)": {
-    "message": "HQ（MobilePos.HQ）",
-    "description": "The label of footer link with label=HQ (MobilePos.HQ) linking to https://github.com/caterlord/MobilePos.HQ"
+  "link.item.label.Docs Repository": {
+    "message": "文档仓库",
+    "description": "The label of footer link with label=Docs Repository linking to the public documentation repository"
   },
   "copyright": {
     "message": "Copyright © 2026 POS X1. 基于 Docusaurus 构建。",
