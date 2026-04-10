@@ -7,13 +7,9 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 type ManualCard = {
-  eyebrow: string;
   title: string;
   summary: string;
-  audience: string;
-  to: string;
-  cta: string;
-  quickLinks: Array<{
+  links: Array<{
     label: string;
     to: string;
   }>;
@@ -27,48 +23,37 @@ type WorkflowLink = {
 
 const manualCards: ManualCard[] = [
   {
-    eyebrow: 'Store teams',
     title: 'POS User Manual',
     summary:
       'Daily operating guidance for cashier, shift lead, and in-store teams during live service.',
-    audience:
-      'Use this if you need help with sign-in, sales flow, payment, refunds, devices, and day-end.',
-    to: '/intro',
-    cta: 'Open POS Manual',
-    quickLinks: [
+    links: [
       {label: 'Quick Start', to: '/getting-started/quick-start-15-mins'},
       {label: 'Start Shift', to: '/client/start-shift'},
       {label: 'Checkout & Payments', to: '/client/checkout-and-payments'},
+      {label: 'Refunds & Voids', to: '/client/refunds-and-voids'},
     ],
   },
   {
-    eyebrow: 'HQ admins',
     title: 'HQ User Manual',
     summary:
       'Back-office guidance for managers and owners who maintain stores, menus, users, reports, and integrations.',
-    audience:
-      'Use this if you work in HQ and need step-by-step instructions with scope, verification, and escalation guidance.',
-    to: '/hq/overview',
-    cta: 'Open HQ Manual',
-    quickLinks: [
+    links: [
       {label: 'HQ Overview', to: '/hq/overview'},
+      {label: 'Making Safe HQ Changes', to: '/hq/making-safe-hq-changes'},
       {label: 'Store Settings', to: '/hq/store-settings/overview'},
       {label: 'Menu & Catalog', to: '/hq/menu-catalog/overview'},
+      {label: 'Reports', to: '/hq/reports/overview'},
     ],
   },
   {
-    eyebrow: 'Developers and integrators',
     title: 'MCP User Manual',
     summary:
       'Developer-facing documentation for teams integrating AI agents and tooling with the X1 platform.',
-    audience:
-      'Use this if you are building workflows, automations, or integrations against the MCP layer.',
-    to: '/mcp/overview',
-    cta: 'Open MCP Manual',
-    quickLinks: [
+    links: [
       {label: 'MCP Overview', to: '/mcp/overview'},
       {label: 'Docs Repository', to: 'https://github.com/caterlord/MobilePos.Doc'},
-      {label: 'Report an Issue', to: 'https://github.com/caterlord/MobilePos.Doc/issues'},
+      {label: 'Open Issues', to: 'https://github.com/caterlord/MobilePos.Doc/issues'},
+      {label: 'Open Pull Requests', to: 'https://github.com/caterlord/MobilePos.Doc/pulls'},
     ],
   },
 ];
@@ -95,38 +80,25 @@ const workflowLinks: WorkflowLink[] = [
 ];
 
 const contributionSteps = [
-  'Open an issue if you found a documentation gap, outdated behavior, or unclear instruction.',
-  'Fork the repository and make your change in a focused branch if you want to propose a fix directly.',
-  'Submit a pull request with the page update, screenshot change, or wording improvement.',
-  'Reference the related issue so maintainers can review the context and merge the update faster.',
+  'Open an issue for gaps, outdated behavior, or unclear steps.',
+  'Fork the repository and make a focused change in your own branch.',
+  'Submit a pull request with the related page update or screenshot change.',
+  'Reference the issue so maintainers can review and merge faster.',
 ];
 
 function ManualCard({
-  eyebrow,
   title,
   summary,
-  audience,
-  to,
-  cta,
-  quickLinks,
+  links,
 }: ManualCard): ReactNode {
   return (
     <article className={styles.manualCard}>
-      <div className={styles.cardHeader}>
-        <span className={styles.eyebrow}>{eyebrow}</span>
-        <Heading as="h2" className={styles.cardTitle}>
-          {title}
-        </Heading>
-      </div>
+      <Heading as="h2" className={styles.cardTitle}>
+        {title}
+      </Heading>
       <p className={styles.cardSummary}>{summary}</p>
-      <p className={styles.cardAudience}>{audience}</p>
-      <div className={styles.cardActions}>
-        <Link className="button button--primary button--lg" to={to}>
-          {cta}
-        </Link>
-      </div>
       <ul className={styles.quickLinks}>
-        {quickLinks.map((link) => (
+        {links.map((link) => (
           <li key={link.label}>
             <Link to={link.to}>{link.label}</Link>
           </li>
@@ -150,25 +122,25 @@ export default function Home(): ReactNode {
             <div className={styles.heroCopy}>
               <span className={styles.heroKicker}>X1 Platform Documentation</span>
               <Heading as="h1" className={styles.heroTitle}>
-                Find the right manual fast, then move straight into the task.
+                Documentation for POS, HQ, and MCP.
               </Heading>
               <p className={styles.heroLead}>
-                This site now covers live POS operations, HQ back-office work, and
-                MCP integration guidance. Pick the manual that matches your role,
-                then jump directly to the workflow you need.
+                Start with the manual that matches your role, then move directly
+                to the page you need. The site is organized for store teams, HQ
+                admins, and developers working with the X1 platform.
               </p>
               <div className={styles.heroActions}>
                 <Link className="button button--primary button--lg" to="/intro">
-                  Start With POS
+                  Get Started
                 </Link>
                 <Link className="button button--secondary button--lg" to="/hq/overview">
-                  Open HQ Guide
+                  Browse HQ
                 </Link>
               </div>
               <ul className={styles.signalList}>
                 <li>Three manuals in one site: POS, HQ, and MCP.</li>
-                <li>Written for operators, managers, admins, and developers.</li>
-                <li>Public repository with issue tracking and contribution workflow.</li>
+                <li>Task-first navigation with direct links into common workflows.</li>
+                <li>Public GitHub repository for issues, edits, and pull requests.</li>
               </ul>
             </div>
             <div className={styles.heroPanel}>
@@ -193,11 +165,11 @@ export default function Home(): ReactNode {
             <div className={styles.sectionIntro}>
               <span className={styles.sectionKicker}>Choose Your Manual</span>
               <Heading as="h2" className={styles.sectionTitle}>
-                Each entry point is organized around a different kind of work.
+                Browse by manual
               </Heading>
               <p className={styles.sectionLead}>
-                Use the manual cards below when you know your role. Each card
-                includes the best first pages to reduce navigation time.
+                Each section below groups the most useful starting pages for a
+                different kind of reader.
               </p>
             </div>
             <div className={styles.manualGrid}>
@@ -218,7 +190,7 @@ export default function Home(): ReactNode {
               <p className={styles.sectionLead}>
                 The documentation repository is public. If you spot a gap, want
                 to improve wording, or need a missing screenshot documented, you
-                can report it or submit a change directly.
+                can report it or submit a change directly through GitHub.
               </p>
               <div className={styles.contributionActions}>
                 <Link
