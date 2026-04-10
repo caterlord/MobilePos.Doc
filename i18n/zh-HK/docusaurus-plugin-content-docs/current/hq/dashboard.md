@@ -4,52 +4,52 @@ title: 儀表板
 ---
 
 :::info[適用對象]
-店舖 owners 及 一般 經理 monitoring top-level daily activity 及 啟用 connected 店舖.
+需要查看每日整體營運狀況及已連線店舖狀態的店主及總經理。
 :::
 
 ## 開始前
 
-- 登入 於 到 the 正確 organization or 品牌.
-- Decide whether 您 是 checking 狀態 僅 or trying 到 find the 下一頁 setup 頁面.
+- 確認你已登入正確的組織或品牌。
+- 先決定你只是查看狀態，還是要找下一個要設定的 HQ 頁面。
 
 ## 開啟此頁面
 
-開啟 `Dashboard`.
+開啟 `Dashboard`。
 
 ## 本頁用途
 
-`Dashboard` 是 the main landing 頁面 之後 登入-於. 使用 it 到 檢查 high-level activity 及 jump 到 the 下一頁 area of HQ.
+`Dashboard` 是登入 HQ 後的主頁。你可以在這裡查看高層級營運狀況，並快速前往下一個需要處理的設定區域。
 
-![HQ 儀表板 總覽](/img/manual/en/hq/dashboard.png)
+![HQ 儀表板總覽](/img/manual/en/hq/dashboard.png)
 
 ## 主要分區
 
-- **啟用 Locations**: which 店舖 是 currently online or 啟用.
-- **Top-level summaries**: quick daily or current-period indicators.
-- **Navigation shortcuts**: links 到 the main HQ setup areas.
+- **Active Locations**：顯示目前哪些店舖正在連線或啟用中。
+- **Top-level summaries**：顯示每日或目前期間的快速摘要指標。
+- **Navigation shortcuts**：提供前往主要 HQ 設定區域的捷徑。
 
 ## 如何使用本頁
 
-使用 the dashboard 到 decide which 區塊 您 需要 下一頁:
+使用儀表板判斷你下一步要進入哪個區塊：
 
-- 前往 到 [組織管理](./organization.md) 供 HQ members 及 business-level setup
-- 前往 到 [店舖設定 總覽](./store-settings/overview.md) 供 shop-specific setup
-- 前往 到 [POS 設定 總覽](./pos-settings/overview.md) 供 POS 行為 及 付款 setup
-- 前往 到 [菜單與目錄 總覽](./menu-catalog/overview.md) 供 品項 及 菜單 maintenance
-- 前往 到 [報表 總覽](./reports/overview.md) 供 analytics
+- 前往 [組織管理](./organization.md) 管理 HQ 成員及公司層級設定
+- 前往 [店舖設定總覽](./store-settings/overview.md) 處理個別店舖設定
+- 前往 [POS 設定總覽](./pos-settings/overview.md) 處理 POS 行為及付款設定
+- 前往 [菜單與目錄總覽](./menu-catalog/overview.md) 維護品項及菜單
+- 前往 [報表總覽](./reports/overview.md) 查看分析資料
 
-到 更新 your own personal 登入 詳細資料 or switch between different companies/organizations, click your 個人檔案 avatar 於 the navigation bar.
+如果你要更新自己的登入資料，或在不同公司／組織之間切換，可按導覽列上的個人頭像。
 
 ## 儲存後的影響
 
-The dashboard 是 mainly a monitoring 及 navigation 頁面. 使用 it 到 locate the 正確 setup 區塊 之前 您 編輯 資料 elsewhere.
+`Dashboard` 主要是監察及導覽頁面。本頁本身通常不會直接修改資料，而是幫你找出應該到哪個設定區域處理問題。
 
 ## 如發生問題
 
-- 確認 您 是 於 the 正確 organization or 品牌.
-- 如果 the numbers look wrong, 開啟 the 相關 報表 or setup 區塊 之前 editing anything.
+- 確認你目前所在的是正確的組織或品牌。
+- 如果數字看起來不正確，先開啟相關報表或設定頁面，再決定是否要修改資料。
 
 ## 何時要請店主／管理員協助
 
-- 您 無法 find the 正確 品牌 or organization.
-- The dashboard shows unexpected 店舖 狀態 or metrics 及 您 執行 not know which 區塊 owns the issue.
+- 你找不到正確的品牌或組織。
+- 儀表板顯示的店舖狀態或指標異常，而你未能判斷應由哪個區塊處理。

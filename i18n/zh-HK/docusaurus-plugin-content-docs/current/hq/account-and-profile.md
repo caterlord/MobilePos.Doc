@@ -1,67 +1,67 @@
 ---
 sidebar_position: 2
-title: 帳戶與個人檔案
+title: 帳戶與個人資料
 ---
 
 :::info[適用對象]
-Any 使用者 who needs 到 更新 their HQ 登入 credentials, email address, or security 設定.
+需要更新 HQ 登入資料、電郵地址或安全設定的任何使用者。
 :::
 
 ## 開始前
 
-- 請確認 您 是 editing your own account, not another 使用者's HQ 存取.
-- Have any 需要 email or authentication 裝置 已準備好 之前 您 變更 security 設定.
+- 確認你正在修改的是自己的帳戶，不是其他人的 HQ 存取權限。
+- 如要更改安全設定，請先準備好所需電郵或驗證裝置。
 
 ## 開啟此頁面
 
-開啟 your 個人檔案 or account 菜單, 然後 開啟 `Account` or `Profile`.
+開啟你的個人頭像或帳戶選單，然後進入 `Account` 或 `Profile`。
 
 ## 本頁用途
 
-使用本頁 到 manage your own HQ 登入-於 詳細資料, 個人檔案 資訊, 及 security 設定.
+此頁用來管理你自己的 HQ 登入資料、個人資料及安全設定。
 
-![Account 個人檔案 設定](/img/manual/en/hq/account.png)
+![帳戶與個人資料設定](/img/manual/en/hq/account.png)
 
 ## 主要分區
 
-### 個人檔案 資訊
+### 個人資料
 
-您 可以 更新 your personal display name 及 個人檔案 picture here. These 詳細資料 affect your HQ account, not the cashier-facing POS.
+你可以在這裡更新顯示名稱及頭像。這些資料只會影響你的 HQ 帳戶，不會影響收銀員使用的 POS。
 
-### Email 及 登入
+### 電郵與登入
 
-使用 the `Email addresses` 區塊 如果 您 需要 變更 the email 您 使用 到 登入 於. Verification may be 需要 之前 the 變更 takes effect.
+如果你要更改登入 HQ 所用的電郵地址，請使用 `Email addresses` 區塊。變更生效前，系統可能會要求你完成驗證。
 
-### Security 設定
+### 安全設定
 
-使用 這 area 到 manage 密碼 及 multi-factor authentication 設定.
+你可以在這裡管理密碼及多重驗證設定。
 
-:::warning[Keep your account secure]
-Since the HQ portal has 存取 到 sensitive financial 報表 及 菜單 pricing, 您 應 ensure your account 是 secured.
+:::warning[請保護好你的帳戶]
+HQ 後台可以存取敏感的財務報表及菜單定價資料，請確保你的帳戶已妥善保護。
 :::
 
-- **Passwords**: 更新 your 登入 密碼 regularly.
-- **Two-Step Verification**: Add a secondary authentication 方式 到 protect your HQ 存取 against unauthorized logins.
+- **Passwords**：定期更新登入密碼。
+- **Two-Step Verification**：加入額外驗證方式，以防未授權人士登入你的 HQ 帳戶。
 
-### Switch organizations
+### 切換組織
 
-如果 您 manage multiple different brands or independent restaurant groups, 您 可以 click on your organization name at the top 到 toggle between different workspaces.
+如果你同時管理多個品牌或多間餐廳集團，可按頁面頂部的組織名稱，在不同工作區之間切換。
 
 ## 儲存後的影響
 
-These 變更 套用 到 your own HQ account. They 執行 not directly 變更 店舖 setup or POS 行為.
+這些變更只會套用到你自己的 HQ 帳戶，不會直接改動店舖設定或 POS 行為。
 
 ## 如何檢查你的變更
 
-1. 確認 the updated 個人檔案 詳細 是 可見 之後 saving.
-2. 如果 您 changed email or security 設定, 確認 the new 登入-於 方式 works 之前 您 登入 out everywhere else.
+1. 儲存後，確認更新後的個人資料已正確顯示。
+2. 如果你更改了電郵或安全設定，請先確認新的登入方式可正常使用，再登出其他裝置。
 
 ## 如發生問題
 
-- 確認 您 changed your own 個人檔案 及 not a separate member 記錄.
-- 如果 登入-於 詳細資料 changed, verify the new email or authentication 方式 之前 retrying multiple times.
+- 確認你修改的是自己的個人資料，而不是另一個 HQ 成員記錄。
+- 如果你更改了登入資料，請先驗證新電郵或新驗證方式，再避免重複嘗試登入。
 
 ## 何時要請店主／管理員協助
 
-- 您 無法 完成 email verification.
-- 您 是 locked out of HQ 之後 changing your account 設定.
+- 你無法完成電郵驗證。
+- 更改帳戶設定後，你無法再登入 HQ。
