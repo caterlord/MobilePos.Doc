@@ -4,65 +4,65 @@ title: 安全修改 HQ
 ---
 
 :::info[適用對象]
-Anyone making live 設定 變更 於 HQ, especially during trading hours.
+任何需要在 HQ 直接修改正式環境設定的人，尤其是在營業時間內進行變更時。
 :::
 
-## Why 這 matters
+## 為甚麼這頁重要
 
-HQ 變更 可以 affect 店舖, 員工 workflows, 結帳 行為, 網上點餐, 及 reporting. A small 編輯 於 the wrong place 可以 create confusion across multiple shops.
+HQ 內的變更可影響店舖、員工工作流程、結帳行為、網上點餐及報表。只要在錯誤位置作出小改動，就有機會令多間店同時受影響。
 
-## Core idea
+## 核心概念
 
-Treat every HQ 變更 as a controlled 變更:
+把每一次 HQ 變更都當作受控變更處理：
 
-- identify the 正確 scope
-- 變更 one thing at a 時間
-- verify the 結果
-- keep enough 詳細 到 undo or explain the 變更 如果 needed
+- 先找出正確範圍
+- 每次只改一項
+- 儲存後立即驗證結果
+- 保留足夠記錄，以便日後還原或解釋改動內容
 
-## Safe 變更 checklist
+## 安全變更檢查清單
 
-1. 確認 the 正確 品牌 及 店舖 之前 您 編輯.
-2. Capture the 目前 state 配合 a screenshot or 備註.
-3. 確認 whether the 變更 是 供 one 店舖, all shops, or a specific 渠道.
-4. Make one 相關 變更 at a 時間.
-5. 儲存 及 verify 之前 moving 到 the 下一頁 設定.
-6. Test 於 the real destination 何時 practical: POS, 網上點餐, 報表, or the target 店舖.
-7. 記錄 what changed 如果 the 設定 affects operations, finance, or 客戶 experience.
+1. 修改前先確認品牌及店舖是否正確。
+2. 用截圖或備註記錄目前狀態。
+3. 確認這項變更是只影響一間店、全部店，還是某個特定渠道。
+4. 每次只修改一項相關設定。
+5. 每次儲存後，先驗證結果，再移到下一項設定。
+6. 如情況許可，請在實際使用位置測試，例如 POS、網上點餐、報表或目標店舖。
+7. 如變更會影響營運、財務或顧客體驗，請記錄改了甚麼。
 
-## High-risk 變更
+## 高風險變更
 
-Treat these as higher-risk 及 avoid changing them casually during busy service:
+以下設定風險較高，繁忙時段不應隨便修改：
 
 - 付款方式
-- tax 及 surcharge rules
+- 稅項及附加費規則
 - 工作日排程
 - 系統參數
-- 菜單 pricing
-- promotions 及 discounts
-- 網上點餐 渠道 setup
-- 裝置設定 tied 到 live terminals
+- 菜單定價
+- 推廣活動及折扣
+- 網上點餐渠道設定
+- 綁定現場終端機的裝置設定
 
-## How 這 affects your work
+## 這會如何影響你的工作
 
-之後 您 儲存 a 變更, verify the outcome 於 the place that uses it.
+儲存變更後，請到實際使用該設定的地方核對結果。
 
-Examples:
+例如：
 
-- 如果 您 變更 a 付款 setup, verify it 於 the target 店舖 及 結帳 流程.
-- 如果 您 變更 菜單 structure, verify the 正確 菜單 or 分類 appears where 員工 or customers expect it.
-- 如果 您 變更 a 報表 setup, verify the target 報表 still groups 資料 correctly.
+- 如果你修改了付款設定，請到目標店舖及結帳流程中檢查是否正常。
+- 如果你修改了菜單結構，請確認正確的菜單或分類有出現在員工或顧客預期的位置。
+- 如果你修改了報表設定，請確認目標報表仍能正確分組資料。
 
 ## 相關任務
 
 - [品牌、店舖與渠道範圍](./brand-shop-and-channel-scope.md)
-- [店舖設定 總覽](./store-settings/overview.md)
-- [POS 設定 總覽](./pos-settings/overview.md)
-- [菜單與目錄 總覽](./menu-catalog/overview.md)
+- [店舖設定總覽](./store-settings/overview.md)
+- [POS 設定總覽](./pos-settings/overview.md)
+- [菜單與目錄總覽](./menu-catalog/overview.md)
 
 ## 何時要請店主／管理員協助
 
-- The 變更 affects multiple shops 及 您 無法 test all of them.
-- The 變更 touches finance, compliance, or billing.
-- 您 執行 not have a rollback path.
-- 您 是 editing `System Parameters` 及 執行 not fully understand the field.
+- 這項變更會影響多間店舖，而你未能逐一測試。
+- 變更涉及財務、合規或帳單。
+- 你沒有清楚的還原方法。
+- 你正在修改 `System Parameters`，但未完全理解該欄位用途。

@@ -4,90 +4,90 @@ title: 品牌、店舖與渠道範圍
 ---
 
 :::info[適用對象]
-Anyone editing HQ 設定 who needs 到 understand where a 變更 will 套用 之前 saving.
+任何需要在 HQ 修改設定，並想在儲存前先確認變更會套用到哪個範圍的使用者。
 :::
 
-## Why 這 matters
+## 為甚麼這頁重要
 
-Many HQ mistakes happen because the 使用者 edits the right 設定 於 the wrong scope.
+很多 HQ 設定出錯，不是因為選錯欄位，而是因為在錯誤的範圍內修改了正確的設定。
 
-Examples:
+例如：
 
-- changing a brand-level 付款 方式 何時 僅 one 店舖 應 使用 it
-- updating a 店舖 排程 及 expecting it 到 變更 every location
-- changing 網上點餐 setup 於 one 渠道 及 expecting every 渠道 到 follow
+- 本來只想讓一間店使用某個付款方式，卻改了品牌層級設定
+- 修改了一間店的營業時間，卻以為所有店舖都會跟著更新
+- 只改了一個網上點餐渠道的設定，卻以為所有渠道都會同步生效
 
-## Core idea
+## 核心概念
 
-於 X1 HQ, 設定 usually belong 到 one of these scopes:
+在 X1 HQ 中，設定通常屬於以下其中一個範圍：
 
-### Brand-level
+### 品牌層級
 
-Brand-level 設定 是 shared setup records that 可以 be reused across multiple shops.
+品牌層級設定是可供多間店舖共用的設定記錄。
 
-Typical examples:
+常見例子：
 
-- 菜單 品項
+- 菜單品項
 - 分類
-- discounts
-- promotions
-- base 付款 方式 definitions
+- 折扣
+- 推廣活動
+- 基本付款方式定義
 
-Brand-level does not always mean every 店舖 uses the 設定 automatically. A 稍後 shop-level enable step may still be 需要.
+但品牌層級不代表所有店舖一定會自動套用。有些設定之後仍需在店舖層級再啟用。
 
-### Shop-level
+### 店舖層級
 
-Shop-level 設定 套用 到 one physical location.
+店舖層級設定只會套用到某一間實體店。
 
-Typical examples:
+常見例子：
 
 - 工作日排程
-- 店舖 資訊
+- 店舖資料
 - 裝置設定
-- 桌台 及 區塊
-- shop-specific availability or rollout 選項
+- 桌台與區域
+- 某店專用的啟用選項或推出安排
 
-### Channel-specific
+### 渠道層級
 
-Channel-specific 設定 affect a 客戶-facing or operational 渠道 rather than every workflow.
+渠道層級設定會影響某個面向客戶或某種營運流程的渠道，而不是所有流程。
 
-Typical examples:
+常見例子：
 
-- 網上點餐 display
-- 渠道 mapping
-- call-到-action banners
-- translation text 供 客戶-facing flows
+- 網上點餐顯示內容
+- 渠道對應設定
+- 行動引導橫幅
+- 顧客介面的翻譯文字
 
-### 使用者-specific
+### 使用者層級
 
-使用者-specific 設定 套用 僅 到 one HQ account or one POS 使用者 記錄.
+使用者層級設定只會套用到單一 HQ 帳戶，或單一 POS 使用者記錄。
 
-Typical examples:
+常見例子：
 
-- 個人檔案 設定
-- account security 設定
-- HQ member 存取
-- POS 使用者 登入 方式
+- 個人資料設定
+- 帳戶安全設定
+- HQ 成員存取權
+- POS 使用者登入方式
 
-## How 這 affects your work
+## 這會如何影響你的工作
 
-之前 您 儲存 any 變更, answer these questions:
+在你儲存任何變更前，先回答以下問題：
 
-1. Am I editing a shared 記錄 or a single 店舖?
-2. 如果 the 記錄 是 shared, does it still 需要 shop-level enabling?
-3. 執行 I 需要 verify the 結果 於 POS, HQ, 網上點餐, or all three?
-4. Will 這 affect live service 如果 I 儲存 it 現在?
+1. 我現在修改的是共用記錄，還是單一店舖記錄？
+2. 如果這是共用記錄，之後是否仍需要在店舖層級啟用？
+3. 我是否需要在 POS、HQ、網上點餐，還是三者都檢查結果？
+4. 如果我現在儲存，會否即時影響現場營運？
 
 ## 相關任務
 
 - [安全修改 HQ](./making-safe-hq-changes.md)
-- [店舖設定 總覽](./store-settings/overview.md)
-- [POS 設定 總覽](./pos-settings/overview.md)
-- [菜單與目錄 總覽](./menu-catalog/overview.md)
-- [網上點餐 總覽](./online-ordering/overview.md)
+- [店舖設定總覽](./store-settings/overview.md)
+- [POS 設定總覽](./pos-settings/overview.md)
+- [菜單與目錄總覽](./menu-catalog/overview.md)
+- [網上點餐總覽](./online-ordering/overview.md)
 
 ## 何時要請店主／管理員協助
 
-- 您 無法 tell whether the 設定 是 shared or shop-specific.
-- The same setup 記錄 是 used 以 multiple shops.
-- The 變更 affects pricing, tax, 付款, or 客戶-facing 菜單.
+- 你未能判斷某項設定是共用還是店舖專用。
+- 同一個設定記錄會被多間店舖共用。
+- 變更會影響定價、稅項、付款方式或顧客看到的菜單內容。

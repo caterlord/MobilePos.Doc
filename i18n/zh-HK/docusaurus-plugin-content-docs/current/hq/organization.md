@@ -6,65 +6,66 @@ title: 組織管理
 # 組織管理
 
 :::info[適用對象]
-Brand owners 及 一般 經理 who 需要 invite new office 員工 到 the HQ or configure top-level business 詳細資料.
+需要邀請新的後勤同事使用 HQ，或設定公司層級資料的品牌擁有人及總經理。
 :::
 
 ## 開始前
 
-- 確認 您 是 於 the 正確 organization.
-- Decide whether 您 是 changing business 詳細資料, HQ member 存取, or billing 資訊.
+- 確認你目前位於正確的組織。
+- 先分清楚你要修改的是公司資料、HQ 成員權限，還是付款／帳單資料。
 
 ## 開啟此頁面
 
-開啟 `Organization Management`.
+開啟 `Organization Management`。
 
-## 此頁控制內容
+## 本頁控制內容
 
-`Organization Management` 是 the top-level business area 於 HQ. One organization 可以 contain multiple shops or branches.
+`Organization Management` 是 HQ 內管理公司層級資料的主要區域。一個組織可包含多間店舖或分店。
 
 ![組織管理](/img/manual/en/hq/organization.png)
 
 ## 主要分區
 
-### 一般 設定
+### 一般設定
 
-更新 the high-level 詳細資料 of your operation, including the official company name 及 business registration 詳細資料.
+在這裡更新公司層級資料，例如正式公司名稱及商業登記資料。
 
-### Members 及 角色
+### 成員與角色
 
-您 可以 invite new team members 到 存取 the HQ portal here. 
+你可以在這裡邀請新團隊成員使用 HQ 後台。
 
-:::note[POS 使用者 vs HQ Members]
-Inviting a member here gives them 存取 到 the **HQ web dashboard**. 
-如果 您 simply want 到 create a 登入 供 a new 收銀員 到 使用 the terminal 於 the 店舖, 前往 到 **POS 設定 -> POS 使用者** instead.
+:::note[POS 使用者與 HQ 成員的分別]
+在這裡邀請成員，是給對方使用 **HQ 網頁後台**。
+如果你只是想為新收銀員建立店內終端登入，請改到 **POS 設定 -> POS 使用者**。
 :::
 
-### Inviting Staff
-1. Click `Invite member`.
-2. 輸入 the email address of the new 經理 or office 員工.
-3. 選擇 their 角色 (e.g., 管理員, Viewer).
-4. They will receive an email invitation 到 log into HQ.
+### 邀請員工
 
-### Billing
+1. 按 `Invite member`。
+2. 輸入新經理或後勤同事的電郵地址。
+3. 選擇對方的角色，例如 Admin 或 Viewer。
+4. 對方會收到一封電郵邀請，可按指示登入 HQ。
 
-如果 您 handle billing directly, 您 可以 manage your 付款方式 及 查看 past invoices 供 your X1 software subscription 於 本節.
+### 帳單
+
+如果你直接處理帳單，可在這裡管理付款方式，並查看 X1 軟件訂閱的歷史發票。
 
 ## 儲存後的影響
 
-變更 here affect HQ administration, not 收銀員 登入 on the POS.
+這裡的變更會影響 HQ 管理設定，不會直接更改 POS 上收銀員的登入。
 
 ## 如何檢查你的變更
 
-1. 確認 the updated business 詳細 是 可見 之後 saving.
-2. 如果 您 invited a member, 確認 the new member 記錄 or invitation appears 於 the list.
-3. 如果 the 變更 relates 到 subscriptions or billing, 檢查 the 相關 [市集](./marketplace/catalog.md) 頁面 as well.
+1. 儲存後，確認更新後的公司資料已正確顯示。
+2. 如果你邀請了新成員，請確認新成員記錄或邀請已出現在清單中。
+3. 如果變更涉及訂閱或帳單，亦請一併檢查相關的 [市集](./marketplace/catalog.md) 頁面。
 
 ## 如發生問題
 
-- 確認 您 是 editing HQ member 存取 及 not [POS 使用者](./pos-settings/pos-users.md).
-- 檢查 whether the issue belongs 到 organization setup or 到 市集 subscription management.
+- 確認你正在修改的是 HQ 成員存取權，而不是 [POS 使用者](./pos-settings/pos-users.md)。
+- 檢查問題是屬於組織設定，還是屬於市集訂閱管理。
 
 ## 何時要請店主／管理員協助
 
-- The 變更 affects organization ownership, billing, or 存取 供 other 管理員.
-- 您 是 not sure whether the person 應為 an HQ member or a POS 使用者.
+- 變更會影響組織擁有權、帳單或其他管理員的存取權。
+- 你未能判斷某位同事應該建立為 HQ 成員，還是 POS 使用者。
