@@ -1,36 +1,36 @@
 ---
 sidebar_position: 3
-title: Sales Flow
+title: 销售流程
 ---
 
-## Objective
+## 目标
 
-Process a standard customer sale from item entry to receipt completion.
+处理一笔标准销售，从输入品项到完成收据。
 
-## Procedure
+## 步骤
 
-1. Start a new transaction.
-2. Add items by scanning barcode or searching catalog.
-3. Confirm quantity, unit price, and line discounts.
-4. Apply promotions or manual discounts if authorized.
-5. Confirm subtotal and tax.
-6. Select payment method.
-7. Confirm payment approval.
-8. Print or send receipt.
+1. 开始一笔新交易。
+2. 通过扫描条码或搜寻目录加入品项。
+3. 确认数量、单价与行项目折扣。
+4. 如果已获授权，套用促销或手动折扣。
+5. 确认小计与税金。
+6. 选择付款方式。
+7. 确认付款通过。
+8. 列印或发送收据。
 
-## Validation Checks
+## 验证检查
 
-- Basket total matches customer confirmation.
-- Payment state is successful.
-- Receipt number is generated and visible.
+- 购物车总额与客户确认一致。
+- 付款状态成功。
+- 收据编号已产生并可见。
 
-## Exception Handling
+## 异常处理
 
-- If barcode scan fails, use item search by name/SKU.
-- If price mismatch occurs, request manager approval before override.
-- If payment fails, follow `Payment Errors and Retry`.
+- 如果条码扫描失败，就改用品项名称／SKU 搜寻。
+- 如果价格不一致，覆盖前先请求经理批准。
+- 如果付款失败，请依照 `付款错误与重试`。
 
-## TODO for Maintainers
+## 维护备注
 
-- Add exact payment states by method.
-- Add screenshots for split payment if supported.
+- 需要补上各付款方式的准确状态。
+- 如果系统支持分单付款，需要补上截图。

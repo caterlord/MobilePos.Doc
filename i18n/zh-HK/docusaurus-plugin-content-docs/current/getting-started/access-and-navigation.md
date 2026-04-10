@@ -1,33 +1,76 @@
 ---
-sidebar_position: 1
-title: Access and Navigation
+sidebar_position: 2
+title: 存取與導覽
 ---
 
-## Objective
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-Help first-time users access the system and understand basic navigation.
+:::info[適用對象]
+所有登入 POS 終端機的店舖人員。
+:::
 
-## Access Checklist
+## 開始前
 
-1. Confirm your role with administrator.
-2. Confirm your account is active.
-3. Confirm your branch/store assignment.
-4. Confirm required hardware is connected (for Client app usage).
+- 終端機已完成初始化並可連線
+- 您有可用的登入 PIN
 
-## Client App Entry
+## 登入畫面基礎
 
-1. Launch the POS X1 Client application.
-2. Enter your credentials.
-3. Select branch/store if prompted.
-4. Confirm terminal status is online.
+您會看到：
 
-## HQ Entry
+- 目前店舖名稱
+- 首頁圖示（可切換店舖）
+- 若經理已啟用，可能會看到快速切換語言按鈕（`EN` / `繁` / `简`）
+- PIN keypad
+- `SIGN IN` 登入 按鈕
 
-1. Open the HQ URL provided by your administrator.
-2. Sign in with your account.
-3. Verify branch and role context in the top navigation.
+## 步驟
 
-## TODO for Maintainers
+<Tabs>
+  <TabItem value="quick-language-switch" label="快速切換語言（如有顯示）">
+1. 在登入畫面點選圓形語言按鈕（`EN` / `繁` / `简`）。
+2. 確認畫面文字切換到下一個可用語言。
+3. 繼續正常登入。
+  </TabItem>
+  <TabItem value="sign-in" label="登入">
+1. 輸入 PIN（或在已設定時掃描卡片）。
+2. 點選 `SIGN IN`.
+3. 等待 `Ordering` 畫面載入。
+  </TabItem>
+  <TabItem value="clock-in" label="打卡上班／下班（如已啟用）">
+1. 在登入畫面點選出勤按鈕。
+2. 在班次開始時點選 `Clock In`，或在班次結束時點選 `Clock Out`。
+3. 然後照常登入。
+  </TabItem>
+  <TabItem value="sign-out" label="登出">
+1. 前往桌台／訂單畫面。
+2. 點選右上角紅色登出按鈕。
+3. 確認返回登入畫面。
+  </TabItem>
+</Tabs>
 
-- Add real login screen screenshots for Client and HQ.
-- Add SSO or MFA steps if enabled in production.
+## 你應該看到什麼
+
+![登入 PIN 畫面](/img/manual/en/getting-started/gs-06-login-passcode-screen.png)
+![登入出勤彈出面板](/img/manual/en/getting-started/gs-07-login-roster-flyout.png)
+
+:::note[截圖待補]
+所需文件：`getting-started/gs-10-login-quick-language-switch.png`
+:::
+
+## 如發生問題
+
+:::warning[`SIGN IN` 無法使用]
+重新輸入 PIN，並再試一次。
+:::
+
+:::note[登入被服務警告阻擋]
+如果出現訂閱／離線警告，請先恢復連線後再登入。
+:::
+
+## 何時要找經理／管理員
+
+- 多次重試後 PIN 仍然失敗
+- 訂閱／離線阻擋無法解除
+- 您無法進入正確的店舖／角色

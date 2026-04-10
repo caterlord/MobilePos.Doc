@@ -1,29 +1,29 @@
 ---
 sidebar_position: 2
-title: Roles and Permissions
+title: 角色与权限
 ---
 
-## Why It Matters
+## 为什么重要
 
-POS X1 features vary by role. Users should only see actions they are authorized to perform.
+POS X1 的功能会依角色而不同。使用者只应看到自己有权限执行的动作。
 
-## Typical Roles
+## 常见角色
 
-| Role | Scope |
+| 角色 | 范围 |
 | --- | --- |
-| Cashier | Sales, payment collection, receipt actions |
-| Store Manager | Shift control, overrides, end-of-day tasks |
-| HQ Operator | Catalog and pricing maintenance |
-| HQ Analyst | Reporting and operational insights |
-| System Admin | User/role management and global settings |
+| 收银员 | 销售、收款、收据动作 |
+| 门市经理 | 班次控制、覆盖处理、日终任务 |
+| HQ 操作员 | 目录与价格维护 |
+| HQ 分析员 | 报表与营运洞察 |
+| 系统管理员 | 用户／角色管理与全域设定 |
 
-## Permission Guidance
+## 权限原则
 
-1. Grant minimum required permissions.
-2. Separate operational and configuration duties.
-3. Review privileged roles on a schedule.
+1. 只授予完成工作所需的最低权限。
+2. 将营运操作与设定工作分开。
+3. 定期检查高权限角色。
 
-## TODO for Maintainers
+## 维护备注
 
-- Replace role table with exact role names from production setup.
-- Add screenshot of role assignment screen in HQ.
+- 需要把角色表换成正式环境中的准确角色名称。
+- 需要补上 HQ 角色指派画面的截图。

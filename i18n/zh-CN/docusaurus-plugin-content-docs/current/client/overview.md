@@ -1,22 +1,37 @@
 ---
 sidebar_position: 1
-title: Client Overview
+title: 客户端总览
 ---
 
-## Scope
+## 客户端负责什么
 
-The Client application covers in-store transaction processing and shift operations.
+客户端负责门店端从登录到日结的日常操作。
 
-## Main Areas
+## 核心工作流
 
-- Order entry
-- Item search/scan
-- Discount and adjustment controls
-- Payment and receipt handling
-- Shift close/end-of-day operations
+1. `开班`：登录、考勤、设备检查
+2. `销售流程`：堂食/外卖、项目、加料、发送与结账
+3. `结账与付款`：金额、分单、订金和按项目付款
+4. `退款与作废`：处理中订单作废和已完成订单退回
+5. `日结`：经理执行日结和结算控制
 
-## Recommended Reading Order
+## 主要画面
 
-1. Sales Flow
-2. Refunds and Voids
-3. End of Day
+- `登录`
+- `点餐`
+- `在线订单`
+- `订单总览`
+- `库存`
+- `订单`
+- `结账`
+- `设备`
+- `报表`
+- `更多工具`
+- `设置`
+- `信息`
+
+## 如何使用本手册
+
+- 按班次查找：**班次流程**
+- 按画面理解：**画面指南**
+- 只找一个功能：**功能指南**

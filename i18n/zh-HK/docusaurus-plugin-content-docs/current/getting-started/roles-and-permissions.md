@@ -1,29 +1,49 @@
 ---
-sidebar_position: 2
-title: Roles and Permissions
+sidebar_position: 4
+title: 角色與權限
 ---
 
-## Why It Matters
+## Terminal 角色 於 POS X1
 
-POS X1 features vary by role. Users should only see actions they are authorized to perform.
+已設定的終端機角色包含：
 
-## Typical Roles
+- `Staff`
+- `Customer Display`
+- `Pickup Display`
+- `Pickup Controller`
+- `Express Checkout`
+- `Queue Terminal`
+- `Queue Display`
+- `Queue Controller`
 
-| Role | Scope |
-| --- | --- |
-| Cashier | Sales, payment collection, receipt actions |
-| Store Manager | Shift control, overrides, end-of-day tasks |
-| HQ Operator | Catalog and pricing maintenance |
-| HQ Analyst | Reporting and operational insights |
-| System Admin | User/role management and global settings |
+本手冊目前以店舖端 `Staff` 操作為主。
 
-## Permission Guidance
+## 實際權限矩陣
 
-1. Grant minimum required permissions.
-2. Separate operational and configuration duties.
-3. Review privileged roles on a schedule.
+| 操作範圍 | 收銀員 | 經理 |
+| --- | --- | --- |
+| PIN 登入與出勤打卡 | 是 | 是 |
+| 開啟桌台／訂單並加入品項 | 是 | 是 |
+| 一般結帳與收款 | 是 | 是 |
+| 重試失敗付款（基本流程） | 是 | 是 |
+| 變更 `POS Code`／終端機設定 | 否 | 是 |
+| 日結執行 | 否 | 是 |
+| 作廢／退回例外的最終決定 | 受限 | 是 |
+| 付款／裝置問題的事件結案 | 否 | 是 |
 
-## TODO for Maintainers
+## 功能顯示說明
 
-- Replace role table with exact role names from production setup.
-- Add screenshot of role assignment screen in HQ.
+部分操作只有在設定啟用後才會顯示：
+
+- 出勤 `Clock In`／`Clock Out`
+- `Split Table`
+- 自動開單動作
+- `More Tools` cards (`Queue Controller`, etc.)
+- 第三方付款修改選項
+
+## 何時要立即升級給經理
+
+- 重試後付款結果仍然不明確
+- 作廢／退回被阻擋或受政策限制
+- 必須變更 `POS Code` 或裝置設定
+- 日結無法正常進行

@@ -1,34 +1,93 @@
 ---
-sidebar_position: 6
-title: End of Day
+sidebar_position: 7
+title: 日结
 ---
 
-## Objective
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-Complete shift close and daily settlement consistently.
+:::danger[仅限经理]
+日结不可逆，必须由经理角色执行。
+:::
 
-## End-of-Day Checklist
+:::info[适用对象]
+负责结业的班次经理，以及监督日结控制的店主。
+:::
 
-1. Stop new transactions at close time.
-2. Reconcile cash drawer amount.
-3. Reconcile card and e-wallet totals.
-4. Review pending or failed payments.
-5. Finalize shift close in the POS system.
-6. Print or export day-end summary.
-7. Report discrepancies to manager.
+## 开始前
 
-## Required Outputs
+- 处理完所有未完成订单 / 结账
+- 确认待处理付款已经结清
+- 完成必要的 `代收 / 代支` 记录
+- 确认营业日期 / 时间正确
+- 确认 `设置` -> `报表` 中的日报表区块符合门店打印需求
 
-- Shift close confirmation
-- Daily totals report
-- Exception log (if any)
+## 步骤
 
-## Control Tips
+1. 打开 `更多工具`。
+2. 点击 `日结`。
 
-- Use dual verification for cash count when possible.
-- Keep signed reconciliation records by shift.
+<Tabs>
+  <TabItem value="current-day" label="当前日结">
+1. 点击 `当前日结`。
+2. 阅读警告，然后点击 `确定`。
+3. 等待完成。
+  </TabItem>
+  <TabItem value="selected-day" label="选定日期日结">
+1. 选择目标日期。
+2. 点击 `选定日期日结`。
+3. 阅读警告，然后点击 `确定`。
+4. 等待完成。
+  </TabItem>
+</Tabs>
 
-## TODO for Maintainers
+:::tip[选定日期行为]
+`选定日期日结` 现在会使用你选定的日期来结算并写入营业额。
+如果该日期已经处理过，POS 会阻止你再次对同一日期执行日结。
+:::
 
-- Add branch-specific checklist differences.
-- Add screenshots of reconciliation and close screens.
+:::note[打印报表内容]
+打印出来的日结报表会遵循 `设置` -> `报表` -> `日报表打印部分`。
+如果某个区块没有出现在打印结果中，请在下一营业日前先检查该设置。
+:::
+
+## 你应该会看到
+
+![更多工具页面](/img/manual/en/client/cl-23-manager-tools-page.png)
+
+![日结对话框](/img/manual/en/client/cl-24-day-end-dialog.png)
+![日结不可逆警告](/img/manual/en/client/cl-25-day-end-warning.png)
+
+## 出现问题时
+
+:::warning[没有待处理营业日 / 验证被阻止]
+重新检查营业日期和未完成交易，然后再重试一次。
+:::
+
+:::warning[`所选日期已完成日结，无法重复执行`]
+这个日期已经关闭。请选择其他日期，或者先查看已有报表，不要重复执行日结。
+:::
+
+:::note[出现警告提示]
+这是正常行为。日结属于高风险不可逆操作。
+:::
+
+:::warning[打印报表缺少区块]
+打开 `设置` -> `报表`，检查 `日报表打印部分` 以及各个 `进阶部分` 开关，然后在下一营业日使用更新后的配置。
+:::
+
+## 要做 / 不要做
+
+:::tip[要做]
+在日结前确认订单和付款都已关闭，并且整个流程只由一位经理负责。
+:::
+
+:::danger[不要做]
+不要在付款结果仍不明确时执行日结。
+:::
+
+## 何时找管理员
+
+- 营业日期看起来不正确
+- 经理重试后日结仍然被阻止
+- 日结结果与报表不一致

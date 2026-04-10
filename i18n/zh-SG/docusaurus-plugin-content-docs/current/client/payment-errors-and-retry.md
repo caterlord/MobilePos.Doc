@@ -1,37 +1,37 @@
 ---
 sidebar_position: 4
-title: Payment Errors and Retry
+title: 付款错误与重试
 ---
 
-## Objective
+## 目标
 
-Handle payment failures safely without duplicate charges.
+安全处理付款失败，避免重复扣款。
 
-## Standard Retry Workflow
+## 标准重试流程
 
-1. Confirm transaction is still in pending/unpaid state.
-2. Read and note the payment error code.
-3. Retry the same method once.
-4. If still failed, switch to another payment method.
-5. Complete sale and confirm receipt reference.
+1. 确认交易仍处于待处理／未付款状态。
+2. 读出并记录付款错误代码。
+3. 以同一种方式重试一次。
+4. 如果还是失败，改用其他付款方式。
+5. 完成销售并确认收据编号。
 
-## Operator Rules
+## 操作规则
 
-- Do not repeatedly retry more than once on same method.
-- Do not start a new ticket until current ticket status is clear.
-- Escalate gateway/provider errors with timestamp and terminal ID.
+- 同一种方式不要重复重试超过一次。
+- 在当前交易状态不清楚前，不要开新单。
+- 如果是网关／供应商错误，升级回报时要附上时间戳与终端 ID。
 
-## Escalation Data
+## 升级回报资料
 
-Capture before escalation:
+升级前请记录：
 
-- Branch/store
-- Terminal ID
-- Payment type
-- Error code/message
-- Attempt time
+- 分店／店铺
+- 终端 ID
+- 付款类型
+- 错误代码／讯息
+- 尝试时间
 
-## TODO for Maintainers
+## 维护备注
 
-- Add provider-specific error code table.
-- Add exact on-screen status mapping.
+- 需要补上各供应商的错误代码表。
+- 需要补上准确的画面状态对应说明。

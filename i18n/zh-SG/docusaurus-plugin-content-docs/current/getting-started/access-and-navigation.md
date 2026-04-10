@@ -1,33 +1,33 @@
 ---
 sidebar_position: 1
-title: Access and Navigation
+title: 访问与导航
 ---
 
-## Objective
+## 目标
 
-Help first-time users access the system and understand basic navigation.
+帮助第一次使用的人登录系统，并了解基本导航。
 
-## Access Checklist
+## 进入前检查
 
-1. Confirm your role with administrator.
-2. Confirm your account is active.
-3. Confirm your branch/store assignment.
-4. Confirm required hardware is connected (for Client app usage).
+1. 向管理员确认你的角色。
+2. 确认你的账号已启用。
+3. 确认你的分店／店铺绑定正确。
+4. 如果要使用 Client 应用，先确认所需硬件已经连接。
 
-## Client App Entry
+## 进入 Client 应用
 
-1. Launch the POS X1 Client application.
-2. Enter your credentials.
-3. Select branch/store if prompted.
-4. Confirm terminal status is online.
+1. 启动 POS X1 Client 应用。
+2. 输入你的登录资料。
+3. 如果系统提示，选择分店／店铺。
+4. 确认终端状态显示为联机。
 
-## HQ Entry
+## 进入 HQ
 
-1. Open the HQ URL provided by your administrator.
-2. Sign in with your account.
-3. Verify branch and role context in the top navigation.
+1. 打开管理员提供的 HQ URL。
+2. 使用你的账号登录。
+3. 在顶部导航确认分店与角色上下文。
 
-## TODO for Maintainers
+## 维护备注
 
-- Add real login screen screenshots for Client and HQ.
-- Add SSO or MFA steps if enabled in production.
+- 需要补上 Client 与 HQ 的真实登录画面截图。
+- 如果正式环境启用了 SSO 或 MFA，再补上对应步骤。

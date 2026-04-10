@@ -1,37 +1,45 @@
 ---
-sidebar_position: 4
-title: Payment Errors and Retry
+sidebar_position: 5
+title: 付款錯誤與重試
 ---
 
-## Objective
+## 目的
 
-Handle payment failures safely without duplicate charges.
+安全地處理付款失敗，避免重複扣款。
 
-## Standard Retry Workflow
+> Screenshot placeholders `cl-17-payment-failed-dialog.png` 和
+> `cl-18-payment-retry-state.png` 仍然待補。
 
-1. Confirm transaction is still in pending/unpaid state.
-2. Read and note the payment error code.
-3. Retry the same method once.
-4. If still failed, switch to another payment method.
-5. Complete sale and confirm receipt reference.
+## 內建規則
 
-## Operator Rules
+- 如果有 Octopus 連結折扣，付款必須使用 Octopus。
+- 結賬在付款處理期間會鎖定。
+- 部分第三方付款在成功授權後會變成鎖定狀態。
+- 如果 `Round For Cash Only` 已啟用，結賬四捨五入只會在目前付款使用現金時套用。
+- 付款終端機（例如 Linkly）付款時，請跟隨終端機提示，並等候 POS 結果後才重試。
 
-- Do not repeatedly retry more than once on same method.
-- Do not start a new ticket until current ticket status is clear.
-- Escalate gateway/provider errors with timestamp and terminal ID.
+## 重試流程
 
-## Escalation Data
+1. 確認付款是否真的已被接受。
+2. 檢查結賬清單中目前付款行的狀態。
+3. 只有在狀態明確顯示 failed / cancelled 時，才可用相同方式重試一次。
+4. 如果再次失敗，請改用其他付款方式。
+5. 完成交易並確認收據已生成。
 
-Capture before escalation:
+## 如果需要回退
 
-- Branch/store
-- Terminal ID
-- Payment type
-- Error code/message
-- Attempt time
+取消結賬時，應用程式可依照鎖定和 gateway 狀態取消 / 移除已付款行。
+如果透過返回鍵或導覽離開結賬，桌台應該回復為未鎖定狀態。
+gateway 處理期間請勿強行關閉應用程式。
 
-## TODO for Maintainers
+## 升級資料
 
-- Add provider-specific error code table.
-- Add exact on-screen status mapping.
+升級時請提供以下資料：
+
+- 交易編號 / 收據編號
+- 付款方式
+- 終端機 ID / POS 代碼
+- 桌台代碼
+- 時間戳
+- 畫面上的失敗訊息
+- 是否已嘗試重試

@@ -1,22 +1,22 @@
 ---
 sidebar_position: 1
-title: Client Overview
+title: Client 总览
 ---
 
-## Scope
+## 范围
 
-The Client application covers in-store transaction processing and shift operations.
+Client 应用负责店内交易处理与班次操作。
 
-## Main Areas
+## 主要区域
 
-- Order entry
-- Item search/scan
-- Discount and adjustment controls
-- Payment and receipt handling
-- Shift close/end-of-day operations
+- 点餐与开单
+- 品项搜寻／扫码
+- 折扣与调整控制
+- 付款与收据处理
+- 班次结束／日结操作
 
-## Recommended Reading Order
+## 建议阅读顺序
 
-1. Sales Flow
-2. Refunds and Voids
-3. End of Day
+1. 销售流程
+2. 退款与作废
+3. 日结

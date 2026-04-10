@@ -1,34 +1,34 @@
 ---
 sidebar_position: 2
-title: Start Shift
+title: 开班
 ---
 
-## Objective
+## 目标
 
-Prepare terminal and cashier session before first sale.
+在第一笔销售前，准备终端与收银员工作阶段。
 
-## Prerequisites
+## 开始前
 
-- Cashier account is active.
-- Terminal is online.
-- Receipt printer and scanner are connected.
-- Opening cash float is verified.
+- 收银员账号已启用。
+- 终端已联机。
+- 收据打印机与扫描器已连接。
+- 已确认开班现金底额。
 
-## Procedure
+## 步骤
 
-1. Sign in to POS Client.
-2. Select terminal/store if prompted.
-3. Run device health check (printer, scanner, network).
-4. Enter opening float amount.
-5. Confirm shift start.
+1. 登录 POS Client。
+2. 如果系统提示，选择终端／店铺。
+3. 执行设备检查（打印机、扫描器、网络）。
+4. 输入开班现金底额。
+5. 确认开始班次。
 
-## Validation Checks
+## 验证检查
 
-- Shift status changes to `Open`.
-- Opening float is recorded.
-- Test receipt prints successfully.
+- 班次状态变成 `Open`。
+- 开班现金底额已记录。
+- 测试收据可以成功打印。
 
-## TODO for Maintainers
+## 维护备注
 
-- Replace labels with exact UI text from production.
-- Add screenshot sequence for shift start confirmation.
+- 需要把标签换成正式环境中的准确 UI 文本。
+- 需要补上班次开始确认流程的截图。

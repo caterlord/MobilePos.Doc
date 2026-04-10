@@ -1,34 +1,34 @@
 ---
 sidebar_position: 6
-title: End of Day
+title: 日结
 ---
 
-## Objective
+## 目标
 
-Complete shift close and daily settlement consistently.
+一致地完成班次结束与日常结算。
 
-## End-of-Day Checklist
+## 日结检查清单
 
-1. Stop new transactions at close time.
-2. Reconcile cash drawer amount.
-3. Reconcile card and e-wallet totals.
-4. Review pending or failed payments.
-5. Finalize shift close in the POS system.
-6. Print or export day-end summary.
-7. Report discrepancies to manager.
+1. 到收班时间后停止建立新交易。
+2. 核对现金抽屉金额。
+3. 核对银行卡与电子钱包总额。
+4. 检查待处理或失败付款。
+5. 在 POS 系统完成班次结束。
+6. 列印或导出日结摘要。
+7. 把差异回报给经理。
 
-## Required Outputs
+## 必要输出
 
-- Shift close confirmation
-- Daily totals report
-- Exception log (if any)
+- 班次结束确认
+- 每日总额报表
+- 例外记录（如有）
 
-## Control Tips
+## 控制建议
 
-- Use dual verification for cash count when possible.
-- Keep signed reconciliation records by shift.
+- 如果可以，现金点算时使用双重核对。
+- 依班次保存已签核的对帐记录。
 
-## TODO for Maintainers
+## 维护备注
 
-- Add branch-specific checklist differences.
-- Add screenshots of reconciliation and close screens.
+- 需要补上各分店的清单差异。
+- 需要补上对帐与收班画面的截图。

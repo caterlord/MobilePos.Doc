@@ -1,22 +1,37 @@
 ---
 sidebar_position: 1
-title: Client Overview
+title: Client 總覽
 ---
 
-## Scope
+## Client App 會涵蓋什麼
 
-The Client application covers in-store transaction processing and shift operations.
+Client app 會處理門店端的操作，由登入一直到日結。
 
-## Main Areas
+## 核心流程區塊
 
-- Order entry
-- Item search/scan
-- Discount and adjustment controls
-- Payment and receipt handling
-- Shift close/end-of-day operations
+1. `Start Shift`：登入、輪班表、裝置檢查
+2. `Sales Flow`：堂食 / 訂單、品項、加配料、傳送 / 結束
+3. `Checkout and Payments`：金額 / 分單 / 訂金 / 按品項分單付款
+4. `Refunds and Voids`：進行中作廢和已完成訂單退回流程
+5. `End of Day`：經理日結和結算控制
 
-## Recommended Reading Order
+## 主要畫面
 
-1. Sales Flow
-2. Refunds and Voids
-3. End of Day
+- `Login`
+- `Ordering`
+- `Online Orders`
+- `Orders Overview`
+- `Inventory`
+- `Order`（未完成 / 已完成）
+- `Checkout`
+- `Devices`
+- `Reports`
+- `Manager Tools`
+- `Settings`
+- `Info`
+
+## 如何使用本手冊
+
+- 需要逐班處理：**Run a Shift**
+- 需要了解單一畫面 / 模組：**Screen Guides**
+- 需要查一個明確功能：**Function Guides**

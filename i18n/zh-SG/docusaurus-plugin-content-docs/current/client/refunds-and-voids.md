@@ -1,34 +1,34 @@
 ---
 sidebar_position: 5
-title: Refunds and Voids
+title: 退款与作废
 ---
 
-## Definitions
+## 定义
 
-- **Void**: canceling part/all of a transaction before completion.
-- **Refund**: returning value after payment was completed.
+- **Void**：在交易完成前取消部分或全部交易。
+- **Refund**：付款完成后退回金额。
 
-## Void Procedure (In-Progress Transaction)
+## 作废流程（进行中交易）
 
-1. Open current transaction.
-2. Select line item or full transaction action.
-3. Select reason code if required.
-4. Confirm void and recheck totals.
+1. 打开当前交易。
+2. 选择行项目或整笔交易动作。
+3. 如果需要，选择原因代码。
+4. 确认作废并重新检查总额。
 
-## Refund Procedure (Completed Transaction)
+## 退款流程（已完成交易）
 
-1. Locate original receipt or transaction ID.
-2. Verify item eligibility and policy rules.
-3. Select refund method.
-4. Confirm approval and finalize.
-5. Issue refund receipt.
+1. 找到原始收据或交易 ID。
+2. 确认品项资格与政策规则。
+3. 选择退款方式。
+4. 确认批准并完成处理。
+5. 开出退款收据。
 
-## Control Recommendations
+## 控制建议
 
-- Require manager approval above configured thresholds.
-- Capture reason codes for audit and reporting.
+- 超过设定门槛时，要求经理批准。
+- 记录原因代码，方便稽核与报表。
 
-## TODO for Maintainers
+## 维护备注
 
-- Add policy matrix by payment method and elapsed time.
-- Add exact manager approval prompts from UI.
+- 需要补上按付款方式与经过时间划分的政策矩阵。
+- 需要补上 UI 中准确的经理批准提示。
