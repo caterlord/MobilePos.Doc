@@ -9,15 +9,15 @@ title: 故障排查
 
 ## 快速症状索引
 
-| 症状 | 第一步动作 | 跳转到 |
+| 症状 | 第一步动作 | 对应章节 |
 | --- | --- | --- |
-| 无法登录 | 重试 PIN 一次，检查网络 | [登录失败](#login-fails) |
-| 打印机／设备未就绪 | 检查状态，执行 `Test Print` | [打印机或设备未就绪](#printer-or-device-not-ready) |
-| `POS Code is required` | 在 `Settings` 填写 `POS Code` | [需要 POS Code](#pos-code-required) |
-| 付款失败或结果不明确 | 只有在明确失败时才重试一次 | [付款无法完成](#payment-cannot-complete) |
-| 无法修改已完成的付款 | 检查第三方／付款锁定规则 | [修改付款被阻止](#modify-payment-is-blocked) |
-| 无法分拆／合并／作废 | 先送出未处理品项，再清除编辑内容 | [分拆、合并或作废被阻止](#split-merge-or-void-is-blocked) |
-| 日结无法继续 | 重新检查营业日期和待处理交易 | [日结无法继续](#day-end-cannot-proceed) |
+| 无法登录 | 重试 PIN 一次，检查网络 | 登录失败 |
+| 打印机／设备未就绪 | 检查状态，执行 `Test Print` | 打印机或设备未就绪 |
+| `POS Code is required` | 在 `Settings` 填写 `POS Code` | 需要 POS Code |
+| 付款失败或结果不明确 | 只有在明确失败时才重试一次 | 付款无法完成 |
+| 无法修改已完成的付款 | 检查第三方／付款锁定规则 | 修改付款被阻止 |
+| 无法分拆／合并／作废 | 先送出未处理品项，再清除编辑内容 | 分拆、合并或作废被阻止 |
+| 日结无法继续 | 重新检查营业日期和待处理交易 | 日结无法继续 |
 
 ## 全局处理规则
 

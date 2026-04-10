@@ -9,15 +9,15 @@ title: 疑難排解
 
 ## 快速症狀索引
 
-| 症狀 | 第一個動作 | 直接跳到 |
+| 症狀 | 第一個動作 | 對應章節 |
 | --- | --- | --- |
-| 無法登入 | 先重試一次 PIN，並檢查網路 | [登入失敗](#login-fails) |
-| 印表機／裝置未就緒 | 檢查狀態，並執行 `Test Print` | [印表機或裝置未就緒](#printer-or-device-not-ready) |
-| `POS Code is required` | 在 `Settings` 填入 `POS Code` | [POS Code 需要](#pos-code-required) |
-| 付款失敗或結果不明確 | 只有在明確失敗時才重試一次 | [無法完成付款](#payment-cannot-complete) |
-| 無法修改已完成付款 | 檢查第三方／付款鎖定規則 | [修改付款被阻止](#modify-payment-is-blocked) |
-| 無法分拆／合併／作廢 | 先送出待處理品項，清除編輯內容 | [分拆、合併或作廢被阻止](#split-merge-or-void-is-blocked) |
-| 日結無法進行 | 重新檢查營業日期與待處理交易 | [日結無法進行](#day-end-cannot-proceed) |
+| 無法登入 | 先重試一次 PIN，並檢查網路 | 登入失敗 |
+| 印表機／裝置未就緒 | 檢查狀態，並執行 `Test Print` | 印表機或裝置未就緒 |
+| `POS Code is required` | 在 `Settings` 填入 `POS Code` | POS Code 需要 |
+| 付款失敗或結果不明確 | 只有在明確失敗時才重試一次 | 無法完成付款 |
+| 無法修改已完成付款 | 檢查第三方／付款鎖定規則 | 修改付款被阻止 |
+| 無法分拆／合併／作廢 | 先送出待處理品項，清除編輯內容 | 分拆、合併或作廢被阻止 |
+| 日結無法進行 | 重新檢查營業日期與待處理交易 | 日結無法進行 |
 
 ## 全域處理原則
 
