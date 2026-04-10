@@ -31,7 +31,7 @@ const normalizeDocsRouteBasePath = (value: string): string => {
   return trimmed.replace(/^\/+|\/+$/g, '');
 };
 
-const siteUrl = resolveEnv('DOCS_SITE_URL', 'https://caterlord.github.io');
+const siteUrl = resolveEnv('DOCS_SITE_URL', 'https://docs.x1.tech');
 const siteBaseUrl = normalizeBaseUrl(
   resolveEnv('DOCS_BASE_URL', '/'),
 );
