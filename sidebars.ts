@@ -112,6 +112,8 @@ const sidebars: SidebarsConfig = {
         'hq/dashboard',
         'hq/account-and-profile',
         'hq/organization',
+        'hq/brand-shop-and-channel-scope',
+        'hq/making-safe-hq-changes',
       ],
     },
     {
@@ -122,8 +124,10 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Store Settings',
           items: [
+            'hq/store-settings/overview',
             'hq/store-settings/general-info',
             'hq/store-settings/workday-schedule',
+            'hq/integrations/device-settings',
             'hq/store-settings/system-parameters',
             'hq/store-settings/tables-and-floorplan',
           ],
@@ -132,8 +136,10 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'POS Settings',
           items: [
+            'hq/pos-settings/overview',
             'hq/pos-settings/payment-methods',
             'hq/pos-settings/tax-and-surcharge',
+            'hq/pos-settings/payment-vendors',
             'hq/pos-settings/pos-users',
             'hq/pos-settings/departments',
             'hq/pos-settings/function-reasons',
@@ -145,13 +151,16 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Menu & Catalog Management',
       items: [
+        'hq/menu-catalog/overview',
         'hq/menu-catalog/menu-items',
         'hq/menu-catalog/categories',
+        'hq/menu-catalog/smart-categories',
         'hq/menu-catalog/pos-menus',
         'hq/menu-catalog/modifiers',
         'hq/menu-catalog/promotions',
         'hq/menu-catalog/discounts',
         'hq/menu-catalog/meal-sets',
+        'hq/menu-catalog/button-styles',
       ],
     },
     {
@@ -171,6 +180,7 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Reports & Analytics',
       items: [
+        'hq/reports/overview',
         'hq/reports/sales-reports',
         'hq/reports/operations-reports',
       ],
@@ -179,8 +189,8 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Ecosystem & Integrations',
       items: [
+        'hq/integrations/overview',
         'hq/integrations/partner-settings',
-        'hq/integrations/device-settings',
       ],
     },
     {
@@ -188,6 +198,7 @@ const sidebars: SidebarsConfig = {
       label: 'Marketplace',
       items: [
         'hq/marketplace/catalog',
+        'hq/marketplace/my-subscriptions',
         'hq/marketplace/billing-and-subscriptions',
       ],
     },

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+title: Organization Management
 ---
 
 # Organization Management
@@ -8,14 +9,28 @@ sidebar_position: 3
 Brand owners and general managers who need to invite new office staff to the HQ or configure top-level business details.
 :::
 
-The Organization page represents your top-level business. A single Organization can contain multiple Shops/Branches.
+## Before you start
+
+- Confirm you are in the correct organization.
+- Decide whether you are changing business details, HQ member access, or billing information.
+
+## Open this page
+
+Open `Organization Management`.
+
+## What this page controls
+
+`Organization Management` is the top-level business area in HQ. One organization can contain multiple shops or branches.
 
 ![Organization Management](/img/manual/en/hq/organization.png)
 
-## General Settings
-Update the high-level details of your operation, including the official Company Name and business registration details.
+## Main sections
 
-## Members and Roles
+### General settings
+
+Update the high-level details of your operation, including the official company name and business registration details.
+
+### Members and roles
 
 You can invite new team members to access the HQ portal here. 
 
@@ -30,5 +45,26 @@ If you simply want to create a login for a new cashier to use the terminal in th
 3. Select their Role (e.g., Admin, Viewer).
 4. They will receive an email invitation to log into HQ.
 
-## Billing
+### Billing
+
 If you handle billing directly, you can manage your payment methods and view past invoices for your X1 software subscription in this section.
+
+## What changes after you save
+
+Changes here affect HQ administration, not cashier login on the POS.
+
+## How to check your change
+
+1. Confirm the updated business detail is visible after saving.
+2. If you invited a member, confirm the new member record or invitation appears in the list.
+3. If the change relates to subscriptions or billing, check the related [Marketplace](./marketplace/catalog.md) page as well.
+
+## If something goes wrong
+
+- Confirm you are editing HQ member access and not [POS Users](./pos-settings/pos-users.md).
+- Check whether the issue belongs to organization setup or to marketplace subscription management.
+
+## When to ask owner/admin
+
+- The change affects organization ownership, billing, or access for other admins.
+- You are not sure whether the person should be an HQ member or a POS user.

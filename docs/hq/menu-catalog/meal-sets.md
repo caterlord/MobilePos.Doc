@@ -1,34 +1,83 @@
 ---
 sidebar_position: 7
+title: Meal Set
 ---
 
-# Meal Sets
+:::info Who this is for
+Admins who build combo or set-meal selection flows.
+:::
+
+## Before you start
+
+- Confirm the correct brand.
+- Make sure the component items already exist in [Menu Items](./menu-items.md).
+- Decide how many selection groups the combo needs before you start.
+
+## Open this page
+
+Open `Menu Management` -> `Meal Set`.
+
+## What this page controls
+
+`Meal Set` creates grouped item choices for combo-style selling flows.
+
+Use it when one parent item should force or allow the customer to choose from item groups such as:
+
+- one main
+- one side
+- one drink
 
 ![Meal Sets](/img/hq/menu-catalog/meal_sets_page.png)
 
-The **Meal Sets** module is the structural engine behind Combo Meals (e.g., a "Lunch Set" where the customer chooses 1 Main Course, 1 Side, and 1 Drink).
+## Main sections
 
-Under the hood, Meal Sets function identically to Modifier Groups, but instead of containing cooking instructions (like "No Ice"), they contain actual Menu Items that the customer gets to choose from to build their combo.
+### Meal set groups
 
-## How to build a Combo Meal
+Create one group for each required choice in the combo.
 
-Building a combo meal requires linking several components together. It is a multi-step process:
+Typical settings include:
 
-### Step 1: Create the Meal Set Groups
-In this module, create a group for each "choice" category in your combo. 
-*Example: Create a group named `Choose 1 Main` (Min Selection: 1, Max Selection: 1).*
-*Example: Create a group named `Choose 1 Drink` (Min Selection: 1, Max Selection: 1).*
+- group name
+- minimum selection
+- maximum selection
 
-### Step 2: Populate the Groups
-Expand the row using the chevron arrow. Add the actual Menu Items to the group.
-*Example: Inside `Choose 1 Main`, add `Burger`, `Chicken Sandwich`.*
+### Group contents
 
-> [!TIP]
-> **Price Overrides**: By default, a combo has a fixed baseline price (e.g., $10). Items placed inside a Meal Set Group will effectively cost $0.00. However, if you want an item to incur an upcharge (e.g., +$2.00 to upgrade the drink to a Milkshake), you map the Milkshake into the `Choose 1 Drink` group and set its override price to $2.00.
+After creating the group, add the actual menu items that belong to that choice group.
 
-### Step 3: Link to the Parent Item (in Menu Items)
-Go back to the **Menu Items** module. Create the parent wrapper item (e.g., an item called `Combo A` with a base price of $10.00). Ensure the `Item Type` is set to **Set**.
+### Parent item linkage
 
-When you edit `Combo A`, you will see a tab for Meal Sets. Attach the `Choose 1 Main` and `Choose 1 Drink` groups you just created to this parent item.
+The meal set groups do not work by themselves. They must be linked back to a parent set item in [Menu Items](./menu-items.md).
 
-Now, when a cashier rings up `Combo A`, the POS will automatically pop up a wizard walking them through the configured Meal Set groups.
+## Steps
+
+1. Open `Menu Management` -> `Meal Set`.
+2. Create the required choice groups.
+3. Set the minimum and maximum selection rules for each group.
+4. Save the groups.
+5. Add the relevant menu items to each group.
+6. Set override prices where an item should add an upcharge.
+7. Open the parent set item in [Menu Items](./menu-items.md).
+8. Attach the meal set groups to the parent item.
+9. Save the parent item.
+
+## What changes after you save
+
+These changes affect how the combo item prompts for choices during ordering.
+
+## How to check your change
+
+1. Reopen the meal set groups and confirm the correct items are attached.
+2. Reopen the parent set item and confirm the meal set groups are linked.
+3. Test the combo ordering flow to confirm the expected selection wizard appears.
+
+## If something goes wrong
+
+- Confirm the component items were added to the correct groups.
+- Check whether the parent set item was linked to the groups.
+- Review selection limits if the flow is too strict or too open.
+
+## When to ask owner/admin
+
+- The combo affects live pricing or high-volume selling flows.
+- You are unsure whether the structure should use meal sets, modifiers, or both.

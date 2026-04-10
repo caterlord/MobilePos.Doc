@@ -1,58 +1,115 @@
 ---
 sidebar_position: 1
+title: Info Settings
 ---
 
-# General Info
+:::info Who this is for
+Admins and managers who maintain the identity, address, contact details, and timezone of a specific shop.
+:::
+
+## Before you start
+
+- Confirm the correct brand and shop.
+- Gather the official shop name, receipt address text, contact details, and timezone before you start.
+- If receipts are already in live use, record the current address and business details before editing them.
+
+## Open this page
+
+Open `Store Settings` -> `Info Settings`.
+
+## What this page controls
+
+`Info Settings` manages the main identity of a shop.
+
+Use this page to maintain:
+
+- shop name and alternate name
+- internal shop code and descriptions
+- address and alternate address details
+- contact details
+- currency and delivery notes
+- timezone
+- overall shop enabled status
+
+This page is shop-level. Changes here should be verified in the selected shop.
 
 ![General Info List](/img/hq/store-settings/store_info_list.png)
 
-The General Info section (`Store Info Settings` in the HQ Portal) manages fundamental identity attributes of a specific branch. These configurations sync down to the POS terminal, dictate the layout of your printed receipts, and manage time-settings.
+## Main sections
 
-## Basic Information
+### Basic information
 
-These fields define the internal and external identity of the shop. Waitstaff will see these names when selecting their shop during POS login.
+This area defines how the shop is identified in HQ and in related store-facing workflows.
 
-| Field | Description |
-| --- | --- |
-| **Shop Name** | The primary display name of the branch. **(Required)** |
-| **Alt Name** | An alternate name, typically used for localized languages (e.g., Traditional Chinese) displayed to staff on translated POS terminals. |
-| **Shop Code** | An alphanumeric code used for internal reporting filtering or integrations with accounting software (e.g., `SH-001`). |
-| **Internal Calling Code** | Country dial code prefix for store-to-store internal calling features. |
-| **Description & Alt Description** | Internal notes to describe the branch's primary operations. |
+| Field | What it controls | When to change it |
+| --- | --- | --- |
+| `Shop Name` | Main display name of the branch | When the official operating name changes |
+| `Alt Name` | Alternate display name, often for another language | When the shop needs a localized name |
+| `Shop Code` | Internal code used for filtering or integration mapping | When finance or integrations require a stable branch code |
+| `Description` and `Alt Description` | Internal descriptive notes | When you need extra branch context in HQ |
 
-## Address Configuration
+### Address
 
-Addresses are partitioned into two sections. The primary **Address** section is used for backend reporting, but the **Alt Address** section directly influences the receipt printout on the POS.
+Use the standard address fields for business and operational information. Use the alternate address fields when receipt output needs different text.
 
-### Primary Address
-The standard operational address fields.
-- **Address Lines 1 to 4**: Break down the street, building, and unit details.
-- **District, City, Country**: Macro-level geolocation.
+### Alt address
 
-### Alt Address (Receipt Footer)
-> [!IMPORTANT]
-> The **Alt Address** fields are explicitly printed at the bottom or top of your customer receipts (depending on your receipt template). Use these lines to set tax ID numbers or custom "Thank You" messages.
+The alternate address fields can affect printed receipt content. Use them carefully.
 
-- **Alt Address Lines 1 to 4**: Typically used for legal entities or "Thank you for dining with us!".
+:::warning Receipt impact
+If you change alternate address lines, check a real receipt or receipt preview after saving so legal or customer-facing text is still correct.
+:::
 
-## Contact Information
-These fields set out who is accountable for the physical branch.
-- **Telephone / Fax**: The branch's public contact lines.
-- **Contact 1 & Contact Title**: The primary branch manager (e.g., `John Doe`, `General Manager`).
-- **Contact 2 & Contact Title**: The secondary shift leader or operations contact.
+### Contact information
 
-## Currency & Delivery
+Use this area for branch phone, fax, and primary contact details.
 
-| Field | Description |
-| --- | --- |
-| **Currency Code** | The 3-letter ISO code for the currency operated at this branch (e.g., `USD`, `HKD`). **(Required)** |
-| **Currency Symbol** | The symbol printed on receipts and the POS checkout screen (e.g., `$`, `¥`). **(Required)** |
-| **Delivery Address** | Specific notes for supply-chain vendors dropping off stock. |
+### Currency and delivery
 
-## Timezone & Status
+Use the currency fields only when the selected shop should trade in that currency. Keep the symbol and code aligned.
 
-> [!WARNING]
-> Ensure the **Timezone** is perfectly aligned with the physical location of the POS terminal. If this is incorrect, your End-of-Day POS sales reports will cut off at the wrong hours.
+### Timezone and status
 
-- **Timezone**: Select from the IANA Timezone dropdown list. The portal automatically handles Daylight Saving Time (DST) toggling based on this selection.
-- **Shop Enabled**: A global kill-switch. If disabled, POS terminals configured for this shop will immediately lock out with a "Shop Disabled" error and cashiers will not be able to log in.
+Timezone controls how the shop aligns with date-based operations and reporting.
+
+:::warning Reporting risk
+If the timezone is wrong, sales and end-of-day reporting can fall into the wrong dates or cutoffs.
+:::
+
+## Steps
+
+1. Open `Store Settings` -> `Info Settings`.
+2. Confirm the selected shop at the top of the page.
+3. Update the shop identity fields you need to change.
+4. Update address and alternate address details if required.
+5. Update contact and currency details if required.
+6. Confirm the timezone matches the physical shop location.
+7. Review the `Shop Enabled` state before saving.
+8. Save the change.
+
+## What changes after you save
+
+These changes apply to the selected shop. Depending on the field, they can affect:
+
+- HQ shop details
+- POS shop selection and display
+- printed receipt information
+- time-based reporting behavior
+
+## How to check your change
+
+1. Reopen the page and confirm the updated values were saved.
+2. If you changed receipt-related text, print or preview a receipt from the target shop.
+3. If you changed timezone, verify the shop's operational date and reports behave as expected.
+
+## If something goes wrong
+
+- Confirm you edited the correct shop.
+- Compare the saved values against the previous record or screenshot.
+- If receipts or reports look wrong, revert only the affected field first instead of changing multiple fields again.
+
+## When to ask owner/admin
+
+- The change affects legal business details.
+- You are unsure which address lines appear on receipts.
+- You are changing timezone for a live shop and cannot test the reporting impact safely.

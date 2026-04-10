@@ -1,34 +1,84 @@
 ---
 sidebar_position: 4
+title: Modifiers
 ---
 
-# Modifier Groups
+:::info Who this is for
+Admins who define add-on, instruction, or option groups for items.
+:::
+
+## Before you start
+
+- Confirm the correct brand.
+- Make sure the modifier items already exist in [Menu Items](./menu-items.md) if the group needs item records.
+- Decide whether the group is optional, single-choice, or multi-choice.
+
+## Open this page
+
+Open `Menu Management` -> `Modifiers`.
+
+## What this page controls
+
+`Modifiers` manages the groups of selectable options shown when an item needs custom choices or instructions.
+
+Use this page to define:
+
+- modifier group identity
+- selection rules
+- channel visibility
+- linked modifier items and override prices
 
 ![Modifier Groups](/img/hq/menu-catalog/modifiers_page.png)
 
-The **Modifier Groups** module manages how add-ons, customizations, and cooking instructions are presented to cashiers when they ring up an item. 
+## Main sections
 
-Instead of attaching single modifiers individually to items (e.g., adding `No Ice` directly to a `Coke`), you create a **Modifier Group** (e.g., `Ice Level`), populate it with choices, and then attach the entire Group to the item.
+### Modifier group rules
 
-## Creating a Group
+Key fields include:
 
-When creating a new Modifier Group, you define the rules of engagement:
+- `Name` and `Code`
+- `Max Selection`
+- `Min Selection`
+- channel controls
 
-| Field | Description |
-| --- | --- |
-| **Name & Code** | Internal and display name for the group (e.g., `Steak Meat Temp`). |
-| **Max Selection** | The maximum number of options the cashier can select. If set to `1`, the POS behaves like standard radio-buttons (picking one deselects the other). If `0` or greater than 1, it allows multiple checkboxes. |
-| **Min Selection** | If set to `1` or higher, the POS terminal considers this group **Mandatory**. When a cashier rings up the parent item, the POS will instantly hard-lock and force-open a popup screen demanding the cashier select a modifier before they can proceed. |
-| **Channels** | Toggle if this group should appear on the standard POS register, the Online Ordering platform, or both. |
+`Min Selection` helps determine whether a group is mandatory. `Max Selection` controls whether the group behaves like single choice or multiple choice.
 
-## Populating a Group
+### Group contents
 
-Once the Group is created, click the expansion arrow (chevron) next to the group's ID in the table to open the Detail Panel.
+After the group is created, open the detail area to add the actual modifier items and any override prices.
 
-Here, you link the actual **Modifier Items** (which must be created beforehand in the Menu Items master list) to this group. You can specify a display sequence, and you can add an override price. 
-> [!NOTE] 
-> If a Modifier Item normally costs $1.00, but you want it to be free when selected within a specific combo's Modifier Group, you can override the price to $0.00 inside the Group's Detail Panel.
+### Copy from existing
 
-## Copy from Existing
+Use the copy workflow when you need a similar modifier setup without rebuilding every option from scratch.
 
-Modifier logic can get repetitive (e.g., attaching the exact same `Ice Level` and `Sugar Level` to 50 different drinks). Use the **Copy from Existing** button at the top to duplicate an entire group, including its items and selection rules, giving it a new name.
+## Steps
+
+1. Open `Menu Management` -> `Modifiers`.
+2. Create a new modifier group or open an existing one.
+3. Enter the group `Name` and `Code`.
+4. Set `Min Selection` and `Max Selection`.
+5. Choose the channels where the group should appear.
+6. Save the group.
+7. Open the group details and attach the modifier items.
+8. Set any required override prices.
+
+## What changes after you save
+
+These changes affect how items present selectable options or required choices on the POS and, where enabled, in other channels.
+
+## How to check your change
+
+1. Reopen the group and confirm the rules and items.
+2. Verify the modifier items are attached in the correct order.
+3. Test the parent item flow where the modifier group should appear.
+
+## If something goes wrong
+
+- Confirm the modifier items exist and are attached to the group.
+- Check whether the selection rule is too strict or too loose.
+- If the group does not appear, review the parent item attachment and channel settings.
+
+## When to ask owner/admin
+
+- The modifier logic affects a high-volume live menu and cannot be tested safely.
+- You are unsure whether the change belongs in a modifier group or a meal set.
