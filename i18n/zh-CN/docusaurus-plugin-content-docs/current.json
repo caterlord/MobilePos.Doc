@@ -3,20 +3,76 @@
     "message": "最新",
     "description": "The label for version current"
   },
-  "sidebar.manualSidebar.category.Getting Started": {
-    "message": "快速开始",
-    "description": "The label for category 'Getting Started' in sidebar 'manualSidebar'"
+  "sidebar.posSidebar.category.Start Here": {
+    "message": "从这里开始",
+    "description": "The label for category 'Start Here' in sidebar 'posSidebar'"
   },
-  "sidebar.manualSidebar.category.Client (POS App)": {
-    "message": "Client（POS 应用）",
-    "description": "The label for category 'Client (POS App)' in sidebar 'manualSidebar'"
+  "sidebar.posSidebar.category.Run a Shift": {
+    "message": "管理班次",
+    "description": "The label for category 'Run a Shift' in sidebar 'posSidebar'"
   },
-  "sidebar.manualSidebar.category.HQ (Back Office, WIP)": {
-    "message": "HQ（后台，建设中）",
-    "description": "The label for category 'HQ (Back Office, WIP)' in sidebar 'manualSidebar'"
+  "sidebar.posSidebar.category.Screen Guides": {
+    "message": "界面指南",
+    "description": "The label for category 'Screen Guides' in sidebar 'posSidebar'"
   },
-  "sidebar.manualSidebar.category.Reference": {
-    "message": "参考",
-    "description": "The label for category 'Reference' in sidebar 'manualSidebar'"
+  "sidebar.posSidebar.category.Function Guides": {
+    "message": "功能指南",
+    "description": "The label for category 'Function Guides' in sidebar 'posSidebar'"
+  },
+  "sidebar.posSidebar.category.Ordering": {
+    "message": "点餐",
+    "description": "The label for category 'Ordering' in sidebar 'posSidebar'"
+  },
+  "sidebar.posSidebar.category.Checkout and Completed Orders": {
+    "message": "结账与已完成订单",
+    "description": "The label for category 'Checkout and Completed Orders' in sidebar 'posSidebar'"
+  },
+  "sidebar.posSidebar.category.Devices": {
+    "message": "设备",
+    "description": "The label for category 'Devices' in sidebar 'posSidebar'"
+  },
+  "sidebar.posSidebar.category.More Tools": {
+    "message": "更多工具",
+    "description": "The label for category 'More Tools' in sidebar 'posSidebar'"
+  },
+  "sidebar.posSidebar.category.Reference": {
+    "message": "参考资料",
+    "description": "The label for category 'Reference' in sidebar 'posSidebar'"
+  },
+  "sidebar.hqSidebar.category.Getting Started": {
+    "message": "开始使用",
+    "description": "The label for category 'Getting Started' in sidebar 'hqSidebar'"
+  },
+  "sidebar.hqSidebar.category.Core Settings": {
+    "message": "核心设置",
+    "description": "The label for category 'Core Settings' in sidebar 'hqSidebar'"
+  },
+  "sidebar.hqSidebar.category.Store Settings": {
+    "message": "门店设置",
+    "description": "The label for category 'Store Settings' in sidebar 'hqSidebar'"
+  },
+  "sidebar.hqSidebar.category.POS Settings": {
+    "message": "POS 设置",
+    "description": "The label for category 'POS Settings' in sidebar 'hqSidebar'"
+  },
+  "sidebar.hqSidebar.category.Menu & Catalog Management": {
+    "message": "菜单管理",
+    "description": "The label for category 'Menu & Catalog Management' in sidebar 'hqSidebar'"
+  },
+  "sidebar.hqSidebar.category.Online Ordering": {
+    "message": "在线点餐",
+    "description": "The label for category 'Online Ordering' in sidebar 'hqSidebar'"
+  },
+  "sidebar.hqSidebar.category.Reports & Analytics": {
+    "message": "报表",
+    "description": "The label for category 'Reports & Analytics' in sidebar 'hqSidebar'"
+  },
+  "sidebar.hqSidebar.category.Ecosystem & Integrations": {
+    "message": "整合",
+    "description": "The label for category 'Ecosystem & Integrations' in sidebar 'hqSidebar'"
+  },
+  "sidebar.hqSidebar.category.Marketplace": {
+    "message": "市集",
+    "description": "The label for category 'Marketplace' in sidebar 'hqSidebar'"
   }
 }

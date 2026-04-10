@@ -367,7 +367,7 @@
     "description": "The label for searching across every context"
   },
   "homepage.meta.description": {
-    "message": "X1 平台文档，供门店团队、HQ 管理员和开发团队使用",
+    "message": "X1 平台文档，供店铺团队、HQ 管理员和开发团队使用",
     "description": "Meta description for the landing page"
   },
   "homepage.hero.kicker": {
@@ -379,7 +379,7 @@
     "description": "Hero title on the landing page"
   },
   "homepage.hero.lead": {
-    "message": "先按你的角色选择对应手册，再直接前往所需页面。本站按门店团队、HQ 管理员和使用 X1 平台的开发团队编排。",
+    "message": "先按你的角色选择对应手册，再直接前往所需页面。本站按店铺团队、HQ 管理员和使用 X1 平台的开发团队编排。",
     "description": "Hero lead paragraph on the landing page"
   },
   "homepage.hero.primaryCta": {
@@ -411,11 +411,11 @@
     "description": "Title on the landing page quick-links panel"
   },
   "homepage.workflow.storeOps.title": {
-    "message": "我要处理门店操作",
+    "message": "我要处理店铺操作",
     "description": "Title for the store operations shortcut on the landing page"
   },
   "homepage.workflow.storeOps.description": {
-    "message": "从 POS 指南开始，处理门店操作、开班、点餐、付款和收档流程。",
+    "message": "从 POS 指南开始，处理店铺操作、开班、点餐、付款和收档流程。",
     "description": "Description for the store operations shortcut on the landing page"
   },
   "homepage.workflow.hq.title": {
@@ -423,7 +423,7 @@
     "description": "Title for the HQ shortcut on the landing page"
   },
   "homepage.workflow.hq.description": {
-    "message": "从 HQ 指南开始，了解范围规则、门店设置、用户、报表和菜单管理。",
+    "message": "从 HQ 指南开始，了解范围规则、店铺设置、用户、报表和菜单管理。",
     "description": "Description for the HQ shortcut on the landing page"
   },
   "homepage.workflow.docs.title": {
@@ -451,7 +451,7 @@
     "description": "Title for the POS manual card on the landing page"
   },
   "homepage.manual.pos.summary": {
-    "message": "为收银员、值班主管和门店团队提供现场营运指引。",
+    "message": "为收银员、值班主管和店铺团队提供现场营运指引。",
     "description": "Summary for the POS manual card on the landing page"
   },
   "homepage.manual.pos.link.quickStart": {
@@ -475,7 +475,7 @@
     "description": "Title for the HQ manual card on the landing page"
   },
   "homepage.manual.hq.summary": {
-    "message": "为管理人员和店主提供门店、菜单、用户、报表与整合的后台指引。",
+    "message": "为管理人员和店主提供店铺、菜单、用户、报表与整合的后台指引。",
     "description": "Summary for the HQ manual card on the landing page"
   },
   "homepage.manual.hq.link.overview": {
@@ -487,7 +487,7 @@
     "description": "Making Safe HQ Changes link on the HQ manual card"
   },
   "homepage.manual.hq.link.storeSettings": {
-    "message": "门店设置",
+    "message": "店铺设置",
     "description": "Store Settings link on the HQ manual card"
   },
   "homepage.manual.hq.link.menuCatalog": {

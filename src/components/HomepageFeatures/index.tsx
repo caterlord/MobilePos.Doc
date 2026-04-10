@@ -23,7 +23,7 @@ const featureList: FeatureItem[] = [
   {
     title: 'Multilingual Manual',
     description:
-      'The manual is configured for English, zh-HK, and zh-CN with a locale switcher in the top bar.',
+      'The manual is configured for English, zh-HK, zh-TW, zh-SG, and zh-CN with a locale switcher in the top bar.',
     to: '/intro',
     cta: 'View Language Setup',
   },

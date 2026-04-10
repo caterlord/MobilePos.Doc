@@ -114,18 +114,26 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'zh-HK', 'zh-CN'],
+    locales: ['en', 'zh-HK', 'zh-TW', 'zh-SG', 'zh-CN'],
     localeConfigs: {
       en: {
         label: 'English',
         htmlLang: 'en-US',
       },
       'zh-HK': {
-        label: '繁體中文 (香港)',
+        label: '繁體中文（香港）',
         htmlLang: 'zh-HK',
       },
+      'zh-TW': {
+        label: '繁體中文（台灣）',
+        htmlLang: 'zh-TW',
+      },
+      'zh-SG': {
+        label: '简体中文（新加坡）',
+        htmlLang: 'zh-SG',
+      },
       'zh-CN': {
-        label: '简体中文',
+        label: '简体中文（中国）',
         htmlLang: 'zh-CN',
       },
     },
