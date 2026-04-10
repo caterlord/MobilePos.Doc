@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: 開始班次
+title: 開班
 ---
 
 import Tabs from '@theme/Tabs';
@@ -26,13 +26,13 @@ import TabItem from '@theme/TabItem';
 6. 返回 `Ordering`。
 
 <Tabs>
-  <TabItem value="with-roster" label="有班表">
-1. 在登入畫面點選班表按鈕。
+  <TabItem value="with-roster" label="有出勤">
+1. 在登入畫面點選 `出勤`。
 2. 點選 `上班打卡`。
 3. 接著完成一般登入。
   </TabItem>
-  <TabItem value="without-roster" label="沒有班表">
-1. 如果沒有顯示班表選項，直接完成一般登入。
+  <TabItem value="without-roster" label="沒有出勤">
+1. 如果沒有顯示 `出勤`，直接完成一般登入。
 2. 不需要額外操作。
   </TabItem>
 </Tabs>
@@ -64,4 +64,4 @@ import TabItem from '@theme/TabItem';
 
 - 您無法編輯設定，例如 `收銀機代碼` 或系統欄位
 - 印表機在基本檢查後仍然失敗
-- 登入或訂閱警告阻止您開始班次
+- 登入或訂閱警告阻止您開班

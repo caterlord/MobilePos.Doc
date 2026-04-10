@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="with-roster" label="有考勤">
-1. 在登录画面点击考勤按钮。
+1. 在登录画面点击 `考勤`。
 2. 点击 `上班打卡`。
 3. 继续正常登录。
   </TabItem>

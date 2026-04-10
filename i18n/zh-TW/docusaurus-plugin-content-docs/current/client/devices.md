@@ -90,7 +90,7 @@ import TabItem from '@theme/TabItem';
 
 ## 相關指南
 
-- [開始班次](./start-shift)
+- [開班](./start-shift)
 - [功能：管理印表機](../functions/manage-printers)
 - [功能：設定付款設備](../functions/configure-payment-devices)
 - [功能：設定輸入設備](../functions/configure-input-devices)
