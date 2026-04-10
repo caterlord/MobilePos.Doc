@@ -1,46 +1,105 @@
 ---
 sidebar_position: 1
+title: Payment Methods
 ---
 
-# Payment Methods
+:::info[Who this is for]
+Admins who define which tenders cashiers can use at checkout and how those tenders behave.
+:::
+
+## Before you start
+
+- Confirm the correct brand.
+- Decide whether you are creating a basic tender or a gateway-linked method.
+- If the method depends on a vendor, confirm the vendor is already configured in [Payment Vendors](./payment-vendors.md).
+
+## Open this page
+
+Open `POS Settings` -> `Payment Methods`.
+
+## What this page controls
+
+`Payment Methods` defines the tender buttons and checkout behaviors available on the POS.
+
+Use this page to control:
+
+- tender name and button order
+- linked gateway behavior
+- surcharge and charge-rate settings
+- cash drawer and overpayment behavior
+- per-shop enablement
+
+This setup is usually created at brand level and then enabled or configured per shop.
 
 ![Payment Methods Page](/img/hq/pos-settings/pos_payment_methods_page.png)
 
-The **Payment Methods** page configures the specific tenders available for cashiers to select during checkout. The system supports native cash handling, direct API integrations with third-party payment gateways, and custom offline tenders mapping.
+## Main sections
 
-## Field Configuration
+### Basic fields
 
-When creating or editing a payment method, you define exactly how the POS terminal should interact with the cash drawer or external hardware.
+| Field | What it controls | When to change it |
+| --- | --- | --- |
+| `Code` and `Name` | Internal and POS-facing tender identity | When you add or rename a tender |
+| `Display Index` | Button order at checkout | When cashiers need a different tender order |
+| `Linked Gateway` | Payment gateway or device driver used by this tender | When the tender should talk to an external terminal or service |
+| `Surcharge Rate` | Customer-facing extra charge added during payment | When the tender requires a surcharge |
+| `Tx Charges Rate` | Reporting-only merchant fee tracking | When finance needs fee visibility |
+| `Fixed Amount` | Immediate tendering of a preset amount | When using fixed-value voucher-style tenders |
 
-| Field | Description |
-| --- | --- |
-| **Code & Name** | The internal identifier and the public name displayed on the POS button and receipt (e.g., `VISA`, `Credit Card`). |
-| **Display Index** | The order in which the button appears on the POS checkout screen. Lower numbers appear first. |
-| **Linked Gateway** | Connects the button to a specific API integration. **See below.** |
-| **Surcharge Rate** | Automatically applies a percentage fee (e.g., a 2% credit card surcharge) when this method is selected. |
-| **Tx Charges Rate** | Used for backend reporting to track merchant fees charged by the bank. Does not affect the total paid by the customer. |
-| **Fixed Amount** | If enabled, selecting this method immediately tenders a specific pre-configured dollar amount (useful for $50 fixed-value vouchers). |
+### POS behavior switches
 
-## POS Terminal Behaviors (Switches)
+These switches control how the POS responds when staff tap the tender:
 
-You can toggle operational rules that trigger when cashiers click the payment method on the tablet.
+- `Open Cash Drawer`
+- `Allow Tips`
+- `Non-Sales Payment`
+- `Cash Payment`
+- `Over Payment`
+- `FX Payment`
+- `Auto Remark`
 
-- **Open Cash Drawer**: Fires the RJ11 port command to pop the mechanical cash drawer. Normally enabled only for `Cash`.
-- **Allow Tips**: Prompts the cashier to input an overage amount as a tip.
-- **Non-Sales Payment**: Excludes this tender from gross revenue calculations (useful for deposits or generic voucher top-ups).
-- **Cash Payment**: Flags the method for End-of-Day cash variance tracking.
-- **Over Payment**: Allows the cashier to enter an amount larger than the bill total, forcing the POS to calculate standard change.
-- **FX Payment**: Allows foreign currency processing (requires Shop Settings FX rates to be populated).
-- **Auto Remark**: Automatically triggers a text prompt forcing the cashier to type a reference number (e.g., a cheque number).
+### Shop settings
 
-## Linked Gateways (Third-Party Integrations)
+After the base method is created, use the shop settings area to enable it only for the shops that should use it. This is the most common step users miss.
 
-If you have subscribed to an API-based payment vendor (such as Stripe, Adyen, EFTPay, or specific terminal models like the PAX A920), you must link the method to the gateway driver.
+## Steps
 
-When a cashier clicks a linked method, the POS will lock the screen, push the exact bill total into the external terminal/API, and wait for a "Success" webhook before completing the order. 
+1. Open `POS Settings` -> `Payment Methods`.
+2. Create a new method or open an existing one.
+3. Enter the `Code`, `Name`, and `Display Index`.
+4. Select a `Linked Gateway` only if this tender should connect to a payment vendor.
+5. Set rates and behavior switches as needed.
+6. Open the shop settings area.
+7. Enable the method for the target shops.
+8. Save the method.
 
-> [!WARNING]
-> Selecting a **Linked Gateway** that your brand is not subscribed to will cause the POS terminal to freeze on checkout while it waits for a hardware handshake that will never arrive. 
+## Linked gateways
 
-## Shop Settings & FX Rates
-After defining the basic method, you must explicitly enable it for target branches. Using the **Shop Settings** table at the bottom of the modal, toggle the `Enabled` switch for your desired locations. If the method requires Foreign Exchange (FX), input the conversion rate against the branch's native currency here.
+If the tender depends on a third-party or on-premise payment vendor, configure the vendor first in [Payment Vendors](./payment-vendors.md).
+
+:::warning[Vendor dependency]
+Do not link a gateway your brand has not installed or configured. A gateway-linked tender without a working vendor setup can fail during checkout.
+:::
+
+## What changes after you save
+
+Saving the base method creates or updates the tender definition. The tender still needs to be enabled for the correct shops before staff can use it where intended.
+
+## How to check your change
+
+1. Reopen the method and confirm the base fields saved correctly.
+2. Confirm the method is enabled for the intended shops.
+3. If the method is gateway-linked, verify the related vendor setup in [Payment Vendors](./payment-vendors.md).
+4. Test the tender in the target shop's checkout flow when practical.
+
+## If something goes wrong
+
+- Confirm the issue is not in the shop enablement step.
+- Check whether the wrong or missing gateway is linked.
+- If a surcharge or cash-drawer behavior is wrong, review only the affected switch before changing other fields.
+
+## When to ask owner/admin
+
+- The change affects live payment flow.
+- You are not sure whether a new vendor or linked gateway is required.
+- The tender affects finance, surcharge policy, or multi-shop rollout.

@@ -6,7 +6,7 @@ title: Void vs Return
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Rule
+:::info[Rule]
 Use `Void` for in-progress transactions. Use `Return` for completed transactions.
 :::
 
@@ -36,7 +36,7 @@ Use `Void` for in-progress transactions. Use `Return` for completed transactions
 
 ## If something goes wrong
 
-:::warning Action blocked
+:::warning[Action blocked]
 Clear pending edits and retry once.
 :::
 

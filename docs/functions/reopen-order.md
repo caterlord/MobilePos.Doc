@@ -3,7 +3,7 @@ sidebar_position: 10
 title: Reopen Order
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Authorized staff correcting a checked/completed transaction.
 `Manager only`: many stores restrict reopen actions by policy.
 :::

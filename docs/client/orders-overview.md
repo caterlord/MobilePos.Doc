@@ -5,7 +5,7 @@ title: Orders Overview
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Cashiers and managers who need to find existing transactions quickly.
 :::
 
@@ -48,13 +48,13 @@ Lets you search by supported fields from the search dialog.
 - List updates based on selected tab/filter
 - Tapping an entry opens order detail context for next action
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed files: `client/cl-26-orders-overview-tabs-list.png`, `client/cl-27-orders-overview-search-dialog.png`
 :::
 
 ## If something goes wrong
 
-:::warning Cannot find transaction
+:::warning[Cannot find transaction]
 Switch tab first (`Open` vs `Closed`), then retry with search filters.
 :::
 

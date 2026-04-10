@@ -2,7 +2,7 @@
 title: Order Contact
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Cashiers and shift managers who need to save customer contact details on a takeaway order.
 :::
 

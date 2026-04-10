@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation Repository
+    url: https://github.com/caterlord/MobilePos.Doc
+    about: Browse the documentation source and existing pull requests.
+  - name: Live Documentation Site
+    url: https://caterlord.github.io/MobilePos.Doc/
+    about: Open the published documentation before reporting a page issue.

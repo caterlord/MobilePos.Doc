@@ -1,26 +1,109 @@
 ---
 sidebar_position: 1
-title: HQ Overview (Work In Progress)
+title: HQ User Manual
 ---
 
-HQ documentation is intentionally minimal at this stage while HQ features are still evolving.
+:::info[Who this is for]
+Owners, back-office admins, setup staff, and managers who maintain X1 HQ for one or more shops.
+:::
 
-## Current Status
+## Before you start
 
-- HQ user manual pages are under active preparation.
-- Client POS documentation is the current authoring priority.
+- Confirm you are working in the correct brand or organization.
+- Confirm whether your change is meant for one shop, multiple shops, or all shops.
+- Keep a record of the current setting before you edit anything high-impact.
 
-## Planned HQ Sections
+## What this manual is for
 
-1. Catalog management
-2. Pricing and promotions
-3. Reports and analytics
-4. User and role administration
+This section explains how to use the X1 HQ web portal to maintain store setup, POS behavior, menus, reports, online ordering, integrations, and marketplace subscriptions.
 
-## Source Repository
+Use this manual when you need to:
 
-- `https://github.com/caterlord/MobilePos.HQ`
+- update business or store settings
+- manage POS configuration
+- maintain menu data
+- review reports
+- control online ordering setup
+- manage partner or payment integrations
+- subscribe to or remove optional platform features
 
-## Maintainer Note
+## How to use this manual
 
-Add detailed HQ workflows only after UI and behavior are stable enough for user training.
+Start with the section that matches the job you are doing, not just the feature name you remember.
+
+- Use [Brand, Shop, and Channel Scope](./brand-shop-and-channel-scope.md) before changing shared data.
+- Use [Making Safe HQ Changes](./making-safe-hq-changes.md) before editing live settings during business hours.
+- Use [Dashboard](./dashboard.md) if you are trying to understand where to go next after sign-in.
+
+## Choose a section
+
+### Getting Started
+
+- [Dashboard](./dashboard.md): understand the landing page and where to go next.
+- [Account and Profile](./account-and-profile.md): manage your own login and security settings.
+- [Organization Management](./organization.md): manage HQ members, roles, and business-level details.
+
+### Store Settings
+
+- [Store Settings Overview](./store-settings/overview.md): choose the correct store-level setup page.
+
+Use this section for shop-specific configuration such as `Info Settings`, `Workday Schedule`, `Device Settings`, `System Parameters`, and `Tables & Sections`.
+
+### POS Settings
+
+- [POS Settings Overview](./pos-settings/overview.md): manage checkout behavior, staff access, and POS financial setup.
+
+### Menu & Catalog Management
+
+- [Menu & Catalog Overview](./menu-catalog/overview.md): build the structure that cashiers, kiosks, and online channels use.
+
+### Online Ordering
+
+- [Online Ordering Overview](./online-ordering/overview.md): manage customer-facing menu display and channel behavior.
+
+### Reports & Analytics
+
+- [Reports Overview](./reports/overview.md): choose the correct report family for sales, operations, or audit questions.
+
+### Ecosystem & Integrations
+
+- [Integrations Overview](./integrations/overview.md): manage partner connections and related setup.
+
+### Marketplace
+
+- [Marketplace](./marketplace/catalog.md): browse optional features and integrations.
+- [My Subscriptions](./marketplace/my-subscriptions.md): manage active subscriptions.
+- [Billing](./marketplace/billing-and-subscriptions.md): review subscription summary and billing status.
+
+## Recommended reading order for new HQ admins
+
+1. Read [Brand, Shop, and Channel Scope](./brand-shop-and-channel-scope.md).
+2. Read [Making Safe HQ Changes](./making-safe-hq-changes.md).
+3. Read [Store Settings Overview](./store-settings/overview.md) and [POS Settings Overview](./pos-settings/overview.md).
+4. Read [Menu & Catalog Overview](./menu-catalog/overview.md) before editing menus or online ordering.
+5. Use the task pages linked from each section overview for the change you need to make.
+
+## What changes after you save
+
+Changes in HQ do not all behave the same way.
+
+- Some changes affect HQ only.
+- Some changes affect only the selected shop.
+- Some changes create configuration that still needs shop-level enabling.
+- Some changes affect customer-facing or POS behavior and should be verified after save.
+
+Each detailed HQ page should tell you what to verify after you save.
+
+## If something goes wrong
+
+- Stop and confirm you edited the correct brand and shop.
+- Compare the page with the previous value, screenshot, or audit trail.
+- Check whether the setting also needs shop-level or channel-level setup.
+- Test the change in the target shop or channel before making more edits.
+
+## When to ask owner/admin
+
+- You are not sure whether the change is brand-level or shop-level.
+- The change affects live checkout, tax, payment, or receipt behavior.
+- You cannot confirm the result after saving.
+- You need access to billing, integrations, or security settings.

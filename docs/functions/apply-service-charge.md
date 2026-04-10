@@ -6,7 +6,7 @@ title: Apply Service Charge
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Cashiers who need to add or remove service charge before checkout.
 :::
 

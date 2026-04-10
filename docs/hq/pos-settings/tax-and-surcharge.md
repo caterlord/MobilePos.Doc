@@ -1,32 +1,88 @@
 ---
 sidebar_position: 2
+title: Tax & Surcharge
 ---
 
-# Tax & Surcharge
+:::info[Who this is for]
+Admins and finance-aware managers who maintain tax and surcharge rules used by the POS.
+:::
+
+## Before you start
+
+- Confirm the correct brand.
+- Confirm whether you are creating tax logic, service charge logic, or another surcharge.
+- Verify the expected rate and shop rollout before saving.
+
+## Open this page
+
+Open `POS Settings` -> `Tax & Surcharge`.
+
+## What this page controls
+
+This page defines automatic or manual financial additions used on orders.
+
+Use it to manage:
+
+- tax entries
+- surcharge entries
+- calculation order
+- auto-calculate behavior
+- per-shop activation
+
+These definitions are created at brand level and then enabled per shop.
 
 ![Tax and Surcharge](/img/hq/pos-settings/tax_and_surcharge_page.png)
 
-The **Tax & Surcharge** page configures universal cart additions, applied automatically to orders. 
-Configurations are cleanly separated into two distinct ledgers: **Taxations** (state/federal requirements like GST or VAT) and **Surcharges** (operational fees like a 10% Service Charge or a holiday premium fee).
+## Main sections
 
-## Shared Configuration
+### Shared fields
 
-Both Taxations and Surcharges use the identical configuration logic. The distinction is reporting-based.
+| Field | What it controls | When to change it |
+| --- | --- | --- |
+| `Code` and `Name` | Internal identity and receipt label | When you add or rename a rule |
+| `Priority` | Order of calculation | When more than one rule can apply |
+| `Fixed Amount` vs percentage | Whether the rule is flat or percentage-based | When the business rule requires one model or the other |
+| `Amount` or percentage value | The actual charge value | When the business rate changes |
 
-| Field | Description |
-| --- | --- |
-| **Code & Name** | The internal logic code and the public label printed on the customer receipt. |
-| **Priority** | Determines calculation order. If both a Tax and a Surcharge are applied, the system calculates the line items based on Priority. A lower Priority number calculates first. |
-| **Fixed Amount vs Percentage** | Toggles the behavior of the fee. A percentage calculates dynamically based on the subtotal. A fixed amount applies a flat fee regardless of order size. |
-| **Amount / Percentage Value** | The magnitude. If "Fixed" is selected, input `5.00` for $5. If "Percentage", input `10.00` for 10%. |
+### Calculation modifiers
 
-## Calculation Modifiers
+- `Auto Calculate`: applies the rule automatically when enabled
+- `Open Amount`: prompts the user for a value instead of using one fixed amount
 
-- **Auto Calculate**: If enabled, the system automatically injects this tax/surcharge onto every order immediately when the cashier opens a new cart. If disabled, the cashier must manually press a specific "Apply Surcharge" function button to apply it.
-- **Open Amount**: Transforms the fee into a variable-input prompt. When the fee triggers, the cashier is presented with a keypad to dynamically punch in the exact amount (e.g., variable corkage fees).
+### Shop settings
 
-## Shop Level Activation
+Use the shop settings area to enable the rule only for the shops that should apply it.
 
-Like Payment Methods, Taxes and Surcharges exist on a global "Brand" level but must be opted-in per shop. 
+## Steps
 
-Toggle the `Enabled` checkbox in the **Shop Settings** matrix to deploy the tax to specific POS terminals.
+1. Open `POS Settings` -> `Tax & Surcharge`.
+2. Create or open the target tax or surcharge rule.
+3. Enter the `Code` and `Name`.
+4. Set the calculation `Priority`.
+5. Choose fixed amount or percentage.
+6. Enter the value.
+7. Turn `Auto Calculate` or `Open Amount` on only if required.
+8. Enable the rule for the target shops.
+9. Save the rule.
+
+## What changes after you save
+
+Saving the rule updates the brand-level definition. The rule only affects the shops where it is enabled.
+
+## How to check your change
+
+1. Reopen the rule and confirm the saved values.
+2. Confirm the intended shops are enabled.
+3. Verify the result in the target POS calculation flow or receipt output when practical.
+
+## If something goes wrong
+
+- Confirm the issue is not caused by shop enablement.
+- Check `Priority` if multiple rules are interacting unexpectedly.
+- Review whether the rule should be automatic or manual before changing the rate itself.
+
+## When to ask owner/admin
+
+- The change affects legal tax handling or customer-facing surcharges.
+- You are unsure about calculation order between multiple rules.
+- The change affects multiple shops and you cannot verify all of them safely.

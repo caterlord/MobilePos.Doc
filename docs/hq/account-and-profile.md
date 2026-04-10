@@ -1,33 +1,67 @@
 ---
 sidebar_position: 2
+title: Account and Profile
 ---
 
-# Account and Profile
-
-:::info Who this is for
+:::info[Who this is for]
 Any user who needs to update their HQ login credentials, email address, or security settings.
 :::
 
-Your user profile handles your personal security and multi-factor authentication (MFA) settings for accessing the HQ portal.
+## Before you start
+
+- Make sure you are editing your own account, not another user's HQ access.
+- Have any required email or authentication device ready before you change security settings.
+
+## Open this page
+
+Open your profile or account menu, then open `Account` or `Profile`.
+
+## What this page is for
+
+Use this page to manage your own HQ sign-in details, profile information, and security settings.
 
 ![Account Profile Settings](/img/manual/en/hq/account.png)
 
-## Updating your details
+## Main sections
 
-### Profile Information
-You can update your personal display name and profile picture from this page. These details are only visible within the HQ portal and do not affect what cashiers see on the POS.
+### Profile information
 
-### Email and Login
-If you need to change the email address you use to sign in, use the `Email addresses` section. You may be required to verify the new email before the change takes effect.
+You can update your personal display name and profile picture here. These details affect your HQ account, not the cashier-facing POS.
 
-## Security Settings
+### Email and login
 
-:::warning Keep your account secure
+Use the `Email addresses` section if you need to change the email you use to sign in. Verification may be required before the change takes effect.
+
+### Security settings
+
+Use this area to manage password and multi-factor authentication settings.
+
+:::warning[Keep your account secure]
 Since the HQ portal has access to sensitive financial reports and menu pricing, you should ensure your account is secured.
 :::
 
 - **Passwords**: Update your login password regularly.
 - **Two-Step Verification**: Add a secondary authentication method to protect your HQ access against unauthorized logins.
 
-## Switch Organizations
+### Switch organizations
+
 If you manage multiple different brands or independent restaurant groups, you can click on your organization name at the top to toggle between different workspaces.
+
+## What changes after you save
+
+These changes apply to your own HQ account. They do not directly change shop setup or POS behavior.
+
+## How to check your change
+
+1. Confirm the updated profile detail is visible after saving.
+2. If you changed email or security settings, confirm the new sign-in method works before you sign out everywhere else.
+
+## If something goes wrong
+
+- Confirm you changed your own profile and not a separate member record.
+- If sign-in details changed, verify the new email or authentication method before retrying multiple times.
+
+## When to ask owner/admin
+
+- You cannot complete email verification.
+- You are locked out of HQ after changing your account settings.

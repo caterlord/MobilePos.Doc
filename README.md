@@ -1,80 +1,94 @@
-# POS User Manual
+# X1 Documentation
 
-Online documentation site for POS X1, built with Docusaurus.
+Public documentation site for the X1 platform, built with Docusaurus.
+
+This repository contains the manuals for:
+
+- POS store operations
+- HQ back-office administration
+- MCP integration guidance
+
+Live site: `https://caterlord.github.io/MobilePos.Doc/`
+
+## What Is In This Repository
+
+- `docs/getting-started/`: onboarding and first-use guidance
+- `docs/client/`: POS workflows for store teams
+- `docs/hq/`: HQ workflows for managers and admins
+- `docs/reference/`: troubleshooting, glossary, and support references
+- `docs/mcp/`: MCP and integration documentation
+- `src/`: landing page and theme-level customization
+- `i18n/`: translated content and theme strings
 
 ## Languages
+
 - English (`en`)
 - Traditional Chinese, Hong Kong (`zh-HK`)
 - Simplified Chinese (`zh-CN`)
 
-## Linked Repositories
-- Client app (`MobilePos`)
-  - Git: `https://github.com/caterlord/MobilePos`
-  - Local: `/Users/michaelyung/RiderProjects/MobilePos`
-- HQ back office (`MobilePos.HQ`)
-  - Git: `https://github.com/caterlord/MobilePos.HQ`
-  - Local: `/Users/michaelyung/RiderProjects/ewhq-new`
+## Local Development
 
-## Stack
-- Docusaurus `3.9.2`
-- React `19`
-- TypeScript `5.6`
+Prerequisites:
 
-## Quick Start
+- Node.js `20+`
+- npm
+
+Start the site locally:
+
 ```bash
-nvm use
 npm install
 npm start
 ```
 
-## Build
+Build the production site:
+
 ```bash
 npm run build
 npm run serve
 ```
 
-## Localization Workflow
-Generate translation JSON files for a locale:
+Write translation files for a locale:
 
 ```bash
 npm run write-translations -- --locale zh-HK
 npm run write-translations -- --locale zh-CN
 ```
 
-Translated docs live under:
-- `i18n/zh-HK/docusaurus-plugin-content-docs/current/`
-- `i18n/zh-CN/docusaurus-plugin-content-docs/current/`
+## Contributing
 
-## Project Structure
-- `docs/getting-started/`: access, navigation, role model
-- `docs/client/`: POS front-end operations for store staff (current priority)
-- `docs/hq/`: back-office admin workflows (WIP)
-- `docs/reference/`: glossary and troubleshooting
-- `src/`: homepage and theme-level customization
+Contributions are welcome.
 
-## Deployment (GitHub Pages)
-This repo is configured for:
-- `url`: `https://caterlord.github.io`
-- `baseUrl`: `/MobilePos.Doc/`
+If you found a problem in the manual or want to improve it:
 
-If your hosting target changes, update these values in `docusaurus.config.ts`.
+1. Open an issue using the repository issue forms.
+2. Fork the repository and create a focused branch for your change.
+3. Update the relevant page, screenshot, or wording.
+4. Run `npm run build`.
+5. Submit a pull request and link the related issue.
 
-To deploy:
-```bash
-GIT_USER=<github-username> npm run deploy
-```
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for the full workflow.
+
+## Reporting Documentation Problems
+
+Use GitHub Issues for:
+
+- incorrect steps
+- outdated UI labels
+- missing screenshots
+- unclear wording
+- broken links
+- missing pages or workflows
+
+Issue tracker:
+
+- `https://github.com/caterlord/MobilePos.Doc/issues`
+
+## Repository Policy
+
+- This repository is public and intended for documentation collaboration.
+- Do not commit local machine paths, private repository URLs, credentials, or environment-specific internal references.
+- Companion product source repositories may have separate visibility and access rules.
 
 ## CI
 
-GitHub Actions workflow: `.github/workflows/docs-ci.yml`
-
-- Runs on `push` to `main` and all pull requests
-- Installs dependencies with `npm ci`
-- Verifies documentation site build with `npm run build`
-
-## Auto Deploy
-
-GitHub Actions workflow: `.github/workflows/deploy-gh-pages.yml`
-
-- Runs on `push` to `main` (and manual trigger)
-- Publishes to `gh-pages` branch using `npm run deploy`
+GitHub Actions validates the documentation build on pull requests and on updates to `main`.

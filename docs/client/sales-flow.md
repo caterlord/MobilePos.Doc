@@ -6,7 +6,7 @@ title: Sales Flow
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Cashiers taking orders before payment.
 :::
 
@@ -35,7 +35,7 @@ Cashiers taking orders before payment.
   </TabItem>
 </Tabs>
 
-:::note Takeaway contact details
+:::note[Takeaway contact details]
 If you need the customer name or phone number on takeaway printouts, use `Order Contact` from the function menu. See [Function guide](../functions/order-contact).
 :::
 
@@ -48,7 +48,7 @@ If you need the customer name or phone number on takeaway printouts, use `Order 
 - Item names follow your current language and item-name mapping (`Main` / `Alt`) from `Settings`
 - On takeaway orders, saved customer contact details appear under the order header
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed file: `client/cl-41-order-item-name-language-mapping.png`
 :::
 
@@ -61,7 +61,7 @@ When `Floor Plan Mode` is enabled in `Settings`, Dine-In table screen now has a 
 
 This lets staff switch layout quickly without leaving the ordering flow.
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed file: `client/cl-37-ordering-table-view-toggle-floorplan-tablelist.png`
 :::
 
@@ -111,21 +111,21 @@ Use these detailed guides:
 5. Check the remark appears under the order header.
 6. Tap the pencil icon beside the remark if you need to edit it again.
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed file: `client/cl-42-select-function-dialog-pagination.png`
 :::
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed file: `client/cl-43-order-remark-display-edit.png`
 :::
 
 ## If something goes wrong
 
-:::warning Cannot split/merge or void
+:::warning[Cannot split/merge or void]
 Send pending items first, then retry.
 :::
 
-:::note Wrong table selected
+:::note[Wrong table selected]
 Use `Change Table` from function menu before checkout.
 :::
 

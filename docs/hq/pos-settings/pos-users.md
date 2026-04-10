@@ -1,41 +1,97 @@
 ---
 sidebar_position: 3
+title: POS Users
 ---
 
-# POS Users & Groups
+:::info[Who this is for]
+Admins and managers who maintain staff login records for the POS.
+:::
 
-![POS Users List](/img/hq/pos-settings/pos_users_list.png)
+## Before you start
 
-The **POS Users** module defines individual staff accounts for the physical point-of-sale tablets, governing how staff authenticate, interact with, and lock the hardware.
+- Confirm the correct brand and target shop.
+- Decide whether you are creating a user group or an individual POS user.
+- Do not confuse POS user access with HQ member access in [Organization Management](../organization.md).
 
-Administration is split into **User Groups** (role assignments) and **POS Users** (individual accounts).
+## Open this page
 
-## 1. User Groups
+Open `POS Settings` -> `POS Users`.
 
-A User Group acts as a centralized role. By placing a POS User into a group, they inherit the specific operational permissions of that group (e.g., standard cashier privileges vs a manager capable of skipping required password steps or executing discounts).
+## What this page controls
 
-- **Group ID / Code**: Internal code reference.
-- **Group Name & Alt Name**: Identifiers in the HQ interface.
+`POS Users` manages the staff accounts used on physical POS terminals.
 
-> [!NOTE]
-> The exact capability matrix (what a group can and cannot do) is controlled inside the specialized Permissions engine, independent of this page. This page only handles group creation and user linkage.
+Use this page to manage:
 
-## 2. POS Users
+- user groups
+- individual POS user records
+- login methods
+- inactive or active user access
 
-When creating a new POS User, you must map them to a specific **Shop ID** (users are branch-scoped, not global).
+## Main sections
 
-### Core Fields
-- **User Name**: The login account identifier for typing on the keypad.
-- **Alt Name**: An internal reference, typically using a localized language name.
-- **Password**: Numeric passcode used for terminal authentication.
-- **Staff Code**: A 6-8 digit internal code for API synchronization with your external HCM (Human Capital Management) tool.
-- **Card No.**: A magnetic stripe or RFID track identifier. If your POS terminal has an active NFC or magstripe reader, scanning the card will auto-log the user in immediately.
+### User groups
 
-### Login Behaviors
-You control exactly how a user is permitted to authenticate:
-- **Enable User ID Login**: Allows the user to select their name from a grid and punch in the numeric passcode.
-- **Enable Card No. Login**: Forces or allows magnetic badge swipe.
-- **Enable Staff Code Login**: Requires the user to remember and input their 6-8 digit long-form staff code.
+User groups define reusable role assignments for POS users.
 
-### Status Toggles
-- **Inactive Account**: Immediately locks out the account. The user's name will vanish from the POS login screen upon the next synchronization. Use this immediately during offboarding.
+Typical fields:
+
+- group code
+- group name
+- alternate name
+
+### POS users
+
+Individual users are assigned to a specific shop.
+
+Typical fields:
+
+- `User Name`
+- `Alt Name`
+- `Password`
+- `Staff Code`
+- `Card No.`
+
+### Login behaviors
+
+Users can be configured for different login methods such as:
+
+- user ID login
+- card login
+- staff code login
+
+### Status
+
+Use the inactive or active state to control whether the user can still sign in on the POS.
+
+## Steps
+
+1. Open `POS Settings` -> `POS Users`.
+2. Create or review the required user group.
+3. Create or open the target POS user.
+4. Confirm the correct shop assignment.
+5. Enter the login and identification fields.
+6. Turn on the required login methods.
+7. Set the user as active or inactive as needed.
+8. Save the user.
+
+## What changes after you save
+
+These changes affect how the selected staff account can sign in to the POS in the assigned shop.
+
+## How to check your change
+
+1. Reopen the user record and confirm the saved fields.
+2. Confirm the user is assigned to the correct shop.
+3. Verify the intended login method works on the target POS when practical.
+
+## If something goes wrong
+
+- Confirm you edited a POS user and not an HQ member.
+- Check whether the wrong shop was selected.
+- Review the login method switches before changing the user identity fields again.
+
+## When to ask owner/admin
+
+- The account belongs to a manager or another privileged role.
+- You are unsure whether the user should be disabled, moved, or recreated.

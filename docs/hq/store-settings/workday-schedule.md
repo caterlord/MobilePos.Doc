@@ -1,51 +1,108 @@
 ---
 sidebar_position: 2
+title: Workday Schedule
 ---
 
-# Workday Schedule
+:::info[Who this is for]
+Admins and managers who define the business day and service periods for a specific shop.
+:::
+
+## Before you start
+
+- Confirm the correct brand and shop.
+- Confirm the actual operating hours for the shop, including late-night closing that runs past midnight.
+- Decide whether you are updating one day, all days, or copying a schedule to other shops.
+
+## Open this page
+
+Open `Store Settings` -> `Workday Schedule`.
+
+## What this page controls
+
+`Workday Schedule` tells the POS when a financial business day starts and ends. It is not just the public opening hours. It controls how sales are assigned to the correct business date.
+
+This page also defines service periods such as breakfast, lunch, or happy hour that can be used for schedule-driven behavior.
+
+This page is shop-level.
 
 ![Workday Schedule Timeline](/img/hq/store-settings/workday_schedule_page.png)
 
-The **Workday Schedule** tells the POS terminal when a financial "Business Day" begins and ends. It is distinct from physical opening hours—it exists purely to ensure that sales made during late night shifts are booked to the correct report date. 
+## Main sections
 
-It also handles the temporal slicing of the day into "Periods" (like Breakfast, Lunch) which can trigger automatic POS Menu shifts.
+### Business hours
 
-## Business Hours vs Calendar Days
+Business hours define the main workday window for each day.
 
-> [!WARNING]
-> A "Workday" often spans across midnight into the next calendar day. If your bar closes at 2:00 AM on a Friday night, those 2 AM sales belong to Friday's financial reporting, not Saturday morning. 
+Use these fields carefully:
 
-When establishing your business hours for a specific day:
-1. **Open Time:** E.g., `06:00`.
-2. **Close Time:** E.g., `02:00`.
-3. **Day Delta (`+1d`):** By adding +1 day to the close time, you instruct the system that 2:00 AM belongs to the *current* shift's data ledger as an "overflow" period.
+- `Open Time`
+- `Close Time`
+- day overflow such as `+1d`
 
-## Period Masters
+:::warning[Overnight shops]
+If the shop closes after midnight, use the overflow setting so late-night sales stay on the correct business day instead of moving to the next calendar day.
+:::
 
-Before plotting time blocks onto the 7-day calendar view, you configure **Period Masters**. 
-A Period Master is a foundational definition of a shift, such as "Lunch Service" or "Happy Hour".
+### Period masters
 
-- **Creating a Master:** You assign a name and a unique code.
-- **Cascade Rename:** If you rename a Master (e.g., from "Lunch" to "Lunchtime Setup"), you can check the **Cascade Rename** box to instantly update all active shifts across all days utilizing that period.
+Period masters define reusable named periods such as `Lunch Service` or `Happy Hour`.
 
-## The Interactive Timeline
+If you rename a period master, `Cascade Rename` can update existing uses of that period.
 
-The Workday Timeline gives you a visual view of how your day is cut up.
+### Interactive timeline
 
-1. **Business Hours Block (Blue):** The master span of the day.
-2. **Period Blocks (Colored):** Individual shifts placed within the business hours.
-3. **Gap Indicators (Dashed Orange):** The system automatically detects and highlights gaps in your timeline where no Period is active. 
-4. **Previous Day Overflow (Grey Hatched):** If Thursday's business hours bleed into Friday morning (e.g., stopping at 3:00 AM), Friday's timeline will show a grey hatched block from midnight to 3:00 AM representing Thursday's overflow.
+The timeline helps you review:
 
-### Timeline Validations
-The editor performs strict safety checks before you save:
-- **Period Overlaps:** Periods cannot overlap. If "Lunch" ends at 14:00, "Afternoon Tea" cannot start at 13:30.
-- **Out of Bounds:** Periods cannot start before the overarching Business Hours Open Time, nor end after the Close Time.
+- the full business-hours block
+- period placement inside the day
+- gaps between periods
+- previous-day overflow into the next calendar day
 
-## Copying Schedules
+### Validations
 
-Setting up 7 days manually is tedious. The Portal offers a **Copy Schedule** bulk tool:
-1. Complete Monday's setup perfectly.
-2. Click the `Copy` icon next to Monday.
-3. Select Tuesday through Friday on the target days list. 
-4. **Cross-Shop Syncing:** You can also select other Shop IDs in this modal to blast the same schedule across completely different physical branches.
+The page checks for:
+
+- period overlaps
+- periods outside the business-hours window
+
+## Steps
+
+1. Open `Store Settings` -> `Workday Schedule`.
+2. Confirm the selected shop.
+3. Set the `Open Time` and `Close Time` for the target day.
+4. Add overflow such as `+1d` if the business day ends after midnight.
+5. Create or review the required `Period Masters`.
+6. Place the periods on the timeline in the correct order.
+7. Check for gaps or overlaps before saving.
+8. Save the schedule.
+
+## Copying schedules
+
+Use the copy tool when multiple days or shops should share the same pattern.
+
+1. Finish one day correctly first.
+2. Select the `Copy` action for that day.
+3. Choose the target days.
+4. If needed, choose additional target shops.
+5. Apply the copy.
+
+## What changes after you save
+
+These changes affect the selected shop's business-day timing and period structure. That can affect reporting date boundaries and any workflow that depends on the configured schedule.
+
+## How to check your change
+
+1. Reopen the page and confirm the saved hours and periods are correct.
+2. Check that no validation warnings remain.
+3. For late-night shops, confirm the business-day cutoff matches the real trading expectation.
+
+## If something goes wrong
+
+- Confirm you edited the correct shop.
+- Check whether the problem is in the close time, the overflow day, or the period blocks.
+- If reports are landing on the wrong date, review the overnight configuration first.
+
+## When to ask owner/admin
+
+- You are changing the workday for a live shop and cannot safely verify the reporting impact.
+- The schedule should be copied to multiple shops but you do not know whether they all share the same operating pattern.

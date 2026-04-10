@@ -5,7 +5,7 @@ title: Inventory
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Managers and authorized staff controlling sold-out and limited-item availability.
 :::
 
@@ -43,13 +43,13 @@ Manage items with quota/remain controls.
 - Item list columns such as `Name`, `Quota`, and `Remain`
 - `Cancel All` / `Reset All` when bulk operation is available
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed files: `client/cl-30-inventory-sold-out-tab.png`, `client/cl-31-inventory-limited-item-tab.png`
 :::
 
 ## If something goes wrong
 
-:::warning Item status looks unchanged
+:::warning[Item status looks unchanged]
 Refresh the list and verify you changed the correct item/category.
 :::
 

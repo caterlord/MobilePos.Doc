@@ -2,7 +2,7 @@
 title: More Tools
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Managers and authorized staff performing operational controls.
 :::
 
@@ -15,7 +15,7 @@ Managers and authorized staff performing operational controls.
 
 `More Tools` is the manager operations hub.
 
-:::note Scope boundary
+:::note[Scope boundary]
 `More Tools` is for manager operational controls (`Day-end`, `Pay In / Pay Out`, drawer/queue tools).
 For hardware/device setup and printer troubleshooting, use `Devices`.
 :::
@@ -41,7 +41,7 @@ For hardware/device setup and printer troubleshooting, use `Devices`.
 
 ## If something goes wrong
 
-:::warning Card is missing
+:::warning[Card is missing]
 Some tools are role/platform/configuration dependent.
 :::
 

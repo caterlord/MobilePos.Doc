@@ -1,0 +1,57 @@
+name: Documentation improvement request
+description: Suggest a new page, missing topic, screenshot addition, or navigation improvement.
+title: "[Docs request]: "
+labels:
+  - type:documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form when you want to request new documentation or improve the reader experience.
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: Request type
+      options:
+        - New page or missing workflow
+        - Add or update screenshots
+        - Improve wording or clarity
+        - Improve landing page or navigation
+        - Translation or localization improvement
+        - Other documentation improvement
+    validations:
+      required: true
+  - type: dropdown
+    id: manual_area
+    attributes:
+      label: Which area is this for?
+      options:
+        - POS User Manual
+        - HQ User Manual
+        - MCP User Manual
+        - Whole site
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: request_summary
+    attributes:
+      label: What do you want to improve?
+      description: Describe the missing content or improvement you want.
+      placeholder: We need a page for...
+    validations:
+      required: true
+  - type: textarea
+    id: user_problem
+    attributes:
+      label: What reader problem does this solve?
+      description: Explain why the improvement matters.
+      placeholder: New users get stuck because...
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_content
+    attributes:
+      label: Suggested content or references
+      description: Add example wording, screenshots, or links if you have them.
+      placeholder: Suggested structure, product labels, screenshots, or reference pages.

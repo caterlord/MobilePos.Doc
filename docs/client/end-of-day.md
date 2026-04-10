@@ -6,11 +6,11 @@ title: End of Day
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::danger Manager only
+:::danger[Manager only]
 Day-end is irreversible and must be run by manager role.
 :::
 
-:::info Who this is for
+:::info[Who this is for]
 Shift manager closing business day and store owner supervising end-of-day controls.
 :::
 
@@ -41,12 +41,12 @@ Shift manager closing business day and store owner supervising end-of-day contro
   </TabItem>
 </Tabs>
 
-:::tip Selected-day behavior
+:::tip[Selected-day behavior]
 `Day-end selected day` now closes and writes turnover using the date you selected.  
 If that date was already processed, POS blocks running day-end again for the same date.
 :::
 
-:::note Printed report content
+:::note[Printed report content]
 The printed day-end report follows `Settings` -> `Report` -> `Daily Report Sections`.
 If a section is missing from the printout, check that setting before you run day-end again on a later business day.
 :::
@@ -60,29 +60,29 @@ If a section is missing from the printout, check that setting before you run day
 
 ## If something goes wrong
 
-:::warning No pending business day / validation blocked
+:::warning[No pending business day / validation blocked]
 Re-check business date and unresolved transactions, then retry once.
 :::
 
-:::warning `Day-end has already been processed for the selected day`
+:::warning[`Day-end has already been processed for the selected day`]
 This date is already closed. Select another date, or verify the existing report instead of re-running day-end.
 :::
 
-:::note Warning prompt appears
+:::note[Warning prompt appears]
 This is expected behavior. Day-end is a high-risk irreversible action.
 :::
 
-:::warning Printed report is missing sections
+:::warning[Printed report is missing sections]
 Open `Settings` -> `Report` and review `Daily Report Sections` plus any `Advanced Sections` toggles, then use the updated setup for the next business day.
 :::
 
 ## Do and don't
 
-:::tip Do
+:::tip[Do]
 Confirm order/payment closure before day-end and keep one manager owner for the process.
 :::
 
-:::danger Don't
+:::danger[Don't]
 Do not run day-end while any payment outcome is still unclear.
 :::
 

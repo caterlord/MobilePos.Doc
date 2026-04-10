@@ -1,25 +1,91 @@
 ---
 sidebar_position: 2
+title: Operations Reports
 ---
 
-# Operations Reports
+:::info[Who this is for]
+Managers and operators who need reporting on staff activity, audit events, and non-revenue operational behavior.
+:::
+
+## Before you start
+
+- Confirm the correct brand and shop scope.
+- Decide whether you are investigating staff activity, operational exceptions, or delivery or kitchen behavior.
+
+## Open this page
+
+Open `Reports` -> `Operations Reports`.
+
+## What this page is for
+
+`Operations Reports` focuses on how the business is being operated, rather than on revenue totals.
+
+Use it to review:
+
+- staff attendance and activity
+- discounts, voids, and returns
+- deposits
+- kitchen timing
+- delivery records
 
 ![Operations Reports](/img/hq/reports/operations_reports_page.png)
 
-Unlike Sales Reports which focus entirely on revenue and taxes, the **Operations Reports** module focuses on employee actions, logistical flow, and risk auditing. 
+## Main report groups
 
-These ledgers are essential for shift managers and store operators to ensure loss-prevention and efficiency.
+### Staff tracking
 
-## 1. Staff Tracking
-- **Staff Attendance**: Reconciles the "Clock In" and "Clock Out" times captured by the POS terminal.
-- **Staff Operations (Ops)**: Evaluates performance metrics per cashier—such as who processes the most transactions, and who triggers the highest number of voids or refunds.
-- **Staff Messing**: Tracks internal employee meals or manager food comp usage.
+Use this group for staff time and staff action visibility.
 
-## 2. Operations & Auditing
-- **Operations Essentials**: A high-level dashboard combining key friction metrics (discounts, voids, open orders).
-- **Deposits**: An audit ledger of pre-payments or reservation deposits collected.
-- **Returned Orders**: A critical loss-prevention ledger. It traces exactly which items were reversed from a closed ticket, the timestamp, the authorized manager, and the exact Reason Code selected.
-- **KDS Summary**: Tracks the latency between an order hitting the kitchen versus the time it was "bumped" (marked as completed) on the Kitchen Display System. 
+Examples:
 
-## 3. Delivery & Dispatch
-- **Delivery Records**: Logs dispatch timelines, courier assignment data, and actual transit times for orders utilizing first-party driver fleets.
+- `Staff Attendance`
+- `Staff Operations`
+- `Staff Messing`
+
+### Operations and auditing
+
+Use this group to investigate operational exceptions and internal control concerns.
+
+Examples:
+
+- `Operations Essentials`
+- `Deposits`
+- `Returned Orders`
+- `KDS Summary`
+
+### Delivery and dispatch
+
+Use this group when you need timing and delivery execution detail.
+
+Example:
+
+- `Delivery Records`
+
+## How to use this page
+
+Start with the report that matches the operational question:
+
+- use staff reports for people and attendance questions
+- use audit-style reports for voids, returns, or deposits
+- use kitchen or delivery reports for fulfillment timing questions
+
+## What changes after you save
+
+These reports are mainly for viewing, filtering, and exporting. They do not usually change store behavior, but incorrect scope or date filters can still produce the wrong conclusion.
+
+## How to check your result
+
+1. Confirm the selected scope.
+2. Confirm the selected date range.
+3. If the result looks wrong, compare it against the most closely related report before changing many filters at once.
+
+## If something goes wrong
+
+- Check the selected shop or brand.
+- Check the selected date range.
+- If the issue concerns one operational event, move from summary-style reports into the most detailed report available for that event.
+
+## When to ask owner/admin
+
+- The result affects disciplinary, compliance, or loss-prevention decisions.
+- You cannot reconcile an operational report with the related sales or audit records.

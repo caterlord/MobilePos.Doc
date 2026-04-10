@@ -1,32 +1,85 @@
 ---
 sidebar_position: 6
+title: Discounts
 ---
 
-# Discounts
+:::info[Who this is for]
+Admins who create manual markdown options for cashier or manager use on the POS.
+:::
+
+## Before you start
+
+- Confirm the correct brand.
+- Decide whether the discount should be manual. If it should apply automatically, review [Promotions](./promotions.md) instead.
+- Confirm whether the discount applies to the whole check, a single item, or a custom amount entered at the POS.
+
+## Open this page
+
+Open `Menu Management` -> `Discounts`.
+
+## What this page controls
+
+`Discounts` defines the manual markdown options available during POS operations.
+
+Use this page to control:
+
+- fixed or percentage discounts
+- whole-check versus item-level discounts
+- open discounts
+- rule-based eligibility for discount use
 
 ![Discounts List](/img/hq/menu-catalog/discounts_list.png)
 
-The **Discounts** module configures the manual markdown options available to cashiers or managers on the POS tablet. 
+## Main sections
 
-Unlike Promotions (which evaluate the cart and apply automatically), Discounts must be explicitly clicked by a user holding the required security permissions.
+### Value type
 
-## Value Types
+Choose whether the discount is:
 
-When defining the financial impact of the discount, you can route it in two ways:
-- **Fixed Amount**: Reduces the target by an exact dollar value.
-- **Percentage**: Reduces the target by a multiplier (e.g., 20%).
+- fixed amount
+- percentage
 
-## Rule Types (Application Scope)
+### Rule type
 
-The Rule Type dictates *what* exactly in the cart gets discounted.
+Common rule scopes include:
 
-1. **Check Discount**: Applies the markdown against the entire cart subtotal. It does not target specific items. 
-2. **Item Discount**: Requires the cashier to tap a specific item in the cart, and then tap the discount button. The markdown only applies to the highlighted item.
-3. **Open Discount**: A specialized subset where the amount is not predefined in HQ. When tapped, a keypad pops up on the POS tablet, forcing the manager to punch in a custom dollar or percentage amount on the fly.
-4. **Item Upgrade**: A specialized fixed amount discount usually mapped to upselling behavior (e.g., upgrading a standard fry to a large fry) without changing the base item SKU.
+- `Check Discount`
+- `Item Discount`
+- `Open Discount`
+- `Item Upgrade`
 
-## Rules Engine
+### Rule editor
 
-Just like Promotions, the main table only defines the shell. You must click the **Teal Settings/Gear icon** to open the `DiscountRuleEditorModal`. 
+As with promotions, the shell record is only part of the setup. Use the rule editor to define what the discount can apply to.
 
-Inside the rule editor, you map which exact items or categories are permitted to receive an Item Discount, or you map entire cart requirements for Check Discounts. If you do not map rules to an Item Discount, it will be globally applicable to any item a cashier taps.
+## Steps
+
+1. Open `Menu Management` -> `Discounts`.
+2. Create a new discount or open an existing one.
+3. Choose the value type.
+4. Choose the rule type.
+5. Save the shell record.
+6. Open the rule editor.
+7. Define the allowed items, categories, or cart requirements.
+8. Save the discount.
+
+## What changes after you save
+
+These changes affect the manual discount options available during POS operations.
+
+## How to check your change
+
+1. Reopen the discount and confirm the type and value.
+2. Review the rule editor setup.
+3. Test the intended discount flow in the POS where practical.
+
+## If something goes wrong
+
+- Confirm the rule editor was configured after the shell record was saved.
+- Check whether the issue is in rule scope rather than discount value.
+- Review whether the discount should be whole-check or item-level.
+
+## When to ask owner/admin
+
+- The discount affects live pricing or approval policy.
+- You are unsure whether the logic should be a discount or a promotion.

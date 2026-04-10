@@ -6,7 +6,7 @@ title: Take Payment
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Cashiers handling checkout.
 :::
 
@@ -42,7 +42,7 @@ Cashiers handling checkout.
 
 ## If something goes wrong
 
-:::warning Payment failure
+:::warning[Payment failure]
 Retry once only if status is clearly failed/cancelled.
 :::
 

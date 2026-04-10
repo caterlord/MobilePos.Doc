@@ -90,7 +90,13 @@ const config: Config = {
   ],
 
   future: {
-    v4: true,
+    v4: {
+      removeLegacyPostBuildHeadAttribute: true,
+      useCssCascadeLayers: true,
+      siteStorageNamespacing: true,
+      fasterByDefault: false,
+      mdx1CompatDisabledByDefault: true,
+    },
   },
 
   url: siteUrl,
@@ -215,12 +221,16 @@ const config: Config = {
               to: `${docsPathPrefix}/client/overview`,
             },
             {
-              label: 'HQ (In Progress)',
+              label: 'HQ Operations',
               to: `${docsPathPrefix}/hq/overview`,
             },
             {
               label: 'MCP (Agent Platform)',
               to: `${docsPathPrefix}/mcp/overview`,
+            },
+            {
+              label: 'Docs Repository',
+              to: 'https://github.com/caterlord/MobilePos.Doc',
             },
           ],
         },

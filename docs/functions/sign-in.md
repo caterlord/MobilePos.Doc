@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Sign In
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 All front-line staff.
 :::
 
@@ -27,7 +27,7 @@ All front-line staff.
 
 ## If something goes wrong
 
-:::warning Login failed
+:::warning[Login failed]
 Retry once after checking PIN carefully.
 :::
 

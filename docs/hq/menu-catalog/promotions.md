@@ -1,37 +1,92 @@
 ---
 sidebar_position: 5
+title: Promotions
 ---
 
-# Promotions
+:::info[Who this is for]
+Admins who create automatic pricing logic that applies when cart conditions are met.
+:::
+
+## Before you start
+
+- Confirm the correct brand.
+- Decide whether the pricing behavior should be automatic. If not, you may need [Discounts](./discounts.md) instead.
+- Confirm the qualifying items or categories before you build the rule.
+
+## Open this page
+
+Open `Menu Management` -> `Promotions`.
+
+## What this page controls
+
+`Promotions` handles conditional discount logic that can apply automatically when the order meets the configured rules.
+
+Use this page when you need offers such as:
+
+- buy-one-get-one logic
+- buy-X-get-Y logic
+- combo discount logic
 
 ![Promotions List](/img/hq/menu-catalog/promotions_list.png)
 
-The **Promotions** module handles complex, conditional marketing triggers. Unlike a standard Discount (which is manually applied by a cashier), a Promotion automatically scans the cart and applies itself if all conditional rules are met.
+## Main sections
 
-## Promotion Types
+### Promotion type
 
-When creating a new promotion, you must select the fundamental math logic:
+Choose the type that matches the intended offer:
 
-1. **Buy One Get One Free**: The classic BOGO. Evaluates pairs of items.
-2. **Buy Multi Get One Free**: Requires the customer to buy X target items to trigger 1 free item.
-3. **Buy Multi Get Multi**: The most flexible logic. Buy X to get Y.
-4. **Combo Deal Fix Discount**: Buy a specific combination of items and reduce the total combo price by a flat dollar amount.
-5. **Combo Deal Percent Discount**: Buy a specific combination of items and reduce the total combo price by a percentage.
+- buy one get one free
+- buy multi get one free
+- buy multi get multi
+- combo deal fixed discount
+- combo deal percentage discount
 
-## General Configuration
+### Basic promotion fields
 
-- **Save Amount**: Depending on the type selected, this field represents the fixed dollar discount or the percentage off.
-- **Priority**: Since multiple promotions can theoretically apply to the same cart, priority dictates the evaluation order. Lower numbers evaluate first. 
-- **Published**: Instantly enables or disables the promotion globally across all POS terminals.
+Common fields include:
 
-## Rules Engine (Configuring the Logic)
+- save amount
+- priority
+- published state
 
-The master table only configures the "Shell" of the promotion. To actually make it work, you must click the **Teal Settings/Gear icon** on the table row to open the Rules Engine for that specific promotion.
+### Rules engine
 
-Inside the Rules Engine, you define the exact **Condition Items** (the trigger) and the **Action Items** (the reward).
+The main record defines the promotion shell. The actual trigger and reward logic is configured in the rule editor.
 
-- **Condition Array**: You map specific Menu Items or entire Categories that the customer must order.
-- **Action Array**: You map the specific Menu Items or Categories that receive the discount.
+Use the rule editor to define:
 
-> [!IMPORTANT]  
-> If an item in the cart satisfies a promotion, it is usually "consumed" by that promotion and cannot be used to trigger a *second* promotion on the same receipt, preventing double-dipping.
+- condition items or categories
+- action items or categories
+
+## Steps
+
+1. Open `Menu Management` -> `Promotions`.
+2. Create a new promotion or open an existing one.
+3. Select the correct promotion type.
+4. Enter the basic values such as amount and priority.
+5. Set `Published` only when the promotion is ready.
+6. Open the rules editor.
+7. Configure the condition items or categories.
+8. Configure the action items or categories.
+9. Save the promotion.
+
+## What changes after you save
+
+These changes affect automatic discount logic in the selling flow where the promotion is active.
+
+## How to check your change
+
+1. Reopen the promotion and confirm the type and amount.
+2. Review the condition and action rules.
+3. Test a matching cart scenario to confirm the promotion behaves as expected.
+
+## If something goes wrong
+
+- Confirm the rule editor was configured, not just the shell record.
+- Check whether the condition items are too broad or too narrow.
+- Review promotion priority if more than one promotion can apply.
+
+## When to ask owner/admin
+
+- The promotion affects live pricing in active shops.
+- You are unsure whether the offer should be a promotion or a manual discount.

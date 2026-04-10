@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Function Guides Overview
 ---
 
-:::info Why this section exists
+:::info[Why this section exists]
 Use-case pages are best for training. Function pages are best when you need one exact operation quickly.
 :::
 

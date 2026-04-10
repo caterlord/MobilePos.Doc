@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Troubleshooting
 ---
 
-:::info How to use this page
+:::info[How to use this page]
 Use the symptom index first, then open only the matching issue card below.
 :::
 
@@ -21,11 +21,11 @@ Use the symptom index first, then open only the matching issue card below.
 
 ## Global Triage Rules
 
-:::warning Stop repeated retries
+:::warning[Stop repeated retries]
 For payment and financial actions, do not retry repeatedly when result is unclear. Retry once, then escalate.
 :::
 
-:::note Always capture evidence before escalation
+:::note[Always capture evidence before escalation]
 Keep transaction number, terminal POS code, timestamp, and the exact on-screen message.
 :::
 

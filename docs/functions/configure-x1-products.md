@@ -5,7 +5,7 @@ title: Configure X1 Products
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Manager or authorized staff configuring X1 product devices.
 :::
 
@@ -51,7 +51,7 @@ Opens kiosk pairing dialog (`Express Checkout Kiosks`) to pair/remove kiosks and
 
 ## If something goes wrong
 
-:::warning Product device shows disconnected
+:::warning[Product device shows disconnected]
 Open `Info`, verify host/controller pairing values, then retry connection.
 :::
 

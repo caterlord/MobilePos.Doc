@@ -6,7 +6,7 @@ title: Start Shift
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Cashiers and shift managers preparing a terminal before taking the first order.
 :::
 
@@ -52,11 +52,11 @@ Cashiers and shift managers preparing a terminal before taking the first order.
 
 ## If something goes wrong
 
-:::warning `POS Code is required`
+:::warning[`POS Code is required`]
 Go to `Settings` -> `General`, fill `POS Code`, then tap `Save`.
 :::
 
-:::note Printer not ready
+:::note[Printer not ready]
 Check paper/cover/network first, then run `Test Print` again.
 :::
 

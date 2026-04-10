@@ -3,7 +3,7 @@ sidebar_position: 9
 title: Reprint Receipt
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Cashiers and shift managers handling customer requests for an extra receipt copy.
 :::
 
