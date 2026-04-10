@@ -24,5 +24,6 @@ Within the item's pricing tab here, you can set an **Online Base Price Override*
 ## 4. Item Descriptions
 Use the **Description** field to add marketing copy or allergen warnings. This text is displayed underneath the item name on the digital menu.
 
-> [!TIP]
-> If a specific item is temporarily out of stock, **do not** delete it from the online category. Instead, use the POS terminal's **Inventory** app to mark the item as "Sold Out". It will instantly grey-out on the customer's phone without breaking your menu structure.
+:::tip[Temporary sold-out handling]
+If a specific item is temporarily out of stock, **do not** delete it from the online category. Instead, use the POS terminal's **Inventory** app to mark the item as "Sold Out". It will instantly grey-out on the customer's phone without breaking your menu structure.
+:::

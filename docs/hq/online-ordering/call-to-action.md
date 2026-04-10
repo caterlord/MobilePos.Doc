@@ -23,5 +23,6 @@ To activate a CTA slot, click the corresponding card to open the editor.
 - **Target Smart Category**: This is the functional trigger. If you select the `Drinks` category here, tapping the CTA banner will instantly pop open a modal showing all items inside the `Drinks` category, allowing the customer to add them to the cart without navigating back to the main menu.
 - **Action URL**: If you prefer to redirect the customer entirely (e.g., linking out to a survey site), provide the full `https://` web link here instead of a Smart Category.
 
-> [!WARNING]
-> Remember to fill out the **Alt Title** and **Alt Description** fields if your store operates in a bilingual environment, otherwise translated users will see blank spaces.
+:::warning[Translated text]
+Remember to fill out the **Alt Title** and **Alt Description** fields if your store operates in a bilingual environment, otherwise translated users will see blank spaces.
+:::

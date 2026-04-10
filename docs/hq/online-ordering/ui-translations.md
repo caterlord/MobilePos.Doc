@@ -27,5 +27,6 @@ This page allows you to inject an **Override Value** for specific languages or s
 
 The customer web-app will instantly reflect the new text structure without requiring a code deployment or app update.
 
-> [!WARNING]
-> Do not leave partial override boxes empty if you intend for them to be blank entirely. If you wish to delete an override and return it to the system default, clear the text box completely before saving.
+:::warning[Override cleanup]
+Do not leave partial override boxes empty if you intend for them to be blank entirely. If you wish to delete an override and return it to the system default, clear the text box completely before saving.
+:::
