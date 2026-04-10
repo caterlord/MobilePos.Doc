@@ -2,7 +2,7 @@
 title: Menu & Catalog Overview
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who create and maintain sellable items, menu structure, pricing logic, and cashier-facing catalog behavior.
 :::
 

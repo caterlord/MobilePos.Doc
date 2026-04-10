@@ -2,7 +2,7 @@
 title: Payment Vendors
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who connect on-premise payment gateway vendors to the POS and maintain vendor setup by shop.
 :::
 

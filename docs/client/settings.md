@@ -5,7 +5,7 @@ title: Settings
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Managers/admin-level users maintaining terminal configuration.
 :::
 
@@ -26,7 +26,7 @@ Use the language section in `General` to manage:
 - Item name display source per language (`Main` or `Alt`)
 - Login-screen quick-switch availability per language
 
-:::tip How to read `Main` / `Alt`
+:::tip[How to read `Main` / `Alt`]
 `Main` and `Alt` are two item-name sources from your menu setup.  
 If one source is blank for an item, POS falls back to the other available name.
 :::
@@ -103,11 +103,11 @@ Includes report-related output settings such as `Print Qty` and `Daily Report Se
   </TabItem>
 </Tabs>
 
-:::note Related settings
+:::note[Related settings]
 `Enable Dine In Auto Assign Table Code` and `Enable Takeaway Auto Assign Table Code` only appear after the matching auto-open setting is turned on.
 :::
 
-:::tip Quick-order tools
+:::tip[Quick-order tools]
 `Reset Table Counters` in `More Tools` is used with Quick Order mode when your store uses the rotating quick-order counters.
 :::
 
@@ -209,25 +209,25 @@ Advanced section toggles only apply when the matching parent section stays on.
 - `Report` includes `Print Qty`, `Daily Report Sections`, and `Show advanced sections`
 - `Restore` action at the bottom of settings
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed file: `client/cl-40-settings-language-configuration-grid.png`
 :::
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed file: `client/cl-45-settings-print-order-contact-toggles.png`
 :::
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed files: `client/cl-46-settings-operation-terminal-mode.png`, `client/cl-47-settings-general-order-mode-toggles.png`
 :::
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed files: `client/cl-48-settings-print-auto-print-receipt.png`, `client/cl-49-settings-report-day-end-sections.png`
 :::
 
 ## If something goes wrong
 
-:::warning Cannot save settings
+:::warning[Cannot save settings]
 Check required fields (`POS Code`, required codes) and retry.
 :::
 

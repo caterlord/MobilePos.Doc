@@ -2,7 +2,7 @@
 title: Reports Overview
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Owners, finance staff, managers, and analysts who need to choose the correct HQ report before running it.
 :::
 

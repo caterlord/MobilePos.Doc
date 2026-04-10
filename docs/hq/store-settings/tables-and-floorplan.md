@@ -3,7 +3,7 @@ sidebar_position: 4
 title: Tables & Sections
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins and managers who maintain dine-in sections, tables, and the table map for a specific shop.
 :::
 

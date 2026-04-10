@@ -3,7 +3,7 @@ sidebar_position: 4
 title: Departments
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who organize items for reporting and financial roll-up in HQ.
 :::
 

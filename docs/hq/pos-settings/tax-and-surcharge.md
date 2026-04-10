@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Tax & Surcharge
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins and finance-aware managers who maintain tax and surcharge rules used by the POS.
 :::
 

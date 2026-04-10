@@ -3,7 +3,7 @@ sidebar_position: 8
 title: Member Login
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Cashiers who attach a customer membership to the current order.
 :::
 

@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Dashboard
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Store owners and general managers monitoring top-level daily activity and active connected stores.
 :::
 

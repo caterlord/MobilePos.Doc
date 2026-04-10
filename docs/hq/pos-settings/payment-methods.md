@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Payment Methods
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who define which tenders cashiers can use at checkout and how those tenders behave.
 :::
 
@@ -77,7 +77,7 @@ After the base method is created, use the shop settings area to enable it only f
 
 If the tender depends on a third-party or on-premise payment vendor, configure the vendor first in [Payment Vendors](./payment-vendors.md).
 
-:::warning Vendor dependency
+:::warning[Vendor dependency]
 Do not link a gateway your brand has not installed or configured. A gateway-linked tender without a working vendor setup can fail during checkout.
 :::
 

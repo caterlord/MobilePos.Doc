@@ -6,7 +6,7 @@ title: Checkout and Payments
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Cashiers collecting payment, plus managers handling special payment cases.
 :::
 
@@ -48,11 +48,11 @@ Cashiers collecting payment, plus managers handling special payment cases.
   </TabItem>
 </Tabs>
 
-:::tip Split By Item with unsent items
+:::tip[Split By Item with unsent items]
 You can start `Split By Item` checkout even when some order lines are not yet sent.
 :::
 
-:::note Cash-only rounding behavior
+:::note[Cash-only rounding behavior]
 When `Round For Cash Only` is enabled, rounding is applied only when cash is part of the current checkout payment.
 :::
 
@@ -64,7 +64,7 @@ When `Round For Cash Only` is enabled, rounding is applied only when cash is par
 4. For `Deposit`, tap `Deposit Remark` before `Pay`.
 5. Confirm the remark is saved before you complete checkout.
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed file: `client/cl-44-checkout-payment-remark-edit-button.png`
 :::
 
@@ -79,15 +79,15 @@ Needed file: `client/cl-44-checkout-payment-remark-edit-button.png`
 
 ## If something goes wrong
 
-:::warning Payment seems stuck
+:::warning[Payment seems stuck]
 Do not force-close the app while payment is processing.
 :::
 
-:::tip Payment failed
+:::tip[Payment failed]
 Retry once only if status is clearly failed/cancelled. If still failing, switch method by store policy.
 :::
 
-:::note Table remains locked after leaving checkout
+:::note[Table remains locked after leaving checkout]
 Leave checkout and reopen the order once. If table remains locked, escalate with table code and timestamp.
 :::
 

@@ -5,7 +5,7 @@ title: Organization Management
 
 # Organization Management
 
-:::info Who this is for
+:::info[Who this is for]
 Brand owners and general managers who need to invite new office staff to the HQ or configure top-level business details.
 :::
 
@@ -34,7 +34,7 @@ Update the high-level details of your operation, including the official company 
 
 You can invite new team members to access the HQ portal here. 
 
-:::note POS Users vs HQ Members
+:::note[POS Users vs HQ Members]
 Inviting a member here gives them access to the **HQ web dashboard**. 
 If you simply want to create a login for a new cashier to use the terminal in the shop, go to **POS Settings -> POS Users** instead.
 :::

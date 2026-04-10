@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Device Settings
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins and setup staff who register or maintain the hardware records for a specific shop.
 :::
 

@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Billing
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Owners, finance staff, or admins who review marketplace plan and billing status.
 :::
 

@@ -2,7 +2,7 @@
 title: POS Settings Overview
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins configuring how the POS behaves for checkout, staff access, and core financial setup.
 :::
 

@@ -3,7 +3,7 @@ sidebar_position: 3
 title: POS Users
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins and managers who maintain staff login records for the POS.
 :::
 

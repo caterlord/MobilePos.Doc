@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Info Settings
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins and managers who maintain the identity, address, contact details, and timezone of a specific shop.
 :::
 
@@ -56,7 +56,7 @@ Use the standard address fields for business and operational information. Use th
 
 The alternate address fields can affect printed receipt content. Use them carefully.
 
-:::warning Receipt impact
+:::warning[Receipt impact]
 If you change alternate address lines, check a real receipt or receipt preview after saving so legal or customer-facing text is still correct.
 :::
 
@@ -72,7 +72,7 @@ Use the currency fields only when the selected shop should trade in that currenc
 
 Timezone controls how the shop aligns with date-based operations and reporting.
 
-:::warning Reporting risk
+:::warning[Reporting risk]
 If the timezone is wrong, sales and end-of-day reporting can fall into the wrong dates or cutoffs.
 :::
 

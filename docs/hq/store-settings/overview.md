@@ -2,7 +2,7 @@
 title: Store Settings Overview
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins and managers who maintain shop-specific settings in HQ.
 :::
 

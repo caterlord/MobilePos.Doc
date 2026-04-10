@@ -3,7 +3,7 @@ sidebar_position: 5
 title: Reasons
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who maintain the standard reason lists used for controlled POS actions such as voids, pay-ins, and pay-outs.
 :::
 

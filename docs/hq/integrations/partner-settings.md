@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Partner Settings
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who manage installed third-party partners and configure those partners for the selected brand or shop.
 :::
 

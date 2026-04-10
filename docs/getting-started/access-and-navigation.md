@@ -6,7 +6,7 @@ title: Access and Navigation
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 All store staff who sign in to the POS terminal.
 :::
 
@@ -55,17 +55,17 @@ You will see:
 ![Login PIN screen](/img/manual/en/getting-started/gs-06-login-passcode-screen.png)
 ![Login with roster flyout](/img/manual/en/getting-started/gs-07-login-roster-flyout.png)
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed file: `getting-started/gs-10-login-quick-language-switch.png`
 :::
 
 ## If something goes wrong
 
-:::warning `SIGN IN` does not work
+:::warning[`SIGN IN` does not work]
 Re-enter PIN carefully and retry once.
 :::
 
-:::note Login is blocked by service warning
+:::note[Login is blocked by service warning]
 If subscription/offline warning appears, restore connection and retry sign in.
 :::
 

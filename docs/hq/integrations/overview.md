@@ -2,7 +2,7 @@
 title: Integrations Overview
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who connect X1 HQ to external partners and maintain those partner connections.
 :::
 

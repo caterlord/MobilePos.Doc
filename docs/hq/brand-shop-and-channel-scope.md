@@ -3,7 +3,7 @@ sidebar_position: 4
 title: Brand, Shop, and Channel Scope
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Anyone editing HQ settings who needs to understand where a change will apply before saving.
 :::
 

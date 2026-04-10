@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Marketplace
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who need to browse, subscribe to, or understand optional X1 features and integrations.
 :::
 

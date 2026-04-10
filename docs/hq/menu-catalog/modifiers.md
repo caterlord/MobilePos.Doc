@@ -3,7 +3,7 @@ sidebar_position: 4
 title: Modifiers
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who define add-on, instruction, or option groups for items.
 :::
 

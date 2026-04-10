@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Account and Profile
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Any user who needs to update their HQ login credentials, email address, or security settings.
 :::
 
@@ -36,7 +36,7 @@ Use the `Email addresses` section if you need to change the email you use to sig
 
 Use this area to manage password and multi-factor authentication settings.
 
-:::warning Keep your account secure
+:::warning[Keep your account secure]
 Since the HQ portal has access to sensitive financial reports and menu pricing, you should ensure your account is secured.
 :::
 

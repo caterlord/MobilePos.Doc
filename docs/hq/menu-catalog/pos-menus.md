@@ -3,7 +3,7 @@ sidebar_position: 3
 title: POS Menus
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who decide which categories appear together on the POS for a given menu.
 :::
 

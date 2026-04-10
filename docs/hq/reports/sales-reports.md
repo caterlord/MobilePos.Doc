@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Sales Reports
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Owners, finance staff, and managers who need revenue, tender, and item-performance reporting.
 :::
 

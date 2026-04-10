@@ -3,7 +3,7 @@ sidebar_position: 5
 title: Promotions
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who create automatic pricing logic that applies when cart conditions are met.
 :::
 

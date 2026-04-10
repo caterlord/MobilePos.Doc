@@ -2,7 +2,7 @@
 title: Configure Input Devices
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Manager or authorized staff configuring scanner/input hardware.
 :::
 
@@ -37,7 +37,7 @@ For barcode/QR scanner, edit dialog may include:
 
 ## If something goes wrong
 
-:::warning Scanner not reading
+:::warning[Scanner not reading]
 Verify selected connection mode and camera/host network settings, then retry.
 :::
 

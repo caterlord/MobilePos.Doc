@@ -6,7 +6,7 @@ title: Refunds and Voids
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Shift managers and authorized staff handling post-order corrections.
 :::
 
@@ -43,11 +43,11 @@ Shift managers and authorized staff handling post-order corrections.
 
 ## If something goes wrong
 
-:::warning `Void` is blocked
+:::warning[`Void` is blocked]
 Send/clear pending edits first, then retry.
 :::
 
-:::note `Modify Payment` restrictions
+:::note[`Modify Payment` restrictions]
 Some third-party linked payments cannot be fully modified.
 Use `Return` flow when store policy requires a true reversal.
 :::
@@ -56,11 +56,11 @@ Use `Return` flow when store policy requires a true reversal.
 
 ## Do and don't
 
-:::tip Do
+:::tip[Do]
 Use `Void` for in-progress transactions, and use `Return` for completed transactions.
 :::
 
-:::danger Don't
+:::danger[Don't]
 Do not use repeated blind retries when payment status is unclear.
 :::
 

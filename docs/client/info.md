@@ -5,7 +5,7 @@ title: Info
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Managers/admin staff checking app health and support data.
 :::
 
@@ -66,25 +66,25 @@ Only remove files that are no longer needed by support.
 
 ## What you should see
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed file: `client/cl-33-info-page-version-debug-offline-export.png`
 :::
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed file: `client/cl-38-info-log-file-selection-export-upload-remove.png`
 :::
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed file: `client/cl-39-info-log-upload-success-message.png`
 :::
 
 ## If something goes wrong
 
-:::warning Reactivation/export fails
+:::warning[Reactivation/export fails]
 Verify internet and storage access, then retry once.
 :::
 
-:::warning Upload fails
+:::warning[Upload fails]
 Confirm internet is stable, retry once, and keep the error message for support.
 :::
 

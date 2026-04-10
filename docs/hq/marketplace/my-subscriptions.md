@@ -2,7 +2,7 @@
 title: My Subscriptions
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who review or manage the active marketplace subscriptions for the selected brand.
 :::
 

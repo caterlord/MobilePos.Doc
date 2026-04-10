@@ -3,7 +3,7 @@ sidebar_position: 3
 title: System Parameters
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Owner/admin users maintaining advanced shop behavior and technical operating parameters.
 :::
 
@@ -25,7 +25,7 @@ This page is high risk. Changes here can affect live operations immediately or o
 
 ![System Parameters](/img/hq/store-settings/system_parameters_page.png)
 
-:::danger High-risk page
+:::danger[High-risk page]
 Changing system parameters without a confirmed reason can break device connectivity, printing behavior, or reporting logic. Use this page only when you have a known target value and a way to verify the result.
 :::
 

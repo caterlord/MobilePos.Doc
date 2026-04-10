@@ -90,7 +90,13 @@ const config: Config = {
   ],
 
   future: {
-    v4: true,
+    v4: {
+      removeLegacyPostBuildHeadAttribute: true,
+      useCssCascadeLayers: true,
+      siteStorageNamespacing: true,
+      fasterByDefault: false,
+      mdx1CompatDisabledByDefault: true,
+    },
   },
 
   url: siteUrl,
@@ -103,9 +109,6 @@ const config: Config = {
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: 'warn',
-    },
-    mdx1Compat: {
-      admonitions: true,
     },
   },
 

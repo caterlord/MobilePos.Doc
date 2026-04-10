@@ -3,7 +3,7 @@ sidebar_position: 5
 title: Making Safe HQ Changes
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Anyone making live configuration changes in HQ, especially during trading hours.
 :::
 

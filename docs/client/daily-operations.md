@@ -6,7 +6,7 @@ title: Daily Operations SOP
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Cashiers and shift managers running daily store operations.
 :::
 
@@ -56,11 +56,11 @@ Cashiers and shift managers running daily store operations.
 
 ## If something goes wrong
 
-:::warning Payment status is unclear
+:::warning[Payment status is unclear]
 Stop repeated retries and escalate immediately to manager.
 :::
 
-:::warning Device remains unavailable
+:::warning[Device remains unavailable]
 Run basic checks once, then escalate instead of repeated attempts.
 :::
 

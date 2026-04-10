@@ -5,7 +5,7 @@ title: Devices
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Cashiers and managers validating printers and connected devices.
 :::
 
@@ -18,7 +18,7 @@ Cashiers and managers validating printers and connected devices.
 
 Use `Devices` to check connectivity and maintain device configuration during operations.
 
-:::note Scope boundary
+:::note[Scope boundary]
 `Devices` is for hardware and connectivity setup only (printers/payment/input/X1 products).
 For cash controls and day closing, use `More Tools`.
 :::
@@ -72,13 +72,13 @@ Use this tab for customer-facing/pairing products:
 ![Printer Info status dialog](/img/manual/en/client/cl-02-devices-printer-info-status.png)
 ![Test Print result](/img/manual/en/client/cl-03-devices-test-print-result.png)
 
-:::note Screenshot pending for other tabs
+:::note[Screenshot pending for other tabs]
 Need files: `client/cl-34-devices-payments-tab-list.png`, `client/cl-35-devices-input-devices-tab-list.png`, `client/cl-36-devices-x1-products-tab-list.png`
 :::
 
 ## If something goes wrong
 
-:::warning `POS Code is required`
+:::warning[`POS Code is required`]
 Open `Settings` -> `General`, fill `POS Code`, tap `Save`, then retry.
 :::
 

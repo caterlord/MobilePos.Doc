@@ -5,7 +5,7 @@ title: Online Orders
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Staff handling marketplace/online channels and pickup order states.
 :::
 
@@ -42,13 +42,13 @@ Shows pickup orders and action buttons such as `View`, `Reject`, `Accept`, `Prep
 - `Server` and `Pickup` tabs at top
 - Status and list refresh behavior based on current tab
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed files: `client/cl-28-online-orders-server-tab.png`, `client/cl-29-online-orders-pickup-actions.png`
 :::
 
 ## If something goes wrong
 
-:::warning Status does not update
+:::warning[Status does not update]
 Refresh once, verify internet, then retry the action.
 :::
 

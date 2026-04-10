@@ -2,7 +2,7 @@
 title: Button Styles
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who manage reusable button appearance presets for category or item display.
 :::
 

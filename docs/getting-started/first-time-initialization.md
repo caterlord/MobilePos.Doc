@@ -6,7 +6,7 @@ title: First-Time Initialization
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Store manager or setup owner preparing a terminal for first use.
 :::
 
@@ -28,11 +28,11 @@ Store manager or setup owner preparing a terminal for first use.
 6. On `Review your Settings`, verify details and tap `Activate`.
 7. On `Downloading your settings`, wait until all setup items finish.
 
-:::note Step list shown in the wizard
+:::note[Step list shown in the wizard]
 `Select language` -> `Login with HQ` -> `Select Brand and Shop` -> `Select Product Type` -> `Select Mode` -> `Review your Settings` -> `Downloading your settings`
 :::
 
-:::tip Language behavior during setup
+:::tip[Language behavior during setup]
 Your selected setup language is applied immediately during the wizard, including step titles and button text.
 :::
 
@@ -65,7 +65,7 @@ Your selected setup language is applied immediately during the wizard, including
 
 ## If something goes wrong
 
-:::warning `No Available Subscription`
+:::warning[`No Available Subscription`]
 Stop setup. Ask manager/admin to verify the shop subscription in HQ before you continue. When reporting the issue, share this screen so they can see the exact setup state.
 :::
 
@@ -73,15 +73,15 @@ Stop setup. Ask manager/admin to verify the shop subscription in HQ before you c
 
 *This screen shows that the selected shop does not currently have an available subscription for the POS setup.*
 
-:::warning Cannot continue from `Login with HQ`
+:::warning[Cannot continue from `Login with HQ`]
 Check HQ credentials and internet connectivity, then retry.
 :::
 
-:::note Setup language looks wrong
+:::note[Setup language looks wrong]
 Go back to `Select language`, choose the language again, and continue.
 :::
 
-:::note Download step is stuck
+:::note[Download step is stuck]
 Use `Retry` only when a setup item fails. Use `Reset` only if you need full restart.
 :::
 

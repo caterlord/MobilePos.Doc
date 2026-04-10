@@ -3,7 +3,7 @@ sidebar_position: 6
 title: Discounts
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who create manual markdown options for cashier or manager use on the POS.
 :::
 

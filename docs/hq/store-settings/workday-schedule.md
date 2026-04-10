@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Workday Schedule
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins and managers who define the business day and service periods for a specific shop.
 :::
 
@@ -39,7 +39,7 @@ Use these fields carefully:
 - `Close Time`
 - day overflow such as `+1d`
 
-:::warning Overnight shops
+:::warning[Overnight shops]
 If the shop closes after midnight, use the overflow setting so late-night sales stay on the correct business day instead of moving to the next calendar day.
 :::
 

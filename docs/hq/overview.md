@@ -3,7 +3,7 @@ sidebar_position: 1
 title: HQ User Manual
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Owners, back-office admins, setup staff, and managers who maintain X1 HQ for one or more shops.
 :::
 

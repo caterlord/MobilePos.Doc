@@ -2,7 +2,7 @@
 title: Smart Categories
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who need dynamic or rule-based category groupings for POS or online ordering display.
 :::
 

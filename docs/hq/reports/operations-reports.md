@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Operations Reports
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Managers and operators who need reporting on staff activity, audit events, and non-revenue operational behavior.
 :::
 

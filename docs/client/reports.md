@@ -2,7 +2,7 @@
 title: Reports
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Managers and owners reviewing store performance and audit records.
 :::
 
@@ -28,13 +28,13 @@ Use `Reports` to select a report type, choose date/context, view results, and pr
 - Report selector, date controls, and `Print` button
 - Report content panel updates based on selected report
 
-:::note Screenshot pending
+:::note[Screenshot pending]
 Needed file: `client/cl-32-reports-selector-and-print.png`
 :::
 
 ## If something goes wrong
 
-:::warning Report is empty or slow
+:::warning[Report is empty or slow]
 Confirm date/range first, then retry once.
 :::
 

@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Online Ordering Overview
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins maintaining customer-facing digital ordering channels such as QR ordering, app ordering, or third-party menu routing.
 :::
 

@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Menu Items
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who create or maintain the products sold, customized, or tracked in the POS.
 :::
 

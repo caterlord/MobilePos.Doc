@@ -6,7 +6,7 @@ title: Day-end
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::danger Manager only
+:::danger[Manager only]
 Day-end is irreversible and should be performed by manager role only.
 :::
 
@@ -35,12 +35,12 @@ Day-end is irreversible and should be performed by manager role only.
   </TabItem>
 </Tabs>
 
-:::tip Selected-day behavior
+:::tip[Selected-day behavior]
 The report now uses the selected business date correctly.  
 If that date was already day-ended, the app blocks duplicate processing.
 :::
 
-:::note Printed report content
+:::note[Printed report content]
 The printed day-end report follows `Settings` -> `Report` -> `Daily Report Sections`.
 If a section is missing from the printout, review that setting before the next business day closes.
 :::
@@ -52,15 +52,15 @@ If a section is missing from the printout, review that setting before the next b
 
 ## If something goes wrong
 
-:::warning Cannot proceed
+:::warning[Cannot proceed]
 Re-check business date and unresolved transactions before retrying.
 :::
 
-:::warning `Day-end has already been processed for the selected day`
+:::warning[`Day-end has already been processed for the selected day`]
 Choose another date or review the existing day-end report for that day.
 :::
 
-:::warning Printed report is missing sections
+:::warning[Printed report is missing sections]
 Review `Settings` -> `Report`, especially `Daily Report Sections` and `Show advanced sections`, then apply the corrected setup for the next day-end.
 :::
 

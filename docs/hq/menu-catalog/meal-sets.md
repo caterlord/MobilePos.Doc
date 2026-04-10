@@ -3,7 +3,7 @@ sidebar_position: 7
 title: Meal Set
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who build combo or set-meal selection flows.
 :::
 

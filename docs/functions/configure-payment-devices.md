@@ -5,7 +5,7 @@ title: Configure Payment Devices
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Manager or authorized staff configuring payment terminals in `Devices` -> `Payments`.
 :::
 
@@ -62,7 +62,7 @@ Generic dialogs usually include connection settings such as `Connection`, `IP Ad
 
 ## If something goes wrong
 
-:::warning Device not shown in Payments tab
+:::warning[Device not shown in Payments tab]
 Payment-device visibility can depend on enabled linked gateways.
 :::
 

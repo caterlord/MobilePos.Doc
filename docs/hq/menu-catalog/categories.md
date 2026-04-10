@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Categories
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Admins who organize how cashiers browse products on the POS.
 :::
 
@@ -42,7 +42,7 @@ Categories can be nested. In practice, keep the structure shallow enough for sta
 - sub-categories sit inside a parent category
 - items are attached at the usable category level
 
-:::tip Keep the structure simple
+:::tip[Keep the structure simple]
 Try to keep the path short enough that staff can reach sellable items quickly during service.
 :::
 

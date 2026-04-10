@@ -5,7 +5,7 @@ title: Manage Printers
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-:::info Who this is for
+:::info[Who this is for]
 Manager or authorized staff managing printer setup and maintenance in `Devices` -> `Printer`.
 :::
 
@@ -101,19 +101,19 @@ What to verify:
 
 ## If something goes wrong
 
-:::warning Test print fails
+:::warning[Test print fails]
 Check IP/port, paper, printer cover, and network, then retry once.
 :::
 
-:::warning Status remains disconnected
+:::warning[Status remains disconnected]
 Verify power/network on printer first, then run `Test Print`.
 :::
 
-:::note Spooler retries do not clear error jobs
+:::note[Spooler retries do not clear error jobs]
 Remove failed jobs, validate connectivity, then resend order/print request.
 :::
 
-:::warning Failed to remove printer
+:::warning[Failed to remove printer]
 If removal partially fails, refresh printer list and confirm whether spooler files still exist.
 :::
 

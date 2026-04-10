@@ -3,7 +3,7 @@ sidebar_position: 7
 title: Pay In / Pay Out
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Cashiers and shift managers who record cash drawer movements during service.
 `Manager only`: some stores restrict `Pay In / Pay Out` by role and permission settings.
 :::

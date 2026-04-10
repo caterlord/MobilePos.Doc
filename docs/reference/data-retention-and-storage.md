@@ -3,7 +3,7 @@ sidebar_position: 3
 title: Data Retention and Storage
 ---
 
-:::info Who this is for
+:::info[Who this is for]
 Store managers, owners, and support contacts who need to know how long POS data is typically kept.
 :::
 
@@ -33,11 +33,11 @@ Use this page when you need to answer:
 
 ## Important behavior to know
 
-:::warning Cleanup is action-triggered for support logs
+:::warning[Cleanup is action-triggered for support logs]
 Some cleanup runs only when specific support actions are used (for example opening `Info` > `Export Logs`), not continuously in the background.
 :::
 
-:::tip Practical routine
+:::tip[Practical routine]
 For busy stores, review logs weekly or monthly in `Info` > `Export Logs`: upload files needed by support, then remove old unneeded files.
 :::
 
