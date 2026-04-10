@@ -1,0 +1,573 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "此頁已當機。",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.blog.archive.title": {
+    "message": "歷史文章",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "歷史文章",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "回到頂部",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "部落格文章列表分頁導覽",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "較新的文章",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "較舊的文章",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "部落格文章分頁導覽",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "較新一篇",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "較舊一篇",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "檢視所有標籤",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "淺色模式",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "深色模式",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "切換淺色/深色模式（當前為{mode}）",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "頁面路徑",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} 個項目",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "文件選項卡",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "上一頁",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "下一頁",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "此為 {siteTitle} {versionLabel} 版尚未發行的文件。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "此為 {siteTitle} {versionLabel} 版的文件，現已不再積極維護。",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "最新的文件請參閱 {latestVersionLink} ({versionLabel})。",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新版本",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count} 篇文件帶有標籤",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged}「{tagName}」",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "版本：{versionLabel}"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading}的直接連結",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "於 {date} ",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "由 {user} ",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "最後{byUser}{atDate}更新",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.common.editThisPage": {
+    "message": "編輯此頁",
+    "description": "The link label to edit the current page"
+  },
+  "theme.NotFound.title": {
+    "message": "找不到頁面",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "選擇版本",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "關閉",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "警告",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "危險",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "資訊",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "備註",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "提示",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "注意",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "標籤：",
+    "description": "The label alongside a tag list"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "最近部落格文章導覽",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "展開側邊欄分類 '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "收起側邊欄分類 '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NotFound.p1": {
+    "message": "我們沒有您要找的頁面。",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "請聯絡原始連結來源網站的所有者，並通知他們連結已毀損。",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "主導航",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.blog.post.readMore": {
+    "message": "閱讀更多",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "閱讀 {title} 全文",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "選擇語言",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "閱讀時間約 {readingTime} 分鐘",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "複製",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "複製成功",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "複製程式碼至剪貼簿",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "切換自動換行",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "主頁面",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "本頁導覽",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "收起側邊欄",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "收起側邊欄",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "文件側邊欄",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "關閉導覽列",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← 回到主選單",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "展開側邊欄",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "展開側邊欄",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "切換導覽列",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} 篇文章",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} 含有標籤「{tagName}」",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "作者列表",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "檢視所有作者",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "此作者尚未撰寫任何文章。",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "未列出頁",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "此頁面未列出。搜索引擎不會對其索引，只有擁有直接連結的用戶才能訪問。",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "草稿頁",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "此頁面為草稿，僅在開發環境中可見，不會包含於正式版本中。",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "重試",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "跳至主要内容",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "標籤",
+    "description": "The title of the tag list page"
+  },
+  "theme.SearchBar.label": {
+    "message": "搜尋",
+    "description": "The label for the local search bar"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "查看全部結果",
+    "description": "The label to see all local search results"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "找不到任何文件",
+    "description": "The text shown when local search has no results"
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "查看「{context}」內的全部結果",
+    "description": "The label to see all local search results within the current context"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "查看「{context}」以外的全部結果",
+    "description": "The label to see all local search results outside the current context"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "「{query}」的搜尋結果",
+    "description": "The title of the local search page when results exist"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "搜尋文件",
+    "description": "The title of the local search page before a query is entered"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "共找到 {count} 篇文件",
+    "description": "Pluralized label for local search result count"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "找不到任何文件",
+    "description": "The text shown when the local search page has no results"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "所有位置",
+    "description": "The label for searching across every context"
+  },
+  "homepage.meta.description": {
+    "message": "X1 平台文件，供店舖團隊、HQ 管理員及開發團隊使用",
+    "description": "Meta description for the landing page"
+  },
+  "homepage.hero.kicker": {
+    "message": "X1 平台文件",
+    "description": "Kicker text above the landing page hero title"
+  },
+  "homepage.hero.title": {
+    "message": "POS、HQ 與 MCP 文件",
+    "description": "Hero title on the landing page"
+  },
+  "homepage.hero.lead": {
+    "message": "先依你的角色選擇對應手冊，再直接前往所需頁面。本站按店舖團隊、HQ 管理員及使用 X1 平台的開發團隊編排。",
+    "description": "Hero lead paragraph on the landing page"
+  },
+  "homepage.hero.primaryCta": {
+    "message": "開始使用",
+    "description": "Primary call-to-action button on the landing page hero"
+  },
+  "homepage.hero.secondaryCta": {
+    "message": "瀏覽 HQ",
+    "description": "Secondary call-to-action button on the landing page hero"
+  },
+  "homepage.hero.signal.one": {
+    "message": "一站式提供 POS、HQ 與 MCP 三套手冊。",
+    "description": "First hero signal bullet on the landing page"
+  },
+  "homepage.hero.signal.two": {
+    "message": "以任務為先的導覽，直達常用工作流程。",
+    "description": "Second hero signal bullet on the landing page"
+  },
+  "homepage.hero.signal.three": {
+    "message": "公開 GitHub 倉庫，可提交問題、修訂與 pull request。",
+    "description": "Third hero signal bullet on the landing page"
+  },
+  "homepage.panel.badge": {
+    "message": "從這裡開始",
+    "description": "Badge text on the landing page quick-links panel"
+  },
+  "homepage.panel.title": {
+    "message": "最常用入口",
+    "description": "Title on the landing page quick-links panel"
+  },
+  "homepage.workflow.storeOps.title": {
+    "message": "我要處理店舖操作",
+    "description": "Title for the store operations shortcut on the landing page"
+  },
+  "homepage.workflow.storeOps.description": {
+    "message": "從 POS 指南開始，處理開班、點餐、付款與收市流程。",
+    "description": "Description for the store operations shortcut on the landing page"
+  },
+  "homepage.workflow.hq.title": {
+    "message": "我要安全設定 HQ",
+    "description": "Title for the HQ shortcut on the landing page"
+  },
+  "homepage.workflow.hq.description": {
+    "message": "從 HQ 指南開始，了解範圍規則、店舖設定、使用者、報表及菜單管理。",
+    "description": "Description for the HQ shortcut on the landing page"
+  },
+  "homepage.workflow.docs.title": {
+    "message": "我要協助改善文件",
+    "description": "Title for the documentation contribution shortcut on the landing page"
+  },
+  "homepage.workflow.docs.description": {
+    "message": "使用公開 GitHub 倉庫回報缺口、建議修訂或直接提交文件 pull request。",
+    "description": "Description for the documentation contribution shortcut on the landing page"
+  },
+  "homepage.manualSection.kicker": {
+    "message": "選擇手冊",
+    "description": "Kicker above the manual cards section on the landing page"
+  },
+  "homepage.manualSection.title": {
+    "message": "依手冊瀏覽",
+    "description": "Title above the manual cards section on the landing page"
+  },
+  "homepage.manualSection.lead": {
+    "message": "以下各區整理了不同讀者最常用的起始頁。",
+    "description": "Lead paragraph above the manual cards section on the landing page"
+  },
+  "homepage.manual.pos.title": {
+    "message": "POS 使用手冊",
+    "description": "Title for the POS manual card on the landing page"
+  },
+  "homepage.manual.pos.summary": {
+    "message": "為收銀員、值班主管及店舖團隊提供現場營運指引。",
+    "description": "Summary for the POS manual card on the landing page"
+  },
+  "homepage.manual.pos.link.quickStart": {
+    "message": "快速開始",
+    "description": "Quick Start link on the POS manual card"
+  },
+  "homepage.manual.pos.link.startShift": {
+    "message": "開始班次",
+    "description": "Start Shift link on the POS manual card"
+  },
+  "homepage.manual.pos.link.checkout": {
+    "message": "結帳與付款",
+    "description": "Checkout & Payments link on the POS manual card"
+  },
+  "homepage.manual.pos.link.refunds": {
+    "message": "退款與作廢",
+    "description": "Refunds & Voids link on the POS manual card"
+  },
+  "homepage.manual.hq.title": {
+    "message": "HQ 使用手冊",
+    "description": "Title for the HQ manual card on the landing page"
+  },
+  "homepage.manual.hq.summary": {
+    "message": "為管理人員及店主提供店舖、菜單、使用者、報表及整合的後台指引。",
+    "description": "Summary for the HQ manual card on the landing page"
+  },
+  "homepage.manual.hq.link.overview": {
+    "message": "HQ 總覽",
+    "description": "HQ Overview link on the HQ manual card"
+  },
+  "homepage.manual.hq.link.safeChanges": {
+    "message": "安全修改 HQ 設定",
+    "description": "Making Safe HQ Changes link on the HQ manual card"
+  },
+  "homepage.manual.hq.link.storeSettings": {
+    "message": "店舖設定",
+    "description": "Store Settings link on the HQ manual card"
+  },
+  "homepage.manual.hq.link.menuCatalog": {
+    "message": "菜單管理",
+    "description": "Menu & Catalog link on the HQ manual card"
+  },
+  "homepage.manual.hq.link.reports": {
+    "message": "報表",
+    "description": "Reports link on the HQ manual card"
+  },
+  "homepage.manual.mcp.title": {
+    "message": "MCP 使用手冊",
+    "description": "Title for the MCP manual card on the landing page"
+  },
+  "homepage.manual.mcp.summary": {
+    "message": "為整合 AI 代理與工具的團隊提供開發者導向文件。",
+    "description": "Summary for the MCP manual card on the landing page"
+  },
+  "homepage.manual.mcp.link.overview": {
+    "message": "MCP 總覽",
+    "description": "MCP Overview link on the MCP manual card"
+  },
+  "homepage.manual.mcp.link.repo": {
+    "message": "文件倉庫",
+    "description": "Docs Repository link on the MCP manual card"
+  },
+  "homepage.manual.mcp.link.issues": {
+    "message": "查看 Issues",
+    "description": "Open Issues link on the MCP manual card"
+  },
+  "homepage.manual.mcp.link.prs": {
+    "message": "查看 Pull Requests",
+    "description": "Open Pull Requests link on the MCP manual card"
+  },
+  "homepage.contribution.kicker": {
+    "message": "開源文件",
+    "description": "Kicker above the contribution section on the landing page"
+  },
+  "homepage.contribution.title": {
+    "message": "以標準公開 GitHub 流程改善文件。",
+    "description": "Title above the contribution section on the landing page"
+  },
+  "homepage.contribution.lead": {
+    "message": "文件倉庫為公開。若你發現內容有缺口、想改善字眼，或需要補上截圖，可直接經 GitHub 回報或提交修改。",
+    "description": "Lead paragraph above the contribution section on the landing page"
+  },
+  "homepage.contribution.primaryCta": {
+    "message": "檢視倉庫",
+    "description": "Primary call-to-action button in the contribution section"
+  },
+  "homepage.contribution.secondaryCta": {
+    "message": "提交 Issue",
+    "description": "Secondary call-to-action button in the contribution section"
+  },
+  "homepage.contribution.cardTitle": {
+    "message": "貢獻流程",
+    "description": "Title for the contribution steps card on the landing page"
+  },
+  "homepage.contribution.steps.issue": {
+    "message": "先開 issue 說明缺口、過時內容或不清楚的步驟。",
+    "description": "First contribution step on the landing page"
+  },
+  "homepage.contribution.steps.fork": {
+    "message": "fork 倉庫，並在自己的分支進行聚焦修改。",
+    "description": "Second contribution step on the landing page"
+  },
+  "homepage.contribution.steps.pr": {
+    "message": "提交 pull request，附上相關頁面更新或截圖修改。",
+    "description": "Third contribution step on the landing page"
+  },
+  "homepage.contribution.steps.reference": {
+    "message": "在 PR 內引用 issue，方便維護者更快審核與合併。",
+    "description": "Fourth contribution step on the landing page"
+  },
+  "homepage.contribution.inline.pullRequests": {
+    "message": "查看 pull requests",
+    "description": "Inline link label to view pull requests in the contribution card"
+  },
+  "homepage.contribution.inline.newIssue": {
+    "message": "開新 issue",
+    "description": "Inline link label to open a new issue in the contribution card"
+  }
+}

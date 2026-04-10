@@ -1,0 +1,103 @@
+---
+title: 智能分类
+---
+
+:::info[适用对象]
+需要为 POS 或在线点餐显示建立动态或规则式分类分组的管理员。
+:::
+
+## 开始前
+
+- 确认正确的品牌。
+- 先决定您是在管理 POS 智能分类、线上智能分类，还是两者都要。
+- 先检查想要分组的商品是否已经存在。
+
+## 打开此页面
+
+打开 `Menu Management` -> `Smart Categories`。
+
+## 本页用途
+
+`Smart Categories` 可以建立比标准菜单分类树更弹性的分类分组。
+
+在以下情况使用本页：
+
+- 不重建基础分类结构，也能建立以显示为主的分类
+- 管理智能分类里的商品关系
+- 管理门店显示设置
+- 管理订单渠道设置
+
+## 主要分区
+
+### 主清单
+
+主清单会显示以下栏位：
+
+- `Category Name`
+- `Category Name (Alt)`
+- `Display Order`
+- `Button Style`
+- `Public Display`
+
+常见动作包括：
+
+- `Refresh`
+- `Reorder Categories`
+- `Copy from Existing`
+- `New Smart Category`
+
+### 分类编辑器
+
+建立或编辑智能分类时，您可以处理以下栏位：
+
+- `Category Name`
+- `Category Name (Alt)`
+- `Parent Category`
+- `Display Order`
+- `Button Style`
+- `Public Display`
+
+### 详细分页
+
+页面可能会显示以下分页：
+
+- `Items`
+- `Shop Display Settings`
+- `Order Channels`
+
+您可以用这些分页控制智能分类的内容，以及它会出现在什么地方。
+
+## 步骤
+
+1. 打开 `Menu Management` -> `Smart Categories`。
+2. 选择 `New Smart Category`，或打开现有分类编辑。
+3. 输入 `Category Name`。
+4. 需要的话，也可以输入 `Category Name (Alt)`。
+5. 如果该分类应该放在其他分类下方，请选择 `Parent Category`。
+6. 设置 `Display Order`。
+7. 如果您要特定外观，请选择 `Button Style`。
+8. 按需要开启或关闭 `Public Display`。
+9. 保存分类。
+10. 打开详细分页，管理 `Items`、`Shop Display Settings` 或 `Order Channels`。
+
+## 保存后的影响
+
+保存分类会更新智能分类纪录，但您可能仍需要检查它在门店或渠道里的显示位置。
+
+## 如何检查你的更改
+
+1. 回到主清单，确认该分类已经存在。
+2. 检查 `Display Order` 和 `Public Display` 值。
+3. 查看相关详细分页，确认预期商品、门店设置或渠道已经连结。
+
+## 如果出现问题
+
+- 确认您编辑的是正确的智能分类类型。
+- 检查问题是出在分类纪录，还是出在分页设置。
+- 如果分类没有出现，请检查 `Public Display`，以及目标渠道或门店设置。
+
+## 何时需要找老板／管理员
+
+- 您不确定该分类应该是标准分类还是智能分类。
+- 分类需要出现在多个渠道，而且您无法逐一验证。
+- 您正在更改现场 POS 或在线点餐用户的导航。

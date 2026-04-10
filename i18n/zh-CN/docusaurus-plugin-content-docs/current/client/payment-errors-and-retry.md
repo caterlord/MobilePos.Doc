@@ -1,37 +1,44 @@
 ---
-sidebar_position: 4
-title: Payment Errors and Retry
+sidebar_position: 5
+title: 付款错误与重试
 ---
 
-## Objective
+## 目标
 
-Handle payment failures safely without duplicate charges.
+安全处理付款失败，避免重复扣款。
 
-## Standard Retry Workflow
+> 截图占位符 `cl-17-payment-failed-dialog.png` 和 `cl-18-payment-retry-state.png` 仍在处理中。
 
-1. Confirm transaction is still in pending/unpaid state.
-2. Read and note the payment error code.
-3. Retry the same method once.
-4. If still failed, switch to another payment method.
-5. Complete sale and confirm receipt reference.
+## 先了解这些内建规则
 
-## Operator Rules
+- 如果存在已连结八达通的折扣，付款必须使用八达通。
+- 结账在付款处理中会被锁定。
+- 某些第三方付款在授权成功后会被锁定。
+- 如果启用了 `仅现金四舍五入`，结账四舍五入只会在当前付款使用现金时生效。
+- 对于 EFTPOS 终端付款（例如 Linkly），请跟随终端提示，并在重试前等待 POS 返回结果。
 
-- Do not repeatedly retry more than once on same method.
-- Do not start a new ticket until current ticket status is clear.
-- Escalate gateway/provider errors with timestamp and terminal ID.
+## 重试流程
 
-## Escalation Data
+1. 先确认付款是否真的已经被接受。
+2. 查看结账列表里的当前付款状态。
+3. 只有在状态是失败 / 已取消时，才用相同付款方式重试一次。
+4. 如果再次失败，再改用其他付款方式。
+5. 完成交易，并确认收据已生成。
 
-Capture before escalation:
+## 需要撤回时
 
-- Branch/store
-- Terminal ID
-- Payment type
-- Error code/message
-- Attempt time
+取消结账时，应用可能会根据锁定和网关状态，取消或移除已付款项目。
+如果你通过返回键或导航离开结账，餐台应该回到未锁定状态。
+不要在网关处理中强制关闭应用。
 
-## TODO for Maintainers
+## 上报时提供这些信息
 
-- Add provider-specific error code table.
-- Add exact on-screen status mapping.
+请在交由经理/管理员处理时提供以下信息：
+
+- 交易编号 / 收据编号
+- 付款方式
+- 终端 ID / POS 代码
+- 台号
+- 时间戳
+- 屏幕上的失败信息
+- 是否已经重试

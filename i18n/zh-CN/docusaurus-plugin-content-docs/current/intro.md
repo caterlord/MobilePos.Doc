@@ -1,31 +1,39 @@
 ---
 sidebar_position: 1
-title: POS User Manual
+title: POS 用户手册
 ---
 
-This site documents daily operations for **POS X1**.
+本手册适用于门店团队使用的 **POS X1 Client 应用**。
 
-Current focus is the **Client POS application** (store operations).
-**HQ back office** documentation is being added in later phases.
+这份中文稿依据已确认的产品行为和当前 UI 标签编写，重点说明 Client 应用中的收银员和经理操作。
 
-## How to Use This Manual
+## 范围
 
-1. Start with **Getting Started** if you are new to POS X1.
-2. Follow **Client (POS App)** for store-facing workflows.
-3. Use **Reference** for terminology and troubleshooting.
-4. Check **HQ (Back Office, WIP)** for the current HQ status page.
+- 日常签到与模块导航
+- 桌台/订单操作
+- 结账与付款处理
+- 作废/退货/重印流程
+- 经理工具和日结
+- 设备健康检查
 
-## Source of Truth
+## 内容依据
 
-When any user flow is unclear, confirm behavior against:
+- 最新已发布的产品行为
+- 产品中显示并已确认的 UI 标签
+- 本仓库中已验证的文档更新
 
-- latest released product behavior
-- confirmed UI labels shown in the product
-- validated documentation updates in this repository
+## 阅读顺序
 
-## Documentation Status
+1. 新门店设置：**开始使用**
+2. 日常操作：**Client (POS App)**
+3. 问题处理：**参考**
 
-- Client operations: active authoring.
-- HQ operations: work in progress.
+## 内容组织方式
 
-Replace TODO markers with confirmed product-specific steps and screenshots.
+本手册分为三个并行视图：
+
+- **使用场景视图**：按步骤呈现操作指南，例如开始班次、销售、结账、退货和日结。
+- **角色视图**：说明收银员与经理的权限范围，以及何时要交由经理处理。
+- **功能视图**：每个功能一页，方便快速查找，并提供完整功能索引。
+
+使用 **Function Guides** 查看单任务页面，使用 **参考 -> Function & Feature Map** 查看完整目录。

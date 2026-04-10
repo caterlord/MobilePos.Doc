@@ -18,9 +18,9 @@ Configured terminal roles include:
 
 This manual currently focuses on store-side `Staff` operations.
 
-## Practical Permission Matrix
+## Who Can Do What in Store
 
-| Action Area | Cashier | Manager |
+| Task | Cashier | Manager |
 | --- | --- | --- |
 | PIN login and roster clock in/out | Yes | Yes |
 | Open table/order and add items | Yes | Yes |
@@ -29,7 +29,7 @@ This manual currently focuses on store-side `Staff` operations.
 | Change `POS Code` / terminal settings | No | Yes |
 | Day-end execution | No | Yes |
 | Final decision for void/return exceptions | Limited | Yes |
-| Incident closure for payment/device issues | No | Yes |
+| Close payment/device incidents | No | Yes |
 
 ## Feature Visibility Notes
 

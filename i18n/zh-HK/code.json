@@ -365,5 +365,209 @@
   "theme.SearchPage.searchContext.everywhere": {
     "message": "所有位置",
     "description": "The label for searching across every context"
+  },
+  "homepage.meta.description": {
+    "message": "X1 平台文件，供店舖團隊、HQ 管理員及開發團隊使用",
+    "description": "Meta description for the landing page"
+  },
+  "homepage.hero.kicker": {
+    "message": "X1 平台文件",
+    "description": "Kicker text above the landing page hero title"
+  },
+  "homepage.hero.title": {
+    "message": "POS、HQ 與 MCP 文件",
+    "description": "Hero title on the landing page"
+  },
+  "homepage.hero.lead": {
+    "message": "先按你的角色選擇對應手冊，再直接前往所需頁面。本站按店舖團隊、HQ 管理員及使用 X1 平台的開發團隊編排。",
+    "description": "Hero lead paragraph on the landing page"
+  },
+  "homepage.hero.primaryCta": {
+    "message": "開始使用",
+    "description": "Primary call-to-action button on the landing page hero"
+  },
+  "homepage.hero.secondaryCta": {
+    "message": "瀏覽 HQ",
+    "description": "Secondary call-to-action button on the landing page hero"
+  },
+  "homepage.hero.signal.one": {
+    "message": "一站式提供 POS、HQ 與 MCP 三套手冊。",
+    "description": "First hero signal bullet on the landing page"
+  },
+  "homepage.hero.signal.two": {
+    "message": "以任務為先的導覽，直達常用工作流程。",
+    "description": "Second hero signal bullet on the landing page"
+  },
+  "homepage.hero.signal.three": {
+    "message": "公開 GitHub 倉庫，可提交問題、修訂與 pull request。",
+    "description": "Third hero signal bullet on the landing page"
+  },
+  "homepage.panel.badge": {
+    "message": "從這裡開始",
+    "description": "Badge text on the landing page quick-links panel"
+  },
+  "homepage.panel.title": {
+    "message": "最常用入口",
+    "description": "Title on the landing page quick-links panel"
+  },
+  "homepage.workflow.storeOps.title": {
+    "message": "我要處理店舖操作",
+    "description": "Title for the store operations shortcut on the landing page"
+  },
+  "homepage.workflow.storeOps.description": {
+    "message": "從 POS 指南開始，處理開班、點餐、付款與收市流程。",
+    "description": "Description for the store operations shortcut on the landing page"
+  },
+  "homepage.workflow.hq.title": {
+    "message": "我要安全設定 HQ",
+    "description": "Title for the HQ shortcut on the landing page"
+  },
+  "homepage.workflow.hq.description": {
+    "message": "從 HQ 指南開始，了解範圍規則、店舖設定、使用者、報表及菜單管理。",
+    "description": "Description for the HQ shortcut on the landing page"
+  },
+  "homepage.workflow.docs.title": {
+    "message": "我要協助改善文件",
+    "description": "Title for the documentation contribution shortcut on the landing page"
+  },
+  "homepage.workflow.docs.description": {
+    "message": "使用公開 GitHub 倉庫回報缺口、建議修訂或直接提交文件 pull request。",
+    "description": "Description for the documentation contribution shortcut on the landing page"
+  },
+  "homepage.manualSection.kicker": {
+    "message": "選擇手冊",
+    "description": "Kicker above the manual cards section on the landing page"
+  },
+  "homepage.manualSection.title": {
+    "message": "依手冊瀏覽",
+    "description": "Title above the manual cards section on the landing page"
+  },
+  "homepage.manualSection.lead": {
+    "message": "以下各區整理了不同讀者最常用的起始頁。",
+    "description": "Lead paragraph above the manual cards section on the landing page"
+  },
+  "homepage.manual.pos.title": {
+    "message": "POS 使用手冊",
+    "description": "Title for the POS manual card on the landing page"
+  },
+  "homepage.manual.pos.summary": {
+    "message": "為收銀員、值班主管及店舖團隊提供現場營運指引。",
+    "description": "Summary for the POS manual card on the landing page"
+  },
+  "homepage.manual.pos.link.quickStart": {
+    "message": "快速開始",
+    "description": "Quick Start link on the POS manual card"
+  },
+  "homepage.manual.pos.link.startShift": {
+    "message": "開始班次",
+    "description": "Start Shift link on the POS manual card"
+  },
+  "homepage.manual.pos.link.checkout": {
+    "message": "結帳與付款",
+    "description": "Checkout & Payments link on the POS manual card"
+  },
+  "homepage.manual.pos.link.refunds": {
+    "message": "退款與作廢",
+    "description": "Refunds & Voids link on the POS manual card"
+  },
+  "homepage.manual.hq.title": {
+    "message": "HQ 使用手冊",
+    "description": "Title for the HQ manual card on the landing page"
+  },
+  "homepage.manual.hq.summary": {
+    "message": "為管理人員及店主提供店舖、菜單、使用者、報表及整合的後台指引。",
+    "description": "Summary for the HQ manual card on the landing page"
+  },
+  "homepage.manual.hq.link.overview": {
+    "message": "HQ 總覽",
+    "description": "HQ Overview link on the HQ manual card"
+  },
+  "homepage.manual.hq.link.safeChanges": {
+    "message": "安全修改 HQ 設定",
+    "description": "Making Safe HQ Changes link on the HQ manual card"
+  },
+  "homepage.manual.hq.link.storeSettings": {
+    "message": "店舖設定",
+    "description": "Store Settings link on the HQ manual card"
+  },
+  "homepage.manual.hq.link.menuCatalog": {
+    "message": "菜單管理",
+    "description": "Menu & Catalog link on the HQ manual card"
+  },
+  "homepage.manual.hq.link.reports": {
+    "message": "報表",
+    "description": "Reports link on the HQ manual card"
+  },
+  "homepage.manual.mcp.title": {
+    "message": "MCP 使用手冊",
+    "description": "Title for the MCP manual card on the landing page"
+  },
+  "homepage.manual.mcp.summary": {
+    "message": "為整合 AI 代理與工具的團隊提供開發者導向文件。",
+    "description": "Summary for the MCP manual card on the landing page"
+  },
+  "homepage.manual.mcp.link.overview": {
+    "message": "MCP 總覽",
+    "description": "MCP Overview link on the MCP manual card"
+  },
+  "homepage.manual.mcp.link.repo": {
+    "message": "文件倉庫",
+    "description": "Docs Repository link on the MCP manual card"
+  },
+  "homepage.manual.mcp.link.issues": {
+    "message": "查看 Issues",
+    "description": "Open Issues link on the MCP manual card"
+  },
+  "homepage.manual.mcp.link.prs": {
+    "message": "查看 Pull Requests",
+    "description": "Open Pull Requests link on the MCP manual card"
+  },
+  "homepage.contribution.kicker": {
+    "message": "開源文件",
+    "description": "Kicker above the contribution section on the landing page"
+  },
+  "homepage.contribution.title": {
+    "message": "以標準公開 GitHub 流程改善文件。",
+    "description": "Title above the contribution section on the landing page"
+  },
+  "homepage.contribution.lead": {
+    "message": "文件倉庫為公開。若你發現內容有缺口、想改善字眼，或需要補上截圖，可直接經 GitHub 回報或提交修改。",
+    "description": "Lead paragraph above the contribution section on the landing page"
+  },
+  "homepage.contribution.primaryCta": {
+    "message": "檢視倉庫",
+    "description": "Primary call-to-action button in the contribution section"
+  },
+  "homepage.contribution.secondaryCta": {
+    "message": "提交 Issue",
+    "description": "Secondary call-to-action button in the contribution section"
+  },
+  "homepage.contribution.cardTitle": {
+    "message": "貢獻流程",
+    "description": "Title for the contribution steps card on the landing page"
+  },
+  "homepage.contribution.steps.issue": {
+    "message": "先開 issue 說明缺口、過時內容或不清楚的步驟。",
+    "description": "First contribution step on the landing page"
+  },
+  "homepage.contribution.steps.fork": {
+    "message": "fork 倉庫，並在自己的分支進行聚焦修改。",
+    "description": "Second contribution step on the landing page"
+  },
+  "homepage.contribution.steps.pr": {
+    "message": "提交 pull request，附上相關頁面更新或截圖修改。",
+    "description": "Third contribution step on the landing page"
+  },
+  "homepage.contribution.steps.reference": {
+    "message": "在 PR 內引用 issue，方便維護者更快審核與合併。",
+    "description": "Fourth contribution step on the landing page"
+  },
+  "homepage.contribution.inline.pullRequests": {
+    "message": "查看 pull requests",
+    "description": "Inline link label to view pull requests in the contribution card"
+  },
+  "homepage.contribution.inline.newIssue": {
+    "message": "開新 issue",
+    "description": "Inline link label to open a new issue in the contribution card"
   }
 }

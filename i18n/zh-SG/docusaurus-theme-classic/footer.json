@@ -1,0 +1,30 @@
+{
+  "link.title.Manual": {
+    "message": "文档",
+    "description": "The title of the footer links column with title=Manual in the footer"
+  },
+  "link.item.label.Introduction": {
+    "message": "简介",
+    "description": "The label of footer link with label=Introduction linking to /docs/intro"
+  },
+  "link.item.label.Client Operations": {
+    "message": "POS 店铺操作",
+    "description": "The label of footer link with label=Client Operations linking to /docs/client/overview"
+  },
+  "link.item.label.HQ Operations": {
+    "message": "HQ 后台操作",
+    "description": "The label of footer link with label=HQ Operations linking to /docs/hq/overview"
+  },
+  "link.item.label.MCP (Agent Platform)": {
+    "message": "MCP（代理平台）",
+    "description": "The label of footer link with label=MCP (Agent Platform)"
+  },
+  "link.item.label.Docs Repository": {
+    "message": "文档仓库",
+    "description": "The label of footer link with label=Docs Repository linking to the public documentation repository"
+  },
+  "copyright": {
+    "message": "版权所有 © 2026 Everyware Limited。",
+    "description": "The footer copyright"
+  }
+}

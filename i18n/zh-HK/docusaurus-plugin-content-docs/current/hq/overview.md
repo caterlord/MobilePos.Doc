@@ -1,26 +1,109 @@
 ---
 sidebar_position: 1
-title: HQ User Manual
+title: HQ 使用手冊
 ---
 
-This section explains how to use X1 HQ for store setup, menu maintenance, reporting, integrations, and related back-office tasks.
+:::info[適用對象]
+本頁適合店主、後台管理員、設置人員，以及負責維護一間或多間店舖 X1 HQ 設定的經理。
+:::
 
-## How to Use This Manual
+## 開始前
 
-1. Start with scope and safe-change guidance before editing shared settings.
-2. Use the section overview pages to choose the correct HQ area.
-3. Follow the detailed task page for the setting or workflow you need.
+- 確認你目前正在正確的品牌或組織中操作。
+- 確認這次變更是只影響一間店舖、多間店舖，還是全部店舖。
+- 修改高影響設定前，先保留目前設定值、截圖或稽核紀錄。
 
-## Main Sections
+## 本手冊用途
 
-1. Store settings
-2. POS settings
-3. Menu and catalog
-4. Online ordering
-5. Reports
-6. Integrations
-7. Marketplace
+本節說明如何使用 X1 HQ 網頁後台維護店舖設定、POS 行為、菜單、報表、網上點餐、整合功能及市集訂閱。
 
-## Documentation Note
+當你需要以下工作時，請使用本手冊：
 
-Use the latest confirmed product behavior and current UI labels when updating HQ pages.
+- 更新業務或店舖設定
+- 管理 POS 設定
+- 維護菜單資料
+- 檢查報表
+- 控制網上點餐設定
+- 管理合作夥伴或付款整合
+- 啟用或移除額外平台功能
+
+## 如何使用本手冊
+
+先從符合你工作目的的章節開始，而不是只找你記得的功能名稱。
+
+- 在更改共用資料前，先閱讀 [品牌、店舖與渠道範圍](./brand-shop-and-channel-scope.md)。
+- 在營業時間修改即時設定前，先閱讀 [安全修改 HQ](./making-safe-hq-changes.md)。
+- 如果你剛登入，不知道下一步應去哪裡，先閱讀 [儀表板](./dashboard.md)。
+
+## 選擇章節
+
+### 入門
+
+- [儀表板](./dashboard.md)：了解登入後的首頁，以及下一步應前往哪個區域。
+- [帳戶與個人檔案](./account-and-profile.md)：管理自己的登入與安全設定。
+- [組織管理](./organization.md)：管理 HQ 成員、角色及業務層級資料。
+
+### 店舖設定
+
+- [店舖設定總覽](./store-settings/overview.md)：選擇正確的店舖層級設定頁面。
+
+本節適用於店舖層級設定，例如 `Info Settings`、`Workday Schedule`、`Device Settings`、`System Parameters` 及 `Tables & Sections`。
+
+### POS 設定
+
+- [POS 設定總覽](./pos-settings/overview.md)：管理結帳行為、員工存取權限及 POS 財務設定。
+
+### 菜單與目錄管理
+
+- [菜單與目錄總覽](./menu-catalog/overview.md)：建立收銀機、自助點餐機及網上渠道會使用的菜單結構。
+
+### 網上點餐
+
+- [網上點餐總覽](./online-ordering/overview.md)：管理客戶看到的菜單顯示與渠道行為。
+
+### 報表與分析
+
+- [報表總覽](./reports/overview.md)：針對銷售、營運或稽核問題，選擇正確的報表類別。
+
+### 生態系統與整合
+
+- [Integrations 總覽](./integrations/overview.md)：管理合作夥伴連接及相關設定。
+
+### 市集
+
+- [市集](./marketplace/catalog.md)：瀏覽可選功能與整合。
+- [My Subscriptions](./marketplace/my-subscriptions.md)：管理已啟用的訂閱。
+- [Billing](./marketplace/billing-and-subscriptions.md)：查看訂閱摘要與收費狀態。
+
+## 新任 HQ 管理員建議閱讀順序
+
+1. 閱讀 [品牌、店舖與渠道範圍](./brand-shop-and-channel-scope.md)。
+2. 閱讀 [安全修改 HQ](./making-safe-hq-changes.md)。
+3. 閱讀 [店舖設定總覽](./store-settings/overview.md) 及 [POS 設定總覽](./pos-settings/overview.md)。
+4. 在編輯菜單或網上點餐前，先閱讀 [菜單與目錄總覽](./menu-catalog/overview.md)。
+5. 之後從各章節總覽進入對應任務頁面，完成你需要的變更。
+
+## 儲存後的影響
+
+HQ 的變更不會全部以相同方式生效。
+
+- 有些變更只影響 HQ。
+- 有些變更只影響目前選擇的店舖。
+- 有些變更只是在 HQ 建立設定，仍需到店舖層級另行啟用。
+- 有些變更會直接影響客戶畫面或 POS 行為，儲存後必須驗證。
+
+每個詳細 HQ 頁面都應說明儲存後要驗證甚麼。
+
+## 如發生問題
+
+- 先停止操作，確認你修改的是正確品牌及店舖。
+- 將目前頁面與之前的數值、截圖或稽核記錄比對。
+- 檢查該設定是否還需要店舖層級或渠道層級配合。
+- 在目標店舖或渠道完成驗證前，不要再繼續做更多修改。
+
+## 何時要請店主／管理員協助
+
+- 你不確定這項變更屬於品牌層級還是店舖層級。
+- 該變更會影響即時結帳、稅項、付款或收據行為。
+- 儲存後你無法確認實際結果。
+- 你需要存取 billing、整合或安全設定。

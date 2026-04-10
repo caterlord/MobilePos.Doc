@@ -24,6 +24,8 @@ Live site: `https://docs.x1.tech/`
 
 - English (`en`)
 - Traditional Chinese, Hong Kong (`zh-HK`)
+- Traditional Chinese, Taiwan (`zh-TW`)
+- Simplified Chinese, Singapore (`zh-SG`)
 - Simplified Chinese (`zh-CN`)
 
 ## Local Development
@@ -51,6 +53,8 @@ Write translation files for a locale:
 
 ```bash
 npm run write-translations -- --locale zh-HK
+npm run write-translations -- --locale zh-TW
+npm run write-translations -- --locale zh-SG
 npm run write-translations -- --locale zh-CN
 ```
 
