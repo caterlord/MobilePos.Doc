@@ -20,8 +20,8 @@ import TabItem from '@theme/TabItem';
 ## 選擇合適的付款模式
 
 <Tabs>
-  <TabItem value="amount" label="金額（單一 / 一般）">
-1. 保持在 `Amount`。
+  <TabItem value="amount" label="單一金額">
+1. 保持在 `單一金額`。
 2. 選擇付款方式。
 3. 如果看不到該方式，按 `More`，然後在 `Payment Methods` 選擇。
 4. 如果 `Payment Methods` 顯示很多選項，按 `Previous` 或 `Next` 翻頁。
@@ -29,7 +29,7 @@ import TabItem from '@theme/TabItem';
 6. 確認付款行有正確更新。
   </TabItem>
   <TabItem value="split-amount" label="按金額分單">
-1. 按 `Split By Amount`。
+1. 按 `按金額分單`。
 2. 加入第一筆部分付款及付款方式。
 3. 持續加入其餘付款，直到 `Unpaid` 變成 0。
 4. 按 `Pay`。
@@ -41,7 +41,7 @@ import TabItem from '@theme/TabItem';
 4. 按 `Pay`。
   </TabItem>
   <TabItem value="split-item" label="按品項分單">
-1. 按 `Split By Item`。
+1. 按 `按品項分單`。
 2. 使用 `>` 或 `All` 移動品項。
 3. 按 `Next`。
 4. 逐張分拆訂單完成付款。
@@ -64,16 +64,16 @@ import TabItem from '@theme/TabItem';
 4. 對於 `Deposit`，請在按 `Pay` 前先按 `Deposit Remark`。
 5. 確認備註已儲存後，再完成結賬。
 
-:::note[Screenshot pending]
-Needed file: `client/cl-44-checkout-payment-remark-edit-button.png`
+:::note[截圖待補]
+需要檔案：`client/cl-44-checkout-payment-remark-edit-button.png`
 :::
 
 ## 您會看到
 
-![Checkout Amount tab](/img/manual/en/client/cl-12-checkout-amount-tab.png)
-![Checkout Split 以 Amount](/img/manual/en/client/cl-14-checkout-split-by-amount.png)
-![Checkout Deposit tab](/img/manual/en/client/cl-15-checkout-deposit-tab.png)
-![Checkout Split 以 品項](/img/manual/en/client/cl-16-checkout-split-by-item.png)
+![結賬單一金額分頁](/img/manual/en/client/cl-12-checkout-amount-tab.png)
+![結賬按金額分單畫面](/img/manual/en/client/cl-14-checkout-split-by-amount.png)
+![結賬訂金分頁](/img/manual/en/client/cl-15-checkout-deposit-tab.png)
+![結賬按品項分單畫面](/img/manual/en/client/cl-16-checkout-split-by-item.png)
 - 結賬期間修改加配料 / 折扣後，`Rounding` 和總額會更新
 - `Paid` 摘要區會顯示 `Payment Remark` 的編輯按鈕
 

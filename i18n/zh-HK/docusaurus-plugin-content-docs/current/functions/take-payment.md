@@ -18,14 +18,14 @@ import TabItem from '@theme/TabItem';
 ## 步驟
 
 <Tabs>
-  <TabItem value="amount" label="Amount">
+  <TabItem value="amount" label="單一金額">
 1. 按 `Checkout`。
-2. 保持在 `Amount`。
+2. 保持在 `單一金額`。
 3. 選擇付款方式。
 4. 輸入金額，然後按 `Pay`。
   </TabItem>
-  <TabItem value="split-by-amount" label="Split 以 Amount">
-1. 按 `Split By Amount`。
+  <TabItem value="split-by-amount" label="按金額分單">
+1. 按 `按金額分單`。
 2. 加入第一筆部分付款。
 3. 加入剩餘金額。
 4. 按 `Pay`。
@@ -37,8 +37,8 @@ import TabItem from '@theme/TabItem';
 - `Unpaid` 金額會正確減少
 - 已付款行會按付款方式記錄
 
-![Checkout Amount tab](/img/manual/en/client/cl-12-checkout-amount-tab.png)
-![Checkout Split 以 Amount](/img/manual/en/client/cl-14-checkout-split-by-amount.png)
+![結賬金額分頁](/img/manual/en/client/cl-12-checkout-amount-tab.png)
+![按金額分單的結賬畫面](/img/manual/en/client/cl-14-checkout-split-by-amount.png)
 
 ## 如果出現問題
 

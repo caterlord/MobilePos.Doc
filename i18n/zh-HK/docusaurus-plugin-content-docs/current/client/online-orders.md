@@ -21,10 +21,10 @@ import TabItem from '@theme/TabItem';
 ## 主要畫面
 
 <Tabs>
-  <TabItem value="server" label="Server">
+  <TabItem value="server" label="伺服器">
 顯示伺服器連線和訂單處理計數 / 狀態（`Pending`、`Processing`、`Completed`、`Error`、`Info`）。
   </TabItem>
-  <TabItem value="pickup" label="Pickup">
+  <TabItem value="pickup" label="取餐">
 顯示取餐訂單和操作按鈕，例如 `View`、`Reject`、`Accept`、`Prepare`、`Pick up` 和 `Create`。
   </TabItem>
 </Tabs>
@@ -32,18 +32,18 @@ import TabItem from '@theme/TabItem';
 ## 步驟
 
 1. 在左側選單按 `Online Orders`。
-2. 選擇 `Server` 或 `Pickup`。
+2. 選擇 `伺服器` 或 `取餐`。
 3. 查看目前訂單狀態。
 4. 開啟目標訂單並執行所需操作（`Accept`、`Prepare`、`Pick up` 等）。
 5. 確認操作後清單狀態有更新。
 
 ## 您會看到
 
-- 頁面上方有 `Server` 和 `Pickup` 分頁
+- 頁面上方有 `伺服器` 和 `取餐` 分頁
 - 狀態和清單會依目前分頁而更新
 
-:::note[Screenshot pending]
-Needed files: `client/cl-28-online-orders-server-tab.png`, `client/cl-29-online-orders-pickup-actions.png`
+:::note[截圖待補]
+需要檔案：`client/cl-28-online-orders-server-tab.png`、`client/cl-29-online-orders-pickup-actions.png`
 :::
 
 ## 如果出現問題

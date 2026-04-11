@@ -13,10 +13,10 @@ title: 更多工具
 
 ## 此畫面用途
 
-`More Tools` 是經理營運控制中心。
+`更多工具` 是經理營運控制中心。
 
 :::note[範圍界線]
-`More Tools` 只用於經理營運控制（`Day-end`、`Pay In / Pay Out`、錢箱 / 佇列工具）。
+`更多工具` 只用於經理營運控制（`Day-end`、`Pay In / Pay Out`、錢箱 / 佇列工具）。
 如需硬件 / 裝置設定和印表機疑難排解，請使用 `Devices`。
 :::
 
@@ -37,7 +37,7 @@ title: 更多工具
 
 ## 您會看到
 
-![More Tools page](/img/manual/en/client/cl-23-manager-tools-page.png)
+![更多工具頁面](/img/manual/en/client/cl-23-manager-tools-page.png)
 
 ## 如果出現問題
 
@@ -53,5 +53,5 @@ title: 更多工具
 ## 相關指南
 
 - [日結](./end-of-day)
-- [Function: 代收 / 代支](../functions/pay-in-pay-out)
-- [Function: 日結](../functions/day-end)
+- [代收 / 代支](../functions/pay-in-pay-out)
+- [日結](../functions/day-end)

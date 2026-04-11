@@ -52,7 +52,7 @@ import TabItem from '@theme/TabItem';
 如果門店政策要求真正撤銷，請使用 `Return` 流程。
 :::
 
-> Screenshot pending: `cl-22-modify-payment-3rdparty-warning.png`
+> 截圖待補：`cl-22-modify-payment-3rdparty-warning.png`
 
 ## 建議與不建議
 
@@ -72,6 +72,6 @@ import TabItem from '@theme/TabItem';
 
 ## 相關指南
 
-- [Function: Void vs 退回](../functions/void-vs-return)
-- [Function: Reopen 訂單](../functions/reopen-order)
-- [Function: Reprint 收據](../functions/reprint-receipt)
+- [作廢與退回](../functions/void-vs-return)
+- [重新開啟訂單](../functions/reopen-order)
+- [重印收據](../functions/reprint-receipt)
