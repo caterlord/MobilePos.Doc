@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 使用 `Devices` 檢查連線狀況，並在日常營運期間維持裝置設定。
 
 :::note[範圍界線]
-`Devices` 只用於硬件和連線設定（印表機 / 付款 / 輸入 / X1 products）。
+`Devices` 只用於硬件和連線設定（印表機 / 付款 / 輸入 / X1 產品）。
 如需現金控制和日結，請使用 `More Tools`。
 :::
 
@@ -28,7 +28,7 @@ import TabItem from '@theme/TabItem';
 - `Printer`
 - `Payments`
 - `Input Devices`
-- `X1 Products`
+- `X1 產品`
 
 ## 如何使用各分頁
 
@@ -48,7 +48,7 @@ import TabItem from '@theme/TabItem';
 
 `Info`、編輯輸入裝置設定（例如條碼 / QR 掃描器），以及裝置不可用時的標記 (`!`)。
   </TabItem>
-  <TabItem value="x1" label="X1 Products">
+  <TabItem value="x1" label="X1 產品">
 此分頁用於面向顧客 / 配對的產品：
 
 `Info`、編輯 X1 產品設定，以及顧客顯示器主機、取餐顯示器配對和 express kiosk 配對流程。
@@ -72,8 +72,8 @@ import TabItem from '@theme/TabItem';
 ![印表機 Info 狀態 dialog](/img/manual/en/client/cl-02-devices-printer-info-status.png)
 ![Test 列印 結果](/img/manual/en/client/cl-03-devices-test-print-result.png)
 
-:::note[Screenshot pending for other tabs]
-Need files: `client/cl-34-devices-payments-tab-list.png`, `client/cl-35-devices-input-devices-tab-list.png`, `client/cl-36-devices-x1-products-tab-list.png`
+:::note[截圖待補]
+需要檔案：`client/cl-34-devices-payments-tab-list.png`、`client/cl-35-devices-input-devices-tab-list.png`、`client/cl-36-devices-x1-products-tab-list.png`
 :::
 
 ## 如果出現問題
@@ -91,7 +91,7 @@ Need files: `client/cl-34-devices-payments-tab-list.png`, `client/cl-35-devices-
 ## 相關指南
 
 - [開班](./start-shift)
-- [Function: 管理印表機](../functions/manage-printers)
-- [Function: 設定付款裝置](../functions/configure-payment-devices)
-- [Function: 設定輸入裝置](../functions/configure-input-devices)
-- [Function: 設定 X1 產品](../functions/configure-x1-products)
+- [管理印表機](../functions/manage-printers)
+- [設定付款裝置](../functions/configure-payment-devices)
+- [設定輸入裝置](../functions/configure-input-devices)
+- [設定 X1 產品](../functions/configure-x1-products)

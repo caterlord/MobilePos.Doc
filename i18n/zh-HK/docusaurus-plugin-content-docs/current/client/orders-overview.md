@@ -48,8 +48,8 @@ import TabItem from '@theme/TabItem';
 - 清單會按所選分頁 / 篩選條件更新
 - 按下某一項後，會開啟訂單詳細內容，方便進行下一步
 
-:::note[Screenshot pending]
-Needed files: `client/cl-26-orders-overview-tabs-list.png`, `client/cl-27-orders-overview-search-dialog.png`
+:::note[截圖待補]
+需要檔案：`client/cl-26-orders-overview-tabs-list.png`、`client/cl-27-orders-overview-search-dialog.png`
 :::
 
 ## 如果出現問題

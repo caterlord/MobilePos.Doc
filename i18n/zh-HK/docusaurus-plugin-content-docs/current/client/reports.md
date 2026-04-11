@@ -28,8 +28,8 @@ title: 報表
 - 報表選擇器、日期控制項和 `Print` 按鈕
 - 報表內容面板會按所選報表更新
 
-:::note[Screenshot pending]
-Needed file: `client/cl-32-reports-selector-and-print.png`
+:::note[截圖待補]
+需要檔案：`client/cl-32-reports-selector-and-print.png`
 :::
 
 ## 如果出現問題

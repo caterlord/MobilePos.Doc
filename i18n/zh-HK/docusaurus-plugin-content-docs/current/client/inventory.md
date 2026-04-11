@@ -12,28 +12,28 @@ import TabItem from '@theme/TabItem';
 ## 開始前
 
 - 您已登入
-- 您可從左側選單進入 `Inventory`
+- 您可從左側選單進入 `庫存`
 - 門店政策允許在 POS 作庫存覆寫
 
 ## 此畫面用途
 
-使用 `Inventory` 在服務期間管理暫時可用性。
+使用 `庫存` 在營業期間管理暫時可售狀態。
 
 ## 主要畫面
 
 <Tabs>
-  <TabItem value="sold-out" label="Sold Out">
+  <TabItem value="sold-out" label="售罄">
 管理已完全不可用的品項。
   </TabItem>
-  <TabItem value="limited-item" label="Limited Item">
+  <TabItem value="limited-item" label="限量品項">
 管理有配額 / 剩餘數量控制的品項。
   </TabItem>
 </Tabs>
 
 ## 步驟
 
-1. 按 `Inventory`。
-2. 選擇 `Sold Out` 或 `Limited Item`。
+1. 按 `庫存`。
+2. 選擇 `售罄` 或 `限量品項`。
 3. 使用分類 / 搜尋找出目標品項。
 4. 套用所需操作（`Cancel`、`Edit`、`Reset` 或批量操作）。
 5. 確認品項狀態已更新到清單中。
@@ -43,8 +43,8 @@ import TabItem from '@theme/TabItem';
 - 品項清單會顯示 `Name`、`Quota` 和 `Remain` 等欄位
 - 如有可用批量操作，會顯示 `Cancel All` / `Reset All`
 
-:::note[Screenshot pending]
-Needed files: `client/cl-30-inventory-sold-out-tab.png`, `client/cl-31-inventory-limited-item-tab.png`
+:::note[截圖待補]
+需要檔案：`client/cl-30-inventory-sold-out-tab.png`、`client/cl-31-inventory-limited-item-tab.png`
 :::
 
 ## 如果出現問題

@@ -17,7 +17,7 @@ import TabItem from '@theme/TabItem';
 ## 步驟
 
 1. 開啟 `Devices`。
-2. 開啟 `X1 Products` 分頁。
+2. 開啟 `X1 產品` 分頁。
 3. 如有需要，按 `Info` 查看狀態詳情。
 4. 按目標產品裝置的編輯圖示。
 5. 儲存設定並確認連線狀態。

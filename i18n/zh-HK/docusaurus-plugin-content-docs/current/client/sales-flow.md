@@ -36,7 +36,7 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 
 :::note[外賣聯絡資料]
-如果您需要在外賣列印單上顯示顧客姓名或電話，請在功能選單使用 `Order Contact`。詳見 [Function 指南](../functions/order-contact)。
+如果您需要在外賣列印單上顯示顧客姓名或電話，請在功能選單使用 `訂單聯絡資料`。詳見 [功能指南](../functions/order-contact)。
 :::
 
 ## 您會看到
@@ -48,28 +48,28 @@ import TabItem from '@theme/TabItem';
 - 品項名稱會依照目前語言和 `Settings` 內的品項名稱對應（`Main` / `Alt`）顯示
 - 外賣訂單的已儲存聯絡資料會顯示在訂單標題下方
 
-:::note[Screenshot pending]
-Needed file: `client/cl-41-order-item-name-language-mapping.png`
+:::note[截圖待補]
+需要檔案：`client/cl-41-order-item-name-language-mapping.png`
 :::
 
 ## 桌台畫面切換
 
-當 `Settings` 已啟用 `Floor Plan Mode` 時，堂食桌台畫面右下角會出現圓形切換按鈕：
+當 `Settings` 已啟用 `樓層平面圖模式` 時，堂食桌台畫面右下角會出現圓形切換按鈕：
 
 - 方格圖示：切換到 `Table List`
-- 地圖圖示：切換到 `Floor Plan`
+- 地圖圖示：切換到 `樓層平面圖`
 
 這樣可以讓員工不用離開點餐流程，也能快速切換版面。
 
-:::note[Screenshot pending]
-Needed file: `client/cl-37-ordering-table-view-toggle-floorplan-tablelist.png`
+:::note[截圖待補]
+需要檔案：`client/cl-37-ordering-table-view-toggle-floorplan-tablelist.png`
 :::
 
 ## 功能選單（需要時）
 
-按三點功能按鈕開啟 `Select Function`。
+按三點功能按鈕開啟 `選擇功能`。
 
-如果您設定了很多功能，`Select Function` 可能會顯示 `Previous` 和 `Next` 方塊，方便您翻頁。
+如果您設定了很多功能，`選擇功能` 可能會顯示 `上一頁` 和 `下一頁` 方塊，方便您翻頁。
 
 按三點功能按鈕可使用：
 
@@ -88,14 +88,14 @@ Needed file: `client/cl-37-ordering-table-view-toggle-floorplan-tablelist.png`
 
 相關詳細指南：
 
-- `Apply Discount`：[Function 指南](../functions/apply-discount)
-- `Apply Service Charge`：[Function 指南](../functions/apply-service-charge)
-- `Change Table`：[Function 指南](../functions/change-table)
-- `Order Contact`：[Function 指南](../functions/order-contact)
-- `To Dine-In` / `To Takeaway`：[Function 指南](../functions/to-dine-in-to-takeaway)
-- `Split / Merge Txn`：[Function 指南](../functions/split-merge-transaction)
-- `Member Login`：[Function 指南](../functions/member-login)
-- `Pay In / Pay Out`：[Function 指南](../functions/pay-in-pay-out)
+- `Apply Discount`：[功能指南](../functions/apply-discount)
+- `Apply Service Charge`：[功能指南](../functions/apply-service-charge)
+- `Change Table`：[功能指南](../functions/change-table)
+- `Order Contact`：[功能指南](../functions/order-contact)
+- `To Dine-In` / `To Takeaway`：[功能指南](../functions/to-dine-in-to-takeaway)
+- `Split / Merge Txn`：[功能指南](../functions/split-merge-transaction)
+- `Member Login`：[功能指南](../functions/member-login)
+- `Pay In / Pay Out`：[功能指南](../functions/pay-in-pay-out)
 
 ![訂單 function 菜單](/img/manual/en/client/cl-08-order-function-menu.png)
 ![套用 Discount dialog](/img/manual/en/client/cl-09-apply-discount-dialog.png)
@@ -105,18 +105,18 @@ Needed file: `client/cl-37-ordering-table-view-toggle-floorplan-tablelist.png`
 ## 加入訂單備註
 
 1. 按三點功能按鈕。
-2. 在 `Select Function` 中按 `Order Remark`。
-3. 如果 `Order Remark` 在其他頁，按 `Previous` 或 `Next`。
+2. 在 `選擇功能` 中按 `Order Remark`。
+3. 如果 `Order Remark` 在其他頁，按 `上一頁` 或 `下一頁`。
 4. 輸入備註，然後確認。
 5. 確認備註已顯示在訂單標題下方。
 6. 如果您需要再次編輯，按備註旁邊的鉛筆圖示。
 
-:::note[Screenshot pending]
-Needed file: `client/cl-42-select-function-dialog-pagination.png`
+:::note[截圖待補]
+需要檔案：`client/cl-42-select-function-dialog-pagination.png`
 :::
 
-:::note[Screenshot pending]
-Needed file: `client/cl-43-order-remark-display-edit.png`
+:::note[截圖待補]
+需要檔案：`client/cl-43-order-remark-display-edit.png`
 :::
 
 ## 如果出現問題

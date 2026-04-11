@@ -37,16 +37,16 @@ import TabItem from '@theme/TabItem';
   <TabItem value="general" label="一般">
 包括語言設定（`Item Mapping`、`Login Quick Switch`）以及必要代碼（`POS Code`、`Cash Register Code`）。
   </TabItem>
-  <TabItem value="operation" label="Operation">
+  <TabItem value="operation" label="操作">
 包括 `Terminal` 模式，以及訂單 / 付款行為切換和服務流程控制。
   </TabItem>
   <TabItem value="system" label="系統">
 包括 `Number` 控制，例如 `Rounding Method`、`Decimal Places` 和 `Round For Cash Only`。
   </TabItem>
-  <TabItem value="printing" label="Printing">
+  <TabItem value="printing" label="列印">
 包括 `Mapping`、`Setting` 和 `Template` 分頁，用於印表機路由和列印輸出行為。
   </TabItem>
-  <TabItem value="platforms" label="Third Party Platform + ODO">
+  <TabItem value="platforms" label="第三方平台 + ODO">
 包括已啟用的第三方整合和 ODO 控制，例如 `Channel Mapping`。
   </TabItem>
   <TabItem value="report" label="報表">
@@ -80,7 +80,7 @@ import TabItem from '@theme/TabItem';
 ## 切換終端模式
 
 <Tabs>
-  <TabItem value="restaurant" label="Restaurant">
+  <TabItem value="restaurant" label="餐廳模式">
 1. 按 `Settings` -> `Operation`。
 2. 在 `Terminal` 將 `Mode` 設為 `Restaurant`。
 3. 按 `Settings` -> `General`。
@@ -90,7 +90,7 @@ import TabItem from '@theme/TabItem';
 7. 按 `Save`。
 8. 返回 `Ordering`，確認員工必須先選桌台或外賣訂單，才能加入品項。
   </TabItem>
-  <TabItem value="quick-order" label="Quick Order">
+  <TabItem value="quick-order" label="快速點餐">
 1. 按 `Settings` -> `Operation`。
 2. 在 `Terminal` 將 `Mode` 設為 `Quick Order`。
 3. 按 `Settings` -> `General`。
@@ -209,20 +209,20 @@ import TabItem from '@theme/TabItem';
 - `Report` 包含 `Print Qty`、`Daily Report Sections` 和 `Show advanced sections`
 - `Restore` 操作位於設定底部
 
-:::note[Screenshot pending]
-Needed file: `client/cl-40-settings-language-configuration-grid.png`
+:::note[截圖待補]
+需要檔案：`client/cl-40-settings-language-configuration-grid.png`
 :::
 
-:::note[Screenshot pending]
-Needed file: `client/cl-45-settings-print-order-contact-toggles.png`
+:::note[截圖待補]
+需要檔案：`client/cl-45-settings-print-order-contact-toggles.png`
 :::
 
-:::note[Screenshot pending]
-Needed files: `client/cl-46-settings-operation-terminal-mode.png`, `client/cl-47-settings-general-order-mode-toggles.png`
+:::note[截圖待補]
+需要檔案：`client/cl-46-settings-operation-terminal-mode.png`、`client/cl-47-settings-general-order-mode-toggles.png`
 :::
 
-:::note[Screenshot pending]
-Needed files: `client/cl-48-settings-print-auto-print-receipt.png`, `client/cl-49-settings-report-day-end-sections.png`
+:::note[截圖待補]
+需要檔案：`client/cl-48-settings-print-auto-print-receipt.png`、`client/cl-49-settings-report-day-end-sections.png`
 :::
 
 ## 如果出現問題
