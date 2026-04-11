@@ -66,12 +66,12 @@ X1 Model Context Protocol（MCP）服务器提供一组工具，供 AI 代理与
 
 | 资源 | 工具 | 说明 |
 | :--- | :--- | :--- |
-| **Sales** | `get_net_sales_summary` | 读取各营业地点的财务净销售汇总。 |
-| **Sales** | `list_void_transactions` | 读取已撤销或作废交易收据的安全审计日志。 |
-| **Menus** | `list_menu_categories` | 读取实体和线上菜单分类树。 |
-| **Menus** | `list_menu_items` | 读取所有产品，包括特定渠道的价格层级。 |
-| **Logistics** | `get_inventory_levels` | 读取特定原料或品项的消耗阈值。 |
-| **Logistics** | `get_staff_attendance` | 读取签到和签退记录，用于薪资核对。 |
-| **Devices** | `get_shop_info` | 读取组织及特定门店的终端配置。 |
-| **Devices** | `get_device_terminals` | 读取特定门店的硬件映射。 |
-| **Support** | `search_x1_documentation` | 搜索 X1 HQ 知识库，获取操作协助。 |
+| **销售** | `get_net_sales_summary` | 读取各营业地点的财务净销售汇总。 |
+| **销售** | `list_void_transactions` | 读取已撤销或作废交易收据的安全审计日志。 |
+| **菜单** | `list_menu_categories` | 读取实体和线上菜单分类树。 |
+| **菜单** | `list_menu_items` | 读取所有产品，包括特定渠道的价格层级。 |
+| **物流** | `get_inventory_levels` | 读取特定原料或品项的消耗阈值。 |
+| **物流** | `get_staff_attendance` | 读取签到和签退记录，用于薪资核对。 |
+| **设备** | `get_shop_info` | 读取组织及特定门店的终端配置。 |
+| **设备** | `get_device_terminals` | 读取特定门店的硬件映射。 |
+| **支持** | `search_x1_documentation` | 搜索 X1 HQ 知识库，获取操作协助。 |
