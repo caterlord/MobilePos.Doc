@@ -14,4 +14,4 @@ Use-case 頁面 最適合訓練。Function 頁面 最適合您需要快速完成
 - 裝置 functions（印表機管理、付款 / 輸入 / X1 設定）
 - 更多工具 functions（代收 / 代支、日結）
 
-如需完整索引，請參考 [Function and Feature Map](../reference/function-feature-map)。
+如需完整索引，請參考 [功能與特性索引](../reference/function-feature-map)。
