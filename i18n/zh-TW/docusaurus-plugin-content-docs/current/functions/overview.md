@@ -14,4 +14,4 @@ title: 功能指南總覽
 - 裝置功能（印表機管理、付款／輸入／X1 設定）
 - 更多工具功能（代收／代支、日結）
 
-如果您想看完整索引，請使用 [功能與特色地圖](../reference/function-feature-map)。
+如果您想看完整索引，請使用 [功能與特性索引](../reference/function-feature-map)。
