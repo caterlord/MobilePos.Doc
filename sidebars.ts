@@ -1,6 +1,9 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
+  releaseNotesSidebar: [
+    'release-notes/version-notes',
+  ],
   posSidebar: [
     'intro',
     {
@@ -99,7 +102,6 @@ const sidebars: SidebarsConfig = {
         'reference/troubleshooting',
         'reference/data-retention-and-storage',
         'reference/terminology',
-        'reference/version-notes',
       ],
     },
   ],
@@ -172,6 +174,7 @@ const sidebars: SidebarsConfig = {
         'hq/online-ordering/call-to-action',
         'hq/online-ordering/menus-and-combinations',
         'hq/online-ordering/general-settings',
+        'hq/online-ordering/third-party-platforms',
         'hq/online-ordering/channel-mapping',
         'hq/online-ordering/ui-translations',
       ],

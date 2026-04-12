@@ -11,7 +11,7 @@ Admins maintaining customer-facing digital ordering channels such as QR ordering
 
 - Confirm the correct brand and target shop or channel.
 - Confirm the base menu and item setup already exists.
-- Decide whether you are changing category display, menu assignment, channel routing, or customer-facing text.
+- Decide whether you are changing category display, menu assignment, shop-level setup, channel availability, or customer-facing text.
 
 ## What this section is for
 
@@ -27,15 +27,17 @@ Use the child pages in this order when setting up or reviewing a channel:
 
 1. [Categories and Items](./categories-and-items.md): decide what is visible online.
 2. [Menus and Combinations](./menus-and-combinations.md): group online items into usable menus.
-3. [Channel Mapping](./channel-mapping.md): route menus to the correct ordering channel.
-4. [General Settings](./general-settings.md): apply operational controls for the selected shop or channel.
-5. [Call to Action](./call-to-action.md): manage upsell prompts.
-6. [UI Translations](./ui-translations.md): adjust customer-facing wording.
+3. [General Settings](./general-settings.md): open the correct store and manage store-level online ordering setup.
+4. [3rd Party Platforms](./third-party-platforms.md): subscribe and configure delivery or integration platforms for one store.
+5. [Channel Settings](./channel-mapping.md): control which categories are available on each order channel.
+6. [Call to Action](./call-to-action.md): manage upsell prompts.
+7. [UI Translations](./ui-translations.md): adjust customer-facing wording.
 
 ## Common tasks
 
 - Publish a new online category: start with [Categories and Items](./categories-and-items.md).
-- Route a menu to a specific ordering channel: use [Channel Mapping](./channel-mapping.md).
+- Enable a delivery or integration platform for one store: use [3rd Party Platforms](./third-party-platforms.md).
+- Route category availability to a specific ordering channel: use [Channel Settings](./channel-mapping.md).
 - Change customer-facing wording: use [UI Translations](./ui-translations.md).
 - Adjust operational settings such as ordering rules: use [General Settings](./general-settings.md).
 

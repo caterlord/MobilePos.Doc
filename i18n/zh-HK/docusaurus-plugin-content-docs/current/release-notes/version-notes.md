@@ -1,9 +1,30 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 title: 版本說明
 ---
 
-本頁記錄手冊變更，依照 release／更新批次整理。
+本頁記錄整套 X1 文件的變更，依照 release／更新批次整理。
+
+本頁不只限於 POS app 手冊，也包含 HQ、共用流程與文件結構更新。
+
+## 2026-04-12（HQ Marketplace 與渠道設定檢查）
+
+### Updated
+
+- `Online Ordering`：重寫 `General Settings`，使其符合目前的店舖清單與 `Shop Settings` 工作流程。
+- `Online Ordering`：新增 `3rd Party Platforms` 頁面，用於店舖層級的平台訂閱與設定。
+- `Online Ordering`：重寫 `Channel Settings`，使其符合新的 `By Category`、`By Shop` 與 `By Channel` 矩陣檢視。
+- `Online Ordering`：把 `Categories and Items`、`Call to Action`、`Menus and Combinations` 與 `UI Translations` 改寫成目前 HQ 任務／設定參考格式。
+- `Marketplace`：更新 `Marketplace` 與 `My Subscriptions` 指引，補充平台訂閱及其對後續設定的影響。
+
+### Screenshot updates
+
+- 新增 HQ 的 `Channel Settings` 矩陣檢視與 `3rd Party Platforms` 店舖頁截圖。
+
+### Reviewed
+
+- 檢查 X1 HQ 的 commit `05a38e1`（`feat: add marketplace platforms, channel subscription filtering, and pivot views`），並與目前手冊基線比較。
+- 確認使用者可見的文件影響集中在網上點餐平台設定、渠道可見性，以及市集訂閱指引。
 
 ## 2026-04-02 (v1.7.7 Alignment)
 
@@ -56,7 +77,7 @@ title: 版本說明
 
 ### 寫作清理
 
-- 重新檢查操作頁面是否有過時的版本限定提示，並把 release 歷史只保留在本頁。
+- Re-checked operational 頁面 供 stale 版本-specific callouts 及 kept release history 於 本頁 僅.
 
 ## 2026-03-15 (v1.7.5 檢查)
 

@@ -11,6 +11,10 @@
     "message": "POS 使用手冊",
     "description": "Navbar item with label POS User Manual"
   },
+  "item.label.Release Notes": {
+    "message": "版本說明",
+    "description": "Navbar item with label Release Notes"
+  },
   "item.label.HQ User Manual": {
     "message": "HQ 使用手冊",
     "description": "Navbar item with label HQ User Manual"
