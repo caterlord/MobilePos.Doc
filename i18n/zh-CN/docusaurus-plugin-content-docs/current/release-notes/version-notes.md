@@ -1,9 +1,30 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 title: 版本说明
 ---
 
-本页按发布/更新批次记录手册变更。
+本页按发布和更新批次记录整套 X1 文档的变更。
+
+本页不只针对 POS app 手册，也包括 HQ、共用流程和文档结构更新。
+
+## 2026-04-12（HQ Marketplace 与渠道设置检查）
+
+### 更新内容
+
+- `Online Ordering`：重写 `General Settings`，使其符合当前门店列表与 `Shop Settings` 工作流。
+- `Online Ordering`：新增 `3rd Party Platforms` 页面，用于门店级平台订阅与设置。
+- `Online Ordering`：重写 `Channel Settings`，使其符合新的 `By Category`、`By Shop` 与 `By Channel` 矩阵视图。
+- `Online Ordering`：将 `Categories and Items`、`Call to Action`、`Menus and Combinations` 与 `UI Translations` 改写为当前 HQ 任务／设置参考格式。
+- `Marketplace`：更新 `Marketplace` 与 `My Subscriptions` 指引，补充平台订阅及其对后续设置的影响。
+
+### 截图更新
+
+- 新增 HQ 的 `Channel Settings` 矩阵视图与 `3rd Party Platforms` 门店页面截图。
+
+### 已复查
+
+- 检查 X1 HQ 的 commit `05a38e1`（`feat: add marketplace platforms, channel subscription filtering, and pivot views`），并与当前手册基线比较。
+- 确认用户可见的文档影响集中在线上点餐平台设置、渠道可见性，以及市集订阅指引。
 
 ## 2026-04-02（v1.7.7 对齐）
 

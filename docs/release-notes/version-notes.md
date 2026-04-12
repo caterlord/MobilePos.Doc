@@ -1,9 +1,30 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 title: Version Notes
 ---
 
-This page tracks manual changes by release/update batch.
+This page tracks manual changes by release and update batch across the full X1 documentation set.
+
+It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
+
+## 2026-04-12 (HQ Marketplace and Channel Settings Review)
+
+### Updated
+
+- `Online Ordering`: rewrote `General Settings` to match the current store list and `Shop Settings` workflow.
+- `Online Ordering`: added a new `3rd Party Platforms` page for store-level platform subscription and setup.
+- `Online Ordering`: rewrote `Channel Settings` to match the new `By Category`, `By Shop`, and `By Channel` matrix views.
+- `Online Ordering`: rewrote `Categories and Items`, `Call to Action`, `Menus and Combinations`, and `UI Translations` into the current HQ task/reference format.
+- `Marketplace`: updated `Marketplace` and `My Subscriptions` guidance for platform subscriptions and downstream setup impact.
+
+### Screenshot updates
+
+- Added HQ screenshots for the new `Channel Settings` matrix view and the `3rd Party Platforms` shop page.
+
+### Reviewed
+
+- Checked commit `05a38e1` in X1 HQ (`feat: add marketplace platforms, channel subscription filtering, and pivot views`) against the current manual baseline.
+- Confirmed that the user-visible doc impact is in online-ordering platform setup, channel visibility, and marketplace subscription guidance.
 
 ## 2026-04-02 (v1.7.7 Alignment)
 

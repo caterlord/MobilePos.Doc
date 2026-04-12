@@ -1,28 +1,97 @@
 ---
 sidebar_position: 3
+title: Call to Action
 ---
 
-# Call to Action (Upselling)
+:::info[Who this is for]
+Admins who manage promotional prompts or upsell banners in the customer online ordering flow.
+:::
+
+## Before you start
+
+- Confirm the correct brand.
+- Confirm the related online categories or landing links already exist.
+- Decide whether the prompt should open a category in the storefront or send the customer to a web link.
+
+## Open this page
+
+Open `Online Ordering` -> `Call to Action`.
+
+## What this page is for
+
+`Call to Action` controls promotional banners shown during the customer online ordering journey.
+
+Use this page to:
+
+- choose where a prompt appears in the storefront
+- enter the banner title and description
+- connect the prompt to a category or a full URL
+- add alternate-language text for bilingual storefronts
 
 ![Call to Action Settings](/img/hq/online-ordering/oo_call_to_action_page.png)
 
-The **Call to Action (CTA)** module is a powerful revenue generation tool. It allows you to inject promotional banners or upsell prompts directly into the customer's checkout journey on the mobile web-app or native app.
+## Main sections
 
-## Placement Slots
+### Placement slots
 
-You can configure separate CTA behaviors based on where the customer currently is:
+CTA prompts can appear in different storefront positions:
 
-1. **Cart Placement**: Appears when the customer taps their basket to checkout. Ideal for "Add a Drink for $2" or "You are $5 away from free delivery" prompts.
-2. **Order History Placement**: Appears after payment on the digital receipt screen. Ideal for loyalty sign-up links or "Rate your meal" prompts.
+1. `Cart Placement`: shown when the customer opens the basket before checkout.
+2. `Order History Placement`: shown after payment on the digital receipt or order-history screen.
 
-## Configuration Details
+Use the slot that matches the customer moment you want to influence.
 
-To activate a CTA slot, click the corresponding card to open the editor.
+### Banner content
 
-- **Title & Description**: The headline and subtext of the banner (e.g., `Thirsty?`, `Add a refreshing iced tea to complete your meal.`).
-- **Target Smart Category**: This is the functional trigger. If you select the `Drinks` category here, tapping the CTA banner will instantly pop open a modal showing all items inside the `Drinks` category, allowing the customer to add them to the cart without navigating back to the main menu.
-- **Action URL**: If you prefer to redirect the customer entirely (e.g., linking out to a survey site), provide the full `https://` web link here instead of a Smart Category.
+For each CTA slot, enter:
 
-:::warning[Translated text]
-Remember to fill out the **Alt Title** and **Alt Description** fields if your store operates in a bilingual environment, otherwise translated users will see blank spaces.
-:::
+- `Title`
+- `Description`
+- `Alt Title`
+- `Alt Description`
+
+Use concise action-focused text. If your storefront supports more than one language, fill in the alternate-language fields as well.
+
+### CTA destination
+
+Each CTA can use one of these destination types:
+
+- `Target Smart Category`: opens the selected category directly in the storefront
+- `Action URL`: sends the customer to a full `https://` web link instead
+
+Choose one clear destination. Do not mix category-based upsell behavior with an unrelated external link unless that is the intended customer flow.
+
+## Steps
+
+1. Open `Online Ordering` -> `Call to Action`.
+2. Select the CTA slot you want to edit.
+3. Enter the `Title` and `Description`.
+4. Enter `Alt Title` and `Alt Description` if the storefront is bilingual.
+5. Select the target smart category, or enter the full `https://` link in `Action URL`.
+6. Select `Save`.
+
+## What changes after you save
+
+The CTA update changes what customers see in the selected storefront position.
+
+If you used a category target, customers can open that category directly from the banner. If you used a URL, customers will be redirected to that destination instead.
+
+## How to check your change
+
+1. Open the target online ordering flow.
+2. Go to the relevant storefront position such as basket or post-payment history.
+3. Confirm the CTA text appears in the correct language.
+4. Select the banner and confirm it opens the expected category or link.
+
+## If something goes wrong
+
+- Confirm you edited the correct brand.
+- Confirm the target category still exists and is available online.
+- If translated users see blank text, fill in `Alt Title` and `Alt Description`.
+- If the CTA opens the wrong destination, re-check whether you saved a category target or an `Action URL`.
+
+## When to ask owner/admin
+
+- The CTA links to an external campaign, survey, or promotion you do not own.
+- The prompt affects a live customer promotion during trading hours.
+- You are unsure whether the message should appear in basket flow or after payment.

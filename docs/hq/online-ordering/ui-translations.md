@@ -1,32 +1,90 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
+title: UI Translations
 ---
 
-# UI Translations (i18n)
+:::info[Who this is for]
+Admins who need to override customer-facing online ordering wording without waiting for an app release.
+:::
+
+## Before you start
+
+- Confirm the correct brand.
+- Decide which language and storefront channel you need to edit.
+- Confirm you want a wording override, not a base menu or item-name change.
+
+## Open this page
+
+Open `Online Ordering` -> `UI i18n`.
+
+## What this page is for
+
+`UI i18n` lets you override the customer-facing text used by the online ordering application.
+
+Use this page to:
+
+- choose a language to edit
+- target a specific order channel
+- search for the text key you need
+- save a custom override value
+- remove an override and return to the default wording
+
+This page changes storefront interface wording such as buttons, labels, and prompts. It does not replace menu-item translations managed elsewhere.
 
 ![UI Translations](/img/hq/online-ordering/oo_translations_page.png)
 
-The **UI Translations** feature provides engineering-level control over the actual text strings displayed on the customer-facing web application. 
+## Main sections
 
-Instead of filing a support ticket to change the wording of a button, HQ Administrators can override the application dictionary directly from this page.
+### Language selector
 
-## How it works
+Select the language you want to edit, such as `Traditional Chinese (HK)`.
 
-The customer web-app is built using standardized `keys` (e.g., `checkout.button.confirm`). 
-By default, the app pulls the English value ("Confirm Order") from the global database. 
+### Order channel selector
 
-This page allows you to inject an **Override Value** for specific languages or specific Order Channels.
+Select the storefront or order channel that should receive the override, such as `WEB`.
 
-### Step-by-Step Override
+### Key search
 
-1. **Select Language**: Pick the locale you want to edit (e.g., `Traditional Chinese (HK)`).
-2. **Select Order Channel**: Select which storefront gets the override (e.g., `WEB`).
-3. **Search for Key**: Use the search bar to find the text you want to change (e.g., searching for "Dine-In").
-4. **Input Override**: Type your new custom branding phrase into the text box (e.g., changing "Dine-In" to "Eat Here Today!").
-5. Click **Save**.
+Use the search bar to find the wording key you want to change.
 
-The customer web-app will instantly reflect the new text structure without requiring a code deployment or app update.
+Search by a familiar visible term such as `Dine-In` if you do not already know the internal key name.
 
-:::warning[Override cleanup]
-Do not leave partial override boxes empty if you intend for them to be blank entirely. If you wish to delete an override and return it to the system default, clear the text box completely before saving.
-:::
+### Override value
+
+Enter the replacement text in the override field, then save.
+
+If you want to remove a custom override and return to the default system wording, clear the override field completely before saving.
+
+## Steps
+
+1. Open `Online Ordering` -> `UI i18n`.
+2. Select the target language.
+3. Select the target order channel.
+4. Search for the text key you want to change.
+5. Enter the new override value.
+6. Select `Save`.
+
+## What changes after you save
+
+The target storefront will use the new wording for the selected language and order channel.
+
+This type of change updates customer-facing interface text without requiring a storefront code deployment.
+
+## How to check your change
+
+1. Reopen the same key and confirm the override value is still present.
+2. Open the target storefront in the same language and channel.
+3. Confirm the visible wording changed in the correct place.
+
+## If something goes wrong
+
+- Confirm you edited the correct language and order channel.
+- Confirm you changed the correct key instead of a similar label elsewhere.
+- If you want to remove an override, clear the field completely before saving.
+- If the storefront still shows the old wording, refresh the target flow and re-check the selected channel.
+
+## When to ask owner/admin
+
+- The wording affects a live customer journey during trading hours.
+- You are unsure whether the text should be a local override or a permanent product-wide default.
+- The wording change has legal, payments, or compliance implications.

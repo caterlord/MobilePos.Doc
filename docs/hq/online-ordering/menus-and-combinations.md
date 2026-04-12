@@ -1,28 +1,100 @@
 ---
 sidebar_position: 4
+title: Menus and Combinations
 ---
 
-# Online Menus
+:::info[Who this is for]
+Admins who build customer-facing online menus and decide which shops use each menu.
+:::
+
+## Before you start
+
+- Confirm the correct brand.
+- Confirm the required online categories are already prepared.
+- Decide whether one menu can be shared across shops or whether different shops need different online menus.
+
+## Open this page
+
+Open `Online Ordering` -> `Online Menus`.
+
+## What this page is for
+
+`Online Menus` controls how published online categories are grouped into storefront menus.
+
+Use this page to:
+
+- create a new online menu shell
+- define the menu `Code` and `Display Name`
+- add the required categories into the menu
+- set the category display order
+- assign or map the menu to the correct shops
+
+An online menu is the menu wrapper customers browse after opening a store link.
 
 ![Online Menus Configuration](/img/hq/online-ordering/oo_menus_page.png)
 
-The **Online Menus** module dictates how your published Categories are bundled together into a navigable digital catalog. 
+## Main sections
 
-This functions similarly to the POS Menus feature but is strictly scoped for web and app consumers.
+### Menu combination
 
-## Menu Combinations
+A menu combination is the outer menu customers see, such as:
 
-A "Menu Combination" is the outer wrapper (e.g., `Lunch Delivery Menu`, `Dinner Pickup Menu`).
+- `Lunch Delivery Menu`
+- `Dinner Pickup Menu`
 
-When a customer opens your store link, they are browsing a specific Menu Combination.
+Different combinations let you separate menus by service type, trading period, or shop-specific availability.
 
-### Building a Menu
-1. Click **New Menu** to create the shell.
-2. Define the **Code** (used for API linking) and the **Display Name** (visible as the page title on the web-app).
-3. Select which **Categories** (that you configured in the previous step) should be mapped into this menu.
-4. Drag and drop the categories to organize their display order on the customer's phone screen.
+### Menu details
 
-### Targeting Shops
-Online Menus are global, but they must be explicitly mapped to physical shops. 
-If `Shop A` and `Shop B` share the exact same items, you only need to build the menu once and assign it to both shops. 
-However, if `Shop A` serves alcohol and `Shop B` does not, you would build two separate Online Menus and map them accordingly.
+When creating or editing a menu, check:
+
+- `Code`: used for linking or integration reference
+- `Display Name`: shown to customers in the storefront
+- category selection: controls what appears inside the menu
+
+### Category order
+
+After categories are added, arrange them in the order customers should see first.
+
+Use the display order controls to keep high-priority or most-used categories near the top.
+
+### Shop assignment
+
+Online menus can be reused across multiple shops, but they still need to be assigned to the correct shops.
+
+If two shops sell the same online assortment, one menu may be enough. If their assortment or selling rules differ, build separate menus.
+
+## Steps
+
+1. Open `Online Ordering` -> `Online Menus`.
+2. Select `New Menu` if you need a new menu.
+3. Enter the `Code` and `Display Name`.
+4. Select the categories that belong in this menu.
+5. Arrange the category display order.
+6. Assign the menu to the correct shops.
+7. Select `Save`.
+
+## What changes after you save
+
+The saved menu controls what customers can browse after opening the related store or ordering entry point.
+
+If the menu is assigned to multiple shops, the change can affect all of them at once.
+
+## How to check your change
+
+1. Reopen the menu and confirm the saved categories and order remain.
+2. Check the assigned shop mapping.
+3. Open the target storefront and confirm customers see the correct menu structure.
+
+## If something goes wrong
+
+- Confirm the categories were already published for online use.
+- Confirm the menu was assigned to the correct shops.
+- If one shop should not share the same assortment, split the setup into separate online menus instead of reusing one menu.
+- If customers see the wrong menu name or order, re-check `Display Name` and category ordering.
+
+## When to ask owner/admin
+
+- The menu change affects a live storefront during trading hours.
+- You are unsure whether shops should share one online menu or use separate menus.
+- The menu structure affects platform-specific trading, pricing, or compliance rules.

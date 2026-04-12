@@ -1,24 +1,101 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
+title: Channel Settings
 ---
 
-# Channel Mapping
+:::info[Who this is for]
+Admins who control which online categories are available on each order channel for each shop.
+:::
 
-![Channel Mapping](/img/hq/online-ordering/oo_channel_mapping_page.png)
+## Before you start
 
-The **Channel Mapping** module is the routing engine for your digital catalog. It explicitly maps your [Online Menus](./menus-and-combinations.md) to specific consumer endpoints.
+- Confirm the correct brand.
+- Confirm the online categories you need already exist.
+- Confirm the required platform subscription is active in `Marketplace` if you expect to see third-party channels such as `Deliveroo` or `Foodpanda`.
 
-## What is an Order Channel?
-An **Order Channel** represents the digital source from where a customer placed the order. Standard channels include:
-- `WEB` (Native BYOD Web-App)
-- `FOODPANDA` (Aggregator API Integration)
-- `DELIVEROO` (Aggregator API Integration)
-- `APP` (White-label Mobile Application)
+## Open this page
 
-## Mapping Logic
-This tool allows you to serve completely different menus depending on what app the customer is using. 
+Open `Online Ordering` -> `Channel Settings`.
 
-For example, you can create a specialized `Deliveroo Exclusive Menu` containing only high-margin items to offset commission fees, and map it specifically to the `DELIVEROO` channel, while mapping your full exhaustive `Standard Menu` to your native `WEB` channel.
+## What this page is for
 
-## Sub-Channel Configurations
-For platforms like Foodpanda, you might also require granular sub-channel mappings. If Foodpanda integration requires separate mapping identities for "Pickup Mode" versus "Delivery Mode", you will configure the **Mapping Identity Code** directly in the grid.
+`Channel Settings` controls which categories are available on each order channel, per shop.
+
+Use this page to:
+
+- enable or disable a category for a specific shop and channel combination
+- review coverage by `Category`, by `Shop`, or by `Channel`
+- make broad changes with row or column checkboxes before saving
+
+This page does not create channels. HQ only shows own-device channels by default. Third-party channels appear after the related platform subscription is active.
+
+![Channel Settings page](/img/hq/online-ordering/oo_channel_settings_page.png)
+
+*Channel Settings with the `By Category` view, selector, and checkbox matrix.*
+
+## Main sections
+
+### View selector
+
+Use the segmented control at the top to switch between:
+
+- `By Category`
+- `By Shop`
+- `By Channel`
+
+Choose the view that matches the question you are answering:
+
+- use `By Category` when you want to check where one category is available
+- use `By Shop` when you want to check all categories for one shop
+- use `By Channel` when you want to check what one channel can sell across shops
+
+### Selector
+
+After you choose a view, select the matching record:
+
+- `Category`
+- `Shop`
+- `Channel`
+
+### Mapping grid
+
+The grid uses checkboxes at three levels:
+
+- cell checkbox: change one category/shop/channel combination
+- row checkbox: change one full row
+- column checkbox: change one full column
+
+The small count badge helps you confirm how many entries are currently enabled in that row or column.
+
+## Steps
+
+1. Open `Online Ordering` -> `Channel Settings`.
+2. Choose `By Category`, `By Shop`, or `By Channel`.
+3. Select the `Category`, `Shop`, or `Channel` you want to review.
+4. Select the checkboxes you need in the grid.
+5. Select `Save`.
+
+## What changes after you save
+
+The saved mapping changes category availability for the selected shop and channel combinations in HQ.
+
+If a third-party channel is missing from this page, subscribe to that platform first in [Marketplace](../marketplace/catalog.md). If the channel is visible but the storefront still looks wrong, verify the related shop setup in [3rd Party Platforms](./third-party-platforms.md).
+
+## How to check your change
+
+1. Reopen `Channel Settings` and confirm the same checkboxes are still selected.
+2. Check the affected shop or channel in the target online ordering flow.
+3. Confirm the category appears only where you intended.
+
+## If something goes wrong
+
+- Confirm you edited the correct brand.
+- Confirm you were in the correct view before making bulk checkbox changes.
+- Check whether the missing channel actually requires a platform subscription first.
+- Re-check the related shop setup in [General Settings](./general-settings.md) if the channel is present but not usable.
+
+## When to ask owner/admin
+
+- The change affects a live delivery or customer ordering channel during trading hours.
+- You are unsure whether a category should be hidden for one shop only or for all shops.
+- You cannot safely verify the result in the target storefront after saving.

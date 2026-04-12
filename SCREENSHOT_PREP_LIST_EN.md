@@ -8,6 +8,10 @@ Put all screenshots under:
 
 `static/img/manual/en/`
 
+HQ screenshots used by `docs/hq/` should go under:
+
+`static/img/hq/`
+
 Use these subfolders:
 
 - `static/img/manual/en/getting-started/`

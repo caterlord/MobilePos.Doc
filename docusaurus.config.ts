@@ -276,6 +276,12 @@ const config: Config = {
           label: 'MCP User Manual',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'releaseNotesSidebar',
+          position: 'left',
+          label: 'Release Notes',
+        },
+        {
           type: 'search',
           position: 'right',
         },

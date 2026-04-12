@@ -45,6 +45,8 @@ Depending on the product, the page can show actions such as:
 - `Configure`
 - `Unsubscribe`
 
+`Configure` only appears for products that have a direct setup page. Marketplace-managed `3rd Party Platforms` usually continue through [General Settings](../online-ordering/general-settings.md) and [3rd Party Platforms](../online-ordering/third-party-platforms.md) instead.
+
 ## Steps
 
 1. Open `Marketplace` -> `My Subscriptions`.
@@ -56,13 +58,16 @@ Depending on the product, the page can show actions such as:
 
 ## What changes after you save
 
-Removing a subscription can make related features or integrations unavailable. Treat unsubscribe as a high-impact change and verify downstream setup after you confirm it.
+Removing a subscription can make related features or integrations unavailable immediately.
+
+For marketplace-managed online-ordering platforms, unsubscribe can also remove the related channel availability and clear saved store-level platform settings. Treat `Unsubscribe` as a high-impact change.
 
 ## How to check your change
 
 1. Confirm the product still appears in the list if you kept it.
 2. Confirm it disappears from the active subscriptions list if you removed it.
 3. Check the related configuration page if the product exposes `Configure`.
+4. If you removed a platform subscription, re-check [Channel Settings](../online-ordering/channel-mapping.md) or [3rd Party Platforms](../online-ordering/third-party-platforms.md) before trading.
 
 ## If something goes wrong
 

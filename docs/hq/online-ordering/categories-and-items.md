@@ -1,29 +1,102 @@
 ---
 sidebar_position: 2
+title: Categories and Items
 ---
 
-# Categories & Modifiers
+:::info[Who this is for]
+Admins who decide which POS categories and items appear in customer-facing online ordering channels.
+:::
+
+## Before you start
+
+- Confirm the correct brand.
+- Confirm the base POS categories and items already exist in the catalog.
+- Decide whether you are publishing content, updating images, changing online-only pricing, or editing descriptions.
+
+## Open this page
+
+Open `Online Ordering` -> `Online Categories`.
+
+## What this page is for
+
+`Online Categories` is the main page for exposing POS categories and items to online ordering.
+
+Use this page to:
+
+- publish categories to customer-facing channels
+- control which items become available online through those categories
+- upload item or category images
+- maintain online descriptions
+- apply online price overrides where needed
+
+Items are not available online just because they exist in the base catalog. They must be mapped through this page first.
 
 ![Online Categories](/img/hq/online-ordering/oo_categories_page.png)
 
-The **Categories** page is your primary tool for exposing internal POS items to the public internet. By default, items created in the Menu Catalog are hidden from online ordering until they are explicitly mapped here.
+## Main sections
 
-## 1. Publishing Categories
-Instead of publishing items one-by-one, you deal in bulk by mapping entire **Smart Categories** or **Standard Categories**.
-Once mapped, any Menu Item sitting inside that category becomes available for digital purchase.
+### Category publishing
 
-## 2. Image Management
-Customers buy with their eyes. This module is where you upload product photography.
-- Click on an item or category row to open the editor.
-- Upload an Image. The system will automatically compress and host it on the CDN.
+Publish content in groups instead of item by item.
 
-## 3. Online Pricing Strategies
-A $10 burger in-store might need to cost $12 on a delivery app to offset platform commissions.
-Within the item's pricing tab here, you can set an **Online Base Price Override**. This completely severs the online price from the terminal POS price.
+You can map:
 
-## 4. Item Descriptions
-Use the **Description** field to add marketing copy or allergen warnings. This text is displayed underneath the item name on the digital menu.
+- `Smart Categories`
+- `Standard Categories`
 
-:::tip[Temporary sold-out handling]
-If a specific item is temporarily out of stock, **do not** delete it from the online category. Instead, use the POS terminal's **Inventory** app to mark the item as "Sold Out". It will instantly grey-out on the customer's phone without breaking your menu structure.
-:::
+Once a category is mapped for online use, the items inside that category can be sold through online ordering.
+
+### Images
+
+Use the row editor for a category or item to upload product images.
+
+This is the customer-facing image set for online ordering, so use clear images that help customers recognise the product quickly.
+
+### Online pricing
+
+If online prices need to differ from in-store POS prices, use the online pricing controls on the item.
+
+This is useful when delivery or platform commissions require a different online selling price.
+
+### Descriptions
+
+Use the online description field for customer-facing copy such as:
+
+- short product details
+- selling points
+- allergen or important ordering notes
+
+## Steps
+
+1. Open `Online Ordering` -> `Online Categories`.
+2. Find the category or item you need to update.
+3. Publish or map the required category for online use.
+4. Open the related row or editor panel.
+5. Upload the image, update the description, or change the online price override as needed.
+6. Select `Save`.
+
+## What changes after you save
+
+Saved changes affect how categories and items appear in the online storefront.
+
+Depending on the change, customers may see a category become available, a new image, updated description text, or a different online selling price.
+
+## How to check your change
+
+1. Reopen the same category or item and confirm the saved values remain.
+2. Open the target online ordering channel.
+3. Confirm the category is visible and the item content matches what you saved.
+4. If you changed online price, confirm the storefront shows the expected value.
+
+## If something goes wrong
+
+- Confirm the category was actually mapped for online use.
+- If an item is missing online, check whether it is in the published category you edited.
+- If the item should stay visible but not sellable temporarily, do not remove it from the online category. Use POS inventory control to mark it sold out instead.
+- If the wrong price appears, re-check whether you changed the online override or only the base POS price.
+
+## When to ask owner/admin
+
+- The category or item change affects a live customer menu during trading hours.
+- You are unsure whether the online price should differ from the in-store price.
+- The content includes compliance, allergen, or brand-copy requirements you do not control.

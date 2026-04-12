@@ -26,36 +26,45 @@ Open `Marketplace`.
 
 ### Categories
 
-1. **Features & Add-ons**: Native upgrades built by X1 (e.g., Kiosk mode, Customer Display screens, advanced discounting logic).
-2. **Payment Integrations**: Gateways that physically pair with the POS (e.g., Adyen, Stripe).
-3. **Third-Party Connections**: External links to platforms like Xero or Deliveroo.
+1. `Integration Partners`: partner connections such as accounting, loyalty, CRM, reservation, or inventory services.
+2. `Payment Methods`: online payment methods used by the storefront.
+3. `POS Payments`: POS-side payment vendors and gateway connections.
+4. `3rd Party Platforms`: delivery and integration platforms such as `Deliveroo`, `Foodpanda`, `Deliverect`, `HKIA`, `HongYip`, or `DongDong 動動板`.
 
 ### Related pages
 
 - [My Subscriptions](./my-subscriptions.md): manage products you already use.
 - [Billing](./billing-and-subscriptions.md): review plan and billing summary.
+- [3rd Party Platforms](../online-ordering/third-party-platforms.md): configure subscribed online-ordering platforms for one store.
 
 ## Steps
 
-To enable a module:
-1. Browse to the module card.
-2. Click **Subscribe**.
-3. Understand the billing implications (modules clearly demarcate if they are free or require an active SaaS uplift).
-4. Once subscribed, the new module UI will appear instantly in the HQ sidebar.
+1. Open `Marketplace`.
+2. Browse or search for the product you need.
+3. Confirm the product category matches your task.
+4. Select `Subscribe`.
+5. If the product later shows `Configure`, open that setup page.
+6. If you subscribed to a `3rd Party Platforms` product, continue in [General Settings](../online-ordering/general-settings.md) and [3rd Party Platforms](../online-ordering/third-party-platforms.md).
 
 ## What changes after you save
 
-Subscribing makes the product available for follow-up setup, but many products still require configuration in their own HQ section.
+Subscribing makes the product available for follow-up setup, but the next step depends on the product type.
+
+- some products expose `Configure` directly
+- some products are configured in another HQ section
+- `3rd Party Platforms` subscriptions unlock store-level setup inside `Online Ordering`
 
 ## How to check your change
 
 1. Confirm the subscription appears in [My Subscriptions](./my-subscriptions.md).
 2. Open the related setup page if the product requires configuration.
+3. If you subscribed to a platform, confirm it appears in `Online Ordering` -> `General Settings` -> `3rd Party Platforms`.
 
 ## If something goes wrong
 
 - Confirm you subscribed under the correct brand.
 - Check whether the product requires a separate configuration page after subscription.
+- If a platform does not appear in `3rd Party Platforms`, refresh the store page and re-check the active brand.
 
 ## When to ask owner/admin
 
