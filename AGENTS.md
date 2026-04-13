@@ -105,6 +105,11 @@ A page is done only when:
 3. Validate: `npm run build`
 4. Commit with clear scope in message (for example: `docs(client): add end-of-day flow`)
 
+## Public Repo Issue Workflow
+- When handling an issue that originates from a public repository, especially `caterlord/MobilePos-feedback`, refer to `MobilePos/public-repo-issue-workflow.md` before triage, labeling, mirroring, status updates, or close-out communication.
+- In this workspace, that workflow file is located in the sibling repository at `../MobilePos/public-repo-issue-workflow.md`.
+- Follow that workflow for product classification, private issue mirroring, public label management, status updates, PR linkage, and release communication.
+
 ## Guardrails for Agents
 - Do not invent product behavior that cannot be confirmed from source repos.
 - If a flow is uncertain, create a `TODO` note and ask maintainers to confirm.
