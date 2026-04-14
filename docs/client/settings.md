@@ -16,7 +16,7 @@ Managers/admin-level users maintaining terminal configuration.
 
 ## What this screen is for
 
-Use `Settings` to maintain terminal behavior, service mode, language/POS code, printing, integrations, and operation rules.
+Use `Settings` to maintain terminal behavior, service mode, language/POS code, day-end clearing controls, printing, integrations, and operation rules.
 
 ## Language configuration
 
@@ -35,7 +35,7 @@ If one source is blank for an item, POS falls back to the other available name.
 
 <Tabs>
   <TabItem value="general" label="General">
-Includes language configuration (`Item Mapping`, `Login Quick Switch`) and required codes (`POS Code`, `Cash Register Code`).
+Includes language configuration (`Item Mapping`, `Login Quick Switch`), required codes (`POS Code`, `Cash Register Code`), and `Clearing` controls such as `Local Transaction Retention (Days)`.
   </TabItem>
   <TabItem value="operation" label="Operation">
 Includes `Terminal` mode plus order/payment behavior toggles and service workflow controls.
@@ -180,6 +180,22 @@ If you need to adjust receipt font size for this section, open `Template` and re
 Advanced section toggles only apply when the matching parent section stays on.
 :::
 
+## Common local transaction retention task
+
+1. Tap `Settings` -> `General`.
+2. Scroll to `Clearing`.
+3. In `Local Transaction Retention (Days)`, enter how many days of closed workday transaction history this device should keep locally.
+4. Tap `Save`.
+5. After later day-end processing or scheduled cleanup, confirm recent transaction history still matches your store's expected local lookup window.
+
+:::note[What this setting changes]
+Only older closed workdays are removed from this device when they are outside the retention window. Open workdays and unclosed orders are not removed.
+:::
+
+:::warning[Retention is one-way on this device]
+If you increase `Local Transaction Retention (Days)` later, POS does not restore local history that was already removed. Full history remains available in the cloud according to your company policy.
+:::
+
 ## Integration and channel visibility behavior
 
 - In `Third Party Platform`, only enabled integrations are shown.
@@ -206,6 +222,7 @@ Advanced section toggles only apply when the matching parent section stays on.
 - `Printing` -> `Setting` includes `Auto Print Receipt`
 - `Printing` -> `Setting` includes `Show Order Contact On Receipt` and `Show Order Contact On Kitchen Output`
 - `Printing` -> `Template` receipt font settings include `Customer Contact`
+- `General` -> `Clearing` includes `Local Transaction Retention (Days)` and the warning text about older closed workdays being removed from this device
 - `Report` includes `Print Qty`, `Daily Report Sections`, and `Show advanced sections`
 - `Restore` action at the bottom of settings
 
@@ -223,6 +240,10 @@ Needed files: `client/cl-46-settings-operation-terminal-mode.png`, `client/cl-47
 
 :::note[Screenshot pending]
 Needed files: `client/cl-48-settings-print-auto-print-receipt.png`, `client/cl-49-settings-report-day-end-sections.png`
+:::
+
+:::note[Screenshot pending]
+Needed file: `client/cl-50-settings-general-clearing-local-transaction-retention.png`
 :::
 
 ## If something goes wrong

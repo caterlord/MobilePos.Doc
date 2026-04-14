@@ -28,13 +28,18 @@ Use this page when you need to answer:
 | Export/upload log list files (including startup diagnostics logs) | About 30 days for normal logs, about 10 days for uploaded-copy area | Cleanup runs when opening the log file selection flow | Open `Info` > `Export Logs` regularly and remove unneeded files |
 | Customer display media cache | No fixed auto-expiry | Replaced by newer files or removed manually | Clear old files during device maintenance if storage is tight |
 | Receipt logo cache | No fixed age-based expiry | Refreshes when settings/configuration change | No routine action unless branding changes or storage is constrained |
-| Local POS databases (orders/config/device data) | No general age-based auto purge | Data remains until business actions remove it, sync clears related queues, or device/shop data is reset | Follow business archive/reset process when decommissioning terminals |
+| Local closed-workday transaction history on this device | 1 to 90 days, based on `Settings` -> `General` -> `Clearing` -> `Local Transaction Retention (Days)` | Older closed workdays are removed from this device after day-end or scheduled cleanup once they are outside the retention window | Set the retention window to match how much recent local history your store needs. Increasing the value later does not restore already-removed local history |
+| Local current-workday, config, and device data | No general age-based auto purge | Data remains until business actions remove it, sync clears related queues, or device/shop data is reset | Follow business archive/reset process when decommissioning terminals |
 | Cloud support uploads (manual log uploads, crash-report uploads) | Retention depends on cloud policy | This user manual does not define a fixed cloud auto-delete timeline | Confirm your company policy with admin/IT |
 
 ## Important behavior to know
 
 :::warning[Cleanup is action-triggered for support logs]
 Some cleanup runs only when specific support actions are used (for example opening `Info` > `Export Logs`), not continuously in the background.
+:::
+
+:::note[Local transaction cleanup is device-only]
+`Local Transaction Retention (Days)` removes older closed workday transaction history from the current device only. Open workdays and unclosed orders are not removed, and full history remains available in the cloud according to your company policy.
 :::
 
 :::tip[Practical routine]

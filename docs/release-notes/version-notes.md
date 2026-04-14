@@ -7,6 +7,29 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-04-14 (v1.7.9 Alignment)
+
+### Updated
+
+- `Settings`: documented `General` -> `Clearing` -> `Local Transaction Retention (Days)` and the device-only cleanup behavior for older closed workdays.
+- `End of Day`: clarified that successful day-end can trigger local cleanup of older closed workday history based on the retention setting.
+- `Data Retention and Storage`: updated local database guidance to reflect device-side cleanup of closed workday transaction history.
+- `Function and Feature Map`: updated `Settings` scope for `Clearing` controls and `Local Transaction Retention (Days)`.
+
+### Screenshot updates
+
+- Added a pending capture for `General` -> `Clearing` showing `Local Transaction Retention (Days)`.
+
+### Reviewed
+
+- Checked the POS source diff from `v1.7.7` to `v1.7.9` and the published `RELEASE_NOTES_1.7.9.txt` for user-visible changes.
+- Confirmed the `v1.7.8` fixes for kitchen print naming, ODO link-button visibility, and KPay handling did not require new cashier/manager instructions in the current manual baseline.
+- Confirmed the `v1.7.9` disabled-modifier-group fix is a behavior correction only and does not add a new operator workflow.
+
+### Writing cleanup
+
+- Re-checked operational pages for stale version-specific callouts and kept release history in this page only.
+
 ## 2026-04-12 (HQ Marketplace and Channel Settings Review)
 
 ### Updated

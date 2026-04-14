@@ -51,6 +51,11 @@ The printed day-end report follows `Settings` -> `Report` -> `Daily Report Secti
 If a section is missing from the printout, check that setting before you run day-end again on a later business day.
 :::
 
+:::note[Local history cleanup after day-end]
+After a successful day-end, POS may also clean older closed workday transaction history from this device based on `Settings` -> `General` -> `Clearing` -> `Local Transaction Retention (Days)`.
+Open workdays and unclosed orders are not removed by this cleanup.
+:::
+
 ## What you should see
 
 ![More Tools page](/img/manual/en/client/cl-23-manager-tools-page.png)
