@@ -15,7 +15,7 @@ Admins who create automatic pricing logic that applies when cart conditions are 
 
 ## Open this page
 
-Open `Menu Management` -> `Promotions`.
+Open `POS Settings` -> `Promotions`.
 
 ## What this page controls
 
@@ -60,7 +60,7 @@ Use the rule editor to define:
 
 ## Steps
 
-1. Open `Menu Management` -> `Promotions`.
+1. Open `POS Settings` -> `Promotions`.
 2. Create a new promotion or open an existing one.
 3. Select the correct promotion type.
 4. Enter the basic values such as amount and priority.

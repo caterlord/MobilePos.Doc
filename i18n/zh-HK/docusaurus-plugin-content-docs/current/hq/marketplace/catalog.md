@@ -33,8 +33,8 @@ title: 市集
 
 ### 相關頁面
 
-- [我的訂閱](./my-subscriptions.md)：管理目前已在使用的產品。
-- [帳單](./billing-and-subscriptions.md)：查看方案與帳單摘要。
+- [我的訂閱](./my-subscriptions.md)：從同一側邊欄群組管理目前已在使用的產品。
+- [帳單](./billing-and-subscriptions.md)：從同一側邊欄群組查看方案與帳單狀態。
 - [3rd Party Platforms](../online-ordering/third-party-platforms.md)：為單一店舖設定已訂閱的網上點餐平台。
 
 ## 步驟

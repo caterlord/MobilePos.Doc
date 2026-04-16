@@ -15,7 +15,7 @@ title: 折扣
 
 ## 開啟此頁面
 
-開啟 `Menu Management` -> `Discounts`。
+開啟 `POS Settings` -> `Discounts`。
 
 ## 此頁控制內容
 
@@ -54,7 +54,7 @@ title: 折扣
 
 ## 步驟
 
-1. 開啟 `Menu Management` -> `Discounts`。
+1. 開啟 `POS Settings` -> `Discounts`。
 2. 新增折扣或開啟現有折扣。
 3. 選擇值型態。
 4. 選擇規則類型。

@@ -15,7 +15,7 @@ Owners, back-office admins, setup staff, and managers who maintain X1 HQ for one
 
 ## What this manual is for
 
-This section explains how to use the X1 HQ web portal to maintain store setup, POS behavior, menus, reports, online ordering, integrations, and marketplace subscriptions.
+This section explains how to use the X1 HQ web portal to maintain store setup, POS behavior, menus, reports, online ordering, integrations, marketplace subscriptions, and billing.
 
 Use this manual when you need to:
 
@@ -52,6 +52,7 @@ Use this section for shop-specific configuration such as `Info Settings`, `Workd
 ### POS Settings
 
 - [POS Settings Overview](./pos-settings/overview.md): manage checkout behavior, staff access, and POS financial setup.
+- [Promotions](./menu-catalog/promotions.md) and [Discounts](./menu-catalog/discounts.md): manage automatic and manual price reductions used by POS selling workflows.
 
 ### Menu & Catalog Management
 
@@ -69,11 +70,11 @@ Use this section for shop-specific configuration such as `Info Settings`, `Workd
 
 - [Integrations Overview](./integrations/overview.md): manage partner connections and related setup.
 
-### Marketplace
+### Marketplace & Billing
 
 - [Marketplace](./marketplace/catalog.md): browse optional features and integrations.
 - [My Subscriptions](./marketplace/my-subscriptions.md): manage active subscriptions.
-- [Billing](./marketplace/billing-and-subscriptions.md): review subscription summary and billing status.
+- [Billing](./marketplace/billing-and-subscriptions.md): review the current plan, billing method, and invoice status.
 
 ## Recommended reading order for new HQ admins
 

@@ -33,8 +33,8 @@ Open `Marketplace`.
 
 ### Related pages
 
-- [My Subscriptions](./my-subscriptions.md): manage products you already use.
-- [Billing](./billing-and-subscriptions.md): review plan and billing summary.
+- [My Subscriptions](./my-subscriptions.md): manage products you already use from the top-level sidebar item.
+- [Billing](./billing-and-subscriptions.md): review plan and billing status from the top-level sidebar item.
 - [3rd Party Platforms](../online-ordering/third-party-platforms.md): configure subscribed online-ordering platforms for one store.
 
 ## Steps

@@ -13,7 +13,7 @@ title: 我的訂閱
 
 ## 開啟此頁面
 
-開啟 `Marketplace` -> `My Subscriptions`。
+開啟 `My Subscriptions`。
 
 ## 本頁用途
 
@@ -49,7 +49,7 @@ title: 我的訂閱
 
 ## 步驟
 
-1. 開啟 `Marketplace` -> `My Subscriptions`。
+1. 開啟 `My Subscriptions`。
 2. 查看頁面上方摘要。
 3. 找到要管理的訂閱。
 4. 如果產品有設定頁，選擇 `Configure`。

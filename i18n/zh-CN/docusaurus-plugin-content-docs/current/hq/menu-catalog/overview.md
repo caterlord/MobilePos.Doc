@@ -3,7 +3,7 @@ title: 菜单管理总览
 ---
 
 :::info[适用对象]
-负责建立和维护可售商品、菜单结构、定价逻辑，以及收银端目录行为的管理员。
+负责建立和维护可售商品、菜单结构，以及收银端目录行为的管理员。
 :::
 
 ## 开始前
@@ -23,7 +23,6 @@ title: 菜单管理总览
 - POS 菜单
 - 加购项
 - 套餐群组
-- 促销和折扣
 - 界面上使用的按钮样式
 
 ## 如何使用本节
@@ -37,15 +36,15 @@ title: 菜单管理总览
 5. [加购项](./modifiers.md)：定义加购或选项群组。
 6. [套餐群组](./meal-sets.md)：建立组合餐选择群组。
 7. [POS 菜单](./pos-menus.md)：决定哪些分类会一起显示在某个菜单里。
-8. [促销](./promotions.md) 和 [折扣](./discounts.md)：定义自动或手动的价格减免。
+8. 如需自动或手动价格减免，请从 `POS Settings` 使用 [促销](./promotions.md) 和 [折扣](./discounts.md)。
 
 ## 常见工作
 
 - 建立新的可售商品：先从 [菜单项目](./menu-items.md) 开始。
 - 更改收银员浏览商品的方式：检查 [分类](./categories.md)、[智能分类](./smart-categories.md) 和 [POS 菜单](./pos-menus.md)。
 - 加入组合选项：使用 [套餐群组](./meal-sets.md) 搭配 [菜单项目](./menu-items.md)。
-- 加入手动折扣规则：使用 [折扣](./discounts.md)。
-- 加入自动购物篮逻辑：使用 [促销](./promotions.md)。
+- 加入手动折扣规则：打开 `POS Settings` -> `Discounts`。
+- 加入自动购物篮逻辑：打开 `POS Settings` -> `Promotions`。
 
 ## 保存后的影响
 

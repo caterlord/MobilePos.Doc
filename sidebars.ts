@@ -145,6 +145,8 @@ const sidebars: SidebarsConfig = {
             'hq/pos-settings/pos-users',
             'hq/pos-settings/departments',
             'hq/pos-settings/function-reasons',
+            'hq/menu-catalog/promotions',
+            'hq/menu-catalog/discounts',
           ],
         },
       ],
@@ -159,8 +161,6 @@ const sidebars: SidebarsConfig = {
         'hq/menu-catalog/smart-categories',
         'hq/menu-catalog/pos-menus',
         'hq/menu-catalog/modifiers',
-        'hq/menu-catalog/promotions',
-        'hq/menu-catalog/discounts',
         'hq/menu-catalog/meal-sets',
         'hq/menu-catalog/button-styles',
       ],
@@ -198,7 +198,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Marketplace',
+      label: 'Marketplace & Billing',
       items: [
         'hq/marketplace/catalog',
         'hq/marketplace/my-subscriptions',
