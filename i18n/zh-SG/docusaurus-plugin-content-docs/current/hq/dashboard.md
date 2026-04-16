@@ -32,7 +32,7 @@ title: 仪表板
 
 使用仪表板来决定下一步要去哪个章节：
 
-- 到 [组织管理](./organization.md) 处理 HQ 成员和公司层级设定
+- 到 [工作区管理](./organization.md) 处理工作区成员、业务结构和 HQ 业务存取权限
 - 到 [店铺设定总览](./store-settings/overview.md) 处理店铺专属设定
 - 到 [POS 设定总览](./pos-settings/overview.md) 处理 POS 行为与付款设定
 - 到 [菜单管理总览](./menu-catalog/overview.md) 处理项目与菜单维护

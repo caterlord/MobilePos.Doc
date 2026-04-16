@@ -65,7 +65,7 @@ const hasAlgoliaDocSearch =
   Boolean(algoliaApiKey) &&
   Boolean(algoliaIndexName);
 const tlumaConfig = {
-  source: 'caterlord/mobilepos.doc',
+  source: 'caterlord/x1.doc',
   theme: 'auto',
   brandColor: 'blue',
   button: 'bottom-right',
@@ -156,7 +156,7 @@ const config: Config = {
   baseUrl: siteBaseUrl,
 
   organizationName: 'caterlord',
-  projectName: 'MobilePos.Doc',
+  projectName: 'X1.Doc',
 
   onBrokenLinks: 'throw',
   markdown: {
@@ -198,7 +198,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/caterlord/MobilePos.Doc/tree/main/',
+          editUrl: 'https://github.com/caterlord/X1.Doc/tree/main/',
           routeBasePath: docsRouteBasePath,
         },
         blog: false,
@@ -315,7 +315,7 @@ const config: Config = {
             },
             {
               label: 'Docs Repository',
-              to: 'https://github.com/caterlord/MobilePos.Doc',
+              to: 'https://github.com/caterlord/X1.Doc',
             },
           ],
         },

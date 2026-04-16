@@ -62,21 +62,21 @@ Typical examples:
 
 使用者-specific 設定 套用 僅 到 one HQ account or one POS 使用者 記錄.
 
-Typical examples:
+常見例子：
 
-- 個人檔案 設定
-- account security 設定
-- HQ member 存取
-- POS 使用者 登入 方式
+- 個人檔案設定
+- 帳戶安全設定
+- HQ 工作區成員及業務存取權
+- POS 使用者登入方式
 
-## How 這 affects 您的 work
+## 這會如何影響你的工作
 
-之前 您 儲存 any 變更, answer these questions:
+在儲存任何變更前，先回答以下問題：
 
-1. Am I editing a shared 記錄 or a single 店舖?
-2. 如果 the 記錄 是 shared, does it still 需要 shop-level enabling?
-3. 執行 I 需要 verify the 結果 於 POS, HQ, 網上點餐, or all three?
-4. Will 這 affect live service 如果 I 儲存 it 現在?
+1. 我現在編輯的是共用記錄，還是單一店舖記錄？
+2. 如果這是共用記錄，之後是否仍需要在店舖層級啟用？
+3. 我是否需要在 POS、HQ、網上點餐，還是三者都驗證結果？
+4. 如果我現在儲存，會否影響現場營運？
 
 ## 相關任務
 
@@ -88,6 +88,6 @@ Typical examples:
 
 ## 何時要請店主／管理員協助
 
-- 您 無法 tell whether the 設定 是 shared or shop-specific.
-- The same setup 記錄 是 used 以 multiple shops.
-- The 變更 affects pricing, tax, 付款, or 客戶-facing 菜單.
+- 你未能判斷該設定是共用還是店舖專用。
+- 同一項設定記錄會被多間店舖使用。
+- 變更會影響定價、稅項、付款或客戶可見菜單。

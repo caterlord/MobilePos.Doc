@@ -41,7 +41,7 @@ title: HQ 用户手册
 
 - [仪表板](./dashboard.md)：了解首页内容，以及下一步该去哪里。
 - [账户与个人档案](./account-and-profile.md)：管理自己的登录与安全设置。
-- [组织管理](./organization.md)：管理 HQ 成员、角色和业务层级资料。
+- [工作区管理](./organization.md)：管理工作区成员、业务结构和 HQ 业务访问权限。
 
 ### 门店设置
 

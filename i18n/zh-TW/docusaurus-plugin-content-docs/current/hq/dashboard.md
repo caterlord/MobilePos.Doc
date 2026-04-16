@@ -9,7 +9,7 @@ title: 儀表板
 
 ## 開始前
 
-- 登入 於 到 the 正確 organization or 品牌.
+- 登入正確的工作區及品牌。
 - Decide whether 您 是 checking 狀態 僅 or trying 到 find the 下一頁 setup 頁面.
 
 ## 開啟此頁面
@@ -32,13 +32,13 @@ title: 儀表板
 
 使用 the dashboard 到 decide which 區塊 您 需要 下一頁:
 
-- 前往 到 [組織管理](./organization.md) 供 HQ members 及 business-level setup
+- 前往 [工作區管理](./organization.md) 管理工作區成員、業務架構及 HQ 業務存取權
 - 前往 到 [店舖設定 總覽](./store-settings/overview.md) 供 shop-specific setup
 - 前往 到 [POS 設定 總覽](./pos-settings/overview.md) 供 POS 行為 及 付款 setup
 - 前往 到 [菜單與目錄 總覽](./menu-catalog/overview.md) 供 品項 及 菜單 maintenance
 - 前往 到 [報表 總覽](./reports/overview.md) 供 analytics
 
-到 更新 您的 own personal 登入 詳細資料 or switch between different companies/organizations, click 您的 個人檔案 avatar 於 the navigation bar.
+如要更新你自己的登入資料，請按導覽列中的個人檔案頭像。如要切換工作區或品牌，請使用左上角的選擇器。
 
 ## 儲存後的影響
 
@@ -46,10 +46,10 @@ The dashboard 是 mainly a monitoring 及 navigation 頁面. 使用 it 到 locat
 
 ## 如發生問題
 
-- 確認 您 是 於 the 正確 organization or 品牌.
+- 確認你位於正確的工作區及品牌。
 - 如果 the numbers look 錯誤, 開啟 the 相關 報表 or setup 區塊 之前 editing anything.
 
 ## 何時要請店主／管理員協助
 
-- 您 無法 find the 正確 品牌 or organization.
+- 你找不到正確的工作區或品牌。
 - The dashboard shows unexpected 店舖 狀態 or metrics 及 您 執行 not know which 區塊 owns the issue.

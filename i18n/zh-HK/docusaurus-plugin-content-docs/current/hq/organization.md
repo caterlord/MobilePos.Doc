@@ -1,71 +1,133 @@
 ---
 sidebar_position: 3
-title: 組織管理
+title: 工作區管理
 ---
 
-# 組織管理
+# 工作區管理
 
 :::info[適用對象]
-需要邀請新的後勤同事使用 HQ，或設定公司層級資料的品牌擁有人及總經理。
+需要維護 HQ 業務架構，或為後勤同事分配公司、品牌及店舖存取權的工作區管理員、店主及經理。
 :::
 
 ## 開始前
 
-- 確認你目前位於正確的組織。
-- 先分清楚你要修改的是公司資料、HQ 成員權限，還是付款／帳單資料。
+- 確認左上角工作區及品牌選擇器顯示正確的工作區。
+- 先分清楚你要更新業務架構、邀請工作區成員，還是分配 HQ 業務存取權。
+- 發出邀請前，先準備好成員的電郵地址。
+- 確認對方應該存取哪一個 `Company`、`Brand` 或 `Shop`，以及應取得甚麼角色。
 
 ## 開啟此頁面
 
-開啟 `Organization Management`。
+開啟左上角的工作區及品牌選擇器，然後選擇 `Workspace Administration`。
 
 ## 本頁控制內容
 
-`Organization Management` 是 HQ 內管理公司層級資料的主要區域。一個組織可包含多間店舖或分店。
+`Workspace Administration` 用於管理目前工作區內的業務架構及 HQ 存取規則。
 
-![組織管理](/img/manual/en/hq/organization.png)
+它控制：
 
-## 主要分區
+- `Companies`
+- `Brands`
+- `Shops`
+- `Business Access`
 
-### 一般設定
+它不會建立 POS 終端機的收銀員登入。如要建立收銀員帳戶，請使用 [POS 使用者](./pos-settings/pos-users.md)。
 
-在這裡更新公司層級資料，例如正式公司名稱及商業登記資料。
+![工作區管理的業務存取頁面](/img/hq/workspace-administration-business-access.png)
 
-### 成員與角色
+_`Business Access` 會顯示工作區成員、待處理邀請，以及他們的公司、品牌及店舖分配。_
 
-你可以在這裡邀請新團隊成員使用 HQ 後台。
+## 主要分頁
 
-:::note[POS 使用者與 HQ 成員的分別]
-在這裡邀請成員，是給對方使用 **HQ 網頁後台**。
-如果你只是想為新收銀員建立店內終端登入，請改到 **POS 設定 -> POS 使用者**。
-:::
+### Companies
 
-### 邀請員工
+使用 `Companies` 建立或維護最高層級的業務架構。一間公司可以包含一個或多個品牌。
 
-1. 按 `Invite member`。
-2. 輸入新經理或後勤同事的電郵地址。
-3. 選擇對方的角色，例如 Admin 或 Viewer。
-4. 對方會收到一封電郵邀請，可按指示登入 HQ。
+### Brands
 
-### 帳單
+使用 `Brands` 在公司之下建立或維護品牌。品牌是很多 HQ 設定頁面使用的主要範圍。
 
-如果你直接處理帳單，可在這裡管理付款方式，並查看 X1 軟件訂閱的歷史發票。
+### Shops
+
+使用 `Shops` 在品牌之下建立或維護店舖記錄。店舖記錄會用於店舖設定、POS 設定、報表及網上點餐。
+
+### Business Access
+
+使用 `Business Access` 檢查工作區成員、待處理邀請，以及每個人的 HQ 業務存取權。
+
+此分頁把兩件事分開處理：
+
+- 工作區成員資格：對方是否屬於此工作區
+- HQ 業務存取權：對方可以在 HQ 內操作哪一間公司、品牌或店舖
+
+## 主要操作
+
+### 建立公司、品牌或店舖
+
+1. 選擇 `Companies`、`Brands` 或 `Shops`。
+2. 按 `Add New`。
+3. 輸入必填的 `Name`。
+4. 如果 HQ 要求，選擇上層 `Company` 或 `Brand`。
+5. 如有需要，輸入選填的 `Description` 或 `Address`。
+6. 儲存記錄。
+
+### 邀請工作區成員並分配存取權
+
+1. 選擇 `Business Access`。
+2. 按 `Invite member`。
+3. 輸入對方的 `Email`。
+4. 按 `Send Invitation`。
+5. 找到標記為 `Pending invitation` 的新列。
+6. 按 `Assign access`。
+7. 選擇 `Access level`。
+8. 選擇 `Target`。
+9. 選擇 `Role`。
+10. 按 `Grant access`。
+11. 如果對方需要多個公司、品牌或店舖的存取權，重複分配。
+
+### 為現有工作區成員分配存取權
+
+1. 選擇 `Business Access`。
+2. 在 `User` 欄找到該成員。
+3. 按 `Assign access`。
+4. 選擇 `Access level`、`Target` 及 `Role`。
+5. 按 `Grant access`。
+
+### 移除直接業務存取權
+
+1. 選擇 `Business Access`。
+2. 找到該成員或待處理邀請。
+3. 找到要移除的公司、品牌或店舖分配。
+4. 按該分配旁的 `Remove`。
+
+如果分配標記為 `Inherited`，請改為移除產生該權限的上層分配。
 
 ## 儲存後的影響
 
-這裡的變更會影響 HQ 管理設定，不會直接更改 POS 上收銀員的登入。
+- `Companies`、`Brands` 及 `Shops` 的變更會影響目前工作區的業務架構。
+- `Business Access` 的變更會影響該成員在 HQ 內可以查看或管理的範圍。
+- 加到 `Pending invitation` 的分配，會在受邀人接受邀請並登入後套用。
+- 這些變更不會建立或更改 POS 收銀員登入。
 
 ## 如何檢查你的變更
 
-1. 儲存後，確認更新後的公司資料已正確顯示。
-2. 如果你邀請了新成員，請確認新成員記錄或邀請已出現在清單中。
-3. 如果變更涉及訂閱或帳單，亦請一併檢查相關的 [市集](./marketplace/catalog.md) 頁面。
+1. 確認新增或更新後的公司、品牌或店舖出現在正確分頁。
+2. 選擇 `Business Access`。
+3. 確認成員、待處理邀請或分配已出現在表格。
+4. 檢查 `Workspace Members`、`Pending Invitations`、`Company Assignments`、`Brand Assignments` 及 `Shop Assignments` 摘要卡。
+5. 請該成員登入，確認他們只看到預期的品牌或店舖。
 
 ## 如發生問題
 
-- 確認你正在修改的是 HQ 成員存取權，而不是 [POS 使用者](./pos-settings/pos-users.md)。
-- 檢查問題是屬於組織設定，還是屬於市集訂閱管理。
+- 如果出現 `Sign-in required`，請受邀人先登入 HQ 一次，然後再為其有效帳戶分配存取權。
+- 如果出現 `No assignable access`，你的帳戶可能沒有權限為該公司、品牌或店舖分配存取權。
+- 如果成員看到太多或太少內容，檢查其存取權是在 `Company`、`Brand` 還是 `Shop` 層級分配。
+- 如果分配是繼承而來，請移除產生該權限的上層分配。
+- 如果你需要 POS 終端機的收銀員登入，請改到 [POS 使用者](./pos-settings/pos-users.md)。
 
 ## 何時要請店主／管理員協助
 
-- 變更會影響組織擁有權、帳單或其他管理員的存取權。
-- 你未能判斷某位同事應該建立為 HQ 成員，還是 POS 使用者。
+- 你未能確認應修改哪個工作區、公司、品牌或店舖。
+- 你需要為其他經理授予或移除管理員層級存取權。
+- 你需要刪除或停用公司、品牌或店舖。
+- 存取權變更會影響即時設定、付款、報表或客戶可見渠道。

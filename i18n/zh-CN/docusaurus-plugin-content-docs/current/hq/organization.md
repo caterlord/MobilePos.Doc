@@ -1,71 +1,133 @@
 ---
 sidebar_position: 3
-title: 组织管理
+title: 工作区管理
 ---
 
-# 组织管理
+# 工作区管理
 
 :::info[适用对象]
-需要邀请新的后台员工使用 HQ，或配置公司层级资料的品牌老板和总经理。
+需要维护 HQ 业务结构，或为后台员工分配公司、品牌和门店访问权限的工作区管理员、老板和经理。
 :::
 
 ## 开始前
 
-- 确认您当前位于正确的组织。
-- 先分清楚这次要修改的是公司资料、HQ 成员权限，还是账单资料。
+- 确认左上角工作区和品牌选择器显示的是正确工作区。
+- 先分清楚这次要更新业务结构、邀请工作区成员，还是分配 HQ 业务访问权限。
+- 发送邀请前，先准备好成员的邮箱地址。
+- 确认对方应该访问哪个 `Company`、`Brand` 或 `Shop`，以及应该获得什么角色。
 
 ## 打开此页面
 
-打开 `Organization Management`。
+打开左上角的工作区和品牌选择器，然后选择 `Workspace Administration`。
 
 ## 本页控制内容
 
-`Organization Management` 是 HQ 中管理公司层级资料的主要区域。一个组织可以包含多家门店或分店。
+`Workspace Administration` 用于管理当前工作区内的业务结构和 HQ 访问规则。
 
-![组织管理](/img/manual/en/hq/organization.png)
+它控制：
 
-## 主要分区
+- `Companies`
+- `Brands`
+- `Shops`
+- `Business Access`
 
-### 常规设置
+它不会创建 POS 终端机的收银员登录。如需创建收银员账号，请使用 [POS Users](./pos-settings/pos-users.md)。
 
-在这里更新公司层级资料，例如正式公司名称和工商登记资料。
+![工作区管理的业务访问页面](/img/hq/workspace-administration-business-access.png)
 
-### 成员与角色
+_`Business Access` 会显示工作区成员、待处理邀请，以及他们的公司、品牌和门店分配。_
 
-您可以在这里邀请新的团队成员使用 HQ 后台。
+## 主要分页
 
-:::note[POS 用户与 HQ 成员的区别]
-在这里邀请成员，是给对方使用 **HQ 网页后台**。
-如果您只是想为新收银员创建门店终端登录，请前往 **POS 设置 -> POS Users**。
-:::
+### Companies
 
-### 邀请员工
+使用 `Companies` 创建或维护最高层级的业务结构。一家公司可以包含一个或多个品牌。
 
-1. 点击 `Invite member`。
-2. 输入新经理或后台员工的邮箱地址。
-3. 选择对方的角色，例如 Admin 或 Viewer。
-4. 对方会收到一封邀请邮件，可按指示登录 HQ。
+### Brands
 
-### 账单
+使用 `Brands` 在公司之下创建或维护品牌。品牌是很多 HQ 设置页面使用的主要范围。
 
-如果您直接负责账单，可在这里管理付款方式，并查看 X1 软件订阅的历史发票。
+### Shops
+
+使用 `Shops` 在品牌之下创建或维护门店记录。门店记录会用于门店设置、POS 设置、报表和线上点餐。
+
+### Business Access
+
+使用 `Business Access` 查看工作区成员、待处理邀请，以及每个人的 HQ 业务访问权限。
+
+此分页把两件事分开处理：
+
+- 工作区成员资格：对方是否属于此工作区
+- HQ 业务访问权限：对方可以在 HQ 中操作哪家公司、品牌或门店
+
+## 主要操作
+
+### 创建公司、品牌或门店
+
+1. 选择 `Companies`、`Brands` 或 `Shops`。
+2. 点击 `Add New`。
+3. 输入必填的 `Name`。
+4. 如果 HQ 要求，选择上级 `Company` 或 `Brand`。
+5. 如有需要，输入选填的 `Description` 或 `Address`。
+6. 保存记录。
+
+### 邀请工作区成员并分配访问权限
+
+1. 选择 `Business Access`。
+2. 点击 `Invite member`。
+3. 输入对方的 `Email`。
+4. 点击 `Send Invitation`。
+5. 找到标记为 `Pending invitation` 的新行。
+6. 点击 `Assign access`。
+7. 选择 `Access level`。
+8. 选择 `Target`。
+9. 选择 `Role`。
+10. 点击 `Grant access`。
+11. 如果对方需要多个公司、品牌或门店的访问权限，重复分配。
+
+### 为现有工作区成员分配访问权限
+
+1. 选择 `Business Access`。
+2. 在 `User` 列找到该成员。
+3. 点击 `Assign access`。
+4. 选择 `Access level`、`Target` 和 `Role`。
+5. 点击 `Grant access`。
+
+### 移除直接业务访问权限
+
+1. 选择 `Business Access`。
+2. 找到该成员或待处理邀请。
+3. 找到要移除的公司、品牌或门店分配。
+4. 点击该分配旁的 `Remove`。
+
+如果分配标记为 `Inherited`，请改为移除产生该权限的上级分配。
 
 ## 保存后的影响
 
-这里的变更会影响 HQ 管理设置，不会直接影响 POS 上的收银员登录。
+- `Companies`、`Brands` 和 `Shops` 的更改会影响当前工作区的业务结构。
+- `Business Access` 的更改会影响该成员在 HQ 中可以查看或管理的范围。
+- 加到 `Pending invitation` 的分配，会在受邀人接受邀请并登录后生效。
+- 这些更改不会创建或更改 POS 收银员登录。
 
 ## 如何检查您的更改
 
-1. 保存后，确认更新后的公司资料已经正确显示。
-2. 如果您邀请了新成员，请确认新成员记录或邀请已经出现在列表中。
-3. 如果变更涉及订阅或账单，也请一并查看相关的 [市集](./marketplace/catalog.md) 页面。
+1. 确认新增或更新后的公司、品牌或门店出现在正确分页。
+2. 选择 `Business Access`。
+3. 确认成员、待处理邀请或分配已经出现在表格。
+4. 检查 `Workspace Members`、`Pending Invitations`、`Company Assignments`、`Brand Assignments` 和 `Shop Assignments` 摘要卡。
+5. 请该成员登录，确认他们只能看到预期的品牌或门店。
 
 ## 如果出现问题
 
-- 确认您修改的是 HQ 成员访问权限，而不是 [POS Users](./pos-settings/pos-users.md)。
-- 检查问题属于组织设置，还是属于市集订阅管理。
+- 如果出现 `Sign-in required`，请受邀人先登录 HQ 一次，然后再为其有效账号分配访问权限。
+- 如果出现 `No assignable access`，您的账号可能没有权限为该公司、品牌或门店分配访问权限。
+- 如果成员看到太多或太少内容，检查其访问权限是在 `Company`、`Brand` 还是 `Shop` 层级分配。
+- 如果分配是继承而来，请移除产生该权限的上级分配。
+- 如果您需要 POS 终端机的收银员登录，请改到 [POS Users](./pos-settings/pos-users.md)。
 
 ## 何时需要找老板／管理员
 
-- 变更会影响组织所有权、账单或其他管理员的访问权限。
-- 您无法判断某位同事应该建立为 HQ 成员，还是 POS 用户。
+- 您无法确认应该修改哪个工作区、公司、品牌或门店。
+- 您需要为其他经理授予或移除管理员层级访问权限。
+- 您需要删除或停用公司、品牌或门店。
+- 访问权限更改会影响实时设置、付款、报表或客户可见渠道。

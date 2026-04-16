@@ -32,7 +32,7 @@ title: 儀表板
 
 使用儀表板判斷你下一步要進入哪個區塊：
 
-- 前往 [組織管理](./organization.md) 管理 HQ 成員及公司層級設定
+- 前往 [工作區管理](./organization.md) 管理工作區成員、業務架構及 HQ 業務存取權
 - 前往 [店舖設定總覽](./store-settings/overview.md) 處理個別店舖設定
 - 前往 [POS 設定總覽](./pos-settings/overview.md) 處理 POS 行為及付款設定
 - 前往 [菜單與目錄總覽](./menu-catalog/overview.md) 維護品項及菜單
