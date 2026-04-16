@@ -3,7 +3,7 @@ title: 菜單管理總覽
 ---
 
 :::info[適用對象]
-負責建立及維護可售項目、菜單結構、定價邏輯，以及收銀端目錄行為的管理員。
+負責建立及維護可售項目、菜單結構，以及收銀端目錄行為的管理員。
 :::
 
 ## 開始前
@@ -23,7 +23,6 @@ title: 菜單管理總覽
 - POS 菜單
 - 改碼組別
 - 套餐群組
-- 推廣活動與折扣
 - 介面中使用的按鈕樣式
 
 ## 如何使用本節
@@ -37,15 +36,15 @@ title: 菜單管理總覽
 5. [改碼組別](./modifiers.md)：定義加購或選擇群組。
 6. [套餐群組](./meal-sets.md)：建立套餐式選擇群組。
 7. [POS 菜單](./pos-menus.md)：決定哪些分類會一起出現在同一個菜單中。
-8. [推廣活動](./promotions.md) 與 [折扣](./discounts.md)：定義自動或手動的價格調整。
+8. 如需自動或手動價格調整，請從 `POS Settings` 使用 [推廣活動](./promotions.md) 與 [折扣](./discounts.md)。
 
 ## 常見工作
 
 - 建立新的可售項目：從 [菜單項目](./menu-items.md) 開始。
 - 變更收銀員瀏覽商品的方式：檢視 [菜單分類](./categories.md)、[智能分類](./smart-categories.md) 與 [POS 菜單](./pos-menus.md)。
 - 加入套餐選項：搭配 [菜單項目](./menu-items.md) 使用 [套餐群組](./meal-sets.md)。
-- 新增手動折扣規則：使用 [折扣](./discounts.md)。
-- 新增自動購物車邏輯：使用 [推廣活動](./promotions.md)。
+- 新增手動折扣規則：開啟 `POS Settings` -> `Discounts`。
+- 新增自動購物車邏輯：開啟 `POS Settings` -> `Promotions`。
 
 ## 儲存後的影響
 

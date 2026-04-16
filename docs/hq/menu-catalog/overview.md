@@ -3,7 +3,7 @@ title: Menu & Catalog Overview
 ---
 
 :::info[Who this is for]
-Admins who create and maintain sellable items, menu structure, pricing logic, and cashier-facing catalog behavior.
+Admins who create and maintain sellable items, menu structure, and cashier-facing catalog behavior.
 :::
 
 ## Before you start
@@ -23,7 +23,6 @@ Use this section to manage:
 - POS menus
 - modifiers
 - meal sets
-- promotions and discounts
 - button styles used in the interface
 
 ## How to use this section
@@ -37,15 +36,15 @@ Use the pages in this section in a logical setup order:
 5. [Modifiers](./modifiers.md): define add-on or selection groups.
 6. [Meal Sets](./meal-sets.md): create combo-style selection groups.
 7. [POS Menus](./pos-menus.md): decide which categories appear together in a menu.
-8. [Promotions](./promotions.md) and [Discounts](./discounts.md): define automatic or manual price reductions.
+8. Use [Promotions](./promotions.md) and [Discounts](./discounts.md) from `POS Settings` when you need automatic or manual price reductions.
 
 ## Common tasks
 
 - Create a new sellable item: start with [Menu Items](./menu-items.md).
 - Change how cashiers browse products: review [Categories](./categories.md), [Smart Categories](./smart-categories.md), and [POS Menus](./pos-menus.md).
 - Add combo choices: use [Meal Sets](./meal-sets.md) with [Menu Items](./menu-items.md).
-- Add manual markdown rules: use [Discounts](./discounts.md).
-- Add automatic cart logic: use [Promotions](./promotions.md).
+- Add manual markdown rules: open `POS Settings` -> `Discounts`.
+- Add automatic cart logic: open `POS Settings` -> `Promotions`.
 
 ## What changes after you save
 

@@ -15,7 +15,7 @@ Admins who create manual markdown options for cashier or manager use on the POS.
 
 ## Open this page
 
-Open `Menu Management` -> `Discounts`.
+Open `POS Settings` -> `Discounts`.
 
 ## What this page controls
 
@@ -54,7 +54,7 @@ As with promotions, the shell record is only part of the setup. Use the rule edi
 
 ## Steps
 
-1. Open `Menu Management` -> `Discounts`.
+1. Open `POS Settings` -> `Discounts`.
 2. Create a new discount or open an existing one.
 3. Choose the value type.
 4. Choose the rule type.

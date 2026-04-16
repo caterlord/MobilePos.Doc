@@ -15,7 +15,7 @@ title: HQ 使用手冊
 
 ## 本手冊用途
 
-本節說明如何使用 X1 HQ 網頁後台維護店舖設定、POS 行為、菜單、報表、網上點餐、整合功能及市集訂閱。
+本節說明如何使用 X1 HQ 網頁後台維護店舖設定、POS 行為、菜單、報表、網上點餐、整合功能、市集訂閱及帳單。
 
 當你需要以下工作時，請使用本手冊：
 
@@ -52,6 +52,7 @@ title: HQ 使用手冊
 ### POS 設定
 
 - [POS 設定總覽](./pos-settings/overview.md)：管理結帳行為、員工存取權限及 POS 財務設定。
+- [推廣活動](./menu-catalog/promotions.md) 與 [折扣](./menu-catalog/discounts.md)：管理 POS 銷售流程使用的自動及手動價格調整。
 
 ### 菜單與目錄管理
 
@@ -69,11 +70,11 @@ title: HQ 使用手冊
 
 - [Integrations 總覽](./integrations/overview.md)：管理合作夥伴連接及相關設定。
 
-### 市集
+### 市集與帳單
 
 - [市集](./marketplace/catalog.md)：瀏覽可選功能與整合。
 - [My Subscriptions](./marketplace/my-subscriptions.md)：管理已啟用的訂閱。
-- [Billing](./marketplace/billing-and-subscriptions.md)：查看訂閱摘要與收費狀態。
+- [Billing](./marketplace/billing-and-subscriptions.md)：查看目前方案、帳單方式及發票狀態。
 
 ## 新任 HQ 管理員建議閱讀順序
 

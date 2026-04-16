@@ -13,7 +13,7 @@ Admins who review or manage the active marketplace subscriptions for the selecte
 
 ## Open this page
 
-Open `Marketplace` -> `My Subscriptions`.
+Open `My Subscriptions`.
 
 ## What this page is for
 
@@ -49,7 +49,7 @@ Depending on the product, the page can show actions such as:
 
 ## Steps
 
-1. Open `Marketplace` -> `My Subscriptions`.
+1. Open `My Subscriptions`.
 2. Review the summary at the top of the page.
 3. Find the subscription you want to manage.
 4. Select `Configure` if the product exposes a configuration page.

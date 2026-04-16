@@ -4,7 +4,7 @@ title: Billing
 ---
 
 :::info[Who this is for]
-Owners, finance staff, or admins who review marketplace plan and billing status.
+Owners, finance staff, or admins who review plan and billing status.
 :::
 
 ## Before you start
@@ -14,13 +14,13 @@ Owners, finance staff, or admins who review marketplace plan and billing status.
 
 ## Open this page
 
-Open `Marketplace` -> `Billing`.
+Open `Billing`.
 
 ## What this page is for
 
 ![Marketplace Billing](/img/hq/marketplace/marketplace_billing_page.png)
 
-`Billing` shows the current marketplace plan summary, subscription count, monthly cost summary, and invoice history status.
+`Billing` shows the current plan, active subscription count, billing method, and invoice history status.
 
 ## Main sections
 
@@ -30,17 +30,21 @@ Use the summary cards to review:
 
 - current plan
 - active subscriptions
-- monthly cost
+- billing method
 
 ### Invoice history
 
-You can download monthly PDFs of your HQ software licensing costs. This is useful for reconciliation.
+If your account is billed through X1 online billing, use this section to review or download available invoice records.
 
-### Promotional period
+If your account is handled by an offline contract, HQ may show no online invoices because pricing and payment terms are managed outside the portal.
 
-The current HQ implementation may show a promotional billing message when marketplace features are still free during the active period.
+### Contract billing
 
-## Related page
+Some brands use a custom offline contract. In that case, `Billing` shows `Custom Contract` and `Offline Contract` instead of a public monthly price.
+
+This does not mean the plan is free or promotional. It means the price and payment method are agreed outside HQ and are not charged through online auto-recurring billing.
+
+## Related pages
 
 Use [My Subscriptions](./my-subscriptions.md) to manage active products directly.
 
@@ -52,6 +56,7 @@ This page is mainly for review. Subscription management usually happens through 
 
 - Confirm you are checking the correct brand.
 - Confirm whether the issue belongs to subscription management rather than billing display.
+- If the contract terms or price are unclear, check the offline agreement or ask the account owner.
 
 ## When to ask owner/admin
 

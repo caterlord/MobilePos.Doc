@@ -15,7 +15,7 @@ title: 推廣活動
 
 ## 開啟此頁面
 
-開啟 `Menu Management` -> `Promotions`。
+開啟 `POS Settings` -> `Promotions`。
 
 ## 此頁控制內容
 
@@ -62,7 +62,7 @@ title: 推廣活動
 
 ## 步驟
 
-1. 開啟 `Menu Management` -> `Promotions`。
+1. 開啟 `POS Settings` -> `Promotions`。
 2. 新增推廣活動或開啟現有活動。
 3. 選擇正確的推廣類型。
 4. 輸入基本值，例如金額與優先順序。

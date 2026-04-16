@@ -15,7 +15,7 @@ title: 促销
 
 ## 打开此页面
 
-打开 `Menu Management` -> `Promotions`。
+打开 `POS Settings` -> `Promotions`。
 
 ## 本页控制内容
 
@@ -62,7 +62,7 @@ title: 促销
 
 ## 步骤
 
-1. 打开 `Menu Management` -> `Promotions`。
+1. 打开 `POS Settings` -> `Promotions`。
 2. 新增促销，或打开现有促销。
 3. 选择正确的促销类型。
 4. 输入金额和优先级等基本值。

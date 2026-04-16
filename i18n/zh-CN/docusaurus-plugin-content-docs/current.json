@@ -71,8 +71,8 @@
     "message": "整合",
     "description": "The label for category 'Ecosystem & Integrations' in sidebar 'hqSidebar'"
   },
-  "sidebar.hqSidebar.category.Marketplace": {
-    "message": "市集",
-    "description": "The label for category 'Marketplace' in sidebar 'hqSidebar'"
+  "sidebar.hqSidebar.category.Marketplace & Billing": {
+    "message": "市集与账单",
+    "description": "The label for category 'Marketplace & Billing' in sidebar 'hqSidebar'"
   }
 }

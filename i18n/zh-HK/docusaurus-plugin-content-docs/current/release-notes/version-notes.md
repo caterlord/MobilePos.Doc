@@ -7,6 +7,21 @@ title: 版本說明
 
 本頁不只限於 POS app 手冊，也包含 HQ、共用流程與文件結構更新。
 
+## 2026-04-17（HQ 導航與帳單調整）
+
+### 已更新
+
+- `市集與帳單`：將 HQ 文件章節名稱調整為與後台側邊欄一致。
+- `My Subscriptions`：將進入路徑更新為頂層 `My Subscriptions` 側邊欄項目。
+- `Billing`：將進入路徑更新為頂層 `Billing` 側邊欄項目，並補充自訂線下合約帳單說明。
+- `Billing`：移除免費／推廣方案說法，改為說明 `Custom Contract` 與 `Offline Contract`。
+- `Promotions` 與 `Discounts`：將文件中的進入路徑由 `Menu Management` 更新為 `POS Settings`。
+
+### 已檢查
+
+- 已比對 HQ 後台中訂閱、帳單、推廣活動及折扣頁面的導航變更與手冊基準。
+- 已確認本次只調整導航標籤與帳單文字，不需要新增截圖。
+
 ## 2026-04-12（HQ Marketplace 與渠道設定檢查）
 
 ### Updated

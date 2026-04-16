@@ -7,6 +7,21 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-04-17 (HQ Navigation and Billing Alignment)
+
+### Updated
+
+- `Marketplace & Billing`: renamed the HQ docs section to match the portal sidebar grouping.
+- `My Subscriptions`: updated the access path to the top-level `My Subscriptions` sidebar item.
+- `Billing`: updated the access path to the top-level `Billing` sidebar item and clarified custom offline contract billing.
+- `Billing`: replaced promotional/free-plan wording with `Custom Contract` and `Offline Contract` guidance.
+- `Promotions` and `Discounts`: updated the documented access path from `Menu Management` to `POS Settings`.
+
+### Reviewed
+
+- Checked the HQ portal navigation changes for subscription, billing, promotion, and discount pages against the manual baseline.
+- Confirmed no new screenshots were required because this update changes navigation labels and billing wording only.
+
 ## 2026-04-14 (v1.7.9 Alignment)
 
 ### Updated
