@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Documentation Repository
-    url: https://github.com/caterlord/MobilePos.Doc
+    url: https://github.com/caterlord/X1.Doc
     about: Browse the documentation source and existing pull requests.
   - name: Live Documentation Site
     url: https://docs.x1.tech/

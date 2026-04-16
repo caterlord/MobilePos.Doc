@@ -41,7 +41,7 @@ title: HQ 使用手冊
 
 - [儀表板](./dashboard.md)：了解登入後的首頁，以及下一步應前往哪個區域。
 - [帳戶與個人檔案](./account-and-profile.md)：管理自己的登入與安全設定。
-- [組織管理](./organization.md)：管理 HQ 成員、角色及業務層級資料。
+- [工作區管理](./organization.md)：管理工作區成員、業務架構及 HQ 業務存取權。
 
 ### 店舖設定
 

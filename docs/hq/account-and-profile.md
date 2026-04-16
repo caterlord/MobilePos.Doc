@@ -43,9 +43,9 @@ Since the HQ portal has access to sensitive financial reports and menu pricing, 
 - **Passwords**: Update your login password regularly.
 - **Two-Step Verification**: Add a secondary authentication method to protect your HQ access against unauthorized logins.
 
-### Switch organizations
+### Switch workspace or brand
 
-If you manage multiple different brands or independent restaurant groups, you can click on your organization name at the top to toggle between different workspaces.
+If you manage multiple brands or restaurant groups, use the workspace and brand selector in the upper-left corner to switch context. Use [Workspace Administration](./organization.md) if you need to manage workspace members or HQ business access.
 
 ## What changes after you save
 
@@ -58,7 +58,7 @@ These changes apply to your own HQ account. They do not directly change shop set
 
 ## If something goes wrong
 
-- Confirm you changed your own profile and not a separate member record.
+- Confirm you changed your own profile and not another workspace member record.
 - If sign-in details changed, verify the new email or authentication method before retrying multiple times.
 
 ## When to ask owner/admin

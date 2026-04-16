@@ -66,7 +66,7 @@ Typical examples:
 
 - profile settings
 - account security settings
-- HQ member access
+- HQ workspace member and business access
 - POS user login methods
 
 ## How this affects your work

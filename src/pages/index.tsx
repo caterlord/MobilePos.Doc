@@ -100,9 +100,9 @@ export default function Home(): ReactNode {
       ),
       links: [
         {label: t('homepage.manual.mcp.link.overview', 'MCP Overview'), to: '/mcp/overview'},
-        {label: t('homepage.manual.mcp.link.repo', 'Docs Repository'), to: 'https://github.com/caterlord/MobilePos.Doc'},
-        {label: t('homepage.manual.mcp.link.issues', 'Open Issues'), to: 'https://github.com/caterlord/MobilePos.Doc/issues'},
-        {label: t('homepage.manual.mcp.link.prs', 'Open Pull Requests'), to: 'https://github.com/caterlord/MobilePos.Doc/pulls'},
+        {label: t('homepage.manual.mcp.link.repo', 'Docs Repository'), to: 'https://github.com/caterlord/X1.Doc'},
+        {label: t('homepage.manual.mcp.link.issues', 'Open Issues'), to: 'https://github.com/caterlord/X1.Doc/issues'},
+        {label: t('homepage.manual.mcp.link.prs', 'Open Pull Requests'), to: 'https://github.com/caterlord/X1.Doc/pulls'},
       ],
     },
   ];
@@ -145,7 +145,7 @@ export default function Home(): ReactNode {
         'Use the public GitHub repository to report gaps, suggest edits, or submit documentation pull requests.',
         'Description for the documentation contribution shortcut on the landing page',
       ),
-      to: 'https://github.com/caterlord/MobilePos.Doc',
+      to: 'https://github.com/caterlord/X1.Doc',
     },
   ];
 
@@ -349,7 +349,7 @@ export default function Home(): ReactNode {
               <div className={styles.contributionActions}>
                 <Link
                   className="button button--primary button--lg"
-                  to="https://github.com/caterlord/MobilePos.Doc"
+                  to="https://github.com/caterlord/X1.Doc"
                 >
                   <Translate
                     id="homepage.contribution.primaryCta"
@@ -360,7 +360,7 @@ export default function Home(): ReactNode {
                 </Link>
                 <Link
                   className="button button--outline button--primary button--lg"
-                  to="https://github.com/caterlord/MobilePos.Doc/issues"
+                  to="https://github.com/caterlord/X1.Doc/issues"
                 >
                   <Translate
                     id="homepage.contribution.secondaryCta"
@@ -386,7 +386,7 @@ export default function Home(): ReactNode {
                 ))}
               </ol>
               <div className={styles.inlineLinks}>
-                <Link to="https://github.com/caterlord/MobilePos.Doc/pulls">
+                <Link to="https://github.com/caterlord/X1.Doc/pulls">
                   <Translate
                     id="homepage.contribution.inline.pullRequests"
                     description="Inline link label to view pull requests in the contribution card"
@@ -394,7 +394,7 @@ export default function Home(): ReactNode {
                     View pull requests
                   </Translate>
                 </Link>
-                <Link to="https://github.com/caterlord/MobilePos.Doc/issues/new">
+                <Link to="https://github.com/caterlord/X1.Doc/issues/new">
                   <Translate
                     id="homepage.contribution.inline.newIssue"
                     description="Inline link label to open a new issue in the contribution card"

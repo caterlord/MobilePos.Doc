@@ -43,9 +43,9 @@ Since the HQ portal has 存取 到 sensitive financial 報表 及 菜單 pricing
 - **Passwords**: 更新 您的 登入 密碼 regularly.
 - **Two-Step Verification**: Add a secondary authentication 方式 到 protect 您的 HQ 存取 against unauthorized logins.
 
-### Switch organizations
+### 切換工作區或品牌
 
-如果 您 manage multiple different brands or independent restaurant groups, 您 可以 click on 您的 organization name at the top 到 toggle between different workspaces.
+如果你同時管理多個品牌或多間餐廳集團，請使用左上角的工作區及品牌選擇器切換範圍。如需管理工作區成員或 HQ 業務存取權，請使用 [工作區管理](./organization.md)。
 
 ## 儲存後的影響
 

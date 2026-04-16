@@ -13,7 +13,7 @@ Thank you for helping improve the X1 documentation.
 
 Please check whether the problem is already reported:
 
-- `https://github.com/caterlord/MobilePos.Doc/issues`
+- `https://github.com/caterlord/X1.Doc/issues`
 
 When possible, include:
 

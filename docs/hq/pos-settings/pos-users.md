@@ -11,7 +11,7 @@ Admins and managers who maintain staff login records for the POS.
 
 - Confirm the correct brand and target shop.
 - Decide whether you are creating a user group or an individual POS user.
-- Do not confuse POS user access with HQ member access in [Organization Management](../organization.md).
+- Do not confuse POS user access with HQ workspace member access in [Workspace Administration](../organization.md).
 
 ## Open this page
 
@@ -87,7 +87,7 @@ These changes affect how the selected staff account can sign in to the POS in th
 
 ## If something goes wrong
 
-- Confirm you edited a POS user and not an HQ member.
+- Confirm you edited a POS user and not an HQ workspace member.
 - Check whether the wrong shop was selected.
 - Review the login method switches before changing the user identity fields again.
 

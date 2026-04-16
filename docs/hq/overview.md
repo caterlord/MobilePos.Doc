@@ -9,7 +9,7 @@ Owners, back-office admins, setup staff, and managers who maintain X1 HQ for one
 
 ## Before you start
 
-- Confirm you are working in the correct brand or organization.
+- Confirm you are working in the correct workspace and brand.
 - Confirm whether your change is meant for one shop, multiple shops, or all shops.
 - Keep a record of the current setting before you edit anything high-impact.
 
@@ -41,7 +41,7 @@ Start with the section that matches the job you are doing, not just the feature 
 
 - [Dashboard](./dashboard.md): understand the landing page and where to go next.
 - [Account and Profile](./account-and-profile.md): manage your own login and security settings.
-- [Organization Management](./organization.md): manage HQ members, roles, and business-level details.
+- [Workspace Administration](./organization.md): manage workspace members, business structure, and HQ business access.
 
 ### Store Settings
 
