@@ -49,21 +49,37 @@ After creating the group, add the actual menu items that belong to that choice g
 
 The meal set groups do not work by themselves. They must be linked back to a parent set item in [Menu Items](./menu-items.md).
 
+### Copy a group
+
+Use the row-level copy action when you need a similar meal set without rebuilding every choice group from scratch.
+
+- The row action opens the copy modal for the selected group.
+- The source group stays selected for you in the modal.
+- There is no separate copy button in the page header.
+- Turn on `Beast Mode` when you need to create more than one target group in the same save.
+- In `Beast Mode`, you can set `Max Selection`, `Min Selection`, `Display in POS`, and `Display in Online Ordering` for each copied row.
+- The copy action also brings over the linked set items and shop pricing details.
+
 ## Steps
 
 1. Open `Menu Management` -> `Meal Set`.
 2. Create the required choice groups.
 3. Set the minimum and maximum selection rules for each group.
 4. Save the groups.
-5. Add the relevant menu items to each group.
-6. Set override prices where an item should add an upcharge.
-7. Open the parent set item in [Menu Items](./menu-items.md).
-8. Attach the meal set groups to the parent item.
-9. Save the parent item.
+5. Open the row action for the group you want to copy.
+6. Review the source group at the top of the copy modal.
+7. Turn on `Beast Mode` if you need multiple target rows.
+8. Enter the copied group details and shared display settings.
+9. Save the copy.
+10. Add the relevant menu items to each group.
+11. Set override prices where an item should add an upcharge.
+12. Open the parent set item in [Menu Items](./menu-items.md).
+13. Attach the meal set groups to the parent item.
+14. Save the parent item.
 
 ## What changes after you save
 
-These changes affect how the combo item prompts for choices during ordering.
+These changes affect how the combo item prompts for choices during ordering. The row-level copy workflow also creates new groups with the linked set items and shop pricing details already copied over.
 
 ## How to check your change
 

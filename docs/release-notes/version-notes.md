@@ -19,6 +19,9 @@ It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, an
 - `Device Settings`: documented `Beast Mode` for creating multiple printer/KDS records by `Printer Name`.
 - `Online Categories`: documented `Beast Mode` for creating multiple online categories by `Name` and `Name Alt`.
 - `Menu Items`: documented the copy action, deep-copy behavior, `Beast Mode` multi-copy rows, shared destination category/department, and duplicate `Item Code` validation.
+- `Modifier Groups`: documented the row-level copy action, source preselection, `Beast Mode` shared copy settings, and deep-copy of linked modifier items and shop pricing details.
+- `Meal Sets`: documented the row-level copy action, source preselection, `Beast Mode` shared copy settings, and deep-copy of linked set items and shop pricing details.
+- `Beast Mode` badges: updated the enabled badge to use the lightning icon across copy modals.
 
 ### Reviewed
 

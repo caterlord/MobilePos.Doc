@@ -47,9 +47,16 @@ Key fields include:
 
 After the group is created, open the detail area to add the actual modifier items and any override prices.
 
-### Copy from existing
+### Copy a group
 
-Use the copy workflow when you need a similar modifier setup without rebuilding every option from scratch.
+Use the row-level copy action when you need a similar modifier setup without rebuilding every option from scratch.
+
+- The row action opens the copy modal for the selected group.
+- The source group stays selected for you in the modal.
+- There is no separate copy button in the page header.
+- Turn on `Beast Mode` when you need to create more than one target group in the same save.
+- In `Beast Mode`, you can set `Max Selection`, `Min Selection`, `Display in POS`, and `Display in Online Ordering` for each copied row.
+- The copy action also brings over the linked modifier items and shop pricing details.
 
 ## Steps
 
@@ -59,12 +66,17 @@ Use the copy workflow when you need a similar modifier setup without rebuilding 
 4. Set `Min Selection` and `Max Selection`.
 5. Choose the channels where the group should appear.
 6. Save the group.
-7. Open the group details and attach the modifier items.
-8. Set any required override prices.
+7. Open the row action for the group you want to copy.
+8. Review the source group at the top of the copy modal.
+9. Turn on `Beast Mode` if you need multiple target rows.
+10. Enter the copied group details and shared display settings.
+11. Save the copy.
+12. Open the group details and attach the modifier items.
+13. Set any required override prices.
 
 ## What changes after you save
 
-These changes affect how items present selectable options or required choices on the POS and, where enabled, in other channels.
+These changes affect how items present selectable options or required choices on the POS and, where enabled, in other channels. The row-level copy workflow also creates new groups with the linked modifier items and shop pricing details already copied over.
 
 ## How to check your change
 
