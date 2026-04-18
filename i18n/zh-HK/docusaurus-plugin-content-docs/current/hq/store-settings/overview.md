@@ -28,7 +28,7 @@ title: 店舖設定總覽
 
 先從符合你問題的頁面開始：
 
-- [Info 設定](./general-info.md)：更新分店識別、地址、聯絡資料及時區。
+- [店舖資料](./general-info.md)：更新分店識別、地址、聯絡資料及時區。
 - [營業時間及時段設定](./workday-schedule.md)：定義營業日時間與服務時段。
 - [裝置設定](../integrations/device-settings.md)：登記店舖硬件與終端機相關設定。
 - [系統參數](./system-parameters.md)：管理進階店舖行為與技術設定。
@@ -36,7 +36,7 @@ title: 店舖設定總覽
 
 ## 常見任務
 
-- 開新店舖：先處理 [Info 設定](./general-info.md)，再處理 [營業時間及時段設定](./workday-schedule.md)，然後設定 [裝置設定](../integrations/device-settings.md)。
+- 開新店舖：先處理 [店舖資料](./general-info.md)，再處理 [營業時間及時段設定](./workday-schedule.md)，然後設定 [裝置設定](../integrations/device-settings.md)。
 - 修正深夜報表日期：查看 [營業時間及時段設定](./workday-schedule.md)。
 - 更新堂食檯位佈局：使用 [檯位與區域](./tables-and-floorplan.md)。
 - 檢查店舖硬件記錄：使用 [裝置設定](../integrations/device-settings.md)。

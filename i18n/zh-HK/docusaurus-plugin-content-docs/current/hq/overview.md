@@ -47,7 +47,7 @@ title: HQ 使用手冊
 
 - [店舖設定總覽](./store-settings/overview.md)：選擇正確的店舖層級設定頁面。
 
-本節適用於店舖層級設定，例如 `Info Settings`、`Workday Schedule`、`Device Settings`、`System Parameters` 及 `Tables & Sections`。
+本節適用於店舖層級設定，例如 `店舖資料`、`營業時間及時段設定`、`裝置設定`、`系統參數` 及 `檯位與區域`。
 
 ### POS 設定
 

@@ -14,7 +14,7 @@ title: 店舖設定總覽
 
 ## 本節用途
 
-`Store Settings` 管理的是某一間實體店舖專屬的設定。
+`店舖設定` 管理的是某一間實體店舖專屬的設定。
 
 當你需要管理下列內容時，請使用本節：
 
@@ -28,24 +28,24 @@ title: 店舖設定總覽
 
 先從對應你的工作目的的頁面開始：
 
-- [Info 設定](./general-info.md)：更新店舖名稱、地址、聯絡資訊與時區。
+- [店舖資料](./general-info.md)：更新店舖名稱、地址、聯絡資訊與時區。
 - [工作日排程](./workday-schedule.md)：定義營業日時間與服務時段。
-- [裝置 設定](../integrations/device-settings.md)：登錄店舖硬體與終端機相關設定。
+- [裝置設定](../integrations/device-settings.md)：登錄店舖硬體與終端機相關設定。
 - [系統參數](./system-parameters.md)：管理進階店舖行為與技術設定。
 - [桌台與區塊](./tables-and-floorplan.md)：設定區塊、桌台與桌台地圖。
 
 ## 常見工作
 
-- 新增一家店舖時，先設定 [Info 設定](./general-info.md)，再設定 [工作日排程](./workday-schedule.md)，最後處理 [裝置 設定](../integrations/device-settings.md)。
+- 新增一家店舖時，先設定 [店舖資料](./general-info.md)，再設定 [工作日排程](./workday-schedule.md)，最後處理 [裝置設定](../integrations/device-settings.md)。
 - 如果晚班報表日期不對，先檢查 [工作日排程](./workday-schedule.md)。
 - 要更新堂食版面時，使用 [桌台與區塊](./tables-and-floorplan.md)。
-- 要檢查店舖硬體記錄時，使用 [裝置 設定](../integrations/device-settings.md)。
+- 要檢查店舖硬體記錄時，使用 [裝置設定](../integrations/device-settings.md)。
 
 ## 儲存後的影響
 
-多數 `Store Settings` 變更都只影響單一店舖。儲存後，請在該店舖上驗證結果。
+多數 `店舖設定` 變更都只影響單一店舖。儲存後，請在該店舖上驗證結果。
 
-特別留意 `Workday Schedule`、`System Parameters` 與 `Device Settings`。這些變更可能直接影響現場營運，應先測試確認再改其他設定。
+特別留意 `工作日排程`、`系統參數` 與 `裝置設定`。這些變更可能直接影響現場營運，應先測試確認再改其他設定。
 
 ## 如發生問題
 
@@ -57,4 +57,4 @@ title: 店舖設定總覽
 
 - 這次變更會影響多家店舖，但你不確定是否都要同步。
 - 設定會改變 POS 行為、付款或收據輸出。
-- 你需要在沒有明確安全值的情況下修改 `System Parameters`。
+- 你需要在沒有明確安全值的情況下修改 `系統參數`。

@@ -14,7 +14,7 @@ title: 门店设置总览
 
 ## 本节用途
 
-`Store Settings` 负责一间实体门店专属的设置。
+`门店设置` 负责一间实体门店专属的设置。
 
 当您需要管理以下内容时，请使用本节：
 
@@ -28,24 +28,24 @@ title: 门店设置总览
 
 请先从最符合运营问题的页面开始：
 
-- [Info Settings](./general-info.md)：更新分店资料、地址、联系方式和时区。
-- [Workday Schedule](./workday-schedule.md)：定义营业日时间和服务时段。
-- [Device Settings](../integrations/device-settings.md)：登记店内硬件和终端机相关设置。
-- [System Parameters](./system-parameters.md)：管理进阶门店行为和技术设置。
-- [Tables & Floorplan](./tables-and-floorplan.md)：定义区域、桌位和桌位地图。
+- [门店资料](./general-info.md)：更新分店资料、地址、联系方式和时区。
+- [营业时间及时段设置](./workday-schedule.md)：定义营业日时间和服务时段。
+- [设备设置](../integrations/device-settings.md)：登记店内硬件和终端机相关设置。
+- [系统参数](./system-parameters.md)：管理进阶门店行为和技术设置。
+- [桌位与区域](./tables-and-floorplan.md)：定义区域、桌位和桌位地图。
 
 ## 常见工作
 
-- 开新店：先设置 [Info Settings](./general-info.md)，再设置 [Workday Schedule](./workday-schedule.md)，最后检查 [Device Settings](../integrations/device-settings.md)。
-- 修正深夜报表日期：查看 [Workday Schedule](./workday-schedule.md)。
-- 更新堂食桌位布局：使用 [Tables & Floorplan](./tables-and-floorplan.md)。
-- 检查门店硬件资料：使用 [Device Settings](../integrations/device-settings.md)。
+- 开新店：先设置 [门店资料](./general-info.md)，再设置 [营业时间及时段设置](./workday-schedule.md)，最后检查 [设备设置](../integrations/device-settings.md)。
+- 修正深夜报表日期：查看 [营业时间及时段设置](./workday-schedule.md)。
+- 更新堂食桌位布局：使用 [桌位与区域](./tables-and-floorplan.md)。
+- 检查门店硬件资料：使用 [设备设置](../integrations/device-settings.md)。
 
 ## 保存后的影响
 
-大多数 `Store Settings` 都是门店层级设置。保存后，请在该门店内验证结果。
+大多数 `门店设置` 都是门店层级设置。保存后，请在该门店内验证结果。
 
-请特别留意 `Workday Schedule`、`System Parameters` 和 `Device Settings`。这些更改可能会影响现场运营，所以在继续编辑其他设置前先测试。
+请特别留意 `营业时间及时段设置`、`系统参数` 和 `设备设置`。这些更改可能会影响现场运营，所以在继续编辑其他设置前先测试。
 
 ## 如果出现问题
 
@@ -57,4 +57,4 @@ title: 门店设置总览
 
 - 更改会影响多间门店，而您不确定是否要全部重复。
 - 该设置会影响 POS 行为、付款，或收据输出。
-- 您需要修改 `System Parameters`，但没有明确安全值。
+- 您需要修改 `系统参数`，但没有明确安全值。

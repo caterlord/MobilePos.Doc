@@ -47,7 +47,7 @@ title: HQ 用户手册
 
 - [店铺设定总览](./store-settings/overview.md)：选择正确的店铺层级设定页面。
 
-本节用于店铺专属设定，例如 `Info Settings`、`Workday Schedule`、`Device Settings`、`System Parameters` 和 `Tables & Sections`。
+本节用于店铺专属设定，例如 `店铺资料`、`营业时间及时段设定`、`设备设定`、`系统参数` 和 `桌位与区域`。
 
 ### POS 设定
 

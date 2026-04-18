@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Info 設定
+title: 店舖資料
 ---
 
 :::info[適用對象]
@@ -15,11 +15,11 @@ title: Info 設定
 
 ## 開啟此頁面
 
-開啟 `Store Settings` -> `Info Settings`。
+開啟 `店舖設定` -> `店舖資料`。
 
 ## 此頁控制內容
 
-`Info Settings` 管理店舖的主要識別資訊。
+`店舖資料` 管理店舖的主要識別資訊。
 
 使用本頁可維護：
 
@@ -78,7 +78,7 @@ title: Info 設定
 
 ## 步驟
 
-1. 開啟 `Store Settings` -> `Info Settings`。
+1. 開啟 `店舖設定` -> `店舖資料`。
 2. 確認頁面上方顯示的是正確店舖。
 3. 更新你需要修改的店舖識別資料。
 4. 如有需要，更新地址與替代地址資料。
