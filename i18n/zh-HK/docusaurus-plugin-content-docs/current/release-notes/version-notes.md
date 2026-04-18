@@ -18,10 +18,11 @@ title: 版本說明
 - `Reasons`：新增以 `Reason Code` 和 `Description` 一次建立多個原因的 `猛獸模式` 說明。
 - `Device Settings`：新增以 `Printer Name` 一次建立多個印表機/KDS 記錄的 `猛獸模式` 說明。
 - `Online Categories`：新增以 `Name` 和 `Name Alt` 一次建立多個網上分類的 `猛獸模式` 說明。
+- `Menu Items`：新增複製動作、深度複製行為、`猛獸模式` 多列複製、共用目標分類／部門，以及重複 `Item Code` 檢查說明。
 
 ### 已檢查
 
-- 已按 HQ portal PR #138 的合併更新比對目前手冊基準。
+- 已按 HQ portal PR #138 及 PR #139 的合併更新比對目前手冊基準。
 - 已確認本次文件更新沒有新增截圖需求。
 
 ## 2026-04-17（HQ 導航與帳單調整）

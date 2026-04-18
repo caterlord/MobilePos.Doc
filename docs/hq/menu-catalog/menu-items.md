@@ -12,6 +12,7 @@ Admins who create or maintain the products sold, customized, or tracked in the P
 - Confirm the correct brand.
 - Decide whether the record is a sellable item, modifier item, or set item.
 - Confirm the target category and department before you save.
+- If you are copying an item, prepare new `Item Code` values that are not already used by active items.
 
 ## Open this page
 
@@ -28,6 +29,7 @@ Use this page to create or maintain:
 - set or combo parent items
 - item pricing and availability
 - special item behavior
+- item copies based on an existing item setup
 
 ![Menu Items List](/img/hq/menu-catalog/menu_items_list.png)
 
@@ -69,6 +71,34 @@ Examples include:
 
 Use the item's pricing and availability areas to control branch-specific selling price and whether the item is enabled or out of stock.
 
+### Copy an existing item
+
+Use the copy action when a new item should start from an existing item's setup.
+
+1. Find the item you want to copy.
+2. Select the copy action in the `Actions` column.
+3. Enter the new `Item Code`, `Item Name`, `Item Name (Alt)`, `Item Kitchen Name`, and `Item Kitchen Name (Alt)`.
+4. Confirm the destination `Category` and `Department`.
+5. Save the copy.
+
+The copy includes the related setup from the source item, such as shop details, pricing, modifiers, meal set groups, and other item relationships.
+
+### Beast Mode copy
+
+Use `Beast Mode` in the copy modal when you need to create several items from the same source item.
+
+When `Beast Mode` is on, enter one target item per row:
+
+- `Item Code`
+- `Item Name`
+- `Item Name (Alt)`
+- `Item Kitchen Name`
+- `Item Kitchen Name (Alt)`
+
+The destination `Category` and `Department` are shared by all rows in the same save.
+
+Before saving, check that every `Item Code` is unique in the row list and is not already used by an active item. If one target item cannot be saved, none of the target items are created.
+
 ## Steps
 
 1. Open `Menu Management` -> `Menu Items`.
@@ -90,12 +120,14 @@ These changes affect the shared item record and may also affect shop availabilit
 2. Verify the item sits in the correct category and department.
 3. Check the target shop pricing or availability if those were changed.
 4. Test the affected POS behavior if you changed special switches.
+5. If you copied an item, reopen the copied item and confirm the related setup was copied as expected.
 
 ## If something goes wrong
 
 - Confirm the wrong result is not caused by category, department, or availability settings.
 - Check the item type first if the POS behavior is unexpected.
 - If the item exists but is missing in one shop, review shop-level price or availability setup.
+- If a copy fails, check for duplicate `Item Code` values in the copy list or among active items.
 
 ## When to ask owner/admin
 
