@@ -18,10 +18,11 @@ It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, an
 - `Reasons`: documented `Beast Mode` for creating multiple reasons by `Reason Code` and `Description`.
 - `Device Settings`: documented `Beast Mode` for creating multiple printer/KDS records by `Printer Name`.
 - `Online Categories`: documented `Beast Mode` for creating multiple online categories by `Name` and `Name Alt`.
+- `Menu Items`: documented the copy action, deep-copy behavior, `Beast Mode` multi-copy rows, shared destination category/department, and duplicate `Item Code` validation.
 
 ### Reviewed
 
-- Checked the merged HQ portal update from PR #138 against the manual baseline.
+- Checked the merged HQ portal updates from PR #138 and PR #139 against the manual baseline.
 - Confirmed no new screenshot request was added in this documentation pass.
 
 ## 2026-04-17 (HQ Navigation and Billing Alignment)

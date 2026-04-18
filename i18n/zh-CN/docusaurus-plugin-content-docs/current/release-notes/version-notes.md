@@ -18,10 +18,11 @@ title: 版本说明
 - `Reasons`：补充以 `Reason Code` 和 `Description` 一次建立多个原因的 `猛兽模式` 说明。
 - `Device Settings`：补充以 `Printer Name` 一次建立多个打印机/KDS 记录的 `猛兽模式` 说明。
 - `Online Categories`：补充以 `Name` 和 `Name Alt` 一次建立多个线上分类的 `猛兽模式` 说明。
+- `Menu Items`：补充复制动作、深度复制行为、`猛兽模式` 多行复制、共用目标分类／部门，以及重复 `Item Code` 检查说明。
 
 ### 已复查
 
-- 已按 HQ portal PR #138 的合并更新比对当前手册基准。
+- 已按 HQ portal PR #138 和 PR #139 的合并更新比对当前手册基准。
 - 已确认本次文档更新没有新增截图需求。
 
 ## 2026-04-17（HQ 导航与账单调整）
