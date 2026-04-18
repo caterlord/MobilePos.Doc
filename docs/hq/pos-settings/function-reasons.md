@@ -42,6 +42,19 @@ Each group is intended for a different POS action type.
 
 When a POS action requires a reason, the terminal shows the available active reasons from the matching group for staff to select.
 
+### Beast Mode
+
+Use `Beast Mode` when you need to create several reasons for the same group.
+
+When `Beast Mode` is on, enter one row for each reason with:
+
+- `Reason Code`
+- `Description`
+
+The selected reason group and any other shared settings apply to every reason created in that save.
+
+Use normal create mode when reasons belong to different groups or need different settings.
+
 ## Steps
 
 1. Open `POS Settings` -> `Reasons`.
@@ -49,6 +62,16 @@ When a POS action requires a reason, the terminal shows the available active rea
 3. Create or edit the reason text.
 4. Save the reason.
 5. Repeat only for the groups that need updates.
+
+## Create several reasons at once
+
+1. Open `POS Settings` -> `Reasons`.
+2. Choose the correct reason group.
+3. Select the new-reason button.
+4. Turn on `Beast Mode`.
+5. Enter one row for each reason.
+6. Select `Create`.
+7. Review the group and confirm every reason was created.
 
 ## What changes after you save
 

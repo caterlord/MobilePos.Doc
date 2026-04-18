@@ -47,8 +47,23 @@ title: 部门
 
 - `Code`
 - `Name`
+- `Description`
 - `Parent Department`
 - `Revenue Center Code`
+
+### 猛兽模式
+
+当您要在同一个结构层级，用同一组共用设置一次建立多笔记录时，请使用 `猛兽模式`。
+
+开启 `猛兽模式` 后，请为每笔记录输入：
+
+- `Code`
+- `Name`
+- `Description`
+
+行列表下方的共用设置会套用到本次建立的每笔记录。如果是建立次级部门，保存前请确认共用的 `Parent Department` 正确。
+
+如果每个部门、次级部门或营收中心需要不同父级或报表设置，请使用一般新增模式。
 
 ## 步骤
 
@@ -58,6 +73,17 @@ title: 部门
 4. 如果要建立次级部门，请选择正确的 `Parent Department`。
 5. 只有在报表需要时，才设置 `Revenue Center Code`。
 6. 保存纪录。
+
+## 一次建立多笔记录
+
+1. 打开 `POS Settings` -> `Departments`。
+2. 选择正确分页：`Departments`、`Sub-Departments` 或 `Revenue Centers`。
+3. 选择该分页的新记录按钮。
+4. 开启 `猛兽模式`。
+5. 每个部门、次级部门或营收中心输入一行。
+6. 完成行列表下方的共用设置。
+7. 选择 `Create`。
+8. 检查列表，确认所有记录都已建立在正确层级。
 
 ## 保存后的影响
 

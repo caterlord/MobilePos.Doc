@@ -7,6 +7,23 @@ title: 版本說明
 
 本頁不只限於 POS app 手冊，也包含 HQ、共用流程與文件結構更新。
 
+## 2026-04-18（HQ 猛獸模式批量建立）
+
+### 已更新
+
+- `Categories`：新增 `分類代碼`、分類 `店舖設定`，以及用共用設定一次建立多個分類的 `猛獸模式` 說明。
+- `Smart Categories`：新增用共用設定一次建立多個智能分類的 `猛獸模式` 說明。
+- `Payment Methods`：新增以 `Code` 和 `Name` 一次建立多個付款方式的 `猛獸模式` 說明。
+- `Departments`：新增 `Departments`、`Sub-Departments` 及 `Revenue Centers` 以 `Code`、`Name`、`Description` 批量建立的說明。
+- `Reasons`：新增以 `Reason Code` 和 `Description` 一次建立多個原因的 `猛獸模式` 說明。
+- `Device Settings`：新增以 `Printer Name` 一次建立多個印表機/KDS 記錄的 `猛獸模式` 說明。
+- `Online Categories`：新增以 `Name` 和 `Name Alt` 一次建立多個網上分類的 `猛獸模式` 說明。
+
+### 已檢查
+
+- 已按 HQ portal PR #138 的合併更新比對目前手冊基準。
+- 已確認本次文件更新沒有新增截圖需求。
+
 ## 2026-04-17（HQ 導航與帳單調整）
 
 ### 已更新

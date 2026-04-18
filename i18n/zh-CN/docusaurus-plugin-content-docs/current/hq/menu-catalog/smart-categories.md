@@ -57,6 +57,14 @@ title: 智能分类
 - `Button Style`
 - `Public Display`
 
+### 猛兽模式
+
+当您要用同一组共用设置一次建立多个智能分类时，请使用 `猛兽模式`。
+
+开启 `猛兽模式` 后，请为每个智能分类输入一行。保存后，编辑器会建立所有列出的智能分类。`Parent Category`、`Display Order`、`Button Style` 和 `Public Display` 等共用设置会套用到本次建立的每个智能分类。
+
+如果每个智能分类需要不同父级、显示或样式设置，请使用一般新增模式。
+
 ### 详细分页
 
 页面可能会显示以下分页：
@@ -79,6 +87,16 @@ title: 智能分类
 8. 按需要开启或关闭 `Public Display`。
 9. 保存分类。
 10. 打开详细分页，管理 `Items`、`Shop Display Settings` 或 `Order Channels`。
+
+## 一次建立多个智能分类
+
+1. 打开 `Menu Management` -> `Smart Categories`。
+2. 选择 `New Smart Category`。
+3. 开启 `猛兽模式`。
+4. 每个智能分类输入一行。
+5. 完成行列表下方的共用设置。
+6. 选择 `Create`。
+7. 回到主列表，确认所有智能分类都已建立。
 
 ## 保存后的影响
 

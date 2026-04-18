@@ -46,6 +46,17 @@ You can map:
 
 Once a category is mapped for online use, the items inside that category can be sold through online ordering.
 
+### Beast Mode
+
+Use `Beast Mode` when you need to create several online categories with the same shared setup.
+
+When `Beast Mode` is on, enter one row for each online category with:
+
+- `Name`
+- `Name Alt`
+
+The shared settings below the row list apply to every online category created in that save. Use normal create mode when each online category needs different setup.
+
 ### Images
 
 Use the row editor for a category or item to upload product images.
@@ -74,6 +85,16 @@ Use the online description field for customer-facing copy such as:
 4. Open the related row or editor panel.
 5. Upload the image, update the description, or change the online price override as needed.
 6. Select `Save`.
+
+## Create several online categories at once
+
+1. Open `Online Ordering` -> `Online Categories`.
+2. Select the new-category action.
+3. Turn on `Beast Mode`.
+4. Enter one row for each online category.
+5. Complete the shared settings below the row list.
+6. Select `Create`.
+7. Review the online category list and confirm every category was created.
 
 ## What changes after you save
 

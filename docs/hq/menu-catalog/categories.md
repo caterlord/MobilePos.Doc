@@ -51,10 +51,31 @@ Try to keep the path short enough that staff can reach sellable items quickly du
 | Field | What it controls | When to change it |
 | --- | --- | --- |
 | `Category Type` | What kind of content the category is intended to hold | When the category is for sellable items, modifiers, or combo-related use |
-| `Name` and `Alt Name` | What users see on the category button | When the display text changes or needs another language |
-| `Style` | Visual style for the category button | When you want consistent button appearance |
+| `Category Code` | Short internal code for the category | When your team uses category codes for setup, support, or imports |
+| `Category Name` and `Alternative Name` | What users see on the category button | When the display text changes or needs another language |
+| `Button Style` | Visual style for the category button | When you want consistent button appearance |
 | display visibility fields | Whether the category appears in supported displays or channels | When rollout differs by surface |
 | `Printer Mapping` | Advanced print routing for the category | When output routing should be controlled at category level |
+
+### Shop settings
+
+Use `Shop Settings` in the category editor when the category should be publicly displayed in some shops but not others.
+
+At this time, the shop-level setting available in this section is `Public Display`. Other category details, such as `Category Type`, `Parent Category`, `Display Order`, `Button Style`, and the main visibility options, are shared by the category record.
+
+### Beast Mode
+
+Use `Beast Mode` when you need to create several categories with the same shared settings.
+
+When `Beast Mode` is on, the editor lets you enter multiple rows with:
+
+- `Category Code`
+- `Category Name`
+- `Alternative Name`
+
+The shared settings below the row list apply to every category created in that save, including `Category Type`, `Parent Category`, `Display Order`, `Button Style`, `Visible in Menu`, and `Shop Settings`.
+
+Use normal create mode when each category needs different parents, styles, display settings, or shop visibility.
 
 ### Reordering
 
@@ -64,12 +85,23 @@ Use the reorder action when the current category order no longer matches how sta
 
 1. Open `Menu Management` -> `Categories`.
 2. Create a new category or open an existing one.
-3. Select the correct `Category Type`.
-4. Enter the `Name` and `Alt Name` if needed.
-5. Apply a `Style` if required.
-6. Set the visibility options for the intended display or channel.
-7. Save the category.
-8. Reorder categories if the browsing order also needs to change.
+3. Enter the `Category Code` if your team uses one.
+4. Select the correct `Category Type`.
+5. Enter the `Category Name` and `Alternative Name` if needed.
+6. Apply a `Button Style` if required.
+7. Set `Visible in Menu` and `Shop Settings` for the intended shops or channels.
+8. Save the category.
+9. Reorder categories if the browsing order also needs to change.
+
+## Create several categories at once
+
+1. Open `Menu Management` -> `Categories`.
+2. Select `New Category`.
+3. Turn on `Beast Mode`.
+4. Enter one row for each category.
+5. Complete the shared settings below the row list.
+6. Select `Create`.
+7. Review the category list and confirm every category was created.
 
 ## What changes after you save
 

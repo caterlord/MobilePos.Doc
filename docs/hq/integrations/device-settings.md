@@ -50,6 +50,10 @@ Use this area to register kitchen printers, receipt printers, label printers, or
 
 This is also where routing decisions such as dine-in versus takeaway printing behavior may be maintained.
 
+Use `Beast Mode` in the printer/KDS create flow when the shop needs several printer or KDS records that share the same setup. Enter one `Printer Name` per row, then complete the shared settings before saving.
+
+Use normal create mode when each printer or KDS record needs different routing or connection details.
+
 ### Cash drawers
 
 Use this area to link physical cash drawers to the relevant terminal or trigger behavior.
@@ -62,6 +66,17 @@ Use this area to link physical cash drawers to the relevant terminal or trigger 
 4. Add or review printers or KDS endpoints.
 5. Add or review cash drawer records.
 6. Save the changes.
+
+## Create several printers or KDS records at once
+
+1. Open `Store Settings` -> `Device Settings`.
+2. Confirm the selected shop.
+3. Open the `Printers/KDS` create flow.
+4. Turn on `Beast Mode`.
+5. Enter one `Printer Name` per row.
+6. Complete the shared printer or KDS settings.
+7. Select `Create`.
+8. Review the `Printers/KDS` list and confirm every record was created for the selected shop.
 
 ## What changes after you save
 

@@ -47,8 +47,23 @@ Top-level departments are the main reporting buckets. Sub-departments provide mo
 
 - `Code`
 - `Name`
+- `Description`
 - `Parent Department`
 - `Revenue Center Code`
+
+### Beast Mode
+
+Use `Beast Mode` when you need to create several records at the same structure level with the same shared settings.
+
+When `Beast Mode` is on, enter one row for each record with:
+
+- `Code`
+- `Name`
+- `Description`
+
+The shared settings below the row list apply to every record created in that save. For sub-departments, confirm the shared `Parent Department` before saving.
+
+Use normal create mode when each department, sub-department, or revenue center needs different parent or reporting settings.
 
 ## Steps
 
@@ -58,6 +73,17 @@ Top-level departments are the main reporting buckets. Sub-departments provide mo
 4. If creating a sub-department, select the correct `Parent Department`.
 5. Set the `Revenue Center Code` only when reporting requires it.
 6. Save the record.
+
+## Create several records at once
+
+1. Open `POS Settings` -> `Departments`.
+2. Choose the correct tab: `Departments`, `Sub-Departments`, or `Revenue Centers`.
+3. Select the new-record button for that tab.
+4. Turn on `Beast Mode`.
+5. Enter one row for each department, sub-department, or revenue center.
+6. Complete the shared settings below the row list.
+7. Select `Create`.
+8. Review the list and confirm every record was created at the correct level.
 
 ## What changes after you save
 

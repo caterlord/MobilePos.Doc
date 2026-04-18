@@ -57,6 +57,14 @@ When you create or edit a smart category, you can work with fields such as:
 - `Button Style`
 - `Public Display`
 
+### Beast Mode
+
+Use `Beast Mode` when you need to create several smart categories with the same shared settings.
+
+When `Beast Mode` is on, enter one row for each smart category. The editor creates all listed rows after you save. Shared settings such as `Parent Category`, `Display Order`, `Button Style`, and `Public Display` apply to every smart category created in that save.
+
+Use normal create mode when each smart category needs different parent, display, or style settings.
+
 ### Detail tabs
 
 The page can show tabs for:
@@ -79,6 +87,16 @@ Use these tabs to control what the smart category contains and where it appears.
 8. Turn `Public Display` on or off as needed.
 9. Save the category.
 10. Open the detail tabs to manage `Items`, `Shop Display Settings`, or `Order Channels`.
+
+## Create several smart categories at once
+
+1. Open `Menu Management` -> `Smart Categories`.
+2. Select `New Smart Category`.
+3. Turn on `Beast Mode`.
+4. Enter one row for each smart category.
+5. Complete the shared settings below the row list.
+6. Select `Create`.
+7. Review the main list and confirm every smart category was created.
 
 ## What changes after you save
 

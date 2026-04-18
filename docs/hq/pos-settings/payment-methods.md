@@ -62,6 +62,19 @@ These switches control how the POS responds when staff tap the tender:
 
 After the base method is created, use the shop settings area to enable it only for the shops that should use it. This is the most common step users miss.
 
+### Beast Mode
+
+Use `Beast Mode` when you need to create several payment methods with the same shared behavior.
+
+When `Beast Mode` is on, enter one row for each payment method with:
+
+- `Code`
+- `Name`
+
+The shared settings below the row list apply to every payment method created in that save, including `Display Index`, surcharge and charge-rate settings, behavior switches, linked gateway, and shop settings.
+
+Use normal create mode when each payment method needs different checkout behavior, gateway settings, rates, or shop enablement.
+
 ## Steps
 
 1. Open `POS Settings` -> `Payment Methods`.
@@ -72,6 +85,16 @@ After the base method is created, use the shop settings area to enable it only f
 6. Open the shop settings area.
 7. Enable the method for the target shops.
 8. Save the method.
+
+## Create several payment methods at once
+
+1. Open `POS Settings` -> `Payment Methods`.
+2. Select `New Payment Method`.
+3. Turn on `Beast Mode`.
+4. Enter one row for each payment method.
+5. Complete the shared settings below the row list.
+6. Select `Create`.
+7. Review the list and confirm every payment method was created.
 
 ## Linked gateways
 

@@ -48,13 +48,34 @@ title: 分类
 
 ### 关键栏位
 
-| Field | What it controls | 何时更改 |
+| 栏位 | 控制内容 | 何时更改 |
 | --- | --- | --- |
 | `Category Type` | 分类预期承载的内容类型 | 该分类用于可售商品、加购项，或组合相关用途时 |
-| `Name` 和 `Alt Name` | 用户在分类按钮上看到的文字 | 显示文字变更，或需要另一种语言时 |
-| `Style` | 分类按钮的视觉样式 | 您想要统一按钮外观时 |
+| `Category Code` | 分类的短代码 | 团队使用分类代码做设置、支持或导入时 |
+| `Category Name` 和 `Alternative Name` | 用户在分类按钮上看到的文字 | 显示文字变更，或需要另一种语言时 |
+| `Button Style` | 分类按钮的视觉样式 | 您想要统一按钮外观时 |
 | 显示可见性栏位 | 分类会不会出现在支援的显示或渠道中 | 上架范围在不同介面不同时 |
 | `Printer Mapping` | 分类层级的进阶打印路由 | 输出路由需要在分类层级控制时 |
+
+### 门店设置
+
+当分类只需要在部分门店公开显示时，请在分类编辑器使用 `Shop Settings`。
+
+目前此区域只提供门店级 `Public Display` 设置。其他分类资料，例如 `Category Type`、`Parent Category`、`Display Order`、`Button Style` 和主要可见性选项，都是分类本身共用的设置。
+
+### 猛兽模式
+
+当您要用同一组共用设置一次建立多个分类时，请使用 `猛兽模式`。
+
+开启 `猛兽模式` 后，编辑器会让您输入多行资料：
+
+- `Category Code`
+- `Category Name`
+- `Alternative Name`
+
+行列表下方的共用设置会套用到本次保存建立的所有分类，包括 `Category Type`、`Parent Category`、`Display Order`、`Button Style`、`Visible in Menu` 和 `Shop Settings`。
+
+如果每个分类需要不同父级、样式、显示设置或门店可见性，请使用一般新增模式。
 
 ### 重新排序
 
@@ -64,12 +85,23 @@ title: 分类
 
 1. 打开 `Menu Management` -> `Categories`。
 2. 建立新分类，或打开既有分类。
-3. 选择正确的 `Category Type`。
-4. 输入 `Name` 和需要的话 `Alt Name`。
-5. 如有需要，套用 `Style`。
-6. 为目标显示或渠道设置可见性选项。
-7. 保存分类。
-8. 如果浏览顺序也要调整，请再重新排序分类。
+3. 如果团队有使用分类代码，请输入 `Category Code`。
+4. 选择正确的 `Category Type`。
+5. 输入 `Category Name`，需要的话再输入 `Alternative Name`。
+6. 如有需要，套用 `Button Style`。
+7. 设置 `Visible in Menu` 和目标门店或渠道的 `Shop Settings`。
+8. 保存分类。
+9. 如果浏览顺序也要调整，请再重新排序分类。
+
+## 一次建立多个分类
+
+1. 打开 `Menu Management` -> `Categories`。
+2. 选择 `New Category`。
+3. 开启 `猛兽模式`。
+4. 每个分类输入一行。
+5. 完成行列表下方的共用设置。
+6. 选择 `Create`。
+7. 检查分类列表，确认所有分类都已建立。
 
 ## 保存后的影响
 
