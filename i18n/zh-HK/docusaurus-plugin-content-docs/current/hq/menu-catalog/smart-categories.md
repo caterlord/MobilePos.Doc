@@ -42,7 +42,7 @@ title: 智能分類
 常見操作包括：
 
 - `Refresh`
-- `Reorder Categories`
+- `Reorder`
 - `Copy from Existing`
 - `New Smart Category`
 

@@ -42,7 +42,7 @@ The main list includes fields such as:
 Key actions include:
 
 - `Refresh`
-- `Reorder Categories`
+- `Reorder`
 - `Copy from Existing`
 - `New Smart Category`
 
