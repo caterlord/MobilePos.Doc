@@ -15,11 +15,11 @@ title: 分类
 
 ## 打开此页面
 
-打开 `Menu Management` -> `Categories`。
+打开 `菜单管理` -> `菜单分类`。
 
 ## 本页控制内容
 
-`Categories` 会控制商品在 POS 浏览结构里的分组方式。
+`菜单分类` 会控制商品在 POS 浏览结构里的分组方式。
 
 您可以在这里定义：
 
@@ -30,7 +30,7 @@ title: 分类
 
 分类主要是控制浏览和显示。它不会取代 [Departments](../pos-settings/departments.md)，因为后者才负责财务报表结构。
 
-![Menu Categories List](/img/hq/menu-catalog/menu_categories_list.png)
+![菜单分类列表](/img/hq/menu-catalog/menu_categories_list.png)
 
 ## 主要分区
 
@@ -53,15 +53,17 @@ title: 分类
 | `Category Type` | 分类预期承载的内容类型 | 该分类用于可售商品、加购项，或组合相关用途时 |
 | `Category Code` | 分类的短代码 | 团队使用分类代码做设置、支持或导入时 |
 | `Category Name` 和 `Alternative Name` | 用户在分类按钮上看到的文字 | 显示文字变更，或需要另一种语言时 |
-| `Button Style` | 分类按钮的视觉样式 | 您想要统一按钮外观时 |
+| `按钮样式` | 分类按钮的视觉样式 | 您想要统一按钮外观时 |
 | 显示可见性栏位 | 分类会不会出现在支援的显示或渠道中 | 上架范围在不同介面不同时 |
 | `Printer Mapping` | 分类层级的进阶打印路由 | 输出路由需要在分类层级控制时 |
+
+如果所需 `按钮样式` 尚未存在，请使用选择器旁的 `创建按钮样式`，输入 `样式名称`，选择 `调色板`，检查 `预览`，然后选择 `创建样式`。
 
 ### 门店设置
 
 当分类只需要在部分门店公开显示时，请在分类编辑器使用 `Shop Settings`。
 
-目前此区域只提供门店级 `Public Display` 设置。其他分类资料，例如 `Category Type`、`Parent Category`、`Display Order`、`Button Style` 和主要可见性选项，都是分类本身共用的设置。
+目前此区域只提供门店级 `Public Display` 设置。其他分类资料，例如 `Category Type`、`Parent Category`、`Display Order`、`按钮样式` 和主要可见性选项，都是分类本身共用的设置。
 
 ### 猛兽模式
 
@@ -73,7 +75,7 @@ title: 分类
 - `Category Name`
 - `Alternative Name`
 
-行列表下方的共用设置会套用到本次保存建立的所有分类，包括 `Category Type`、`Parent Category`、`Display Order`、`Button Style`、`Visible in Menu` 和 `Shop Settings`。
+行列表下方的共用设置会套用到本次保存建立的所有分类，包括 `Category Type`、`Parent Category`、`Display Order`、`按钮样式`、`Visible in Menu` 和 `Shop Settings`。
 
 如果每个分类需要不同父级、样式、显示设置或门店可见性，请使用一般新增模式。
 
@@ -83,19 +85,19 @@ title: 分类
 
 ## 步骤
 
-1. 打开 `Menu Management` -> `Categories`。
+1. 打开 `菜单管理` -> `菜单分类`。
 2. 建立新分类，或打开既有分类。
 3. 如果团队有使用分类代码，请输入 `Category Code`。
 4. 选择正确的 `Category Type`。
 5. 输入 `Category Name`，需要的话再输入 `Alternative Name`。
-6. 如有需要，套用 `Button Style`。
+6. 如有需要，套用 `按钮样式`。
 7. 设置 `Visible in Menu` 和目标门店或渠道的 `Shop Settings`。
 8. 保存分类。
-9. 如果浏览顺序也要调整，请再重新排序分类。
+9. 如果浏览顺序也要调整，请选择 `Reorder`。
 
 ## 一次建立多个分类
 
-1. 打开 `Menu Management` -> `Categories`。
+1. 打开 `菜单管理` -> `菜单分类`。
 2. 选择 `New Category`。
 3. 开启 `猛兽模式`。
 4. 每个分类输入一行。

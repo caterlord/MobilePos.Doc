@@ -13,6 +13,7 @@ import TabItem from '@theme/TabItem';
 
 - 您已登入並具備設定存取權
 - 您了解門店對設定變更的政策
+- 您的 POS 使用者群組包含 `POS 設定管理`
 
 ## 此畫面用途
 
@@ -229,6 +230,10 @@ import TabItem from '@theme/TabItem';
 
 :::warning[無法儲存設定]
 請檢查必要欄位（`POS Code`、必要代碼）後再重試。
+:::
+
+:::warning[`權限不足`]
+您的 POS 使用者群組不允許變更設定。請經理／管理員在 HQ `POS Users` 更新群組，或由已授權人員處理變更。
 :::
 
 ## 何時需要找經理／管理員

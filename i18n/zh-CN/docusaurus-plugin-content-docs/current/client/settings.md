@@ -13,6 +13,7 @@ import TabItem from '@theme/TabItem';
 
 - 你已登录并拥有设置权限
 - 你了解门店对配置变更的制度
+- 你的 POS 用户群组包含 `POS 设置管理`
 
 ## 这个页面的用途
 
@@ -229,6 +230,10 @@ Needed files: `client/cl-48-settings-print-auto-print-receipt.png`, `client/cl-4
 
 :::warning[无法保存设置]
 检查必填字段（`收银机代码`、必填代码）后重试。
+:::
+
+:::warning[`权限不足`]
+你的 POS 用户群组不允许更改设置。请经理/管理员在 HQ `POS Users` 更新群组，或由已授权人员处理更改。
 :::
 
 ## 何时找经理/管理员

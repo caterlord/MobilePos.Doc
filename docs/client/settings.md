@@ -13,6 +13,7 @@ Managers/admin-level users maintaining terminal configuration.
 
 - You are signed in with settings access rights
 - You understand store policy for configuration changes
+- Your POS user group includes `POS settings admin`
 
 ## What this screen is for
 
@@ -250,6 +251,10 @@ Needed file: `client/cl-50-settings-general-clearing-local-transaction-retention
 
 :::warning[Cannot save settings]
 Check required fields (`POS Code`, required codes) and retry.
+:::
+
+:::warning[`Permission denied`]
+Your POS user group does not allow settings changes. Ask a manager/admin to update the group in HQ `POS Users` or have an authorized person make the change.
 :::
 
 ## When to ask manager/admin

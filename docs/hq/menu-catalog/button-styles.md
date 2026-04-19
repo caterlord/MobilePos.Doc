@@ -25,6 +25,7 @@ Use this page to:
 - review existing styles
 - update a non-system style
 - remove a non-system style you no longer need
+- create a missing style directly from a `Button Style` selector on supported menu setup pages
 
 ## Main sections
 
@@ -61,6 +62,19 @@ Key actions include:
 4. Select the `Background Color`.
 5. Check the preview.
 6. Save the style.
+
+## Create a style while editing menu setup
+
+Supported `Button Style` selectors also include a create-style action.
+
+1. Open a category, smart category, online category, or menu item editor.
+2. Find `Button Style`.
+3. Select `Create button style`.
+4. Enter `Style Name`.
+5. Select `Color Palette`.
+6. Check `Preview`.
+7. Select `Create Style`.
+8. Confirm the new style is selected in `Button Style`.
 
 ## What changes after you save
 

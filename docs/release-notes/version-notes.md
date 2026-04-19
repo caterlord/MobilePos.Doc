@@ -7,6 +7,20 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-04-19 (HQ/POS Permissions Alignment)
+
+### Updated
+
+- `POS Users`: documented user group `Permissions`, permission sections, protected POS action examples, and how saved group permissions affect POS runtime behavior.
+- `Roles and Permissions`: added runtime prompt guidance for `Permission denied`, `Input staff code`, `Input authorizing staff code`, and second-authorizer checks.
+- `More Tools`, `Online Orders`, and `Settings`: clarified which permission failures staff may see and when to escalate.
+- `Button Styles`, `Categories`, `Smart Categories`, `Menu Items`, and `Online Categories`: documented inline `Create button style` from supported `Button Style` selectors.
+
+### Reviewed
+
+- Checked the latest X1.POS changes through `9f898e4` and X1.HQ changes through `b1e558c` for user-visible manual impact.
+- Confirmed KPay sign error reporting, menu-item column visibility persistence, meal-set copy cleanup, and workday overlap wording are behavior/message fixes that do not need separate operational workflows beyond this release note.
+
 ## 2026-04-18 (HQ Beast Mode Bulk Creation)
 
 ### Updated

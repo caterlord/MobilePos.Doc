@@ -57,6 +57,8 @@ When you create or edit a smart category, you can work with fields such as:
 - `Button Style`
 - `Public Display`
 
+If the required `Button Style` does not exist yet, use `Create button style` beside the selector, enter `Style Name`, choose `Color Palette`, check `Preview`, and select `Create Style`.
+
 ### Beast Mode
 
 Use `Beast Mode` when you need to create several smart categories with the same shared settings.

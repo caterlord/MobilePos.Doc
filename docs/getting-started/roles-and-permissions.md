@@ -20,6 +20,8 @@ This manual currently focuses on store-side `Staff` operations.
 
 ## Who Can Do What in Store
 
+POS action permissions are managed in HQ at `POS Settings` -> `POS Users` -> `User Groups`.
+
 | Task | Cashier | Manager |
 | --- | --- | --- |
 | PIN login and roster clock in/out | Yes | Yes |
@@ -31,6 +33,17 @@ This manual currently focuses on store-side `Staff` operations.
 | Final decision for void/return exceptions | Limited | Yes |
 | Close payment/device incidents | No | Yes |
 
+## Runtime Permission Prompts
+
+When a protected action is blocked, POS can show:
+
+- `Permission denied`: the signed-in staff account does not have the required user group permission.
+- `Input staff code`: POS needs a staff code before it can check the permission.
+- `Input authorizing staff code`: a second authorized staff member must approve the action.
+- `A second staff member is required`: the same staff member cannot approve their own protected action.
+
+If one of these prompts appears during service, stop and ask a manager or authorized staff member instead of retrying with random staff codes.
+
 ## Feature Visibility Notes
 
 Some actions appear only when enabled by configuration:
@@ -40,6 +53,7 @@ Some actions appear only when enabled by configuration:
 - Auto-open order actions
 - `More Tools` cards (`Queue Controller`, etc.)
 - Third-party payment modification options
+- User group permissions configured in HQ `POS Users`
 
 ## Escalate to Manager Immediately When
 

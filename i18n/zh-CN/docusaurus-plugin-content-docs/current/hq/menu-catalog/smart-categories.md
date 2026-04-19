@@ -14,11 +14,11 @@ title: 智能分类
 
 ## 打开此页面
 
-打开 `Menu Management` -> `Smart Categories`。
+打开 `菜单管理` -> `智能分类`。
 
 ## 本页用途
 
-`Smart Categories` 可以建立比标准菜单分类树更弹性的分类分组。
+`智能分类` 可以建立比标准菜单分类树更弹性的分类分组。
 
 在以下情况使用本页：
 
@@ -36,7 +36,7 @@ title: 智能分类
 - `Category Name`
 - `Category Name (Alt)`
 - `Display Order`
-- `Button Style`
+- `按钮样式`
 - `Public Display`
 
 常见动作包括：
@@ -54,14 +54,16 @@ title: 智能分类
 - `Category Name (Alt)`
 - `Parent Category`
 - `Display Order`
-- `Button Style`
+- `按钮样式`
 - `Public Display`
+
+如果所需 `按钮样式` 尚未存在，请使用选择器旁的 `创建按钮样式`，输入 `样式名称`，选择 `调色板`，检查 `预览`，然后选择 `创建样式`。
 
 ### 猛兽模式
 
 当您要用同一组共用设置一次建立多个智能分类时，请使用 `猛兽模式`。
 
-开启 `猛兽模式` 后，请为每个智能分类输入一行。保存后，编辑器会建立所有列出的智能分类。`Parent Category`、`Display Order`、`Button Style` 和 `Public Display` 等共用设置会套用到本次建立的每个智能分类。
+开启 `猛兽模式` 后，请为每个智能分类输入一行。保存后，编辑器会建立所有列出的智能分类。`Parent Category`、`Display Order`、`按钮样式` 和 `Public Display` 等共用设置会套用到本次建立的每个智能分类。
 
 如果每个智能分类需要不同父级、显示或样式设置，请使用一般新增模式。
 
@@ -77,20 +79,20 @@ title: 智能分类
 
 ## 步骤
 
-1. 打开 `Menu Management` -> `Smart Categories`。
+1. 打开 `菜单管理` -> `智能分类`。
 2. 选择 `New Smart Category`，或打开现有分类编辑。
 3. 输入 `Category Name`。
 4. 需要的话，也可以输入 `Category Name (Alt)`。
 5. 如果该分类应该放在其他分类下方，请选择 `Parent Category`。
 6. 设置 `Display Order`。
-7. 如果您要特定外观，请选择 `Button Style`。
+7. 如果您要特定外观，请选择 `按钮样式`。
 8. 按需要开启或关闭 `Public Display`。
 9. 保存分类。
 10. 打开详细分页，管理 `Items`、`Shop Display Settings` 或 `Order Channels`。
 
 ## 一次建立多个智能分类
 
-1. 打开 `Menu Management` -> `Smart Categories`。
+1. 打开 `菜单管理` -> `智能分类`。
 2. 选择 `New Smart Category`。
 3. 开启 `猛兽模式`。
 4. 每个智能分类输入一行。

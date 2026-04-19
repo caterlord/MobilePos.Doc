@@ -13,6 +13,7 @@ Staff handling marketplace/online channels and pickup order states.
 
 - You are signed in
 - Online channel integration is enabled for your store
+- Your POS user group allows `Online order operations` or `ODO pickup orders` for the action you need
 
 ## What this screen is for
 
@@ -37,6 +38,8 @@ Shows pickup orders and action buttons such as `View`, `Reject`, `Accept`, `Prep
 4. Open target order and apply required action (`Accept`, `Prepare`, `Pick up`, etc.).
 5. Confirm list status updates after action.
 
+`Accept`, `Reject`, `Prepare`, and `Pick up` use `Online order operations` permission. `Create` uses `ODO pickup orders` permission.
+
 ## What you should see
 
 - `Server` and `Pickup` tabs at top
@@ -52,8 +55,13 @@ Needed files: `client/cl-28-online-orders-server-tab.png`, `client/cl-29-online-
 Refresh once, verify internet, then retry the action.
 :::
 
+:::warning[`Permission denied`]
+Ask a manager/admin to check your POS user group in HQ `POS Users`. Do not process the online order from another staff account unless store policy allows it.
+:::
+
 ## When to ask manager/admin
 
 - Orders are stuck in one status after retry
 - Channel/pickup actions are missing for expected orders
+- POS shows `Permission denied` for an online order action
 - Store policy decision is needed for reject/cancel handling
