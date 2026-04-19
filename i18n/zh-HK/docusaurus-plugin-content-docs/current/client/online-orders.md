@@ -13,6 +13,7 @@ import TabItem from '@theme/TabItem';
 
 - 您已登入
 - 門店已啟用線上渠道整合
+- 您的 POS 使用者群組允許所需操作的 `網上訂單操作` 或 `ODO 取餐訂單`
 
 ## 此畫面用途
 
@@ -37,6 +38,8 @@ import TabItem from '@theme/TabItem';
 4. 開啟目標訂單並執行所需操作（`Accept`、`Prepare`、`Pick up` 等）。
 5. 確認操作後清單狀態有更新。
 
+`Accept`、`Reject`、`Prepare` 和 `Pick up` 使用 `網上訂單操作` 權限。`Create` 使用 `ODO 取餐訂單` 權限。
+
 ## 您會看到
 
 - 頁面上方有 `伺服器` 和 `取餐` 分頁
@@ -52,8 +55,13 @@ import TabItem from '@theme/TabItem';
 請先重新整理一次，確認網絡正常，然後再重試操作。
 :::
 
+:::warning[`權限不足`]
+請經理／管理員在 HQ `POS Users` 檢查您的 POS 使用者群組。除非門店政策允許，否則不要改用其他員工帳號處理線上訂單。
+:::
+
 ## 何時需要找經理／管理員
 
 - 重試後，訂單仍然卡在同一狀態
 - 預期訂單缺少 channel / pickup 操作
+- POS 對線上訂單操作顯示 `權限不足`
 - 拒絕 / 取消處理需要門店政策決定

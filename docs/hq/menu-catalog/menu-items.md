@@ -55,6 +55,8 @@ The item type affects where the item belongs and how the POS uses it.
 | `Printed Name` | What prints on receipts or kitchen output | When you need shorter or more operational wording |
 | category and department fields | Browsing structure and reporting structure | When the item belongs in a different menu location or roll-up |
 
+If the required `Button Style` does not exist while you are creating or editing an item, use `Create button style` beside the selector, enter `Style Name`, choose `Color Palette`, check `Preview`, and select `Create Style`.
+
 ### Special behavior switches
 
 Use the item switches carefully, because they can change how the POS behaves during checkout.

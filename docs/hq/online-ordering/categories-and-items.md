@@ -57,6 +57,8 @@ When `Beast Mode` is on, enter one row for each online category with:
 
 The shared settings below the row list apply to every online category created in that save. Use normal create mode when each online category needs different setup.
 
+If the required `Button Style` does not exist yet, use `Create button style` beside the selector, enter `Style Name`, choose `Color Palette`, check `Preview`, and select `Create Style`.
+
 ### Images
 
 Use the row editor for a category or item to upload product images.

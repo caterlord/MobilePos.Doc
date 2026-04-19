@@ -57,6 +57,8 @@ Try to keep the path short enough that staff can reach sellable items quickly du
 | display visibility fields | Whether the category appears in supported displays or channels | When rollout differs by surface |
 | `Printer Mapping` | Advanced print routing for the category | When output routing should be controlled at category level |
 
+If the required `Button Style` does not exist yet, use `Create button style` beside the selector, enter `Style Name`, choose `Color Palette`, check `Preview`, and select `Create Style`.
+
 ### Shop settings
 
 Use `Shop Settings` in the category editor when the category should be publicly displayed in some shops but not others.
@@ -91,7 +93,7 @@ Use the reorder action when the current category order no longer matches how sta
 6. Apply a `Button Style` if required.
 7. Set `Visible in Menu` and `Shop Settings` for the intended shops or channels.
 8. Save the category.
-9. Reorder categories if the browsing order also needs to change.
+9. Select `Reorder` if the browsing order also needs to change.
 
 ## Create several categories at once
 

@@ -10,6 +10,7 @@ Managers and authorized staff performing operational controls.
 
 - You are signed in with required role rights
 - Store policy allows manager-tool actions on this terminal
+- Your POS user group includes the tool permission, or a manager is available to authorize it
 
 ## What this screen is for
 
@@ -34,6 +35,7 @@ For hardware/device setup and printer troubleshooting, use `Devices`.
 1. Tap `More Tools`.
 2. Select the required tool card.
 3. Complete the confirmation flow for that tool.
+4. If POS asks for `Input authorizing staff code`, ask an authorized manager or staff member to enter their own code.
 
 ## What you should see
 
@@ -43,6 +45,10 @@ For hardware/device setup and printer troubleshooting, use `Devices`.
 
 :::warning[Card is missing]
 Some tools are role/platform/configuration dependent.
+:::
+
+:::warning[`Permission denied`]
+Your POS user group does not allow that action. Ask a manager/admin to review your group in HQ `POS Users`.
 :::
 
 ## When to ask manager/admin
