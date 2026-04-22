@@ -208,6 +208,10 @@ const sidebars: SidebarsConfig = {
   ],
   mcpSidebar: [
     'mcp/overview',
+    'mcp/connect-ai-assistant',
+    'mcp/capabilities',
+    'mcp/safe-use',
+    'mcp/troubleshooting',
   ],
 };
 

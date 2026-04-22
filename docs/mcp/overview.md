@@ -1,77 +1,73 @@
 ---
 sidebar_position: 1
+title: X1 MCP Overview
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+# X1 Model Context Protocol (MCP)
 
-# Model Context Protocol (MCP)
+:::info[Who this is for]
+Owners, back-office admins, setup staff, and managers who want an AI assistant to help with X1 HQ reporting, setup, menu maintenance, online ordering, and store configuration.
+:::
 
-Use our MCP server to let AI agents interact with the X1 API.
+## Before you start
 
-The X1 Model Context Protocol (MCP) server provides a set of tools that AI agents can use to interact with the X1 POS API and securely search the X1 knowledge base, including manual pages and support articles.
+- Confirm your X1 account has permission to view or change the target brand and shop.
+- Confirm your AI client supports remote MCP servers over HTTPS.
+- Use the official X1 MCP server URL: `https://mcp.x1.tech/mcp`.
+- Treat live menu prices, online ordering, device settings, and store settings as high-risk changes.
 
-## Connect to X1's MCP server
+## What this section is for
 
-<Tabs>
-  <TabItem value="cursor" label="Cursor" default>
-    To automatically add the X1 MCP to Cursor, open your `~/.cursor/mcp.json` file and add the following configuration. For more details, see the Cursor documentation.
+The X1 MCP server gives an AI assistant controlled access to X1 HQ tools. It helps the assistant answer questions, inspect setup, prepare changes, show previews, and apply approved changes.
 
-    ```json
-    {
-      "mcpServers": {
-        "x1Agent": {
-          "command": "npx",
-          "args": ["-y", "@caterlord/x1-mcp-server@latest"],
-          "env": {
-            "X1_API_ENDPOINT": "https://mcp.x1.tech/mcp"
-          }
-        }
-      }
-    }
-    ```
-  </TabItem>
-  <TabItem value="claude" label="Claude Desktop">
-    You can link the X1 server locally by appending the same configuration to your Claude desktop configuration file. After saving the file, explicitly restart the Claude application.
-    
-    - **Mac**: `~/Library/Application Support/Claude/claude_desktop_config.json`
-    - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+Use it when you want to ask natural-language questions such as:
 
-    ```json
-    {
-      "mcpServers": {
-        "x1Agent": {
-          "command": "npx",
-          "args": ["-y", "@caterlord/x1-mcp-server@latest"],
-          "env": {
-            "X1_API_ENDPOINT": "https://mcp.x1.tech/mcp"
-          }
-        }
-      }
-    }
-    ```
-  </TabItem>
-  <TabItem value="chatgpt" label="ChatGPT">
-    To integrate with OpenAI's ChatGPT web interface, use our hosted server architecture via a Custom GPT.
-    1. Navigate to **Explore GPTs** -> **Create a Custom GPT**.
-    2. Under the **Actions** tab, click `Add Action`.
-    3. Paste the **OpenAPI Schema URL**: `https://mcp.x1.tech/mcp/openapi.json`
-    4. Set Authentication to **OAuth** using your provided X1 Client ID.
-  </TabItem>
-</Tabs>
+- "Show yesterday's sales by shop and compare it with last Tuesday."
+- "Find items that are missing from online ordering."
+- "Increase all hot drink prices by `$1` and show me the before and after table first."
+- "Read this uploaded menu file and prepare categories, items, modifiers, and combo rules for review."
+- "Check whether this shop is ready for online ordering."
 
-## Tools
+The assistant may read uploaded files, images, PDFs, or spreadsheets in the chat. The MCP server then helps turn the reviewed result into structured X1 HQ changes. The MCP server is not a replacement for manager approval.
 
-The server exposes the following MCP tools. To avoid prompt injection attacks or unintended mutations, we recommend enabling manual tool confirmation and exercising caution when using the X1 MCP on shared servers. If you have any feedback or would like to request additional tools, please email `mcp@x1.tech`.
+## How to use this section
 
-| Resource | Tool | Description |
+1. Start with [Connect an AI Assistant](./connect-ai-assistant.md) to link your AI client to X1 MCP.
+2. Use [What the X1 MCP Can Do](./capabilities.md) to choose the right kind of request.
+3. Read [Use MCP Safely](./safe-use.md) before asking the assistant to change live HQ data.
+4. Use [Troubleshooting MCP](./troubleshooting.md) if connection, sign-in, permission, preview, or commit steps do not work as expected.
+
+## Common tasks
+
+| Task | What to ask for first | What to approve only after checking |
 | :--- | :--- | :--- |
-| **Sales** | `get_net_sales_summary` | Retrieve financial net sales summaries across your operating locations. |
-| **Sales** | `list_void_transactions` | Retrieve the security audit log of reversed or nullified transaction receipts. |
-| **Menus** | `list_menu_categories` | Retrieve physical and online menu category trees. |
-| **Menus** | `list_menu_items` | Retrieve all products, inclusive of pricing tiers for specific channels. |
-| **Logistics** | `get_inventory_levels` | Retrieve specific ingredient or item depletion thresholds. |
-| **Logistics** | `get_staff_attendance` | Retrieve clock-in and clock-out logs for payroll reconciliation. |
-| **Devices** | `get_shop_info` | Retrieve organization and specific shop terminal configurations. |
-| **Devices** | `get_device_terminals` | Retrieve hardware mapping for a specific shop. |
-| **Support** | `search_x1_documentation` | Search the X1 HQ knowledge base for operational assistance. |
+| Review sales | Ask for a brand, shop, and date range summary. | No approval is needed for read-only reports. |
+| Import a menu | Ask the assistant to show parsed categories, items, modifiers, and combo rules. | Approve only after the preview matches the source menu and target shop. |
+| Change prices | Ask for a before and after table grouped by category. | Approve only after checking every affected item and channel. |
+| Fix online ordering visibility | Ask for a readiness check and missing setup list. | Approve only the specific settings or menu changes you understand. |
+| Rename a cash drawer | Ask for the current device settings snapshot. | Approve only after confirming the target shop and drawer. |
+
+## What changes after you approve
+
+MCP changes follow the same operational rules as HQ changes:
+
+- Read requests inspect data only.
+- Preview requests prepare a proposed change and show the expected result.
+- Commit requests apply an approved preview to X1 HQ.
+- Some commits may run as background tasks. Ask the assistant to check task status before you assume the change is complete.
+
+After a commit, verify the result in the place that uses the data: HQ, POS, online ordering, reports, or the target shop.
+
+## If something goes wrong
+
+- Stop before approving a write action.
+- Ask the assistant to show the selected brand, shop, channel, and affected records.
+- Ask for a fresh preview if the source file, item list, or target scope changed.
+- Use [Troubleshooting MCP](./troubleshooting.md) for connection and permission checks.
+
+## When to ask owner/admin
+
+- You are not sure which brand, shop, or channel the assistant selected.
+- The preview changes live prices, taxes, discounts, online ordering, payment-related setup, or device settings.
+- The assistant cannot explain the before and after result in plain language.
+- You need access to a brand or shop that is not visible after sign-in.

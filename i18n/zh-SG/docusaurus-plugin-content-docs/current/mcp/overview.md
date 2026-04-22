@@ -1,77 +1,73 @@
 ---
 sidebar_position: 1
+title: X1 MCP 概览
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+# X1 Model Context Protocol (MCP)
 
-# 模型上下文协议（MCP）
+:::info[适合对象]
+希望用 AI 助理协助处理 X1 HQ 报表、设置、菜单维护、在线点餐和门店设置的店主、后台管理员、设置人员和经理。
+:::
 
-使用我们的 MCP 服务器，让 AI 代理与 X1 API 交互。
+## 开始之前
 
-X1 Model Context Protocol（MCP）服务器提供一组工具，供 AI 代理与 X1 POS API 交互，并安全搜索 X1 知识库，包括手册页面和支持文章。
+- 确认你的 X1 账号有权限查看或更改目标品牌和门店。
+- 确认你的 AI 客户端支持通过 HTTPS 连接远程 MCP 服务器。
+- 使用官方 X1 MCP 服务器地址：`https://mcp.x1.tech/mcp`。
+- 将实时菜单价格、在线点餐、设备设置和门店设置视为高风险更改。
 
-## 连接到 X1 的 MCP 服务器
+## 本章用途
 
-<Tabs>
-  <TabItem value="cursor" label="Cursor" default>
-    要在 Cursor 中自动添加 X1 MCP，请打开 `~/.cursor/mcp.json` 文件并加入以下配置。更多详情请参阅 Cursor 文档。
+X1 MCP 服务器让 AI 助理以受控方式使用 X1 HQ 工具。它可以协助查询数据、检查设置、准备更改、显示预览，并在你批准后应用更改。
 
-    ```json
-    {
-      "mcpServers": {
-        "x1Agent": {
-          "command": "npx",
-          "args": ["-y", "@caterlord/x1-mcp-server@latest"],
-          "env": {
-            "X1_API_ENDPOINT": "https://mcp.x1.tech/mcp"
-          }
-        }
-      }
-    }
-    ```
-  </TabItem>
-  <TabItem value="claude" label="Claude Desktop">
-    你可以把相同配置追加到 Claude Desktop 的配置文件，在本地连接 X1 服务器。保存文件后，请明确重新启动 Claude 应用程序。
+你可以用自然语言提出要求，例如：
 
-    - **Mac**: `~/Library/Application Support/Claude/claude_desktop_config.json`
-    - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+- “显示昨天各门店销售，并与上周二比较。”
+- “找出没有显示到在线点餐的品项。”
+- “将所有热饮加价 `$1`，先显示调整前后表格。”
+- “读取这份上传菜单，整理分类、品项、加配项和套餐规则供我检查。”
+- “检查这家门店是否已准备好启用在线点餐。”
 
-    ```json
-    {
-      "mcpServers": {
-        "x1Agent": {
-          "command": "npx",
-          "args": ["-y", "@caterlord/x1-mcp-server@latest"],
-          "env": {
-            "X1_API_ENDPOINT": "https://mcp.x1.tech/mcp"
-          }
-        }
-      }
-    }
-    ```
-  </TabItem>
-  <TabItem value="chatgpt" label="ChatGPT">
-    要与 OpenAI 的 ChatGPT 网页界面集成，请通过 Custom GPT 使用我们的托管服务器架构。
-    1. 前往 **Explore GPTs** -> **Create a Custom GPT**。
-    2. 在 **Actions** 标签页中，点击 `Add Action`。
-    3. 粘贴 **OpenAPI Schema URL**：`https://mcp.x1.tech/mcp/openapi.json`
-    4. 将 Authentication 设为 **OAuth**，并使用你获得的 X1 Client ID。
-  </TabItem>
-</Tabs>
+AI 助理可以在对话中读取你上传的文件、图片、PDF 或表格。MCP 服务器会协助把已检查的结果转成结构化 X1 HQ 更改。MCP 服务器不能取代经理批准。
 
-## 工具
+## 如何使用本章
 
-服务器提供以下 MCP 工具。为避免提示注入攻击或意外修改，建议开启手动工具确认，并在共享服务器上使用 X1 MCP 时保持谨慎。如果你有反馈或想申请新增工具，请发送邮件到 `mcp@x1.tech`。
+1. 先阅读 [连接 AI 助理](./connect-ai-assistant.md)，将 AI 客户端连接到 X1 MCP。
+2. 使用 [X1 MCP 可以做什么](./capabilities.md) 选择合适的请求类型。
+3. 在要求助理更改实时 HQ 数据前，先阅读 [安全使用 MCP](./safe-use.md)。
+4. 如连接、登录、权限、预览或应用步骤出现问题，使用 [MCP 故障排查](./troubleshooting.md)。
 
-| 资源 | 工具 | 说明 |
+## 常见工作
+
+| 工作 | 先要求助理做什么 | 检查后才批准什么 |
 | :--- | :--- | :--- |
-| **销售** | `get_net_sales_summary` | 读取各营业地点的财务净销售汇总。 |
-| **销售** | `list_void_transactions` | 读取已撤销或作废交易收据的安全审计日志。 |
-| **菜单** | `list_menu_categories` | 读取实体和线上菜单分类树。 |
-| **菜单** | `list_menu_items` | 读取所有产品，包括特定渠道的价格层级。 |
-| **物流** | `get_inventory_levels` | 读取特定原料或品项的消耗阈值。 |
-| **物流** | `get_staff_attendance` | 读取签到和签退记录，用于薪资核对。 |
-| **设备** | `get_shop_info` | 读取组织及特定门店的终端配置。 |
-| **设备** | `get_device_terminals` | 读取特定门店的硬件映射。 |
-| **支持** | `search_x1_documentation` | 搜索 X1 知识库，获取操作协助。 |
+| 查看销售 | 要求按品牌、门店和日期范围显示汇总。 | 只读报表不需要批准。 |
+| 导入菜单 | 要求显示解析出的分类、品项、加配项和套餐规则。 | 只有当预览与来源菜单和目标门店一致时才批准。 |
+| 更改价格 | 要求按分类显示调整前后表格。 | 检查所有受影响品项和渠道后才批准。 |
+| 修正在线点餐显示 | 要求检查准备状态和缺少的设置。 | 只批准你理解的指定设置或菜单更改。 |
+| 更改钱箱名称 | 要求先显示当前设备设置。 | 确认目标门店和钱箱后才批准。 |
+
+## 批准后会发生什么
+
+MCP 更改遵循与 HQ 更改相同的运营规则：
+
+- 读取请求只会查看数据。
+- 预览请求会准备建议更改并显示预期结果。
+- 应用请求会把已批准的预览写入 X1 HQ。
+- 部分应用动作可能以后台任务执行。请要求助理检查任务状态，才假设更改已完成。
+
+应用后，请在使用该数据的位置验证结果：HQ、POS、在线点餐、报表或目标门店。
+
+## 如出现问题
+
+- 在批准写入动作前停止。
+- 要求助理显示已选品牌、门店、渠道和受影响记录。
+- 如果来源文件、品项列表或目标范围有变化，要求重新预览。
+- 使用 [MCP 故障排查](./troubleshooting.md) 检查连接和权限。
+
+## 何时要求店主/管理员协助
+
+- 你不确定助理选择了哪个品牌、门店或渠道。
+- 预览会更改实时价格、税项、折扣、在线点餐、付款相关设置或设备设置。
+- 助理无法用清楚文字解释更改前后结果。
+- 登录后看不到需要使用的品牌或门店。
