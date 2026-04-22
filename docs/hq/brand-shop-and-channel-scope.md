@@ -32,6 +32,7 @@ Typical examples:
 - discounts
 - promotions
 - base payment method definitions
+- receipt branding and logo settings
 
 Brand-level does not always mean every shop uses the setting automatically. A later shop-level enable step may still be required.
 

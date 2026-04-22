@@ -33,6 +33,8 @@ Use this page to create or maintain:
 
 ![Menu Items List](/img/hq/menu-catalog/menu_items_list.png)
 
+When you edit an item in the drawer, the header shows the current `Item Code` and `Item Name`. If you use `Skip to Next` or `Update & Next`, the drawer keeps the active tab selected so you can continue the same workflow across records.
+
 ## Main sections
 
 ### Item type
@@ -69,9 +71,9 @@ Examples include:
 - non-taxable
 - receipt visibility options
 
-### Pricing and availability
+### Pricing, availability, and shop settings
 
-Use the item's pricing and availability areas to control branch-specific selling price and whether the item is enabled or out of stock.
+Use the item's pricing, availability, and shop settings areas to control branch-specific selling price, per-shop enablement, and whether the item is enabled or out of stock.
 
 ### Copy an existing item
 
@@ -120,7 +122,7 @@ These changes affect the shared item record and may also affect shop availabilit
 
 1. Reopen the item and confirm the saved values.
 2. Verify the item sits in the correct category and department.
-3. Check the target shop pricing or availability if those were changed.
+3. Check the target shop pricing, availability, or shop settings if those were changed.
 4. Test the affected POS behavior if you changed special switches.
 5. If you copied an item, reopen the copied item and confirm the related setup was copied as expected.
 

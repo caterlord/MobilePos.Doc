@@ -32,6 +32,7 @@ Typical examples:
 - discounts
 - promotions
 - base 付款 方式 definitions
+- 收據品牌及標誌設定
 
 Brand-level does not always mean every 店舖 uses the 設定 automatically. A 稍後 shop-level enable step may still be 需要.
 
