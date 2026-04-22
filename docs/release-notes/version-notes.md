@@ -7,6 +7,18 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-04-23 (HQ branding and menu-item workflow alignment)
+
+### Updated
+
+- `Workspace Administration` and `Brand, Shop, and Channel Scope`: documented that brand records can carry receipt branding details such as the printed receipt logo.
+- `Menu Items`: documented the drawer header record context, the tab-preserving `Skip to Next` / `Update & Next` workflow, and the refined shop-settings wording for per-shop enablement.
+
+### Reviewed
+
+- Reviewed the HQ portal changes in `0a18a87`, `158922f`, `24fe946`, and `76a7a36` against the current manual baseline.
+- Confirmed the remaining menu-catalog and workspace wording in this window did not need additional standalone pages beyond the updates above.
+
 ## 2026-04-19 (HQ/POS Permissions Alignment)
 
 ### Updated

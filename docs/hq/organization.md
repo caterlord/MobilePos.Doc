@@ -45,7 +45,7 @@ Use `Companies` to create or maintain the top level of the business structure. A
 
 ### Brands
 
-Use `Brands` to create or maintain brands under a company. A brand is the main scope used by many HQ setup pages.
+Use `Brands` to create or maintain brands under a company. A brand is the main scope used by many HQ setup pages, and brand records can include receipt branding details such as the logo used on printed receipts.
 
 ### Shops
 
