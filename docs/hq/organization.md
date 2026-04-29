@@ -60,6 +60,8 @@ This tab separates two jobs:
 - workspace membership: whether the person belongs to the workspace
 - HQ business access: which company, brand, or shop the person can work with in HQ
 
+Members marked `Workspace admin` already have access across the active workspace. They do not need direct company, brand, or shop assignments before they can open HQ pages.
+
 ## Key actions
 
 ### Create a company, brand, or shop
@@ -106,6 +108,7 @@ If the assignment is marked `Inherited`, remove the higher-level source assignme
 
 - Changes in `Companies`, `Brands`, and `Shops` affect the active workspace business structure.
 - `Business Access` changes affect what the member can see or administer in HQ.
+- Workspace admins can administer the active workspace even when they do not have direct business access rows.
 - Assignments added to a `Pending invitation` are applied when the invited person accepts the invitation and signs in.
 - These changes do not create or change POS cashier logins.
 
@@ -120,7 +123,8 @@ If the assignment is marked `Inherited`, remove the higher-level source assignme
 ## If something goes wrong
 
 - If `Sign-in required` appears, ask the invited person to sign in to HQ once before assigning access to their active account.
-- If `No assignable access` appears, your account may not have permission to grant access for that company, brand, or shop.
+- If `Workspace admin` appears instead of `Assign access`, the member already has workspace-wide HQ access and does not need a direct assignment.
+- If `No assignable access` appears for someone who is not a workspace admin, your account may not have permission to grant access for that company, brand, or shop.
 - If a member can see too much or too little, check whether their access is assigned at `Company`, `Brand`, or `Shop` level.
 - If an assignment is inherited, remove the higher-level assignment that created it.
 - If you need a cashier login for the POS terminal, go to [POS Users](./pos-settings/pos-users.md) instead.
