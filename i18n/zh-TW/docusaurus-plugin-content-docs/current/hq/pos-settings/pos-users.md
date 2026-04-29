@@ -11,6 +11,7 @@ title: POS 使用者
 
 - 確認你目前選到正確的品牌與目標店舖。
 - 先決定你要建立的是使用者群組，還是單一 POS 使用者。
+- 如果要為同一店舖及同一登入設定建立多個 POS 使用者，請先準備姓名、員工代碼、卡號及密碼，然後使用 `Beast Mode`。
 - 不要把 POS 使用者存取權和 HQ 工作區成員存取權混淆，後者請參閱 [工作區管理](../organization.md)。
 
 ## 開啟此頁面
@@ -50,7 +51,9 @@ title: POS 使用者
 - `Alt Name`
 - `Password`
 - `Staff Code`
-- `Card No.`
+- `Card No`
+
+如果需要為同一店舖及共用登入設定建立多個 POS 使用者，可在 `New POS User` 使用 `Beast Mode`。開啟 `Beast Mode` 後，每一列代表一位員工，請輸入 `User Name`、`Alt Name`、`Staff Code`、`Card No` 及 `Password`。然後在 `Shared settings` 完成 `User Groups`、`Shop`、`User ID Login`、`Card No Login`、`Staff Code Login` 及 `Inactive Account` 等共用設定。如需要更多列，按 `Add row`。建立按鈕會顯示即將建立的 POS 使用者數量。
 
 ### 登入行為
 
@@ -75,20 +78,34 @@ title: POS 使用者
 7. 視需要將使用者設為啟用或停用。
 8. 儲存使用者。
 
+## 使用 Beast Mode 建立多個 POS 使用者
+
+1. 選擇 `POS Users`。
+2. 按 `New User`。
+3. 開啟 `Beast Mode`。
+4. 每一列輸入一位員工。
+5. 如需要更多列，按 `Add row`。
+6. 在 `Shared settings` 選擇 `User Groups` 及 `Shop`。
+7. 開啟所需的登入方式。
+8. 只有在所有列出的使用者都應建立為停用時，才開啟 `Inactive Account`。
+9. 按 `Create POS users`。
+
 ## 儲存後的影響
 
-這些變更會影響所選員工帳號能否在指派店舖的 POS 上登入。
+這些變更會影響所選員工帳號能否在指派店舖的 POS 上登入。`Beast Mode` 會為每一列建立 POS 使用者，並套用相同的店舖、使用者群組、登入方式及狀態設定。
 
 ## 如何檢查你的變更
 
 1. 重新開啟使用者資料，確認已儲存欄位正確。
 2. 確認使用者已指派到正確店舖。
-3. 在實際可行時，驗證預定的登入方式可在目標 POS 上運作。
+3. 如果使用了 `Beast Mode`，確認清單中出現所有預期的 POS 使用者，並抽查幾個資料。
+4. 在實際可行時，驗證預定的登入方式可在目標 POS 上運作。
 
 ## 如發生問題
 
 - 確認你編輯的是 POS 使用者，不是 HQ 工作區成員。
 - 檢查是否選錯店舖。
+- 如果 `Beast Mode` 建立按鈕不可用，或某一列驗證失敗，確認每個已填寫的列都有必需的使用者身分及登入欄位，並確認共用店舖及登入設定正確。
 - 再次檢查登入方式切換之前，是否已有變更使用者識別欄位。
 
 ## 何時要請店主／管理員協助
