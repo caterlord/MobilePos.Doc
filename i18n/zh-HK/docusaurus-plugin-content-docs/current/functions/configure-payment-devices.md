@@ -49,7 +49,17 @@ import TabItem from '@theme/TabItem';
 > Screenshot pending: `functions/fn-payment-linkly-terminal-dialog.png`
   </TabItem>
   <TabItem value="octopus-v3" label="Octopus V3 讀卡器">
-常見欄位包括 `IP Address`、`Port`、`API ID`、`API Token` 和 Octopus 開關。
+常見欄位包括 `IP 位址`、`連接埠`、`裝置編號`、`API ID`、`API Token` 和 Octopus 開關。
+
+1. 在 `IP 位址` 和 `連接埠` 輸入讀卡器網絡資料。
+2. 在 `裝置編號` 輸入 Octopus 讀卡器編號。
+3. 輸入 `API ID` 和 `API Token`。
+4. 檢查 Octopus 開關。
+5. 儲存設定。
+
+:::warning[`裝置編號` 為必填]
+Octopus V3 讀卡器設定必須填寫 `裝置編號`、`API ID` 和 `API Token` 後才能儲存。
+:::
 
 > Screenshot pending: `functions/fn-payment-octopus-v3-reader-dialog.png`
   </TabItem>

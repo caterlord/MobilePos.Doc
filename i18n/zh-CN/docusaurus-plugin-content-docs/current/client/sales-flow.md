@@ -85,6 +85,7 @@ Needed file: `client/cl-37-ordering-table-view-toggle-floorplan-tablelist.png`
 - `取消交易`
 - `代收 / 代支`
 - `会员登录`
+- `八达通结算`（启用八达通 V3 且读卡器可用时）
 
 可参考这些详细指南：
 
@@ -96,6 +97,7 @@ Needed file: `client/cl-37-ordering-table-view-toggle-floorplan-tablelist.png`
 - `分拆 / 合并交易`：[功能指南](../functions/split-merge-transaction)
 - `会员登录`：[功能指南](../functions/member-login)
 - `代收 / 代支`：[功能指南](../functions/pay-in-pay-out)
+- `八达通结算`：[功能指南](../functions/octopus-settlement)
 
 ![订单功能菜单](/img/manual/en/client/cl-08-order-function-menu.png)
 ![应用折扣对话框](/img/manual/en/client/cl-09-apply-discount-dialog.png)

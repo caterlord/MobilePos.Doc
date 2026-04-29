@@ -62,6 +62,7 @@ This repository should match that level of guidance without copying another prod
 - Prefer exact UI labels in backticks.
 - Keep one primary user goal per page whenever possible.
 - Separate concepts from procedures when combining them would make the page harder to scan.
+- In translated docs, use official localized labels from the POS/HQ product repos. Do not translate UI labels from memory.
 
 Do:
 
@@ -75,6 +76,28 @@ Do not:
 - use engineering jargon without plain explanation
 - bury important warnings in long paragraphs
 - assume users understand brand-level versus shop-level scope
+
+## 4.1) Official Product Terms and Translation
+
+Product UI labels are source-controlled in the product repos. The manual must follow those labels exactly.
+
+For POS client pages:
+
+- Check the POS app localization files and the relevant view/view-model code before writing translated labels.
+- Use the POS app's official terms for screen names, tabs, fields, dialogs, buttons, and messages.
+- If a POS locale is not available, use the nearest supported POS locale consistently: Traditional Chinese labels for `zh-HK`/`zh-TW`, and Simplified Chinese labels for `zh-CN`/`zh-SG`, unless maintainers provide a separate glossary.
+
+For HQ pages:
+
+- Check the HQ frontend route/menu configuration, page components, and locale/message files before writing translated labels.
+- Use the HQ portal's official terms for navigation groups, pages, tabs, fields, buttons, and validation messages.
+
+Rules:
+
+- Keep technical labels in English only when the product locale keeps them in English.
+- Do not leave English labels in translated docs when the product has localized labels.
+- If a field is technical but the product also has a localized label, use the localized label first and optionally add the English term in parentheses for clarity.
+- When a screenshot caption or pending screenshot request names UI, use the same official product label that the user will see on screen.
 
 ## 5) Information Architecture
 

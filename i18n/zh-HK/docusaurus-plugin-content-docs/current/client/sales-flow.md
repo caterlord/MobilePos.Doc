@@ -85,6 +85,7 @@ import TabItem from '@theme/TabItem';
 - `Void Txn`
 - `Pay In / Pay Out`
 - `Member Login`
+- `八達通結算`（啟用 Octopus V3 且讀卡器可用時）
 
 相關詳細指南：
 
@@ -96,6 +97,7 @@ import TabItem from '@theme/TabItem';
 - `Split / Merge Txn`：[功能指南](../functions/split-merge-transaction)
 - `Member Login`：[功能指南](../functions/member-login)
 - `Pay In / Pay Out`：[功能指南](../functions/pay-in-pay-out)
+- `八達通結算`：[功能指南](../functions/octopus-settlement)
 
 ![訂單 function 菜單](/img/manual/en/client/cl-08-order-function-menu.png)
 ![套用 Discount dialog](/img/manual/en/client/cl-09-apply-discount-dialog.png)

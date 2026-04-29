@@ -146,6 +146,16 @@ Restore now covers more configuration areas in current builds, so verify critica
 5. Tap `Save`.
 6. Print a test receipt/slip and confirm output language.
 
+## Common label text fitting task
+
+1. Tap `Settings` -> `Printing`.
+2. Open `Template`.
+3. Set `Template` to `Label`.
+4. Turn `Enable adaptive text size` on if long item or modifier names should shrink to fit the label width.
+5. Leave `Enable adaptive text size` off if your store wants label text to keep the configured body font size.
+6. Tap `Save`.
+7. Print a label with a long item name and confirm the text is still readable.
+
 ## Common receipt auto print task
 
 1. Tap `Settings` -> `Printing`.
@@ -223,6 +233,7 @@ If you increase `Local Transaction Retention (Days)` later, POS does not restore
 - `Printing` -> `Setting` includes `Auto Print Receipt`
 - `Printing` -> `Setting` includes `Show Order Contact On Receipt` and `Show Order Contact On Kitchen Output`
 - `Printing` -> `Template` receipt font settings include `Customer Contact`
+- `Printing` -> `Template` label settings include `Enable adaptive text size`
 - `General` -> `Clearing` includes `Local Transaction Retention (Days)` and the warning text about older closed workdays being removed from this device
 - `Report` includes `Print Qty`, `Daily Report Sections`, and `Show advanced sections`
 - `Restore` action at the bottom of settings
@@ -241,6 +252,10 @@ Needed files: `client/cl-46-settings-operation-terminal-mode.png`, `client/cl-47
 
 :::note[Screenshot pending]
 Needed files: `client/cl-48-settings-print-auto-print-receipt.png`, `client/cl-49-settings-report-day-end-sections.png`
+:::
+
+:::note[Screenshot pending]
+Needed file: `client/cl-51-settings-template-label-adaptive-text-size.png`
 :::
 
 :::note[Screenshot pending]

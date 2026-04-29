@@ -41,7 +41,7 @@ import TabItem from '@theme/TabItem';
   <TabItem value="payments" label="付款">
 此分頁用於付款終端機狀態 / 設定：
 
-`Info`、編輯付款裝置設定（包括 Linkly EFTPOS 終端機配對 / 設定），以及裝置不可用時的標記 (`!`)。
+`Info`、編輯付款裝置設定（包括 Linkly EFTPOS 終端機配對 / 設定及 Octopus V3 `裝置編號`），以及裝置不可用時的標記 (`!`)。
   </TabItem>
   <TabItem value="input" label="輸入裝置">
 此分頁用於掃描器 / 輸入設定：

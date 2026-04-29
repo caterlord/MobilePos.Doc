@@ -26,13 +26,13 @@ title: 功能与模块索引
 | 在线订单 | 服务器／取餐订单监控与动作处理 | [在线订单](../client/online-orders) |
 | 订单总览 | 打开／已结账／订金／搜寻交易查询 | [订单总览](../client/orders-overview) |
 | 库存 | 售完与限量品项控制 | [库存](../client/inventory) |
-| 订单功能 | 套用／取消折扣、套用／取消服务费、更换桌台、订单联络、订单备注、分拆／合并交易、作废交易、收支记录、会员登录、分页式 `Select Function` 对话框 | [销售流程](../client/sales-flow), [功能：订单联络](../functions/order-contact), [退款与作废](../client/refunds-and-voids) |
+| 订单功能 | 套用／取消折扣、套用／取消服务费、更换桌台、订单联络、订单备注、分拆／合并交易、作废交易、收支记录、会员登录、八达通结算、分页式 `选择功能` 对话框 | [销售流程](../client/sales-flow), [功能：订单联络](../functions/order-contact), [功能：八达通结算](../functions/octopus-settlement), [退款与作废](../client/refunds-and-voids) |
 | 结账 | 金额结账、按金额分单、订金、按品项分单、付款方式选择（包含 `More` 中分页式 `Payment Methods`）、付款备注、订金备注 | [结账与收款](../client/checkout-and-payments), [功能：收款](../functions/take-payment) |
 | 付款恢复 | 重试逻辑、取消保护规则、回报资料 | [付款错误与重试](../client/payment-errors-and-retry), [故障排查](./troubleshooting) |
 | 已完成交易 | 作废、退款、重开、修改付款、重印收据 | [退款与作废](../client/refunds-and-voids), [功能：作废与退款](../functions/void-vs-return) |
-| 设备 | 打印机新增／编辑／删除、信息／状态、测试打印、队列管理、付款／输入／X1 设备配置（包含 Linkly EFTPOS 绑定） | [设备](../client/devices), [功能：管理打印机](../functions/manage-printers), [功能：配置付款设备](../functions/configure-payment-devices), [功能：配置输入设备](../functions/configure-input-devices), [功能：配置 X1 产品](../functions/configure-x1-products), [故障排查](./troubleshooting) |
+| 设备 | 打印机新增／编辑／删除、信息／状态、测试打印、队列管理、付款／输入／X1 设备配置（包含 Linkly EFTPOS 绑定和 Octopus V3 `设备编号`） | [设备](../client/devices), [功能：管理打印机](../functions/manage-printers), [功能：配置付款设备](../functions/configure-payment-devices), [功能：配置输入设备](../functions/configure-input-devices), [功能：配置 X1 产品](../functions/configure-x1-products), [故障排查](./troubleshooting) |
 | 报表 | 报表选择、日期筛选、打印输出 | [报表](../client/reports) |
-| 设置 | 语言配置、品项名称映射（`Main` / `Alt`）、登录快速切换、POS Code、收银机代码、终端 `Mode`（`Restaurant` / `Quick Order`）、常规点餐流程开关（`Enable Dine In Auto Open Order`、`Enable Takeaway Auto Open Order`、`Enable Default Takeaway Mode`、自动分配桌号）、从备份还原、四舍五入控制（`Rounding Method`、`Decimal Places`、`Round For Cash Only`）、打印设定（`Mapping`、`Setting`、`Template`）、`Auto Print Receipt`、订单联络打印开关、收据 `Customer Contact` 字体区块、打印语言覆盖、日报打印数量、`Daily Report Sections`、进阶日结区块开关、第三方整合（仅显示已启用项目）、ODO 渠道映射（仅显示已映射项目） | [设置](../client/settings), [故障排查](./troubleshooting) |
+| 设置 | 语言配置、品项名称映射（`Main` / `Alt`）、登录快速切换、POS Code、收银机代码、终端 `Mode`（`Restaurant` / `Quick Order`）、常规点餐流程开关（`Enable Dine In Auto Open Order`、`Enable Takeaway Auto Open Order`、`Enable Default Takeaway Mode`、自动分配桌号）、从备份还原、四舍五入控制（`Rounding Method`、`Decimal Places`、`Round For Cash Only`）、打印设定（`Mapping`、`设置`、`模板`）、`Auto Print Receipt`、订单联络打印开关、收据 `Customer Contact` 字体区块、标签 `启用自适应文字大小`、打印语言覆盖、日报打印数量、`Daily Report Sections`、进阶日结区块开关、第三方整合（仅显示已启用项目）、ODO 渠道映射（仅显示已映射项目） | [设置](../client/settings), [故障排查](./troubleshooting) |
 | 信息 | 版本、调试模式、离线重新启用、日志导出／上传／删除 | [信息](../client/info), [数据保留与存储](./data-retention-and-storage) |
 | 更多工具 | 打开钱箱、日结、收支记录、队列控制器 | [更多工具](../client/more-tools), [功能：日结](../functions/day-end), [功能：收支记录](../functions/pay-in-pay-out) |
 

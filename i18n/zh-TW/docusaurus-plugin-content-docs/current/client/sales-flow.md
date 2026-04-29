@@ -85,6 +85,7 @@ import TabItem from '@theme/TabItem';
 - `取消交易`
 - `代收 / 代支`
 - `會員登入`
+- `八達通結算`（啟用 Octopus V3 且讀卡機可用時）
 
 使用以下詳細指南：
 
@@ -96,6 +97,7 @@ import TabItem from '@theme/TabItem';
 - `分拆 / 合併交易`：[功能指南](../functions/split-merge-transaction)
 - `會員登入`：[功能指南](../functions/member-login)
 - `代收 / 代支`：[功能指南](../functions/pay-in-pay-out)
+- `八達通結算`：[功能指南](../functions/octopus-settlement)
 
 ![訂單 function 菜單](/img/manual/en/client/cl-08-order-function-menu.png)
 ![套用 Discount dialog](/img/manual/en/client/cl-09-apply-discount-dialog.png)

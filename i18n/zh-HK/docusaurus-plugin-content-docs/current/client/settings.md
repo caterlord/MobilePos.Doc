@@ -146,6 +146,16 @@ import TabItem from '@theme/TabItem';
 5. 按 `Save`。
 6. 列印測試收據 / 單據，確認輸出語言。
 
+## 常見標籤文字適配
+
+1. 按 `設定` -> `列印`。
+2. 開啟 `模板`。
+3. 將 `模板` 設為 `標籤`。
+4. 如果較長的品項或配料名稱需要縮小以配合標籤寬度，請開啟 `啟用自適應文字大小`。
+5. 如果門店希望標籤文字保持已設定的本文字體大小，請關閉 `啟用自適應文字大小`。
+6. 按 `Save`。
+7. 列印一張包含長品項名稱的標籤，確認文字仍然清晰可讀。
+
 ## 常見收據自動列印
 
 1. 按 `Settings` -> `Printing`。
@@ -207,6 +217,7 @@ import TabItem from '@theme/TabItem';
 - `Printing` -> `Setting` 包含 `Auto Print Receipt`
 - `Printing` -> `Setting` 包含 `Show Order Contact On Receipt` 和 `Show Order Contact On Kitchen Output`
 - `Printing` -> `Template` 的收據字體設定包含 `Customer Contact`
+- `列印` -> `模板` 的標籤設定包含 `啟用自適應文字大小`
 - `Report` 包含 `Print Qty`、`Daily Report Sections` 和 `Show advanced sections`
 - `Restore` 操作位於設定底部
 
@@ -224,6 +235,10 @@ import TabItem from '@theme/TabItem';
 
 :::note[截圖待補]
 需要檔案：`client/cl-48-settings-print-auto-print-receipt.png`、`client/cl-49-settings-report-day-end-sections.png`
+:::
+
+:::note[截圖待補]
+需要檔案：`client/cl-51-settings-template-label-adaptive-text-size.png`
 :::
 
 ## 如果出現問題
