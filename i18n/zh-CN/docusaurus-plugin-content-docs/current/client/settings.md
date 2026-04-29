@@ -146,6 +146,16 @@ import TabItem from '@theme/TabItem';
 5. 点击 `保存`。
 6. 打印测试收据 / 单据，并确认输出语言正确。
 
+## 常见标签文字适配任务
+
+1. 点击 `设置` -> `打印`。
+2. 打开 `模板`。
+3. 将 `模板` 设为 `标签`。
+4. 如果较长的品项或配料名称需要缩小以适应标签宽度，请打开 `启用自适应文字大小`。
+5. 如果门店希望标签文字保持已设置的正文字号，请关闭 `启用自适应文字大小`。
+6. 点击 `保存`。
+7. 打印一个包含长品项名称的标签，并确认文字仍然清晰可读。
+
 ## 常见收据自动打印任务
 
 1. 点击 `设置` -> `打印`。
@@ -207,6 +217,7 @@ import TabItem from '@theme/TabItem';
 - `打印` -> `设置` 包含 `自动打印收据`
 - `打印` -> `设置` 包含 `在收据上显示订单联络资料` 和 `在厨房输出上显示订单联络资料`
 - `打印` -> `模板` 的收据字体设置包含 `Customer Contact`
+- `打印` -> `模板` 的标签设置包含 `启用自适应文字大小`
 - `报表` 包含 `打印数量`、`日报表打印部分` 和 `显示进阶部分`
 - `设置` 底部的 `还原` 操作
 
@@ -224,6 +235,10 @@ Needed files: `client/cl-46-settings-operation-terminal-mode.png`, `client/cl-47
 
 :::note[Screenshot pending]
 Needed files: `client/cl-48-settings-print-auto-print-receipt.png`, `client/cl-49-settings-report-day-end-sections.png`
+:::
+
+:::note[Screenshot pending]
+Needed file: `client/cl-51-settings-template-label-adaptive-text-size.png`
 :::
 
 ## 出现问题时

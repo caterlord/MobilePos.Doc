@@ -7,6 +7,37 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-04-29 (v1.7.11 POS Alignment)
+
+### Updated
+
+- `Settings`: documented `Printing` -> `Template` -> `Label` -> `Enable adaptive text size` for long label item/modifier names.
+- `Configure Payment Devices` and `Devices`: documented the Octopus V3 reader `Device ID` field and save requirement.
+- New function guide: `Octopus Settlement` from the order function menu.
+- `Sales Flow` and `Function and Feature Map`: added `Octopus Settlement` to the documented order functions.
+
+### Screenshot updates
+
+- Added pending captures for label adaptive text sizing and Octopus settlement.
+- Updated the Octopus V3 reader screenshot request to include `Device ID`.
+
+### Reviewed
+
+- Checked POS source changes from the previous POS manual baseline through `v1.7.11`, including release notes and source diff.
+- Confirmed ODO checkout status sync, background ODO uploads, takeaway navigation context, Octopus add-value slip header sizing, settlement responsiveness, and stability/crash-handling changes are behavior fixes or reliability improvements that do not require additional cashier steps beyond the updates above.
+
+## 2026-04-25 (HQ POS user bulk creation and workspace access)
+
+### Updated
+
+- `POS Users`: documented `Beast Mode` for creating several POS users from one `New POS User` modal, including per-row fields and shared `User Groups`, `Shop`, login-method, and status settings.
+- `Workspace Administration`: documented the `Workspace admin` access state and clarified that workspace admins already have access across the active workspace without direct company, brand, or shop assignments.
+
+### Reviewed
+
+- Checked the deployed HQ portal changes from X1.HQ PR #183 and PR #184 against the manual baseline.
+- Confirmed no new screenshot request was added in this documentation pass.
+
 ## 2026-04-23 (HQ branding and menu-item workflow alignment)
 
 ### Updated

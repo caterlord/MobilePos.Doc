@@ -85,6 +85,7 @@ Tap the three-dot function button to access:
 - `Void Txn`
 - `Pay In / Pay Out`
 - `Member Login`
+- `Octopus Settlement` when Octopus V3 is enabled and the reader is available
 
 Use these detailed guides:
 
@@ -96,6 +97,7 @@ Use these detailed guides:
 - `Split / Merge Txn`: [Function guide](../functions/split-merge-transaction)
 - `Member Login`: [Function guide](../functions/member-login)
 - `Pay In / Pay Out`: [Function guide](../functions/pay-in-pay-out)
+- `Octopus Settlement`: [Function guide](../functions/octopus-settlement)
 
 ![Order function menu](/img/manual/en/client/cl-08-order-function-menu.png)
 ![Apply Discount dialog](/img/manual/en/client/cl-09-apply-discount-dialog.png)

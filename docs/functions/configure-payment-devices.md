@@ -49,7 +49,17 @@ After successful pairing, save the settings and confirm the device remains avail
 > Screenshot pending: `functions/fn-payment-linkly-terminal-dialog.png`
   </TabItem>
   <TabItem value="octopus-v3" label="Octopus V3 Reader">
-Typical fields include `IP Address`, `Port`, `API ID`, `API Token`, and Octopus toggles.
+Typical fields include `IP Address`, `Port`, `Device ID`, `API ID`, `API Token`, and Octopus toggles.
+
+1. Enter the reader network details in `IP Address` and `Port`.
+2. Enter the Octopus reader identifier in `Device ID`.
+3. Enter `API ID` and `API Token`.
+4. Review the Octopus toggles.
+5. Save the settings.
+
+:::warning[`Device ID` is required]
+The Octopus V3 reader settings cannot be saved until `Device ID`, `API ID`, and `API Token` are filled.
+:::
 
 > Screenshot pending: `functions/fn-payment-octopus-v3-reader-dialog.png`
   </TabItem>

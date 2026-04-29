@@ -49,7 +49,17 @@ import TabItem from '@theme/TabItem';
 > 截图待补充：`functions/fn-payment-linkly-terminal-dialog.png`
   </TabItem>
   <TabItem value="octopus-v3" label="八达通 V3 读卡器">
-常见字段包括 `IP 地址`、`端口`、`API ID`、`API Token` 以及八达通相关开关。
+常见字段包括 `IP 地址`、`端口`、`设备编号`、`API ID`、`API Token` 以及八达通相关开关。
+
+1. 在 `IP 地址` 和 `端口` 输入读卡器网络资料。
+2. 在 `设备编号` 输入八达通读卡器编号。
+3. 输入 `API ID` 和 `API Token`。
+4. 检查八达通相关开关。
+5. 保存设置。
+
+:::warning[`设备编号` 为必填]
+八达通 V3 读卡器设置必须填写 `设备编号`、`API ID` 和 `API Token` 后才能保存。
+:::
 
 > 截图待补充：`functions/fn-payment-octopus-v3-reader-dialog.png`
   </TabItem>

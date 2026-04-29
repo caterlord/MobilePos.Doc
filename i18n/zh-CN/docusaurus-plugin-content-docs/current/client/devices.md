@@ -41,7 +41,7 @@ import TabItem from '@theme/TabItem';
   <TabItem value="payments" label="支付设备">
 用于查看和配置支付终端状态：
 
-`信息`、编辑支付设备设置（包括 Linkly EFTPOS 终端配对/设置），以及设备不可用时的标记（`!`）。
+`信息`、编辑支付设备设置（包括 Linkly EFTPOS 终端配对/设置和八达通 V3 `设备编号`），以及设备不可用时的标记（`!`）。
   </TabItem>
   <TabItem value="input" label="输入设备">
 用于扫描器/输入设备设置：

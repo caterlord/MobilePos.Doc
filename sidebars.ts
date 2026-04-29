@@ -62,6 +62,7 @@ const sidebars: SidebarsConfig = {
             'functions/to-dine-in-to-takeaway',
             'functions/split-merge-transaction',
             'functions/member-login',
+            'functions/octopus-settlement',
           ],
         },
         {

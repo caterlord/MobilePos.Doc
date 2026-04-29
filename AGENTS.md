@@ -17,6 +17,8 @@ Build and maintain the online user manual for **POS X1** using Docusaurus.
 - `en` (default)
 - `zh-HK`
 - `zh-CN`
+- `zh-TW`
+- `zh-SG`
 
 ## Writing Rules
 - Mandatory reference for all documentation work: `AGENT_WRITING_PLAYBOOK.md`
@@ -26,8 +28,17 @@ Build and maintain the online user manual for **POS X1** using Docusaurus.
 - Keep one task per page whenever possible.
 - Add explicit prerequisites at the top of operational pages.
 - Use real UI labels from product code (avoid paraphrased button names).
+- For non-English docs, use the product repo's official localized UI labels and terminology. Do not translate UI labels from memory.
 - Prefer screenshots/GIFs under `static/img/` with stable names.
 - During release updates, treat the latest released app behavior as baseline documentation behavior.
+
+### Official Terminology Rule (Must Follow)
+- Before adding or changing translated manual text, verify UI labels against the relevant product source repo.
+- For POS client docs, check the POS app localization files and view code first, for example the POS app `Localization/Languages/*.json` files.
+- For HQ docs, check the HQ frontend route/menu configuration, page components, and locale/message files first.
+- If a locale does not exist in the product repo, use the closest supported product locale consistently: use Traditional Chinese product labels for `zh-HK`/`zh-TW`, and Simplified Chinese product labels for `zh-CN`/`zh-SG`, unless maintainers provide a separate glossary.
+- If the product keeps a technical field in English, keep that exact field label and add a short localized explanation only when needed.
+- Do not introduce English labels such as `Settings`, `Devices`, `Payments`, or `Template` into translated docs when the product has localized labels for that locale.
 
 ### Version-Note Lifecycle Rule (Must Follow)
 - Temporary version callouts in operational pages (for example `v1.6.6+`) are allowed only for newly introduced behavior.
