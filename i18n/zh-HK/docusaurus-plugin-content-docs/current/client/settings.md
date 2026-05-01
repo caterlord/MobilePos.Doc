@@ -62,7 +62,7 @@ import TabItem from '@theme/TabItem';
 1. 按 `Settings` -> `General`。
 2. 在語言設定中，選擇要作為預設的語言列。
 3. 確認 UI 文字已更新到所選語言。
-4. 按 `Save`。
+4. 按 `儲存`。
   </TabItem>
   <TabItem value="item-mapping" label="設定品項名稱對應">
 1. 按 `Settings` -> `General`。
@@ -158,11 +158,13 @@ import TabItem from '@theme/TabItem';
 
 ## 常見收據自動列印
 
-1. 按 `Settings` -> `Printing`。
-2. 開啟 `Setting`。
-3. 在 `Receipt` 中，如果收據應在成功結賬後自動列印，請開啟 `Auto Print Receipt`；如果應由員工手動決定，則關閉。
-4. 按 `Save`。
+1. 按 `設定` -> `列印`。
+2. 開啟 `設定`。
+3. 在 `收據` 中，如果收據應在成功結賬後自動列印，請開啟 `自動列印收據`；如果應由員工手動決定，則關閉。
+4. 按 `儲存`。
 5. 完成一次正常結賬，確認收據列印符合門店政策。
+
+`自動列印收據` 只控制收據是否自動列印。如果付款方式已設定為開錢箱，即使 `自動列印收據` 關閉，結賬後錢箱仍會打開。
 
 ## 常見外賣聯絡資料列印
 

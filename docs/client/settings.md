@@ -164,6 +164,8 @@ Restore now covers more configuration areas in current builds, so verify critica
 4. Tap `Save`.
 5. Complete a normal checkout and confirm receipt printing matches your store policy.
 
+`Auto Print Receipt` controls receipt printing only. If the payment method is configured to open the cash drawer, the drawer still opens after checkout when `Auto Print Receipt` is off.
+
 ## Common takeaway contact print task
 
 1. Tap `Settings` -> `Printing`.

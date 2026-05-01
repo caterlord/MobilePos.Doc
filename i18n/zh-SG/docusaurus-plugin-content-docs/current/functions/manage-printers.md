@@ -64,17 +64,23 @@ import TabItem from '@theme/TabItem';
 ![Test Print result](/img/manual/en/client/cl-03-devices-test-print-result.png)
   </TabItem>
   <TabItem value="edit-remove" label="Edit or Remove Printer">
-1. 点按编辑图示，更新 `Name`、`Printer Type`、`Connection`、`IP Address` 与 `Port`。
-2. 点按 `Save`。
-3. 如果要移除，点按删除图示。
-4. 确认移除提示。
+1. 点按编辑图示，更新 `名称`、`打印机类型`、`连接`、`IP 地址` 与 `端口`。
+2. 需要调整输出效果时，打开 `显示高级设置`。
+3. 只有测试输出需要调整时，才设置 `打印缩放 (%)`、`页首额外走纸行数` 或 `页尾额外走纸行数`。
+4. 如果 `打印机类型` 是 `针式`，设置 `针式打印密度` 和 `针式打印颜色`。
+5. 点按 `保存`。
+6. 如果要移除，点按删除图示。
+7. 确认移除提示。
 
 要确认的是：
 
 - 更新后的设定会显示在打印机列中
+- 对 `针式` 打印机，`高密度` 较清晰但较慢，`普通密度` 打印较快但细节较少
+- `彩色（红 / 黑）` 会将红色内容打印到红色色带；`纯黑` 会将所有内容打印为黑色
 - 已移除的打印机会从列表中消失
 
 > 待补截图：`functions/fn-printer-remove-confirm-dialog.png`
+> 待补截图：`functions/fn-printer-dot-matrix-advanced-settings.png`
   </TabItem>
   <TabItem value="spooler" label="Manage Printer Spooler">
 1. 点按目标打印机列上的 `Manage Spooler`。
