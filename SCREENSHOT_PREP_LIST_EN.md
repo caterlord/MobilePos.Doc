@@ -71,6 +71,7 @@ Use these subfolders:
 | `functions/fn-order-contact-function-menu.png` | `docs/functions/order-contact.md` | `Select Function` dialog showing `Order Contact` on a takeaway order |
 | `functions/fn-order-contact-dialog-result.png` | `docs/functions/order-contact.md` | `Order Contact` dialog and the saved name/phone shown under the takeaway order header |
 | `functions/fn-printer-remove-confirm-dialog.png` | `docs/functions/manage-printers.md` | Remove printer confirmation dialog (`Are you sure you want to remove printer...`) |
+| `functions/fn-printer-dot-matrix-advanced-settings.png` | `docs/functions/manage-printers.md` | Edit/Add Printer dialog with `Printer Type` set to `Dot Matrix`, `Show advanced settings` on, and `Dot matrix density` / `Dot matrix color` visible |
 | `functions/fn-printer-spooler-manager-dialog.png` | `docs/functions/manage-printers.md` | Printer spooler manager main dialog with tabs/actions |
 | `functions/fn-printer-spooler-error-retry-actions.png` | `docs/functions/manage-printers.md` | Spooler `Error` tab with `Retry Selected` / `Retry All` |
 | `functions/fn-payment-octopus-v3-reader-dialog.png` | `docs/functions/configure-payment-devices.md` | Octopus V3 reader edit dialog (`Device ID`, `API ID`, `API Token`, toggles) |

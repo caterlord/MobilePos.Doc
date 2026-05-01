@@ -36,7 +36,7 @@ import TabItem from '@theme/TabItem';
   <TabItem value="printer" label="印表機">
 此分頁用於印表機生命週期和佇列操作：
 
-`Add Printer`、`Info`、`Test Print`、編輯印表機、`Manage Spooler`，以及移除印表機。
+`新增印表機`、`資訊`、`測試列印`、編輯印表機、`管理列印佇列`，以及移除印表機。編輯印表機包含進階輸出設定，例如列印縮放、走紙行數，以及針式列印密度 / 顏色。
   </TabItem>
   <TabItem value="payments" label="付款">
 此分頁用於付款終端機狀態 / 設定：

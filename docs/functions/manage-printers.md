@@ -65,16 +65,22 @@ What to verify:
   </TabItem>
   <TabItem value="edit-remove" label="Edit or Remove Printer">
 1. Tap edit icon to update `Name`, `Printer Type`, `Connection`, `IP Address`, and `Port`.
-2. Tap `Save`.
-3. To remove, tap delete icon.
-4. Confirm removal prompt.
+2. Turn `Show advanced settings` on when you need output adjustments.
+3. Set `Print Scale (%)`, `Header extra line feed`, or `Footer extra line feed` only when the test output needs adjustment.
+4. If `Printer Type` is `Dot Matrix`, set `Dot matrix density` and `Dot matrix color`.
+5. Tap `Save`.
+6. To remove, tap delete icon.
+7. Confirm removal prompt.
 
 What to verify:
 
 - Updated settings are shown in printer row
+- For `Dot Matrix`, `High density` prints clearer but slower, and `Normal density` prints faster with less detail
+- `Color (red / black)` sends red content to the red ribbon; `Black only` prints all content in black
 - Removed printer disappears from list
 
 > Screenshot pending: `functions/fn-printer-remove-confirm-dialog.png`
+> Screenshot pending: `functions/fn-printer-dot-matrix-advanced-settings.png`
   </TabItem>
   <TabItem value="spooler" label="Manage Printer Spooler">
 1. Tap `Manage Spooler` on target printer row.

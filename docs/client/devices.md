@@ -36,7 +36,7 @@ For cash controls and day closing, use `More Tools`.
   <TabItem value="printer" label="Printer">
 Use this tab for printer lifecycle and queue actions:
 
-`Add Printer`, `Info`, `Test Print`, edit printer, `Manage Spooler`, and remove printer.
+`Add Printer`, `Info`, `Test Print`, edit printer, `Manage Spooler`, and remove printer. Printer edit includes advanced output settings such as print scale, line feed, and dot-matrix density/color.
   </TabItem>
   <TabItem value="payments" label="Payments">
 Use this tab for payment terminal status/configuration:

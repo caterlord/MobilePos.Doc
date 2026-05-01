@@ -7,6 +7,23 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-05-01 (v1.7.12 POS Alignment)
+
+### Updated
+
+- `Manage Printers` and `Devices`: documented advanced printer output settings in the printer edit dialog, including `Print Scale (%)`, line-feed controls, and dot-matrix density/color options.
+- `Settings`: clarified that `Auto Print Receipt` controls receipt printing only. A payment method configured to open the drawer still opens the drawer after checkout when receipt auto-print is off.
+- `Function and Feature Map`: updated the `Devices` scope for advanced printer output settings.
+
+### Screenshot updates
+
+- Added a pending capture for dot-matrix advanced printer settings.
+
+### Reviewed
+
+- Checked the POS source diff from `v1.7.11` to `v1.7.12`, including release notes and source changes.
+- Confirmed the drawer-kick checkout change is a behavior fix and does not add a new cashier step.
+
 ## 2026-04-29 (v1.7.11 POS Alignment)
 
 ### Updated

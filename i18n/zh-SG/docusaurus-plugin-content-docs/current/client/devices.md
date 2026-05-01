@@ -36,7 +36,7 @@ import TabItem from '@theme/TabItem';
   <TabItem value="printer" label="Printer">
 用来处理打印机生命周期与队列动作：
 
-`Add Printer`、`Info`、`Test Print`、编辑打印机、`Manage Spooler`、删除打印机。
+`添加打印机`、`信息`、`测试打印`、编辑打印机、`管理打印队列`、删除打印机。编辑打印机包含高级输出设置，例如打印缩放、走纸行数，以及针式打印密度/颜色。
   </TabItem>
   <TabItem value="payments" label="Payments">
 用来查看与配置付款终端状态：
