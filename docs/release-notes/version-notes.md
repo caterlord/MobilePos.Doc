@@ -7,6 +7,19 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-05-04 (HQ X1 POS subscription seats)
+
+### Updated
+
+- `My Subscriptions`: documented the `X1 Product` tab, X1 POS seat counts, occupied and available seat states, masked device ID fallback, and the `Release device` action for replaced tablets.
+- `My Subscriptions`: clarified that releasing a POS device seat does not cancel the subscription; it clears the old device so a replacement tablet can register.
+- `My Subscriptions`: kept marketplace subscription review and unsubscribe guidance on the `Marketplace` tab.
+
+### Reviewed
+
+- Checked X1.HQ PR #242 and X1.POS PR #401 against the manual baseline.
+- Confirmed no new screenshot request was added in this documentation pass.
+
 ## 2026-05-01 (v1.7.12 POS Alignment)
 
 ### Updated
