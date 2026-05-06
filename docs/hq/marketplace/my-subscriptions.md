@@ -12,6 +12,7 @@ Admins who review X1 POS device seats or manage active marketplace subscriptions
 - Release a POS device seat only when the current tablet is damaged, lost, or permanently replaced.
 - Make sure the replacement tablet is ready to register after you release the old device.
 - Make sure you understand whether removing a marketplace subscription will affect live shops or integrations.
+- If a POS shop profile was deleted from a terminal, check this page to confirm the related seat is available again.
 
 ## Open this page
 
@@ -83,7 +84,9 @@ After confirmation, the row becomes available and the replacement tablet can reg
 
 Releasing a POS device seat does not cancel the subscription. It clears the old device from that seat so another tablet can register. The old tablet loses access when it comes online and checks its subscription again.
 
-Device names appear after a POS app version that sends device names activates or validates the subscription. Older occupied seats may show a shortened device ID with `Device name unavailable` until that tablet checks in with the updated app.
+Device names are recorded when a POS terminal activates or validates the subscription. Older occupied seats may show a shortened device ID with `Device name unavailable` until that tablet checks in with the current app.
+
+When a shop profile is deleted from a POS terminal, the app releases that terminal's POS subscription seat before removing the local shop profile. If the POS shows `Unable to inactivate subscriptions`, do not continue deleting local setup until an admin or support confirms the seat state in HQ.
 
 Removing a marketplace subscription can make related features or integrations unavailable immediately.
 
@@ -105,6 +108,7 @@ For marketplace-managed online-ordering platforms, unsubscribe can also remove t
 - If `X1 POS subscription database is unavailable` appears, ask support to check the production subscription database connection.
 - If `Release device` is disabled, the seat is already available and no device is assigned.
 - If you released the wrong device, register the correct tablet again or ask support before the old tablet is reused.
+- If a deleted POS shop profile still leaves the seat as `Occupied`, ask support to check whether the terminal failed while releasing the seat.
 - If you unsubscribed by mistake, return to [Marketplace](./catalog.md) and re-subscribe if available.
 
 ## When to ask owner/admin

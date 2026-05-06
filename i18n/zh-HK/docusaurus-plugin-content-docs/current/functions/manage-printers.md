@@ -14,14 +14,16 @@ import TabItem from '@theme/TabItem';
 - 您已登入並具備裝置設定權限
 - 目標印表機已開機並連接至同一網絡
 - 已設定 `POS Code`
+- 如果印表機是在 HQ 建立，編輯 POS 連線資料前先確認 HQ 中的印表機名稱
 
 ## 快速流程
 
 1. 開啟 `Devices`。
 2. 開啟 `Printer` 分頁。
-3. 選取印表機列（或按 `Add Printer`）。
-4. 執行所需操作（`Info`、`Test Print`、編輯、移除或 spooler）。
-5. 返回日常操作前先確認狀態。
+3. 先檢查裝置列上的 `HQ`、`尚未設定` 或錯誤數量標記。
+4. 選取印表機列（或按 `Add Printer`）。
+5. 執行所需操作（`Info`、`Test Print`、編輯、移除或 spooler）。
+6. 返回日常操作前先確認狀態。
 
 ## 任務
 
@@ -37,10 +39,26 @@ import TabItem from '@theme/TabItem';
 - 印表機已出現在清單中
 - 狀態為已連線 / 已準備好
 - 出現測試列印成功訊息
+- 如果這是 HQ 管理印表機，儲存本機連線資料後，裝置列仍會顯示 `HQ`
 
 ![Add Printer dialog](/img/manual/en/client/miss_3_device_printer_add.png)
 ![Printer added successfully](/img/manual/en/client/miss_4_device_printer_add_completed.png)
-  </TabItem>
+</TabItem>
+  <TabItem value="hq-managed" label="HQ 管理印表機">
+1. 開啟 `Printer` 分頁。
+2. 找到有 `HQ` 標記的印表機列。
+3. 如果該列同時顯示 `尚未設定`，按編輯。
+4. 填寫本機連線資料，例如 `Printer Type`、`Connection`、`IP Address` 和 `Port`。
+5. 按 `Save`。
+6. 按 `Test Print`。
+
+要確認：
+
+- 印表機列仍顯示 `HQ` 標記
+- 儲存本機設定後，`尚未設定` 標記會消失
+- 返回營運前，`Test Print` 成功
+
+</TabItem>
   <TabItem value="info-status" label="印表機資訊和狀態">
 1. 在目標印表機列上按 `Info`。
 2. 查看 `Connection Details` 和 `Status Details`。
@@ -99,6 +117,7 @@ import TabItem from '@theme/TabItem';
 
 - 重新整理 / 移除後，佇列數量會減少
 - 新列印工作可正常處理
+- `Error` 佇列清空後，印表機列上的錯誤數量標記會消失
 
 > Screenshot pending: `functions/fn-printer-spooler-manager-dialog.png`
 > Screenshot pending: `functions/fn-printer-spooler-error-retry-actions.png`
@@ -117,6 +136,10 @@ import TabItem from '@theme/TabItem';
 
 :::note[Spooler 重試仍無法清除錯誤工作]
 請先移除失敗工作、確認連線正常，然後重新送出訂單 / 列印請求。
+:::
+
+:::warning[HQ 管理印表機顯示 `尚未設定`]
+編輯該印表機列，並為這台 POS 儲存本機連線資料。HQ 記錄表示這台印表機應該存在，但每台終端仍需要可用的本機連線後才能列印。
 :::
 
 :::warning[移除印表機失敗]

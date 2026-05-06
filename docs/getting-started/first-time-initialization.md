@@ -66,7 +66,7 @@ Your selected setup language is applied immediately during the wizard, including
 ## If something goes wrong
 
 :::warning[`No Available Subscription`]
-Stop setup. Ask manager/admin to verify the shop subscription in HQ before you continue. When reporting the issue, share this screen so they can see the exact setup state.
+Stop setup. Ask manager/admin to verify the shop subscription in HQ before you continue. They should check whether the shop has an available X1 POS seat, whether an old terminal still occupies the seat, or whether a recently deleted POS shop profile released its seat correctly. When reporting the issue, share this screen so they can see the exact setup state.
 :::
 
 ![`No Available Subscription` during first-time initialization](/img/manual/en/getting-started/gs-10-initialize-no-available-subscription.png)

@@ -14,14 +14,16 @@ import TabItem from '@theme/TabItem';
 - 你已经使用设备设定权限登录
 - 目标打印机已开机并连接到同一网络
 - `POS Code` 已设定
+- 如果打印机是在 HQ 建立的，编辑 POS 连接资料前先确认 HQ 中的打印机名称
 
 ## 快速流程
 
 1. 打开 `Devices`。
 2. 打开 `Printer` 页签。
-3. 选择打印机列（或点按 `Add Printer`）。
-4. 执行需要的动作（`Info`、`Test Print`、编辑、删除或队列管理）。
-5. 在返回营运前先确认状态。
+3. 先检查设备列上的 `HQ`、`尚未配置` 或错误数量标记。
+4. 选择打印机列（或点按 `Add Printer`）。
+5. 执行需要的动作（`Info`、`Test Print`、编辑、删除或队列管理）。
+6. 在返回营运前先确认状态。
 
 ## 任务
 
@@ -37,10 +39,26 @@ import TabItem from '@theme/TabItem';
 - 打印机会出现在列表中
 - 状态是连接／就绪
 - 会出现测试打印成功讯息
+- 如果这是 HQ 管理打印机，保存本机连接资料后，设备列仍会显示 `HQ`
 
 ![Add Printer dialog](/img/manual/en/client/miss_3_device_printer_add.png)
 ![Printer added successfully](/img/manual/en/client/miss_4_device_printer_add_completed.png)
-  </TabItem>
+</TabItem>
+  <TabItem value="hq-managed" label="HQ 管理打印机">
+1. 打开 `Printer` 页签。
+2. 找到带有 `HQ` 标记的打印机列。
+3. 如果该列同时显示 `尚未配置`，点按编辑。
+4. 填写本机连接资料，例如 `Printer Type`、`Connection`、`IP Address` 和 `Port`。
+5. 点按 `Save`。
+6. 点按 `Test Print`。
+
+要确认的是：
+
+- 打印机列仍显示 `HQ` 标记
+- 本机设定保存后，`尚未配置` 标记会消失
+- 返回营运前，`Test Print` 成功
+
+</TabItem>
   <TabItem value="info-status" label="Printer Info and Status">
 1. 点按目标打印机列上的 `Info`。
 2. 检查 `Connection Details` 与 `Status Details`。
@@ -99,6 +117,7 @@ import TabItem from '@theme/TabItem';
 
 - 重试／移除动作后，队列会减少
 - 新的列印工作会正常处理
+- `Error` 队列清空后，打印机列上的错误数量标记会消失
 
 > 待补截图：`functions/fn-printer-spooler-manager-dialog.png`
 > 待补截图：`functions/fn-printer-spooler-error-retry-actions.png`
@@ -117,6 +136,10 @@ import TabItem from '@theme/TabItem';
 
 :::note[队列重试没有清除错误任务]
 先移除失败任务，确认连接正常，再重新送出订单／打印请求。
+:::
+
+:::warning[HQ 管理打印机显示 `尚未配置`]
+编辑该打印机列，并为这台 POS 保存本机连接资料。HQ 记录表示这台打印机应该存在，但每台终端仍需要可用的本机连接后才能打印。
 :::
 
 :::warning[删除打印机失败]

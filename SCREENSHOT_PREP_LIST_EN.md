@@ -67,6 +67,9 @@ Use these subfolders:
 | `client/cl-34-devices-payments-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-payment-devices.md` | `Devices` `Payments` tab list with status + info/edit actions |
 | `client/cl-35-devices-input-devices-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-input-devices.md` | `Devices` `Input Devices` tab list with status + info/edit actions |
 | `client/cl-36-devices-x1-products-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-x1-products.md` | `Devices` `X1 Products` tab list with status + info/edit actions |
+| `client/cl-52-devices-alert-badges.png` | `docs/client/devices.md` | Left menu `Devices` badge and `Devices` tab badges when at least one printer or device needs attention |
+| `functions/fn-printer-hq-managed-not-configured.png` | `docs/functions/manage-printers.md` | `Devices` -> `Printer` row showing `HQ` and `Not configured` badges for an HQ-managed printer that still needs local POS setup |
+| `functions/fn-printer-failed-job-badge.png` | `docs/functions/manage-printers.md` | `Devices` -> `Printer` row showing a failed-job badge such as `1 error` or `3 errors` before the spooler error queue is cleared |
 | `functions/fn-change-table-view-toggle-floorplan-tablelist.png` | `docs/functions/change-table.md` | `Change Table` dialog showing the lower-right view toggle for `Floor Plan` / `Table List` |
 | `functions/fn-order-contact-function-menu.png` | `docs/functions/order-contact.md` | `Select Function` dialog showing `Order Contact` on a takeaway order |
 | `functions/fn-order-contact-dialog-result.png` | `docs/functions/order-contact.md` | `Order Contact` dialog and the saved name/phone shown under the takeaway order header |
