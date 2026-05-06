@@ -7,6 +7,24 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-05-06 (v1.7.13 POS Alignment)
+
+### Updated
+
+- `Devices`: documented device alert badges, failed print-job counts, `Setup required`, HQ-managed printer `HQ` badges, and `Not configured` printer rows.
+- `Manage Printers`: added the HQ-managed printer setup flow and clarified that failed spooler jobs drive the printer alert badge until the error queue is cleared.
+- `My Subscriptions` and `First-Time Initialization`: clarified that POS device names are now recorded during activation/validation, and that deleting a POS shop profile releases the related X1 POS subscription seat before removing local setup.
+- `Function and Feature Map`: added device alert badges and HQ-managed printer setup status to the `Devices` scope.
+
+### Screenshot updates
+
+- Added pending captures for the `Devices` alert badge states and the HQ-managed printer setup row.
+
+### Reviewed
+
+- Checked the POS source diff from `v1.7.12` to `v1.7.13`, including release notes, UI labels, device alert implementation, subscription activation/validation changes, and shop-profile deletion behavior.
+- Confirmed Windows Store/Mac App Store packaging, desktop branding, Windows scaled-layout fixes, and update-store notice changes do not require new operator steps in the current manual baseline.
+
 ## 2026-05-04 (HQ X1 POS subscription seats)
 
 ### Updated

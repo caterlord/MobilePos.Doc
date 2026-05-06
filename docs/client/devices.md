@@ -16,7 +16,7 @@ Cashiers and managers validating printers and connected devices.
 
 ## What this screen is for
 
-Use `Devices` to check connectivity and maintain device configuration during operations.
+Use `Devices` to check connectivity, maintain device configuration, and spot device alerts during operations.
 
 :::note[Scope boundary]
 `Devices` is for hardware and connectivity setup only (printers/payment/input/X1 products).
@@ -30,6 +30,8 @@ For cash controls and day closing, use `More Tools`.
 - `Input Devices`
 - `X1 Products`
 
+A badge on `Devices` or on a tab means one or more devices need attention. Open the affected tab and check the row labels before returning to service.
+
 ## How to use each tab
 
 <Tabs>
@@ -37,21 +39,23 @@ For cash controls and day closing, use `More Tools`.
 Use this tab for printer lifecycle and queue actions:
 
 `Add Printer`, `Info`, `Test Print`, edit printer, `Manage Spooler`, and remove printer. Printer edit includes advanced output settings such as print scale, line feed, and dot-matrix density/color.
+
+Printers managed from HQ show an `HQ` badge. If a printer exists in HQ but has not been configured on this POS, the row shows `Not configured`; edit the row to add the local connection details before you test print. Rows can also show a failed-job badge such as `1 error` or `3 errors` when the spooler has error jobs.
   </TabItem>
   <TabItem value="payments" label="Payments">
 Use this tab for payment terminal status/configuration:
 
-`Info`, edit payment device settings (including Linkly EFTPOS terminal pairing/setup and Octopus V3 `Device ID`), and unavailable marker (`!`) when a device is not available.
+`Info`, edit payment device settings (including Linkly EFTPOS terminal pairing/setup and Octopus V3 `Device ID`), and the `Setup required` label when a device is not ready.
   </TabItem>
   <TabItem value="input" label="Input Devices">
 Use this tab for scanner/input settings:
 
-`Info`, edit input device settings (for example barcode/QR scanner), and unavailable marker (`!`) when a device is not available.
+`Info`, edit input device settings (for example barcode/QR scanner), and the `Setup required` label when a device is not ready.
   </TabItem>
   <TabItem value="x1" label="X1 Products">
 Use this tab for customer-facing/pairing products:
 
-`Info`, edit X1 product settings, plus customer display host, pickup display pairing, and express kiosk pairing flows.
+`Info`, edit X1 product settings, plus customer display host, pickup display pairing, express kiosk pairing flows, and the `Setup required` label when a product needs setup.
   </TabItem>
 </Tabs>
 
@@ -59,13 +63,15 @@ Use this tab for customer-facing/pairing products:
 
 1. Tap `Devices` from left menu.
 2. Select the tab you need.
-3. Tap `Info` first if you need quick diagnosis.
-4. Run tab-specific action (test print/edit/pairing/spooler).
-5. Verify status before returning to operations.
+3. Check any badge or row label first.
+4. Tap `Info` if you need quick diagnosis.
+5. Run the tab-specific action (test print/edit/pairing/spooler).
+6. Verify status before returning to operations.
 
 ## What you should see
 
 - Device entries with status indicators
+- Badges for failed print jobs, HQ-managed printers, or setup-required devices
 - Actions for maintenance (for example printer test/info)
 
 ![Devices Printer tab](/img/manual/en/client/cl-01-devices-printer-tab.png)

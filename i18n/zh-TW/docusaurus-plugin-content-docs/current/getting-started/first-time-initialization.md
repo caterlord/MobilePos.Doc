@@ -66,7 +66,7 @@ import TabItem from '@theme/TabItem';
 ## 如發生問題
 
 :::warning[`No Available Subscription`]
-停止設定。請先請經理／管理員在 HQ 確認店舖訂閱可用，再繼續。回報問題時，請提供這個畫面，讓對方看見正確的設定狀態。
+停止設定。請先請經理／管理員在 HQ 確認店舖訂閱可用，再繼續。他們應檢查店舖是否有可用的 X1 POS 席位、舊終端是否仍佔用席位，以及最近刪除的 POS 店舖設定是否已正確釋放席位。回報問題時，請提供這個畫面，讓對方看見正確的設定狀態。
 :::
 
 ![`No Available Subscription` during first-time initialization](/img/manual/en/getting-started/gs-10-initialize-no-available-subscription.png)

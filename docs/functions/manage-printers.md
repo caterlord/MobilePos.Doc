@@ -14,14 +14,16 @@ Manager or authorized staff managing printer setup and maintenance in `Devices` 
 - You are signed in with device-setting permission
 - Target printer is powered on and connected to the same network
 - `POS Code` is set
+- If the printer was created in HQ, confirm the HQ printer name before editing the POS connection details
 
 ## Quick flow
 
 1. Open `Devices`.
 2. Open `Printer` tab.
-3. Select the printer row (or tap `Add Printer`).
-4. Run the required action (`Info`, `Test Print`, edit, remove, or spooler).
-5. Verify status before returning to operations.
+3. Check any row badge such as `HQ`, `Not configured`, or failed-job count.
+4. Select the printer row (or tap `Add Printer`).
+5. Run the required action (`Info`, `Test Print`, edit, remove, or spooler).
+6. Verify status before returning to operations.
 
 ## Tasks
 
@@ -37,10 +39,26 @@ What to verify:
 - Printer appears in list
 - Status is connected/ready
 - Test print success message appears
+- If this is an HQ-managed printer, the row still shows `HQ` after the local connection details are saved
 
 ![Add Printer dialog](/img/manual/en/client/miss_3_device_printer_add.png)
 ![Printer added successfully](/img/manual/en/client/miss_4_device_printer_add_completed.png)
-  </TabItem>
+</TabItem>
+  <TabItem value="hq-managed" label="HQ-managed Printer">
+1. Open the `Printer` tab.
+2. Find the printer row with the `HQ` badge.
+3. If the row also shows `Not configured`, tap edit.
+4. Fill the local connection details such as `Printer Type`, `Connection`, `IP Address`, and `Port`.
+5. Tap `Save`.
+6. Tap `Test Print`.
+
+What to verify:
+
+- The `HQ` badge remains on the printer row
+- The `Not configured` label clears after the local setup is saved
+- `Test Print` succeeds before you return to service
+
+</TabItem>
   <TabItem value="info-status" label="Printer Info and Status">
 1. Tap `Info` on target printer row.
 2. Review `Connection Details` and `Status Details`.
@@ -99,6 +117,7 @@ What to verify:
 
 - Queue decreases after retry/remove actions
 - New print jobs are processed normally
+- The failed-job badge on the printer row clears after the error queue is empty
 
 > Screenshot pending: `functions/fn-printer-spooler-manager-dialog.png`
 > Screenshot pending: `functions/fn-printer-spooler-error-retry-actions.png`
@@ -117,6 +136,10 @@ Verify power/network on printer first, then run `Test Print`.
 
 :::note[Spooler retries do not clear error jobs]
 Remove failed jobs, validate connectivity, then resend order/print request.
+:::
+
+:::warning[`Not configured` on an HQ-managed printer]
+Edit the printer row and save the local connection details for this POS. The HQ record defines that the printer should exist, but each terminal still needs a working local connection before it can print.
 :::
 
 :::warning[Failed to remove printer]
