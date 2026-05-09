@@ -28,17 +28,24 @@ Manager or authorized staff configuring scanner/input hardware.
 
 For barcode/QR scanner, edit dialog may include:
 
-- `Connection`
-- `IP Address` / `Port` (for IP mode)
+- `Scanner Input Sources`
+- `Camera`
+- `USB / Bluetooth`
 - `Scanner Preview`
 - `Camera` (camera-facing selection)
+- `Test USB/Bluetooth scanner`
+- `Enable camera fallback`
 
 > Screenshot pending: `functions/fn-input-barcode-scanner-dialog.png`
+
+When you use a USB or Bluetooth scanner, select `USB / Bluetooth` as the primary scan method. Scan into `Test USB/Bluetooth scanner` and check that the scanned value appears before you tap `Save`.
+
+When you want the POS to open the camera first, select `Camera`. If USB/Bluetooth is primary but staff may need camera scanning as backup, turn on `Enable camera fallback`.
 
 ## If something goes wrong
 
 :::warning[Scanner not reading]
-Verify selected connection mode and camera/host network settings, then retry.
+Verify the selected scanner input source. For USB/Bluetooth scanners, confirm the scanner sends keyboard text and Enter. For camera scanning, confirm the camera permission and camera-facing option, then retry.
 :::
 
 ## When to ask manager/admin

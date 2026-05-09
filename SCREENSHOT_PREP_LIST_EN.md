@@ -83,7 +83,7 @@ Use these subfolders:
 | `functions/fn-octopus-settlement-success.png` | `docs/functions/octopus-settlement.md` | `Octopus Settle Success` dialog showing deduct/add-value counts, totals, and settlement file name |
 | `functions/fn-payment-linkly-terminal-dialog.png` | `docs/functions/configure-payment-devices.md` | Linkly EFTPOS terminal settings dialog (`Environment`, `Username`, `Password`, `Pair Code`, `Pair`) |
 | `functions/fn-payment-generic-device-dialog.png` | `docs/functions/configure-payment-devices.md` | Generic payment device edit dialog (`Connection`, `IP Address`, `Port`) |
-| `functions/fn-input-barcode-scanner-dialog.png` | `docs/functions/configure-input-devices.md` | Barcode/QR scanner edit dialog (`Connection`, `Scanner Preview`, `Camera`) |
+| `functions/fn-input-barcode-scanner-dialog.png` | `docs/functions/configure-input-devices.md` | Barcode/QR scanner edit dialog showing `Scanner Input Sources`, `Camera`, `USB / Bluetooth`, `Scanner Preview`, `Test USB/Bluetooth scanner`, and `Enable camera fallback` |
 | `functions/fn-x1-customer-display-host-dialog.png` | `docs/functions/configure-x1-products.md` | `Customer Display Host` dialog (host details + pairing QR) |
 | `functions/fn-x1-pickup-display-dialog.png` | `docs/functions/configure-x1-products.md` | `Pickup Display` device dialog (controller mode + pairing) |
 | `functions/fn-x1-express-checkout-kiosk-dialog.png` | `docs/functions/configure-x1-products.md` | `Express Checkout Kiosks` pairing dialog |

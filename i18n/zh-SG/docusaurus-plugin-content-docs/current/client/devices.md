@@ -50,7 +50,7 @@ import TabItem from '@theme/TabItem';
   <TabItem value="input" label="Input Devices">
 用来处理扫描器／输入设备设定：
 
-`Info`、编辑输入设备设定（例如条码／QR 扫描器），以及设备未准备好时的 `需要设置` 标记。
+`Info`、编辑输入设备设定（例如条码／QR 扫描器的扫描输入来源）、USB/蓝牙扫描器测试栏位、相机备用，以及设备未准备好时的 `需要设置` 标记。
   </TabItem>
   <TabItem value="x1" label="X1 Products">
 用来处理面向客户与配对类产品：

@@ -50,7 +50,7 @@ Use this tab for payment terminal status/configuration:
   <TabItem value="input" label="Input Devices">
 Use this tab for scanner/input settings:
 
-`Info`, edit input device settings (for example barcode/QR scanner), and the `Setup required` label when a device is not ready.
+`Info`, edit input device settings (for example barcode/QR scanner source selection), USB/Bluetooth scanner test input, camera fallback, and the `Setup required` label when a device is not ready.
   </TabItem>
   <TabItem value="x1" label="X1 Products">
 Use this tab for customer-facing/pairing products:

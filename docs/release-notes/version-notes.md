@@ -7,6 +7,22 @@ This page tracks manual changes by release and update batch across the full X1 d
 
 It is not limited to the POS app manual. Use it for POS, HQ, shared workflow, and documentation-structure updates.
 
+## 2026-05-09 (v1.7.13 POS Rebuild)
+
+### Updated
+
+- `Configure Input Devices`: documented barcode/QR scanner input source selection, including `Camera`, `USB / Bluetooth`, `Test USB/Bluetooth scanner`, and `Enable camera fallback`.
+- `Devices` and `Function and Feature Map`: added scanner input source selection to the `Input Devices` scope.
+
+### Screenshot updates
+
+- Updated the pending barcode/QR scanner dialog capture request to show the rebuilt scanner input source controls.
+
+### Reviewed
+
+- Checked the POS source diff added after the first `v1.7.13` GitHub release, including scanner source UX, hardware scanner text input, Mac App Store launch entitlement, and sandbox-safe activation database setup.
+- Confirmed the Mac App Store/TestFlight packaging fixes do not add new operator steps in the online manual.
+
 ## 2026-05-06 (v1.7.13 POS Alignment)
 
 ### Updated

@@ -50,7 +50,7 @@ import TabItem from '@theme/TabItem';
   <TabItem value="input" label="輸入設備">
 使用這個分頁來管理掃描器與輸入設備設定：
 
-`Info`、編輯輸入設備設定（例如條碼／QR code 掃描器），以及裝置未準備好時的 `需要設定` 標記。
+`Info`、編輯輸入設備設定（例如條碼／QR code 掃描器的掃描輸入來源）、USB/藍牙掃描器測試欄位、相機備用，以及裝置未準備好時的 `需要設定` 標記。
   </TabItem>
   <TabItem value="x1" label="X1 Products">
 使用這個分頁來管理面向客戶的配對產品：
