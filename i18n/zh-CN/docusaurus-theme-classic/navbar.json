@@ -22,5 +22,9 @@
   "item.label.MCP User Manual": {
     "message": "MCP 用户手册",
     "description": "Navbar item with label MCP User Manual"
+  },
+  "item.label.X1": {
+    "message": "X1",
+    "description": "Navbar item with label X1"
   }
 }

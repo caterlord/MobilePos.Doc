@@ -19,6 +19,10 @@
     "message": "MCP（代理平台）",
     "description": "The label of footer link with label=MCP (Agent Platform)"
   },
+  "link.item.label.X1 Website": {
+    "message": "X1 官网",
+    "description": "The label of footer link with label=X1 Website"
+  },
   "link.item.label.Docs Repository": {
     "message": "文档仓库",
     "description": "The label of footer link with label=Docs Repository linking to the public documentation repository"
