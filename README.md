@@ -88,7 +88,7 @@ Use GitHub Issues for:
 
 Issue tracker:
 
-- `https://github.com/caterlord/X1.Doc/issues`
+- [https://github.com/caterlord/X1.Doc/issues](https://github.com/caterlord/X1.Doc/issues)
 
 ## Repository Policy
 
