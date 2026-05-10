@@ -282,6 +282,11 @@ const config: Config = {
           label: 'Release Notes',
         },
         {
+          label: 'X1',
+          href: 'https://x1.tech/',
+          position: 'right',
+        },
+        {
           type: 'search',
           position: 'right',
         },
@@ -312,6 +317,10 @@ const config: Config = {
             {
               label: 'MCP (Agent Platform)',
               to: `${docsPathPrefix}/mcp/overview`,
+            },
+            {
+              label: 'X1 Website',
+              to: 'https://x1.tech/',
             },
             {
               label: 'Docs Repository',
