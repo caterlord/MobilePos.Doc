@@ -8,7 +8,10 @@ This repository contains the manuals for:
 - HQ back-office administration
 - MCP integration guidance
 
-Live site: `https://docs.x1.tech/`
+Official links:
+
+- Documentation: [https://docs.x1.tech/](https://docs.x1.tech/)
+- X1 website: [https://x1.tech/](https://x1.tech/)
 
 ## What Is In This Repository
 
