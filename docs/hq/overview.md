@@ -64,6 +64,7 @@ Use this section for shop-specific configuration such as `Info Settings`, `Workd
 
 ### Reports & Analytics
 
+- [Logs](./logs.md): review POS log uploads and choose log-related tools.
 - [Reports Overview](./reports/overview.md): choose the correct report family for sales, operations, or audit questions.
 
 ### Ecosystem & Integrations
