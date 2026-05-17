@@ -68,6 +68,7 @@ Use these subfolders:
 | `client/cl-35-devices-input-devices-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-input-devices.md` | `Devices` `Input Devices` tab list with status + info/edit actions |
 | `client/cl-36-devices-x1-products-tab-list.png` | `docs/client/devices.md`, `docs/functions/configure-x1-products.md` | `Devices` `X1 Products` tab list with status + info/edit actions |
 | `client/cl-52-devices-alert-badges.png` | `docs/client/devices.md` | Left menu `Devices` badge and `Devices` tab badges when at least one printer or device needs attention |
+| `client/cl-53-reservations-board.png` | `docs/client/reservations.md` | POS `Reservations` board opened from `More Tools`, with counters and at least one booking row showing action buttons |
 | `functions/fn-printer-hq-managed-not-configured.png` | `docs/functions/manage-printers.md` | `Devices` -> `Printer` row showing `HQ` and `Not configured` badges for an HQ-managed printer that still needs local POS setup |
 | `functions/fn-printer-failed-job-badge.png` | `docs/functions/manage-printers.md` | `Devices` -> `Printer` row showing a failed-job badge such as `1 error` or `3 errors` before the spooler error queue is cleared |
 | `functions/fn-change-table-view-toggle-floorplan-tablelist.png` | `docs/functions/change-table.md` | `Change Table` dialog showing the lower-right view toggle for `Floor Plan` / `Table List` |
@@ -87,3 +88,10 @@ Use these subfolders:
 | `functions/fn-x1-customer-display-host-dialog.png` | `docs/functions/configure-x1-products.md` | `Customer Display Host` dialog (host details + pairing QR) |
 | `functions/fn-x1-pickup-display-dialog.png` | `docs/functions/configure-x1-products.md` | `Pickup Display` device dialog (controller mode + pairing) |
 | `functions/fn-x1-express-checkout-kiosk-dialog.png` | `docs/functions/configure-x1-products.md` | `Express Checkout Kiosks` pairing dialog |
+
+## Pending HQ screenshots
+
+| Filename (relative to `static/img/hq/`) | Document placement | What to capture |
+|---|---|---|
+| `store-settings/reservations_board.png` | `docs/hq/store-settings/reservations.md` | HQ `Store Settings` -> `Reservations` with `Booking board`, date selector, counters, and reservation actions visible |
+| `store-settings/reservations_settings.png` | `docs/hq/store-settings/reservations.md` | HQ `Store Settings` -> `Reservations` with `Settings` tab showing public booking controls and policy text |
